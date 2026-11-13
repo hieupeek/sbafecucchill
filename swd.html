@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ôn Luyện Môn SWD (346 câu) - Quiz Study</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="app-header">
+    <div class="header-left">
+      <div class="brand">
+        <span class="brand-badge" style="background: linear-gradient(135deg, #0ea5e9, #6366f1);">SWD</span>
+        <span class="brand-title">Môn SWD</span>
+      </div>
+
+      <!-- Subject Switcher Tabs -->
+      <nav class="subject-switcher">
+        <a href="sba.html" class="subject-tab" title="Trang luyện tập môn SBA">📚 Môn SBA</a>
+        <a href="swd.html" class="subject-tab active" title="Trang luyện tập môn SWD">📘 Môn SWD</a>
+      </nav>
+
+      <div class="progress-info">
+        <span id="current-index-display">Câu 1</span> / <span id="total-count-display">346</span>
+        <div class="progress-bar-container">
+          <div class="progress-bar-fill" id="progress-bar-fill" style="width: 1%;"></div>
+        </div>
+        <span class="progress-percent" id="progress-percent">0%</span>
+      </div>
+    </div>
+
+    <div class="header-center">
+      <div class="score-summary">
+        <span class="score-pill correct" title="Số câu làm đúng">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          <span id="stat-correct">0</span>
+        </span>
+        <span class="score-pill wrong" title="Số câu làm sai">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          <span id="stat-wrong">0</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <button class="nav-btn" id="btn-open-grid" title="Danh sách câu hỏi (Phím G)">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+        <span>Danh sách</span>
+      </button>
+
+      <button class="nav-btn" id="btn-toggle-answer-top" title="Ẩn/Hiện đáp án (Phím Space hoặc H)">
+        <svg id="icon-eye-top" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        <span id="text-toggle-answer-top">Hiện đáp án</span>
+      </button>
+
+      <button class="nav-btn icon-only" id="btn-shortcuts" title="Phím tắt trợ giúp (?)">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+      </button>
+
+      <button class="nav-btn icon-only" id="btn-bookmark" title="Đánh dấu câu hỏi này">
+        <svg id="icon-star" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Study Workspace -->
+  <main class="study-container" id="study-container">
+    
+    <!-- LEFT PANEL: QUESTION AREA (Nền trắng, chữ đen, font như ảnh) -->
+    <section class="question-panel" id="question-panel">
+      <!-- Watermark background (như ảnh) -->
+      <div class="watermark-overlay" id="watermark-bg"></div>
+
+      <!-- Question Header -->
+      <div class="question-header">
+        <div class="question-title-wrap">
+          <h2 class="question-number" id="question-number">Câu 1</h2>
+        </div>
+        <div class="question-badges">
+          <span class="badge badge-yellow">Choose 1 answer</span>
+          <span class="badge badge-blue">Multiple Choice</span>
+        </div>
+      </div>
+
+      <!-- Question Body with Choice selector column -->
+      <div class="question-content-layout">
+        <!-- Floating Letter Indicators Column (A, B, C, D như ảnh) -->
+        <div class="letters-column" id="letters-column">
+          <!-- Populated dynamically -->
+        </div>
+
+        <!-- Question Prompt & Options -->
+        <div class="question-main-content">
+          <div class="question-text" id="question-text">
+            Đang tải câu hỏi môn SWD...
+          </div>
+
+          <div class="options-list" id="options-list">
+            <!-- Dynamically populated choices -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Brand / Floating pill như ảnh (FUFUN) -->
+      <div class="question-footer">
+        <div class="fufun-pill" id="fufun-pill" title="Nền tảng học tập">
+          FUFUN
+        </div>
+      </div>
+    </section>
+
+    <!-- MIDDLE DIVIDER: DARK STRIP WITH NEXT ARROW BUTTON (như ảnh) -->
+    <aside class="divider-strip">
+      <div class="divider-controls">
+        <button class="divider-nav-btn prev-btn" id="btn-prev" title="Câu trước (Phím ←)">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+        <button class="divider-nav-btn next-btn" id="btn-next" title="Câu tiếp theo (Phím → hoặc Enter)">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+    </aside>
+
+    <!-- RIGHT PANEL: ANSWER & EXPLANATION (Có thể ẩn / hiện) -->
+    <aside class="answer-panel" id="answer-panel">
+      
+      <!-- Right Panel Header -->
+      <div class="answer-header">
+        <div class="like-counter" id="like-counter" title="Like / Thích">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#eab308" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+          <span>Like (0)</span>
+        </div>
+
+        <div class="answer-actions">
+          <button class="toggle-answer-btn" id="btn-toggle-answer" title="Bật/Tắt ẩn hiện đáp án">
+            <svg id="icon-eye-panel" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            <span id="text-toggle-answer">Ẩn đáp án</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Auto-hide setting switch -->
+      <div class="auto-hide-setting">
+        <label class="switch-label">
+          <input type="checkbox" id="chk-auto-hide">
+          <span class="switch-slider"></span>
+          <span class="switch-text">Tự ẩn đáp án khi sang câu mới</span>
+        </label>
+      </div>
+
+      <!-- State 1: Answer is HIDDEN -->
+      <div class="answer-hidden-card" id="answer-hidden-card">
+        <div class="hidden-shield-icon">
+          <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.8"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+        </div>
+        <h3>Đáp án đang được ẩn</h3>
+        <p>Tự mình lựa chọn đáp án ở bên trái để kiểm tra kiến thức trước khi xem giải thích.</p>
+        <button class="btn-reveal-answer" id="btn-reveal-answer">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+          <span>Xem đáp án (Phím Space)</span>
+        </button>
+      </div>
+
+      <!-- State 2: Answer is SHOWN (Giao diện như ảnh với card tác giả + giải thích) -->
+      <div class="answer-visible-content" id="answer-visible-content">
+        
+        <!-- Author / Comment Card (Đúng chuẩn style trong ảnh: Dat Tran / c / 09/11/26 22:59) -->
+        <div class="author-comment-card">
+          <div class="author-avatar" id="author-avatar">D</div>
+          <div class="author-comment-body">
+            <div class="author-name" id="author-name">Dat Tran</div>
+            <div class="author-comment-text" id="author-comment-text">c</div>
+          </div>
+        </div>
+        <div class="comment-timestamp" id="comment-timestamp">09/11/26 22:59</div>
+
+        <!-- Detailed Breakdown Box -->
+        <div class="detailed-solution-box">
+          <div class="solution-header">
+            <div class="solution-badge-label">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Đáp án chính xác:</span>
+              <strong class="correct-letter-badge" id="correct-letter-badge">C</strong>
+            </div>
+          </div>
+
+          <div class="correct-text-content" id="correct-text-content">
+            Facade pattern
+          </div>
+
+          <div class="explanation-section" id="explanation-section">
+            <div class="explanation-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+              <span>Thông tin đáp án</span>
+            </div>
+            <div class="explanation-body" id="explanation-body">
+              Giải thích ở đây...
+            </div>
+          </div>
+
+          <!-- User result notice -->
+          <div class="user-result-feedback" id="user-result-feedback">
+            <!-- Populated on user selection -->
+          </div>
+        </div>
+
+      </div>
+
+    </aside>
+
+  </main>
+
+  <!-- Question Grid Drawer / Modal -->
+  <div class="modal-overlay" id="grid-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="grid-title">Danh Sách Câu Hỏi - Môn SWD (346 câu)</h3>
+        <button class="modal-close-btn" id="btn-close-grid">&times;</button>
+      </div>
+
+      <div class="modal-filters">
+        <input type="text" id="search-questions-input" placeholder="Tìm kiếm nội dung câu hỏi..." class="search-input">
+        <div class="filter-pills">
+          <button class="filter-pill active" data-filter="all">Tất cả (346)</button>
+          <button class="filter-pill" data-filter="unanswered">Chưa làm</button>
+          <button class="filter-pill" data-filter="correct">Làm đúng</button>
+          <button class="filter-pill" data-filter="wrong">Làm sai</button>
+          <button class="filter-pill" data-filter="bookmarked">Đã đánh dấu</button>
+        </div>
+      </div>
+
+      <div class="questions-grid-container" id="questions-grid-container">
+        <!-- Buttons generated dynamically -->
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn-secondary" id="btn-reset-progress">Xóa kết quả làm lại từ đầu</button>
+        <button class="btn-primary" id="btn-close-grid-footer">Đóng</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Keyboard Shortcuts Modal -->
+  <div class="modal-overlay" id="shortcuts-modal">
+    <div class="modal-card modal-sm">
+      <div class="modal-header">
+        <h3>Phím Tắt Học Nhanh</h3>
+        <button class="modal-close-btn" id="btn-close-shortcuts">&times;</button>
+      </div>
+      <div class="shortcuts-list">
+        <div class="shortcut-item">
+          <span class="keys"><kbd>→</kbd> hoặc <kbd>Enter</kbd></span>
+          <span class="desc">Chuyển sang câu tiếp theo</span>
+        </div>
+        <div class="shortcut-item">
+          <span class="keys"><kbd>←</kbd></span>
+          <span class="desc">Quay lại câu trước</span>
+        </div>
+        <div class="shortcut-item">
+          <span class="keys"><kbd>Space</kbd> hoặc <kbd>H</kbd></span>
+          <span class="desc">Bật / Tắt Ẩn/Hiện đáp án</span>
+        </div>
+        <div class="shortcut-item">
+          <span class="keys"><kbd>1</kbd>, <kbd>2</kbd>, <kbd>3</kbd>, <kbd>4</kbd> hoặc <kbd>A</kbd>, <kbd>B</kbd>, <kbd>C</kbd>, <kbd>D</kbd></span>
+          <span class="desc">Chọn đáp án tương ứng</span>
+        </div>
+        <div class="shortcut-item">
+          <span class="keys"><kbd>G</kbd></span>
+          <span class="desc">Mở danh sách câu hỏi</span>
+        </div>
+        <div class="shortcut-item">
+          <span class="keys"><kbd>F</kbd> hoặc <kbd>B</kbd></span>
+          <span class="desc">Đánh dấu (Bookmark) câu hỏi</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SWD DATA & APP SCRIPT -->
+  <script>window.SUBJECT_ID = 'swd';</script>
+  <script src="data_swd.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2068 @@
+What role do 'Events' play in State-Dependent Dynamic Interaction Modeling? (Choose 1 answer)
+A. They are used to define the deployment configuration
+B. They are only relevant in static modeling
+C. They trigger transitions in statecharts and influence interactions in diagrams
+D. They represent the physical connections between system components	C
+###
+Which of the following is considered a software quality attribute? (Choose 1 answer)
+A. File organization
+B. Code syntax
+C. Maintainability
+D. User interface design	C
+###
+Which design pattern is used to provide a unified interface to a set of interfaces in a subsystem? (Choose 1 answer)
+A. Observer pattern
+B. Factory method pattern
+C. Facade pattern
+D. Strategy pattern	C
+###
+What architectural style is predominantly used in the ATM System case study? (Choose 1 answer)
+A. Layered Architecture
+B. Client-Server Architecture
+C. Event-Driven Architecture
+D. Peer-to-Peer Architecture	B
+###
+What is a component in component-based software architecture? (Choose 1 answer)
+A. A function
+B. A class
+C. A database
+D. A reusable piece of software	D
+###
+Which architectural style emphasizes loosely coupled services communicating through interfaces? (Choose 1 answer)
+A. Client-Server
+B. Layered
+C. Service-Oriented Architecture (SOA)
+D. Pipe-and-Filter	C
+###
+If the same state machine is used in more than one use case, how is this modeled on interaction diagrams? (Choose 1 answer)
+A. Develop one state-dependent control object for each use case.
+B. Develop one state-dependent control object containing states from each use case.
+C. Develop a hierarchical state machine
+D. Develop a coordinator object	A
+###
+What is an information hiding object? (Choose 1 answer)
+A. An active object that encapsulates data
+B. A passive object that encapsulates data
+C. A class that encapsulates data
+D. A task that encapsulates data	B
+###
+Which of the following best explains why iterative and incremental development is often preferred over the Waterfall model in modern software engineering? (Choose 1 answer)
+A. It reduces documentation requirements
+B. It avoids stakeholder involvement during early phases
+C. It allows progressive refinement of requirements and architecture with feedback loops
+D. It eliminates the need for system testing	C
+###
+Which normal form eliminates partial dependency on a composite primary key? (Choose 1 answer)
+A. 1NF
+B. 2NF
+C. 3NF
+D. BCNF	B
+###
+What does a delegation connector join? (Choose 1 answer)
+A. An outer provided port to an inner provided port
+B. An outer provided port to an inner required port
+C. An outer required port to an inner provided port
+D. An outer provided port to an outer required port	A
+###
+What type of object coordinates behavior among multiple objects? (Choose 1 answer)
+A. Entity object
+B. Boundary object
+C. Control object
+D. Interface object	C
+###
+Which of the following patterns allows treating individual objects and compositions of objects uniformly? (Choose 1 answer)
+A. Composite
+B. Decorator
+C. Adapter
+D. Proxy	A
+###
+Which design pattern attaches additional responsibilities to an object dynamically? (Choose 1 answer)
+A. Proxy
+B. Decorator
+C. Composite
+D. Bridge	B
+###
+Which of the following is NOT a case of event synchronization? (Choose 1 answer)
+A. External event
+B. Internal event
+C. Timer event
+D. User event	D
+###
+A subsystem provides a larger-grained information-hiding solution than an object. Objects that realize the same use case have higher coupling because they communicate with each other (as depicted on the use case-based interaction diagram) and have lower (or no) coupling with objects in other use cases. (Choose 1 answer)
+A. True
+B. False	B
+###
+In SOA, what is the role of the service bus? (Choose 1 answer)
+A. It serves only as a message queue.
+B. It acts as an intermediary for all service calls, functioning as an integration hub and orchestration engine.
+C. It is responsible for data persistence.
+D. It handles only user interface requests.	B
+###
+What is a deployment view of a software architecture? (Choose 1 answer)
+A. A static view in terms of a module hierarchy
+B. A static view in terms of components and connectors
+C. A view of the physical configuration in terms of nodes and interconnections
+D. A dynamic interaction view in terms of objects and messages	C
+###
+Which of the following is NOT a benefit of using software models? (Choose 1 answer)
+A. Better communication between stakeholders
+B. Easier maintenance of code
+C. Increased hardware performance
+D. Early detection of design flaws	C
+###
+Which of the following is true for a Centralized Control architectural pattern? (Choose 1 answer)
+A. Control is divided among various control components.
+B. It provides the overall control and sequencing of the system.
+C. It provides overall control by coordinating several control components.
+D. It provides overall control over various I/O objects	B
+###
+What is a database wrapper class? (Choose 1 answer)
+A. A class that encapsulates a data structure
+B. A class that encapsulates a database
+C. A class that encapsulates the details of how to access data in a database
+D. A class that encapsulates a relational table	C
+###
+What does an interaction diagram depict? (Choose 1 answer)
+A. The state and transitions inside a control object
+B. Classes and their relationships
+C. Software objects and the sequence of their interactions
+D. The external objects communicating with the system	C
+###
+How does Event-Driven Architecture work? (Choose 1 answer)
+A. Components communicate via asynchronous events
+B. Components communicate synchronously
+C. Components are tightly coupled
+D. Components must share the database	A
+###
+What does a sequence diagram depict? (Choose 1 answer)
+A. The sequence of external objects communicating with each other
+B. Classes and their relationships
+C. Software objects and the sequence of their interactions
+D. The external objects communicating with the system	C
+###
+Which of the following is a primary focus in software architectural design when analyzing the problem domain and structuring a system into subsystems? (Choose 1 answer)
+A. Ensuring that all subsystems are tightly coupled for better performance.
+B. Focusing on functional decomposition, where each subsystem addresses a distinct part of the system.
+C. Minimizing the number of subsystems to simplify the system design.
+D. Ignoring the geographical distribution of components during subsystem design.	B
+###
+Which of the following best describes the information hiding concept in software design? (Choose 1 answer)
+A. A class exposes all its data structures to allow flexibility in communication.
+B. A class hides certain details, such as a data structure, internally and keeps them inaccessible to the rest of the system.
+C. A class combines its interface and implementation to simplify design.
+D. A class prioritizes synchronous communication between objects.	B
+###
+What is the key characteristic of a component in a component-based software architecture? (Choose 1 answer)
+A. It must be implemented in Java
+B. It shares all internal data with other components
+C. It is self-contained and encapsulates information
+D. t must be deployed on the cloud	C
+###
+What is the main goal of object-oriented analysis in software engineering? (Choose 1 answer)
+A. Define user interface layouts
+B. Identify the system's objects and their relationships
+C. Optimize database queries
+D. Develop a deployment model	B
+###
+What is the purpose of "product line engineering"? (Choose 1 answer)
+A. To develop and maintain a specific product within the line
+B. To establish the processes, tools, and methods for developing and evolving the product line
+C. To market and sell individual products
+D. To ensure that each product meets its unique requirements	B
+###
+What is a key consideration in component partitioning? (Choose 1 answer)
+A. Programming language used
+B. Hardware the system will run on
+C. Whether to partition by domain or technical capabilities
+D. UI color scheme	C
+###
+In the sales problem, to pay, customers can use cash or card payment, so what is the relationship between the Payment use case and the Cash payment use case? (Choose 1 answer)
+A. Extend
+B. Include
+C. Generalization
+D. Abstract	C
+###
+What is data abstraction? (Choose 1 answer)
+A. Another name for information hiding
+B. Encapsulating data so that its structure is hidden
+C. Storing data in a database
+D. Storing data in a data structure	B
+###
+What is a SPL feature? (Choose 1 answer)
+A. A requirement or characteristic that is provided by one or more SPL members
+B. A marketing need
+C. A class provided by the SPL
+D. A SPL use case	A
+###
+In COMET, which diagram integrates static and dynamic models for software design? (Choose 1 answer)
+A. Statechart diagram
+B. Interaction diagram
+C. Composite class interaction diagram
+D. Package diagram	C
+###
+Which architectural style organizes the system into a hierarchy of layers, each layer providing services to the layer above? (Choose 1 answer)
+A. Client-server architecture
+B. Layered architecture
+C. Peer-to-peer architecture
+D. Pipe and filter architecture	B
+###
+Which software quality attribute focuses on the ease of correcting faults and modifying the system after deployment? (Choose 1 answer)
+A. Scalability
+B. Maintainability
+C. Performance
+D. Security	B
+###
+Which of the following best describes an "abstract class" in UML? (Choose 1 answer)
+A. A class that cannot be instantiated and may contain abstract operations
+B. A class that has no attributes
+C. A class with only static methods
+D. A class defined without associations	A
+###
+What is the primary goal of using COMET in software design? (Choose 1 answer)
+A. Increase database performance
+B. Provide structured architectural modeling
+C. Eliminate the need for state charts
+D. Enforce strict coding conventions	B
+###
+What is the focus of subsystem architectural design? (Choose 1 answer)
+A. The transition from analysis to design
+B. The design of user interfaces
+C. The implementation of individual classes
+D. The structuring of the system into subsystems	D
+###
+What is the primary focus of software subsystem architecture design? (Choose 1 answer)
+A. To partition the system into manageable, reusable modules
+B. To eliminate object-oriented design dependencies
+C. To simplify use case modeling
+D. To reduce the need for UML diagrams	A
+###
+What is a UML package? (Choose 1 answer)
+A. A box
+B. A grouping of classes
+C. A grouping of use cases
+D. A grouping of model elements	D
+###
+Why is it important to document a design pattern's Consequences in the GoF template? (Choose 1 answer)
+A. To list UML symbols used
+B. To describe trade-offs, impact on flexibility, reusability, and potential liabilities of using the pattern
+C. To replace the need for code implementation
+D. To ensure automatic generation of test cases	B
+###
+What is a control task? (Choose 1 answer)
+A. A task that control other module
+B. A task that executes a statechart
+C. A task that executes on command
+D. A task that controls I/O service	B
+###
+In UML, what is the purpose of a "composite structure diagram"? (Choose 1 answer)
+A. To represent the static structure of a system's classes and their relationships.
+B. To illustrate the interactions and collaborations between objects in a system.
+C. To model the organization and behavior of objects within a single classifier.
+D. To depict the flow of control and the partitioning of a system into states and transitions.	C
+###
+Which concept is fundamental when establishing associations between objects in a class diagram? (Choose 1 answer)
+A. Data types
+B. Use case names
+C. Multiplicity
+D. Transition triggers	C
+###
+Which phase focuses on defining how software elements fit together and interact to meet requirements? (Choose 1 answer)
+A. Requirement gathering
+B. Software architecture design
+C. User interface design
+D. Testing and validation	B
+###
+What is the generic form of an interaction diagram? (Choose 1 answer)
+A. Depicts several objects interacting with each other
+B. Depicts one possible sequence of interactions among objects
+C. Depicts all possible interactions among objects
+D. Depicts all classes and their associations with each other	B
+###
+Which modeling artifact defines the static structure of the system in OO analysis? (Choose 1 answer)
+A. Statechart
+B. Class diagram
+C. Activity diagram
+D. Deployment diagram	B
+###
+What does "scalability" in architecture refer to? (Choose 1 answer)
+A. Ability to handle increasing load
+B. Ability to be portable across platforms
+C. Security to protect resources
+D. Speed of algorithm	A
+###
+What can an inclusion use case be used for? (Choose 1 answer)
+A. To describe an inclusive use case
+B. To describe a lengthy interaction with an actor
+C. To describe a use case that includes other use cases	C
+###
+In object-oriented programming, which keyword is often used to implement information hiding within a class? (Choose 1 answer)
+A. Public
+B. Private
+C. Protected
+D. Static	B
+###
+What is a kernel class in a SPL? (Choose 1 answer)
+A. An entity class in the SPL
+B. A SPL class that stores essential data
+C. A class that is required by all members of the SPL
+D. An external class to the SPL	C
+###
+What does "multiplicity" represent in UML? (Choose 1 answer)
+A. The number of objects in a relationship.
+B. The number of classes.
+C. The number of attributes.
+D. The number of state transitions.	A
+###
+What is a server? (Choose 1 answer)
+A. A hardware/software system that serves customers
+B. A subsystem that makes requests and waits for the responses
+C. A subsystem that responds to requests from clients
+D. A hardware/software system that provides one or more services for multiple clients	D
+###
+What is a finite state machine? (Choose 1 answer)
+A. A machine with infinite states
+B. A machine with finite states
+C. A model of computation
+D. A model of system behavior	B
+###
+What is "black box" testing? (Choose 1 answer)
+A. System testing
+B. Integration testing
+C. Testing with knowledge of the system internals
+D. Testing without knowledge of the software internals	D
+###
+What is an entry action in a state machine? (Choose 1 answer)
+A. An action that is performed when the state is entered
+B. An action that is performed when the state is left
+C. An action that starts executing when the state is entered and completes executing when the state is left
+D. An action that executes as a result of a state transition	A
+###
+What is the primary focus of architectural design in software development? (Choose 1 answer)
+A. Detailing class implementations
+B. Defining system structure and high-level components
+C. Writing test cases
+D. Refactoring source code	B
+###
+When is it particularly useful to use the Broker Handle pattern in place of the Broker Forwarding pattern? (Choose 1 answer)
+A. If the client only communicates with the service once
+B. If the client needs to have a dialog with the service
+C. If the client knows the type of service required but not the specific service
+D. If the client needs to provide the broker with a handle	B
+###
+Which one of the following is NOT a concept associated with object-oriented programming? (Choose 1 answer)
+A. Encapsulation
+B. Class
+C. Subclass
+D. Subroutine	D
+###
+What is a transaction? (Choose 1 answer)
+A. Consists of two or more functions
+B. Consists of one function
+C. Consists of two or more operations that are indivisible
+D. Consists of two or more operations that are divisible	C
+###
+What is an advantage of component-based architecture? (Choose 1 answer)
+A. Increased development time
+B. Reduced reusability
+C. Enhanced maintainability
+D. Decreased modularity	C
+###
+Which of the following statements correctly describes the COMET method? (Choose 1 answer)
+A. COMET is a linear software development method focusing mainly on coding and testing phases.
+B. COMET is an iterative, use case-driven, and object-oriented method that addresses requirements, analysis, and design modeling phases.
+C. COMET focuses only on functional testing and user interface design.
+D. COMET is a UML-free approach that emphasizes documentation over modeling.	B
+###
+Which architectural style is most suitable when system modules must be highly reusable and independently deployable? (Choose 1 answer)
+A. Monolithic
+B. Service-Oriented Architecture (SOA)
+C. Layered
+D. Repository	B
+###
+What does the term "testability" primarily relate to? (Choose 1 answer)
+A. Visual design of the application
+B. Speed of software development
+C. Early detection of defects and reducing cost of fixing
+D. User interface modules only	C
+###
+What is an event-driven input task? (Choose 1 answer)
+A. A task that executes every few seconds
+B. A task that controls other tasks
+C. A task that receives inputs from an external device when it generates interrupts
+D. A task that checks whether there is new input from an external device	C
+###
+What kind of object would be the first object to receive an input from an external object? (Choose 1 answer)
+A. A user interaction object
+B. A proxy object
+C. An entity object
+D. A boundary object	D
+###
+What is a composition in software architecture? (Choose 1 answer)
+A. A detailed code implementation
+B. Arrangement of multiple components to form a system
+C. A simple database schema
+D. A user interface design	B
+###
+Which design pattern provides a simplified interface to a complex subsystem? (Choose 1 answer)
+A. Singleton
+B. Factory
+C. Facade
+D. Adapter	C
+###
+What is the significance of 'Inheritance' in designing object-oriented software architectures? (Choose 1 answer)
+A. It allows for the direct manipulation of database schemas
+B. It is a mechanism for code reuse and to establish a subtype from an existing class
+C. It is used to prevent any form of code reuse
+D. It provides a way to create complex user interfaces	B
+###
+In relational databases, how are associations represented? (Choose 1 answer)
+A. Through primary keys embedded in another table
+B. Foreign keys represent mapping an association between classes into a table
+C. Through attributes that are part of the primary key
+D. Through attribute arrays within a relational table	B
+###
+What does a structural view of software architecture include? (Choose 1 answer)
+A. Components and connectors
+B. Objects and messages
+C. Nodes and interconnections
+D. Module hierarchy	A
+###
+What is carried out during analysis modeling? (Choose 1 answer)
+A. Developing use case models
+B. Developing data flow and entityrelationship diagrams
+C. Developing static and dynamic models
+D. Developing software architectures	B
+###
+When using asynchronous message communication, which pattern is used? (Choose 1 answer)
+A. Asynchronous Message Communication pattern
+B. Synchronous Message Communication with Reply pattern
+C. Unidirectional Message Communication pattern
+D. Bidirectional Message Communication pattern	A
+###
+Which of the following statements best describes a key characteristic of Service-Oriented Architecture (SOA)? (Choose 1 answer)
+A. All services in SOA must be implemented in the same programming language for compatibility.
+B. SOA requires services to run on the same physical machine to ensure reliable communication.
+C. SOA enables the composition of distributed, autonomous services that may run on different platforms and use standard protocols for communication.
+D. In SOA, services do not require descriptions because communication is handled directly through the operating system.	C
+###
+What is a primary benefit of using inheritance in software design? (Choose 1 answer)
+A. It ensures that all classes in the design are completely identical.
+B. It eliminates the need for architectural design by automating class creation.
+C. It allows for code sharing and incremental modifications during maintenance or reuse.
+D. It enforces strict separation of class characteristics with no overlap.	C
+###
+What is the primary goal of service-oriented architecture? (Choose 1 answer)
+A. To minimize coupling between services
+B. To maximize reuse of services
+C. To eliminate orchestration engines
+D. To enforce strict data isolation between services	B
+###
+What is an action in a state machine? (Choose 1 answer)
+A. An occurrence at a point in time
+B. A cause of a state transition
+C. An interval between two successive events
+D. A computation that executes as a result of a state transition	D
+###
+An object can send alternative messages a or b to a state-dependent control object. How is this handled in the state machine? (Choose 1 answer)
+A. One state with a different transition out of it for each incoming message
+B. One state for each of the alternative messages
+C. A composite state to handle the alternative messages
+D. A substate for each alternative message	A
+###
+The software process model for SPL engineering has two main processes, which are: (Choose 1 answer)
+A. SPL Engineering and Software Application Engineering
+B. SPL Engineering and real- time software Engineering
+C. Real- time software Engineering and Software Application Engineering
+D. Real- time software Engineering and Component-Based Software Engineering	A
+###
+What approach does the spiral model emphasize? (Choose 1 answer)
+A. Phased software development
+B. Throwaway prototyping
+C. Risk-driven development
+D. Incremental development	C
+###
+Which of the following best describes the role of UML in software engineering? (Choose 1 answer)
+A. A textual programming language
+B. A standard modeling notation across the development lifecycle
+C. A specific method for database optimization
+D. A GUI framework for Java	B
+###
+What is a software design method? (Choose 1 answer)
+A. A systematic approach for producing a design.
+B. Guidelines used to help in structuring a software system into its components.
+C. An overall plan for developing a design.
+D. A graphical or textual description of the software.	A
+###
+What is a software design strategy? (Choose 1 answer)
+A. A graphical or textual description of the software.
+B. A fundamental idea that can be applied to designing a system.
+C. A systematic approach for producing a design
+D. An overall plan and direction for developing a design	D
+###
+When designing an entity class as a relational table, which of the following is NOT true? (Choose 1 answer)
+A. The relational table has multiple primary keys.
+B. The relational table has multiple foreign keys.
+C. The relational table has a primary key.
+D. The relational table has a concatenated primary key.	A
+###
+What is "flexibility" in the context of software quality attributes? (Choose 1 answer)
+A. The ability to adapt to changing requirements or environments
+B. The software's ability to perform under high loads
+C. The ease of modifying the software
+D. The software's capability to ensure data security	A
+###
+In UML, what symbol represents an actor in a use case diagram? (Choose 1 answer)
+A. Ellipse
+B. Square
+C. Stick figure
+D. Diamond	C
+###
+Which view in the 4+1 model represents the static organization? (Choose 1 answer)
+A. logical view
+B. Development view
+C. Physical view
+D. Scenario view	B
+###
+What is an exit action in a state machine? (Choose 1 answer)
+A. An action that is performed when the state is entered
+B. An action that is performed when the state is left
+C. An action that starts executing when the state is entered and completes executing when the state is left
+D. An action that executes as a result of a state transition	B
+###
+An activity diagram can therefore be used to provide a more precise description of the use case, because it shows exactly where in the sequence and what the condition is for an alternative sequence to diverge from the main sequence. (Choose 1 answer)
+A. True
+B. False	A
+###
+What is a composition hierarchy? (Choose 1 answer)
+A. A weak form of a generalization/specialization hierarchy
+B. A strong form of a generalization/specialization hierarchy
+C. A weak form of a whole/part relationship
+D. A strong form of a whole/part relationship	D
+###
+What is a state in a state machine? (Choose 1 answer)
+A. A recognizable situation that exists over an interval of time
+B. A condition that is True or False
+C. An input from the external environment
+D. An output from the system	A
+###
+Which of the following best describes synchronous message communication in software system design? (Choose 1 answer)
+A. Messages are sent and received independently of each other, allowing for immediate processing.
+B. Messages are sent and received simultaneously, enabling parallel processing of tasks.
+C. Messages are sent and received with a predefined delay, allowing for scheduled processing.
+D. Messages are sent and received in a sequential order, ensuring a strict order of execution.	D
+###
+How is an association depicted on a class diagram? (Choose 1 answer)
+A. A solid line joining two class boxes
+B. A dashed line joining two class boxes
+C. A diamond touching the upper class box
+D. An arrowhead touching the upper class box	A
+###
+Which UML diagram is most appropriate for visualizing concurrent communication between system components? (Choose 1 answer)
+A. Sequence Diagram
+B. Deployment Diagram
+C. Communication Diagram
+D. Use Case Diagram	A
+###
+What is the significance of State-Dependent Dynamic Interaction Models in software design? (Choose 1 answer)
+A. Helps define system behavior based on input and transitions
+B. Simplifies the coding process
+C. Reduces the need for user documentation
+D. Focuses only on data storage	A
+###
+Which of the following is NOT a type of object interaction diagram? (Choose 1 answer)
+A. Sequence Diagram
+B. Collaboration Diagram
+C. Activity Diagram
+D. Communication Diagram	C
+###
+What is the primary purpose of a dynamic interaction model in software design? (Choose 1 answer)
+A. To represent the static structure of a system's classes and their relationships
+B. To illustrate the organization of objects within a single classifier
+C. To depict the high-level functionality of a system
+D. To show the dynamic behavior and interactions between objects or components	D
+###
+Which of the following is NOT one of the main categories of design patterns? (Choose 1 answer)
+A. Creational
+B. Structural
+C. Behavioral
+D. Procedural	D
+###
+When refining an existing software model, what is the best practice for introducing new features while minimizing risk? (Choose 1 answer)
+A. Directly altering core architecture
+B. Using architectural patterns that allow incremental expansion
+C. Rebuilding the system from scratch
+D. Relying only on database changes	B
+###
+Which of the following best describes group communication in distributed applications? (Choose 1 answer)
+A. A form of one-to-one communication where messages are sent directly between two components only.
+B. A method where a sender transmits the same message to multiple recipients using broadcast or multicast mechanisms.
+C. A technique for encrypting messages before sending them across different nodes.
+D. A communication pattern where all components in a system send messages to a single central controller	B
+###
+What is a coordinator object? (Choose 1 answer)
+A. A manager object
+B. An object that makes decisions based on a state machine
+C. A decision-making object
+D. An object that decides which entity object to interact with	C
+###
+When is a control subsystem required? (Choose 1 answer)
+A. If the subsystem needs to control several internal objects
+B. If the subsystem needs to control multiple I/O devices
+C. If the subsystem needs to control multiple client subsystems
+D. If the subsystem needs to control the execution of other subsystems	D
+###
+What is the key characteristic of a component in a component-based software architecture? (Choose 1 answer)
+A. It must be implemented in Java
+B. It shares all internal data with other components
+C. It is self-contained and encapsulates information
+D. It must be deployed on the cloud	C
+###
+In the use case model, the system is treated as a: (Choose 1 answer)
+A. Transparent box, detailing internal workings
+B. Hybrid box, focusing on both internal and external interactions
+C. Black box, focusing on inputs and responses
+D. Testing the final system	C
+###
+Which objects should be placed in the same subsystem? (Choose 1 answer)
+A. Objects that are associated with each other
+B. Objects that are part of the same composite object
+C. Objects in geographically different locations
+D. Objects that serve different purposes	B
+###
+What is a characteristic of a sequential program? (Choose 1 answer)
+A. It contains multiple active objects with independent control flows.
+B. It contains passive objects and supports a single thread of control.
+C. It can execute operations asynchronously.
+D. It allows simultaneous method invocations on multiple objects.	B
+###
+What is a SPL feature group? (Choose 1 answer)
+A. A collection of features
+B. A group of features with a partiular constraint on their usage in a SPL member
+C. A group of mutually exclusive features
+D. A group of optional features with a particular constraint on their usage in a SPL member	B
+###
+What is maintainability? (Choose 1 answer)
+A. The extent to which software is capable of being changed before deployment
+B. The extent to which software is capable of being changed after deployment
+C. The extent to which software is capable of being changed during development
+D. The extent to which software is capable of being changed after deployment	B
+###
+Which of the following best distinguishes "composition" from aggregation? (Choose 1 answer)
+A. Composition uses hollow diamond, aggregation uses solid diamond
+B. Composition is a stronger form of aggregation where parts cannot exist independently
+C. Composition represents inheritance while aggregation represents association
+D. Composition and aggregation are identical	B
+###
+In the context of software product lines, what is 'Feature Modeling'? (Choose 1 answer)
+A. A technique for documenting software performance metrics
+B. A process for creating graphical user interfaces for software products
+C. A method for identifying and organizing the features common and variable across the product line
+D. A strategy for reducing the number of features in software to minimize costs	C
+###
+In UML notation, an active object is used to represent which of the following? (Choose 1 answer)
+A. A non-concurrent object
+B. An attribute of a class
+C. A concurrent object, process, thread, or task
+D. A single-threaded method	C
+###
+In UML use case diagrams, the <<extend>> relationship is typically used to: (Choose 1 answer)
+A. Capture optional behavior invoked under certain conditions
+B. Represent inheritance between actors
+C. Represent shared mandatory behavior
+D. Model system deployment nodes	A
+###
+What is the primary goal of Software Product Line Engineering? (Choose 1 answer)
+A. To develop a single software product that fits all market needs
+B. To decrease software production costs by reducing the quality
+C. To focus exclusively on the customization of software for individual customers
+D. To create a set of software products sharing a common, managed set of features to satisfy specific market segments	D
+###
+In COMET, what is the first step in the software development process? (Choose 1 answer)
+A. Requirements modeling
+B. Incremental software construction
+C. Design modeling
+D. System testing	A
+###
+What is the difference between an active object and a passive object in Concurrent and Real-Time Software Architecture? (Choose 1 answer)
+A. An active object controls a passive object.
+B. An active object does not have a thread of control; a passive object has a thread of control.
+C. An active object executes in a distributed system; a passive object executes in a centralized system.
+D. An active object has a thread of control; a passive object does not have a thread of control	D
+###
+When designing a layered architecture for an enterprise system using COMET, which layer typically handles business logic operations? (Choose 1 answer)
+A. User Interface Layer
+B. Application Logic Layer
+C. Database Layer
+D. Network Communication Layer	B
+###
+What is the primary purpose of a sequence diagram in UML? (Choose 1 answer)
+A. To model the static structure of a system
+B. To represent the flow of data between objects
+C. To describe the interactions between objects over time
+D. To design database schemas	C
+###
+Which key relationship ensures referential integrity in a relational database? (Choose 1 answer)
+A. Primary key
+B. Foreign key
+C. Index
+D. View	B
+###
+When is a coordinator subsystem required? (Choose 1 answer)
+A. If the subsystem needs to coordinate several internal objects
+B. If the subsystem needs to coordinate multiple I/O devices
+C. If the subsystem receives messages from multiple client subsystems
+D. If the subsystem needs to coordinate the execution of other subsystems	D
+###
+_______________ defines the decision-making, business-specific application logic for processing a client's request. The goal is to encapsulate business rules that could change independently of each other into separate business logic classes (Choose 1 answer)
+A. A business logic class
+B. A graphical user interaction (GUI) class
+C. Data Abstraction Class
+D. State-machine class	A
+###
+What is a major consideration when analyzing software architecture for improvements? (Choose 1 answer)
+A. Coding style guidelines
+B. System scalability and maintainability
+C. Operating system configuration
+D. Database backups	B
+###
+What does a one-to-many association represent in UML class diagrams? (Choose 1 answer)
+A. An object only connects to itself
+B. Every object connects to all others
+C. One object links to multiple others
+D. All objects are independent	C
+###
+Which of the following is a common bottleneck that impacts scalability in traditional web applications? (Choose 1 answer)
+A. The web server layer.
+B. The application server layer.
+C. The database server layer.
+D. All of the above	D
+###
+Which of the following is NOT an object-oriented concept? (Choose 1 answer)
+A. Information hiding
+B. Class
+C. Subclass
+D. Subroutine	D
+###
+What is a software product line (SPL)? (Choose 1 answer)
+A. A family of systems with some common components and some variable components
+B. An assembly line
+C. A family of identical systems
+D. The software products marketed by a company	A
+###
+What is the primary purpose of software modeling in the software development process? (Choose 1 answer)
+A. To create a visually appealing user interface
+B. To write code and implement software functionality
+C. To document, analyze, and design software systems
+D. To perform software testing and quality assurance	C
+###
+What impact will achieving a quality attribute have? (Choose 1 answer)
+A. The achievement of quality attributes will always have a positive effect
+B. The achievement of quality attributes will always have a negative effect
+C. The achievement of quality attributes will have a positive as well as negative effect
+D. None of the mentioned	C
+###
+What is the key concept of microservices architecture? (Choose 1 answer)
+A. Small, independent services
+B. Monolithic applications
+C. Centralized database
+D. Event-driven architectures	A
+###
+In a state transition labeled as Event [condition] / Action in a statechart, what does the condition represent? (Choose 1 answer)
+A. An action performed after the transition
+B. A Boolean expression that must be true for the transition to occur
+C. The event that triggers the transition
+D. The next state entered after the transition	B
+###
+How does a composite state relate to a substate? (Choose 1 answer)
+A. A composite state is decomposed into substates.
+B. Composite states are composed into substates.
+C. A composite state transitions to a substate.
+D. A substate transitions to a composite state	A
+###
+Which phase of the software development life cycle primarily focuses on "requirements capture" and "use case modeling"? (Choose 1 answer)
+A. Implementation
+B. Analysis
+C. Design
+D. Testing	B
+###
+What does the system context class diagram define? (Choose 1 answer)
+A. The entity classes in the system
+B. How the system interfaces to other systems
+C. The boundary between the system and the external environment
+D. The context classes in the system	C
+###
+What is an alternative sequence in a use case? (Choose 1 answer)
+A. A sequence that describes an error case
+B. A sequence that is different from the main sequence
+C. A sequence that describes interactions with a secondary actor
+D. A sequence that describes interactions with a primary actor	B
+###
+In UML, what does multiplicity describe in an association? (Choose 1 answer)
+A. Class visibility
+B. The number of objects participating in a relationship
+C. Method accessibility
+D. Object inheritance	B
+###
+What is the role of architecture characteristics in software architecture? (Choose 1 answer)
+A. To define the functionality of the system
+B. To specify the development process
+C. To define success criteria, orthogonal to functionality
+D. To dictate the user interface design	C
+###
+Which of the following approaches can overcome the limitation in the waterfall model? (Choose 1 answer)
+A. Phased software development
+B. Throwaway prototyping
+C. Evolutionary prototyping
+D. Incremental development	C
+###
+What is the main goal of system testing? (Choose 1 answer)
+A. To test individual components before integration
+B. To verify that the fully integrated hardware and software system meets its specified requirements
+C. To test the internal code structure for errors
+D. To perform load testing only	B
+###
+Which UML diagram helps visualize multiple levels of system states? (Choose 1 answer)
+A. Hierarchical Statecharts
+B. Sequence Diagram
+C. Activity Diagram
+D. Deployment Diagram	A
+###
+In the example "Employee Works in Department," which of the following represents the association? (Choose 1 answer)
+A. Employee
+B. Department
+C. Works in
+D. Both Employee and Department	C
+###
+Which UML stereotype is most appropriate to represent a subsystem in a service-oriented architecture? (Choose 1 answer)
+A. «subsystem»
+B. «module»
+C. «component»
+D. «service»	A
+###
+Which of the following is a key benefit of using object interaction diagrams? (Choose 1 answer)
+A. They simplify the design of database schemas
+B. They help in visualizing object responsibilities and collaborations
+C. They are used primarily for modeling hardware interactions
+D. They enforce coding standards during the development	B
+###
+Which design pattern is most suitable for allowing a system to vary its behavior dynamically at runtime? (Choose 1 answer)
+A. Strategy pattern
+B. Singleton pattern
+C. Adapter pattern
+D. Facade pattern	A
+###
+What approach is recommended for refining the user interface during system evolution? (Choose 1 answer)
+A. Redesign all screens at once
+B. Preserve user workflows and adapt layouts incrementally
+C. Focus on backend refactoring only
+D. Ignore legacy usability standards	B
+###
+What is the purpose of State-Dependent Dynamic Interaction Modeling in software design? (Choose 1 answer)
+A. To manage database transactions efficiently
+B. To model how object interactions vary depending on the system's state
+C. To document the static structure of the system
+D. To outline deployment strategies for software applications	B
+###
+Which UML relationship is most appropriate for representing common functionality shared across multiple use cases? (Choose 1 answer)
+A. <<extend>>
+B. <<include>>
+C. Generalization
+D. Aggregation	B
+###
+What is an optional use case in SPL? (Choose 1 answer)
+A. A use case with some optional steps
+B. A use case that does not need to be developed
+C. A use case that is required by some product line members but not others
+D. A use case that can be chosen in place of a different use case in an SPL member	C
+###
+What is a real-time system? (Choose 1 answer)
+A. A system that processes data in real-time
+B. A batch processing system
+C. A system with no timing constraints
+D. A system that processes data offline	A
+###
+What is a state transition out of a composite state equivalent to? (Choose 1 answer)
+A. A transition out of only one of the substates
+B. A transition out of each of the substates
+C. A transition out of none of the substates
+D. A transition out of any one of the substates	B
+###
+Which system is commonly used as a case study example for illustrating banking transaction processing? (Choose 1 answer)
+A. Emergency Monitoring System
+B. ATM System
+C. Online Shopping System
+D. Inventory Management System	B
+###
+What kind of relationship between tables typically requires a foreign key in relational database design? (Choose 1 answer)
+A. One-to-one
+B. One-to-many
+C. Many-to-many
+D. None of the above	B
+###
+What is a user interaction task? (Choose 1 answer)
+A. A task that interacts with I/O devices
+B. A task that interacts with users
+C. A task that interacts with a user sequentially
+D. A task that interacts with a user concurrently	C
+###
+What is a business logic object? (Choose 1 answer)
+A. An object used in business applications
+B. An object that defines business - specific application logic
+C. The internal logic of an object
+D. A business object that determines whether a client request is logical	B
+###
+What is the primary focus of state-dependent dynamic interaction modeling? (Choose 1 answer)
+A. Capturing the physical structure of the system
+B. Modeling the behavior of objects based on their state changes
+C. Defining the database schema for the system.
+D. Identifying reusable software components	B
+###
+The COMET method emphasizes which key modeling activity? (Choose 1 answer)
+A. Code refactoring
+B. UI prototyping
+C. Use case-driven modeling
+D. Database normalization	C
+###
+What is a use case package? (Choose 1 answer)
+A. A package describing the actors in the system
+B. A package describing the use cases in the system
+C. A group of related use cases
+D. The package of objects that participate in the use case	C
+###
+Which stereotype represents a class that encapsulates data and may serve as an interface to a database? (Choose 1 answer)
+A. Boundary class
+B. Entity class
+C. Control class
+D. Application logic class	B
+###
+Why is generalization/specialization hierarchy important in class modeling? (Choose 1 answer)
+A. It reduces the number of diagrams required
+B. It eliminates the need for attributes
+C. It supports reuse by factoring common features into superclasses
+D. It automatically generates source code	C
+###
+When applying the Observer pattern in a system, what is the primary responsibility of the subject object? (Choose 1 answer)
+A. Requesting data from observers
+B. Notifying observers about state changes
+C. Aggregating different interfaces
+D. Creating instances of observers	B
+###
+Which of the following design principles ensures that a service's internal workings are hidden and only its operations, inputs, and outputs are exposed? (Choose 1 answer)
+A. Abstraction
+B. Loose coupling
+C. Service contract
+D. Composability	A
+###
+What is a software design notation? (Choose 1 answer)
+A. Notes about the software design.
+B. A graphical or textual description of the software.
+C. Documentation of the software.
+D. A systematic approach for producing a design.	B
+###
+What is a primary actor? (Choose 1 answer)
+A. The actor who goes on stage first
+B. The actor that starts the use case
+C. An actor that participates in the use case
+D. An object inside the system	B
+###
+What is one major objective of the COMET method in software design? (Choose 1 answer)
+A. To generate system code automatically
+B. To integrate object-oriented analysis, design, and architecture
+C. To build hardware models
+D. To eliminate the need for modeling	B
+###
+What does information hiding in object-oriented design help achieve? (Choose 1 answer)
+A. Increased complexity of software systems
+B. Decreased software maintainability
+C. Enhanced modifiability and maintainability of software
+D. Reduction in software functionality	C
+###
+An output message from a state dependent control object corresponds to: (Choose 1 answer)
+A. An event on the internal state machine
+B. An action on the internal state machine
+C. A condition on the internal state machine
+D. A state on the internal state machine	B
+###
+Which of the following best describes a 'Component' in software architecture? (Choose 1 answer)
+A. A tool used for project management
+B. A replaceable part of a system that fulfills a clear function within the architectural design
+C. A documentation method for software projects
+D. A user interface element	B
+###
+What is a software design concept? (Choose 1 answer)
+A. A graphical or textual description of the software.
+B. Documentation of the software.
+C. A fundamental idea that can be applied to designing a system.
+D. A systematic approach for producing a design.	C
+###
+What is software modeling? (Choose 1 answer)
+A. Designing software applications after coding
+B. Designing software applications before coding
+C. Writing code for software applications
+D. Debugging software applications	B
+###
+Which of the following is a key reason for using modeling in software design? (Choose 1 answer)
+A. To avoid coding completely
+B. To abstract and manage complexity in large systems
+C. To eliminate the need for testing
+D. To increase hardware performance	B
+###
+In UML, what does a package represent? (Choose 1 answer)
+A. A single class within the system
+B. A grouping of model elements such as systems or subsystems
+C. An individual object instance
+D. A state in a state machine diagram	B
+###
+What does a stereotype on a connection in a deployment diagram indicate? (Choose 1 answer)
+A. The programming language used by the node
+B. The type of physical connection, such as «local area network» or «wide area network»
+C. The number of instances of a node
+D. The security level of the connection	B
+###
+In a UML deployment diagram, how is a node typically represented? (Choose 1 answer)
+A. As a cube
+B. As a rectangle with two vertical lines
+C. As a circle
+D. As a folder icon	A
+###
+Which of the following is the first step in the software design process? (Choose 1 answer)
+A. Implementation
+B. Requirement Analysis
+C. Architectural Design
+D. Testing	B
+###
+What does the Waterfall model emphasize? (Choose 1 answer)
+A. Iterative development
+B. Parallel testing
+C. Sequential execution of phases
+D. Rapid delivery of software	C
+###
+What is the goal of software verification? (Choose 1 answer)
+A. Building the system
+B. Building the right system
+C. Building the system right
+D. Testing the system	C
+###
+Which AI tool can be used to suggest design patterns? (Choose 1 answer)
+A. Photoshop
+B. ChatGPT
+C. SQL Developer
+D. Postman	B
+###
+How is a use case depicted on a use case diagram? (Choose 1 answer)
+A. An oval
+B. A stick figure
+C. A box
+D. A dashed line	A
+###
+How does information hiding relate to the concept of encapsulation in software engineering? (Choose 1 answer)
+A. Information hiding is a different term for the same concept as encapsulation.
+B. Information hiding is a subset of encapsulation, focusing on hiding internal details.
+C. Encapsulation is a subset of information hiding, emphasizing data security.
+D. Information hiding and encapsulation are unrelated concepts in software design.	B
+###
+Which of the following architectural styles organizes the system into presentation, business logic, and data layers? (Choose 1 answer)
+A. Client-Server
+B. Layered Architecture
+C. Service-Oriented Architecture
+D. Repository	B
+###
+What is carried out during system testing? (Choose 1 answer)
+A. White box testing
+B. Black box testing
+C. Unit testing
+D. Integration testing	B
+###
+Which of the following is NOT a phase in the COMET life cycle? (Choose 1 answer)
+A. Requirements Modeling
+B. Analysis Modeling
+C. Design Modeling
+D. Maintenance Modeling	D
+###
+Which SQL command is used to enforce referential integrity between two tables? (Choose 1 answer)
+A. CREATE INDEX
+B. FOREIGN KEY
+C. UNIQUE
+D. CHECK	B
+###
+Which of the following is NOT a valid use case relationship? (Choose 1 answer)
+A. Include
+B. Extend
+C. Exclude
+D. Generalization	C
+###
+Which of the following is a primary goal of relational database design? (Choose 1 answer)
+A. Reducing hardware requirements
+B. Minimizing data redundancy and ensuring consistency
+C. Increasing programming speed
+D. Eliminating normalization	B
+###
+What is a generalization/specialization hierarchy? (Choose 1 answer)
+A. A whole/part relationship
+B. An inheritance relationship
+C. An association between a generalized class and a specialized class
+D. A layered hierarchy	B
+###
+Which design pattern ensures that a class has only one instance and provides a global point of access to it? (Choose 1 answer)
+A. Factory Method
+B. Singleton
+C. Prototype
+D. Builder	B
+###
+What is an aggregation hierarchy? (Choose 1 answer)
+A. A weak form of a generalization/specialization hierarchy
+B. A strong form of a generalization/specialization hierarchy
+C. A weak form of a whole/part relationship
+D. A strong form of a whole/part relationship	C
+###
+Within the framework of a use case, what does a control object offer? (Choose 1 answer)
+A. Obtaining access to classes in the external environment
+B. Information encapsulation and accessibility
+C. Overall object coordination for the involved items
+D. Physical connection to hardware I/O devices	C
+###
+What is a timer object? (Choose 1 answer)
+A. An external clock
+B. An internal clock
+C. An object that is awakened by an external timer
+D. An object that interacts with a clock	C
+###
+What is the purpose of a stereotype in class structuring? (Choose 1 answer)
+A. To label a class according to its class structuring criterion
+B. To identify the objects that belong to the same class
+C. To distinguish between external objects and software objects
+D. To identify the association between two classes	A
+###
+What is the role of Interaction Diagrams in UML? (Choose 1 answer)
+A. Show interactions among objects over time
+B. Define the internal logic of system components
+C. Illustrate the physical deployment of modules
+D. Simplify the creation of test cases	A
+###
+In Dynamic Interaction Modeling, what role does the 'alt' frame play in a Sequence Diagram? (Choose 1 answer)
+A. It specifies alternative sequences of interactions based on conditions.
+B. It represents the alternative lifelines that an object may take.
+C. It is used to alternate between different diagrams.
+D. It defines the alternative messages that can be sent between objects.	A
+###
+Which UML diagram is primarily used for modeling relationships between (Choose 1 answer)
+A. Statechart Diagram
+B. Class Diagram
+C. Activity Diagram
+D. Deployment Diagram	B
+###
+What is a state transition into a composite state equivalent to? (Choose 1 answer)
+A. A transition into only one of the substates
+B. A transition into each of the substates
+C. A transition into none of the substates
+D. A transition into any one of the substates	A
+###
+What is the advantage of hierarchical statecharts over flat statecharts? (Choose 1 answer)
+A. Avoids dynamic behavior
+B. Faster processing
+C. Allows state decomposition for complex systems
+D. Requires no transitions	C
+###
+In a state machine diagram, what is a guard condition? (Choose 1 answer)
+A. An action that must be performed when entering a state
+B. A condition that must be true for a transition to occur
+C. An event that triggers a transition
+D. A state that an object enters when an error occurs	B
+###
+Which of the following could happen on an interaction diagram? (Choose 1 answer)
+A. A state-dependent control object sends a message to an entity object.
+B. A state-dependent control object sends a message to a coordinator object.
+C. A state-dependent control object sends a message to a printer object.
+D. All of the above	D
+###
+Which kind of object executes a state machine? (Choose 1 answer)
+A. Any software object
+B. An entity object
+C. A state-dependent control object
+D. A state chart	C
+###
+What does "layered architecture" mean? (Choose 1 answer)
+A. Organizing components into separated levels with specific roles.
+B. Merging all code into a single-tier application.
+C. Using only databases for structure.
+D. Prioritizing UI design over logic.	A
+###
+What is a dynamic view of a software architecture? (Choose 1 answer)
+A. A view in terms of a module hierarchy
+B. A view in terms of components and connectors
+C. A view of the physical configuration in terms of nodes and interconnections
+D. A view in terms of objects and messages	D
+###
+What is the significance of asynchronous messaging in architectural communication patterns? (Choose 1 answer)
+A. Enables non-blocking communication between system components
+B. Centralizes all communication in one server
+C. Simplifies use case diagrams
+D. Eliminates state transition modeling	A
+###
+Which choice was the most crucial to make while moving from the analysis model to the design model? (Choose 1 answer)
+A. Determining the subsystem structure
+B. Deciding on the precise semantics of message communication
+C. Naming and defining each message's parameters
+D. Prioritizing data transferred between objects above message names and parameters	B
+###
+What does it mean to communicate messages in both directions? (Choose 1 answer)
+A. Communication where only one subsystem sends messages to another subsystem
+B. Communication where both subsystems can send messages to each other
+C. Communication where messages are sent asynchronously
+D. Communication where messages contain reply content	B
+###
+What is a characteristic of a more complex user interaction subsystem? (Choose 1 answer)
+A. It supports a command line interface exclusively
+B. It operates on a single node
+C. It doesn't interface with user I/O devices
+D. It involves multiple windows and multiple threads of control	D
+###
+Which pattern focuses on dynamically binding classes at runtime? (Choose 1 answer)
+A. Factory Pattern
+B. Singleton Pattern
+C. Strategy Pattern
+D. Abstract Factory Pattern	C
+###
+In the refinement of the design process, which activity focuses on enhancing the reusability of components? (Choose 1 answer)
+A. Initial requirements capture
+B. Class library organization
+C. Deployment configuration
+D. Interface design	B
+###
+What is a key characteristic of a state-machine class as described in the context? (Choose 1 answer)
+A. It exposes the contents of the state transition table for easy access.
+B. It encapsulates the statechart information and hides the state transition table.
+C. It allows multiple statecharts to share the same state-machine class without modifications.
+D. It does not provide operations for processing incoming events	B
+###
+In a relational database mapping a one-to-one relationship between two classes, where should the foreign key be placed? (Choose 1 answer)
+A. In association class
+B. In the optional relational table
+C. In both classes participating in the association
+D. In neither class, as it is not needed	B
+###
+What is a common approach to securing services in SOA? (Choose 1 answer)
+A. Using open access without authentication
+B. Implementing service-level security mechanisms such as OAuth
+C. Relying on client-side security only
+D. Avoiding encryption to reduce overhead	B
+###
+What is a service-oriented architecture (SOA)? (Choose 1 answer)
+A. A distributed software architecture consisting of multiple related services
+B. A distributed software architecture consisting of multiple autonomous services
+C. A distributed client/service architecture
+D. A distributed software architecture	B
+###
+How does SOA coordinate communication between services? (Choose 1 answer)
+A. Using only direct REST calls between services.
+B. Via service bus as an integration hub.
+C. By shared database triggers.
+D. By UI polling only.	B
+###
+What does a component interface consist of? (Choose 1 answer)
+A. The operations provided by a function
+B. The externally visible operations of a component
+C. The operations that a component supports
+D. The operations required by a method	B
+###
+What does a component interface consist of? (Choose 1 answer)
+A. The externally visible operations of a component
+B. The operations provided by a component
+C. The operations required by a component
+D. The operations that a component supports	A
+###
+In integrating patterns into object models, which artifact typically captures the collaborative behavior among classes? (Choose 1 answer)
+A. Statechart diagram
+B. Class diagram
+C. Interaction diagram
+D. Deployment diagram	C
+###
+Which of the following is true for a Distributed Control architectural pattern? (Choose 1 answer)
+A. Control is divided among various control components.
+B. It responds to multiple requests from client subsystems.
+C. It provides overall control by coordinating several control components.
+D. It provides distributed control over various I/O objects.	A
+###
+Which of the following is true for a Hierarchical Control architectural pattern? (Choose 1 answer)
+A. Control is divided among various control components.
+B. It provides overall control over several client subsystems.
+C. It provides overall control by coordinating several control components.
+D. It provides overall control over various I/O objects	C
+###
+What is an optional use case? (Choose 1 answer)
+A. A use case with some optional steps
+B. A use case that does not need to be developed
+C. A use case that is required by some product line members but not others
+D. A use case that can be chosen in place of a different use case in a SPL member	C
+###
+How are feature conditions used in a SPL state machine? (Choose 1 answer)
+A. A guard condition
+B. A condition that is True or False
+C. To identify if a feature is selected or not in the state machine
+D. To allow state machine inheritance	C
+###
+Which of the following is NOT a software architecture quality attribute? (Choose 1 answer)
+A. Scalability
+B. Maintainability
+C. Design pattern
+D. Availability	C
+###
+Which quality attribute ensures that a system can efficiently handle increased loads without significant performance degradation? (Choose 1 answer)
+A. Testability
+B. Scalability
+C. Availability
+D. Security	B
+###
+An input message to a state-dependent control object corresponds to: (Choose 1 answer)
+A. An event on the internal state machine
+B. An action on the internal state machine
+C. A condition on the internal state machine
+D. A state on the internal state machine	A
+###
+Why is it recommended to combine use case diagrams with "textual use case descriptions" in software modeling? (Choose 1 answer)
+A. Diagrams are sufficient, but text is used for decoration
+B. Text provides detailed flows, conditions, and exceptions not captured in diagrams
+C. Text replaces diagrams completely
+D. Text reduces the need for validation with stakeholders	B
+###
+What is a software product line (SPL)? (Choose 1 answer)
+A. The pipeline in cloud
+B. A service in server
+C. The software products marketed by a company
+D. A family of systems with some common components and some variable components	D
+###
+What is a 'Composite State' in the context of State Machine Diagrams? (Choose 1 answer)
+A. A state that is composed of multiple sub-states, allowing for the modeling of more complex behaviors
+B. A simple state that cannot be broken down further
+C. A state that combines the behaviors of two machines into one
+D. The initial state of any finite state machine	A
+###
+When modeling alternate pathways, when should one apply the extend relationship? (Choose 1 answer)
+A. when a single, intricate interaction sequence requires the participation of numerous performers
+B. when a single use case contains an excessive number of alternate, optional, or extraordinary interaction sequences
+C. when numerous existing use cases exhibit shared functionality that may be taken and used again
+D. Sometimes it is necessary to group relevant use cases in a use case package to improve organization	B
+###
+Which of the following statements is NOT true for a component? (Choose 1 answer)
+A. A composite object composed of other objects
+B. A method
+C. A simple object
+D. Provides an interface	B
+###
+What is a software life cycle? (Choose 1 answer)
+A. The life of the software
+B. A cyclic approach to developing software
+C. A phased approach to developing software
+D. The life of software developed in cycles	C
+###
+Which UML diagram is best suited for modeling the dynamic behavior of a system? (Choose 1 answer)
+A. Class Diagram
+B. Sequence Diagram
+C. Use Case Diagram
+D. Component Diagram	B
+###
+Which of the following system problems does availability address? (Choose 1 answer)
+A. Denial of service
+B. Single point of failure
+C. System throughput
+D. System penetration	B
+###
+What is the COMET life cycle primarily based on? (Choose 1 answer)
+A. Prototyping
+B. Use cases
+C. Waterfall model
+D. Spiral model	B
+###
+In UML class diagrams, which notation represents an association between two classes? (Choose 1 answer)
+A. Solid line connecting the classes
+B. Dotted line with open arrowhead
+C. Diamond shape at one end
+D. Dashed line with filled arrowhead	A
+###
+What is a composition hierarchy? (Choose 1 answer)
+A. A weak form of a generalization/ specialization hierarchy
+B. A strong form of a generalization/ specialization hierarchy
+C. A weak form of a whole/part relationship
+D. A strong form of a whole/part relationship	D
+###
+Why is testability considered an important architecture characteristic? (Choose 1 answer)
+A. It primarily affects the visual design of the application.
+B. It directly determines the speed of development.
+C. It enables early detection of defects, reducing the cost of change.
+D. It is only important for user interface components.	C
+###
+Which of the following interactions could happen on an interaction diagram? (Choose 1 answer)
+A. An external user sends a message to a user interaction object.
+B. An external user sends a message to an entity object.
+C. An external user sends a message to an I/O object.
+D. An external user sends a message to a printer object.	A
+###
+What is carried out during incremental software integration? (Choose 1 answer)
+A. Implementation of the classes in each software increment
+B. Unit testing of the classes in each software increment
+C. Integration testing of the classes in each software increment
+D. System testing of the classes in each software increment	C
+###
+How does COMET compare the life cycle with the Unified Software Development Process? (Choose 1 answer)
+A. Identifies them as identical with no differences
+B. Does not acknowledge the Unified Software Development Process
+C. Highlights key differences and similarities between them
+D. Suggests that the Unified Software Development Process is outdated	C
+###
+What is the main purpose of a data abstraction class in object-oriented design? (Choose 1 answer)
+A. To encapsulate the logic and algorithms required by an application
+B. To act as an interface between the system and its external environment
+C. To hide the internal details of a data structure while providing operations to access and manipulate it
+D. To coordinate the interactions and behaviors of other objects in the system	C
+###
+What role do interaction diagrams play in dynamic modeling? (Choose 1 answer)
+A. Visualizing message flow between system objects
+B. Defining data storage locations
+C. Simplifying testing processes
+D. Centralizing UML diagrams	A
+###
+Which of the following interactions is NOT likely to happen on an interaction diagram? (Choose 1 answer)
+A. A user interaction object sends a message to an entity object
+B. An input object sends a message to a state-dependent control object
+C. An input object sends a message to a printer object
+D. A user interaction object sends a message to a proxy object	C
+###
+What is the main function of the COMET methodology in Software Architecture Design? (Choose 1 answer)
+A. Focusing on object-oriented methods for modularity
+B. Simplifying data storage
+C. Testing the performance of the system
+D. Automating the coding process	A
+###
+What is a secondary actor? (Choose 1 answer)
+A. The actor who goes on stage second
+B. The actor that starts the use case
+C. An actor that participates in the use case
+D. An object inside the system	C
+###
+What is the primary goal of designing client/server software architectures? (Choose 1 answer)
+A. To enable distributed processing across multiple systems
+B. To centralize data storage on a single server
+C. To reduce the number of clients in a system
+D. To eliminate middleware usage	A
+###
+In SOA, services are typically: (Choose 1 answer)
+A. Tightly coupled
+B. Loosely coupled
+C. Hardcoded to specific clients
+D. Bound to a single technology stack	B
+###
+What is the primary purpose of the integrated communication diagram in the software design process? (Choose 1 answer)
+A. To depict the static structure of subsystems and their relationships.
+B. To merge all use case-based communication diagrams into a single diagram, showing all message interactions between objects.
+C. To visualize the geographical distribution of subsystems.
+D. To show the sequence of operations for a single use case only.	B
+###
+What is a kernel system in a SPL? (Choose 1 answer)
+A. A member of the SPL only composed of kernel classes
+B. A member of the SPL composed of kernel classes and possibly some default classes
+C. A member of the SPL composed of kernel classes and possibly some optional classes
+D. A member of the SPL composed of kernel classes and possibly some entity classes	C
+###
+What is a demand-driven task? (Choose 1 answer)
+A. A task that responds to each message it receives
+B. A task that is activated by an internal message or event from another task
+C. A task that is activated by an external event
+D. A task that is activated by an input event	B
+###
+In object-oriented design, polymorphism means that: (Choose 1 answer)
+A. Different classes may have the same name.
+B. Different classes may have the same interface name.
+C. Different classes may have the same superclass name
+D. Different classes may have the same operation name.	D
+###
+What ensures consistency between a communication diagram and a statechart when modeling state-dependent interaction scenarios? (Choose 1 answer)
+A. Using different naming conventions for events and messages.
+B. Assigning unique names to each state in the statechart.
+C. Numbering messages and events in the same sequence across both diagrams.
+D. Defining separate control objects for each diagram.	C
+###
+Which of the following is not addressed by a secure system? (Choose 1 answer)
+A. System penetration
+B. Denial of service
+C. System scalability
+D. System authorization	C
+###
+What is inheritance in object-oriented programming? (Choose 1 answer)
+A. The process of creating private data
+B. The mechanism by which one class acquires the properties of another class
+C. The method of implementing encapsulation
+D. The function of hiding data	B
+###
+In a statechart, what does a transition represent? (Choose 1 answer)
+A. A class hierarchy
+B. A change of state due to an event
+C. Object inheritance
+D. UML package inclusion	B
+###
+Which design pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable? (Choose 1 answer)
+A. Strategy
+B. Observer
+C. Singleton
+D. Facade	A
+###
+What is a key characteristic of SOA? (Choose 1 answer)
+A. Services are dependent on each other
+B. Services are autonomous
+C. Services are not reusable
+D. Services are tightly integrated	B
+###
+What is an entity object in software design? (Choose 1 answer)
+A. An object that performs actions and operations
+B. An object that stores information and provides limited access to that data
+C. An object that interacts with other objects in real-time
+D. An object that controls the flow of the system's processes	B
+###
+What is a transaction? (Choose 1 answer)
+A. Consists of two or more operations
+B. Consists of one operation
+C. Consists of two or more operations that are indivisible
+D. Consists of two or more operations that are divisible	C
+###
+Which key concept in system refinement focuses on adapting the software model to accommodate new requirements over time? (Choose 1 answer)
+A. Model rigidity
+B. Model evolution
+C. Code optimization
+D. Static deployment	B
+###
+In a distributed component-based software architecture, which of the following statements is the most complete description of component deployment? (Choose 1 answer)
+A. Component instances can be deployed to different nodes in a geographically distributed environment
+B. Component instances can be deployed to different nodes in a geographically distributed environment before design
+C. Component instances can be deployed to different nodes in a geographically distributed environment before implementation
+D. Component instances can be deployed to different nodes in a geographically distributed environment after design and implementation	D
+###
+What is the main purpose of information hiding in object design? (Choose 1 answer)
+A. To make all parts of an object visible to other objects
+B. To decide what information should be visible and what should be hidden
+C. To expose the internal details of an object to other objects
+D. To allow unrestricted access to an object's internals	B
+###
+What is the primary role of architecture characteristics in software architecture? (Choose 1 answer)
+A. To define the functionality of the system.
+B. To specify the rules for how the system should be constructed.
+C. To define the success criteria of the system, orthogonal to its functionality.
+D. To provide guidelines for the development teams	C
+###
+A user interface subsystem is a type of: (Choose 1 answer)
+A. Control subsystem
+B. Service subsystem
+C. Client subsystem
+D. I/O subsystem	C
+###
+In the context of a use case, a control object is most similar to: (Choose 1 answer)
+A. A conductor of an orchestra
+B. A composer writing music
+C. An audience member
+D. A musician in the orchestra	A
+###
+Which of the following best describes UML (Unified Modeling Language)? (Choose 1 answer)
+A. A programming language for object-oriented systems
+B. A standardized modeling language used to specify, visualize, and document software systems
+C. A database schema language
+D. A user interface markup language	B
+###
+What is described using a use case model? (Choose 1 answer)
+A. Object layout
+B. Functional behavior of the system
+C. Database structure
+D. Component dependencies	B
+###
+Objects that are in geographically different locations should be: (Choose 1 answer)
+A. In the same subsystem
+B. In different subsystems
+C. In a composite subsystem
+D. In layered subsystems	B
+###
+What does a component's provided interface consist of? (Choose 1 answer)
+A. The operations that a component must fulfill
+B. The operations inside a component
+C. The operations that a component uses
+D. The operations of a component	A
+###
+Which of the following is a characteristic of an object? (Choose 1 answer)
+A. A function or subroutine
+B. A module
+C. Groups data and procedures that operate on the data
+D. Groups a function and an algorithm	C
+###
+Which UML relationship models the "is-a" hierarchy? (Choose 1 answer)
+A. Aggregation
+B. Generalization
+C. Association
+D. Dependency	B
+###
+In a sequential service design, how are client transactions processed? (Choose 1 answer)
+A. Multiple transactions are processed concurrently
+B. Transactions are processed in random order
+C. Each transaction is processed to completion before the next starts
+D. Only withdrawal transactions are processed sequentially	C
+###
+What is an entity class? (Choose 1 answer)
+A. A class on an entity/relationship diagram
+B. A class that stores data
+C. A class that interfaces to an external entity
+D. An external class	B
+###
+Which COMET step focuses on identifying system use cases and actors? (Choose 1 answer)
+A. Architectural design
+B. Analysis modeling
+C. Requirements capture
+D. Testing	C
+###
+What is a unary association in UML? (Choose 1 answer)
+A. An association between objects of different classes
+B. An association between objects of the same class
+C. An association between an object and an external system
+D. An association that does not involve any objects	B
+###
+Which design pattern is frequently applied to handle event notifications in the Emergency Monitoring System? (Choose 1 answer)
+A. Observer pattern
+B. Strategy pattern
+C. Factory method pattern
+D. Decorator pattern	A
+###
+What is the role of a service broker in SOA? (Choose 1 answer)
+A. To host services
+B. To find and connect services
+C. To provide user interfaces
+D. To manage transactions	B
+###
+Which case study involves monitoring patient conditions in a healthcare environment? (Choose 1 answer)
+A. ATM System
+B. Online Shopping System
+C. Emergency Monitoring System
+D. Library Management System	C
+###
+What is a subsystem in software architecture? (Choose 1 answer)
+A. A hardware module.
+B. A single database.
+C. A logical module grouping related functionality.
+D. Only the user interface.	C
+###
+What is the main goal when applying the principle of separation of concerns in subsystem design? (Choose 1 answer)
+A. To make subsystems more interconnected
+B. To assign multiple concerns to each subsystem
+C. To ensure each subsystem addresses a distinct concern
+D. To combine all subsystems into one aggregate object	C
+###
+What is information hiding in software design? (Choose 1 answer)
+A. Hiding information so that it cannot be found
+B. Hiding a design decision that is considered likely to change
+C. Hiding information to make it secure
+D. Encapsulating data in a class	B
+###
+What is an operation (also known as method) of a class? (Choose 1 answer)
+A. Specification and the implementation of a function performed by a class
+B. Specification and the implementation of a subroutine provided by a class
+C. Specification and the implementation of a function or procedure provided by a class
+D. Specification and the implementation of an interface provided by a class	C
+###
+What is inheritance? (Choose 1 answer)
+A. A mechanism for inheriting characteristics from a parent
+B. A mechanism for sharing and reusing code between classes
+C. A mechanism for sharing data between classes
+D. A mechanism for hiding information between classes	B
+###
+What is a condition used for in a state machine? (Choose 1 answer)
+A. A conditional action
+B. A conditional state
+C. A conditional state transition
+D. A conditional event	C
+###
+Which UML diagram is primarily used for modeling relationships between classes and interfaces? (Choose 1 answer)
+A. Statechart Diagram
+B. Class Diagram
+C. Activity Diagram
+D. Deployment Diagram	B
+###
+If two actions are shown on a given state transition, which of the following is true? (Choose 1 answer)
+A. The two actions are dependent on each other.
+B. The two actions are independent of each other.
+C. One action provides an input to the other action.
+D. The second action executes when the first action completes execution.	D
+###
+What is the main difference between a class and an interface? (Choose 1 answer)
+A. A class can contain implementations of methods, while an interface cannot
+B. An interface can be instantiated, while a class cannot
+C. A class cannot be extended, while an interface can
+D. A class only contains method declarations, while an interface contains method implementations	A
+###
+Which of the following is not included in the main object and class structuring categories? (Choose 1 answer)
+A. Entity object
+B. Boundary object
+C. Control object
+D. User object	D
+###
+Which of the following best describes the role of software quality attributes in architectural design? (Choose 1 answer)
+A. They provide guidelines for programming language syntax
+B. They represent non-functional requirements that influence architectural choices
+C. They describe database constraints only
+D. They replace functional requirements	B
+###
+When applying the Observer design pattern, which role is responsible for notifying all dependent objects about a state change? (Choose 1 answer)
+A. Observer
+B. Subject
+C. Mediator
+D. Adapter	B
+###
+What are the two kinds of UML interaction diagrams? (Choose 1 answer)
+A. Class diagram and sequence diagram
+B. Sequence diagram and communication diagram
+C. Class diagram and communication diagram
+D. Statechart and communication diagram	B
+###
+What is the primary purpose of a use case diagram in UML? (Choose 1 answer)
+A. To show the interactions between classes in a system
+B. To represent the dynamic behavior of a system
+C. To illustrate the organization of objects within a class
+D. To depict the high-level functionality of a system	D
+###
+In COMET-based system design, how is the quality attribute of testability primarily supported? (Choose 1 answer)
+A. By tightly coupling modules for faster access
+B. By structuring the system with clearly defined interfaces and decoupled components
+C. By embedding test code into production logic
+D. By minimizing documentation and focusing on rapid prototyping	B
+###
+What is the main purpose of using Use Case Modeling in system development? (Choose 1 answer)
+A. Identifying the interactions between users and the system
+B. Developing algorithms for data storage
+C. Automating performance testing
+D. Establishing network protocols	A
+###
+Which method can be applied to define a system's functional requirements? (Choose 1 answer)
+A. Use case modeling
+B. Requirements analysis
+C. Static modeling
+D. Activity diagrams	A
+###
+When evolving a complex software system, which strategy minimizes risks during the introduction of major design changes? (Choose 1 answer)
+A. Immediate deployment to production
+B. Parallel model refinement and incremental integration
+C. Isolated team development without integration
+D. Skipping design documentation updates	B
+###
+How is the discriminator represented in the relational database mapping from the generalization/specialization hierarchy? (Choose 1 answer)
+A. As a primary key in the superclass table.
+B. As an attribute in each subclass table.
+C. As part of the concatenated primary key in each subclass table.
+D. As an explicit attribute of the superclass table.	D
+###
+In class diagram, optional relationship is (Choose 1 answer)
+A. 1..*
+B. m..n
+C. *
+D. 0..1	D
+###
+How does Copilot assist during software design? (Choose 1 answer)
+A. By compiling code
+B. By providing code suggestions and generating design structures
+C. By executing database queries
+D. By configuring deployment pipelines	B
+###
+What does a component's required interface consist of? (Choose 1 answer)
+A. The operations that a component must fulfill
+B. The operations inside a component
+C. The operations that a component uses
+D. The visible operations of a component	C
+###
+How is a concurrent service designed? (Choose 1 answer)
+A. One object that responds to requests from clients
+B. Multiple objects that respond to requests from clients
+C. One subsystem that responds to requests from clients
+D. Multiple subsystems that respond to requests from clients	B
+###
+What constitutes a client/server software architecture's fundamental structure? (Choose 1 answer)
+A. One client and multiple services
+B. Multiple clients and one service
+C. Multiple clients and multiple services
+D. One client and one service	B
+###
+Which database constraint enforces uniqueness of each record? (Choose 1 answer)
+A. Foreign key
+B. Primary key
+C. Index
+D. Trigger	B
+###
+What is a periodic task? (Choose 1 answer)
+A. A task that responds to each message it receives
+B. A task that is activated by a timer event
+C. A task that is activated by an external event
+D. A task that is activated by an input event	B
+###
+What is a structural view of a software architecture? (Choose 1 answer)
+A. A view in terms of a module hierarchy
+B. A view in terms of components and connectors
+C. A view of the physical configuration in terms of nodes and interconnections
+D. A view in terms of objects and messages	B
+###
+Which UML diagram is typically used to show the dynamic behavior of a system, including the sequence of interactions between objects or components? (Choose 1 answer)
+A. Class diagram
+B. Use case diagram
+C. Sequence diagram
+D. State diagram	C
+###
+What are software structuring criteria? (Choose 1 answer)
+A. Fundamental ideas that can be applied to designing a system.
+B. Systematic approaches for producing a design.
+C. Guidelines used to help in structuring a software system into its components.
+D. Overall plans for developing a design.	C
+###
+What is a software architecture? (Choose 1 answer)
+A. The software inside a building.
+B. The structure of a client/server system.
+C. The overall structure of a software system.
+D. The software classes and their relationships.	C
+###
+What is the primary goal of dynamic interaction modeling? (Choose 1 answer)
+A. To illustrate runtime behavior and communication between components
+B. To automate testing processes
+C. To centralize system deployment
+D. To simplify static modeling	A
+###
+What is the primary purpose of determining the boundary object(s) in the state-dependent dynamic interaction modeling strategy? (Choose 1 answer)
+A. To execute the statechart
+B. To identify alternative sequence scenarios
+C. To specify the interactions between software objects
+D. To consider objects that receive inputs from the external environment	D
+###
+You are tasked with choosing a design pattern for a scenario where an object must change its behavior dynamically at runtime depending on its internal state. Which design pattern would you recommend? (Choose 1 answer)
+A. Observer Pattern
+B. Strategy Pattern
+C. State Pattern
+D. Singleton Pattern	C
+###
+Which pattern applied to the architectural structure? (Choose 1 answer)
+A. Call/Return pattern
+B. Layers of Abstraction pattern
+C. Asynchronous Message Communication pattern
+D. Synchronous Message Communication with Reply pattern	B
+###
+Which object category best suits capturing business rules independently? (Choose 1 answer)
+A. Control
+B. Boundary
+C. Application logic
+D. Entity	A
+###
+How is a relational database mapped to a whole/part relationship? (Choose 1 answer)
+A. The part class becomes a foreign key in the whole class.
+B. The whole class becomes part of the primary key in the part class.
+C. Each part class is designed as its own relational table.
+D. In relational databases, the flat (nonhierarchical) norm is broken by the creation of a hierarchy.	C
+###
+Which of the following elements is NOT typically found in a Sequence Diagram? (Choose 1 answer)
+A. Lifelines
+B. Messages
+C. Entities
+D. Activation bars	C
+###
+When evolving a complex software system, which practice ensures consistency across multiple model refinements? (Choose 1 answer)
+A. Refining each model independently without cross-checking
+B. Synchronizing refinements between analysis, design, and architecture models
+C. Postponing model updates until after implementation
+D. Relying only on component-level testing	B
+###
+Which design pattern focuses on ensuring a single instance of a class throughout a program? (Choose 1 answer)
+A. Singleton Pattern
+B. Factory Pattern
+C. MVC Pattern
+D. Observer Pattern	A
+###
+An interaction diagram should be developed for: (Choose 1 answer)
+A. Only the main sequence of the use case
+B. The main sequence and every alternative sequence of the use case
+C. The main sequence and a representative alternative sequence of the use case
+D. The alternative sequences of the use case	C
+###
+Which of the following is a potential drawback of prioritizing reuse in SOA? (Choose 1 answer)
+A. Increased agility
+B. Reduced complexity
+C. High coupling between services
+D. Improved service granularity	C
+###
+Which of the following best describes a composite component? (Choose 1 answer)
+A. A component that cannot be reused
+B. A component that is composed of several smaller, reusable components
+C. A component that is monolithic and cannot be divided
+D. A component designed for a single, specific task	B
+###
+What is a common approach to managing concurrency in a software system? (Choose 1 answer)
+A. Using global variables extensively
+B. Implementing locks and synchronization mechanisms
+C. Avoiding thread creation
+D. Utilizing single-threaded execution only	B
+###
+The integrated communication diagram is a synthesis of all the communication diagrams developed to support the use cases. The integrated communication diagram is, in effect, a merger of the communication diagrams, and its development is described next. (Choose 1 answer)
+A. True
+B. False	A
+###
+Which of the following metrics can be used to calculate the quality attributes? (Choose 1 answer)
+A. Observable
+B. Non-observable
+C. All of the mentioned
+D. None of the mentioned	C
+###
+Which of the following best describes the goal of the Software Design Process? (Choose 1 answer)
+A. Write executable code immediately
+B. Transform user requirements into a system architecture and design
+C. Design the database schema first
+D. Focus solely on security testing	B
+###
+What is the primary purpose of software subsystem architecture? (Choose 1 answer)
+A. To divide a system into smaller, manageable components for design and development
+B. To create testing frameworks for software applications
+C. To simplify the use of UML diagrams
+D. To centralize data storage	A
+###
+Which software architecture perspectives are explained? (Choose 1 answer)
+A. Static, dynamic, and deployment views
+B. Static, deployment, and user interface views
+C. Dynamic, user interface, and data management views
+D. Deployment, user interface, and data management views	A
+###
+Which of the following is the BEST description of maintainability in software architecture? (Choose 1 answer)
+A. The ability of a system to perform its intended functions without failure.
+B. The ease with which software can be modified to correct defects, improve performance, or adapt to changes.
+C. The ability of a system to scale and handle increased load.
+D. The degree to which software can be used in different operating environments.	B
+###
+How are alternative paths represented in a sequence diagram? (Choose 1 answer)
+A. With conditional frames (alt)
+B. With optional frames (opt)
+C. With loops (loop)
+D. With concurrent regions (par)	A
+###
+Which of the following objects executes the state machine in state-dependent interaction modeling? (Choose 1 answer)
+A. Boundary object
+B. Entity object
+C. Control object
+D. User interface object	C
+###
+What is maintainability? (Choose 1 answer)
+A. The extent to which software is capable of being changed before deployment
+B. The extent to which software is capable of being changed after deployment
+C. The extent to which software is capable of being changed during development
+D. The extent to which software is capable of being changed after development	B
+###
+In UML state machine diagrams (statecharts), what symbol is used to represent the initial state? (Choose 1 answer)
+A. A rounded rectangle
+B. A small black circle
+C. A small black circle inside a larger white circle (bull's-eye)
+D. A diamond shape	B
+###
+In a SOA (service-oriented architecture), which of the following is NOT true? (Choose 1 answer)
+A. A client communicates with a specific service provided on a fixed server configuration.
+B. A client discovers and links to a service.
+C. Multiple clients communicate with a service.
+D. Standard protocols are provided to allow clients to communicate with services.	A
+###
+What is the primary role of middleware in a distributed system? (Choose 1 answer)
+A. To replace the operating system on each node in the network
+B. To directly manage hardware resources across distributed systems
+C. To provide a uniform platform that abstracts heterogeneous operating systems for distributed applications
+D. To serve as a graphical interface for user interaction in distributed environments	C
+###
+Which architectural style organizes software into separate interacting components? (Choose 1 answer)
+A. Monolithic architecture
+B. Component-based architecture
+C. Layered architecture
+D. Event-driven architecture	B
+###
+What is the primary focus of the analysis model? (Choose 1 answer)
+A. Designing the user interface
+B. Understanding and analyzing the problem domain
+C. Writing code for the solution
+D. Testing the final system	B
+###
+During the analysis phase, which of the following diagrams is most commonly used to model functional requirements? (Choose 1 answer)
+A. Class diagram
+B. Use Case diagram
+C. Deployment diagram
+D. Statechart diagram	B
+###
+What is the primary purpose of modeling in software development? (Choose 1 answer)
+A. Writing code
+B. Marketing software
+C. Simulating hardware
+D. Designing applications before coding	D
+###
+What is a typical use case model diagram used for? (Choose 1 answer)
+A. Represent interactions between users and system
+B. Detail hardware setup
+C. Drill down into source code
+D. Show low-level database design	A
+###
+What can an extension use case be used for? (Choose 1 answer)
+A. To describe a lengthy interaction with an actor
+B. To describe functionality that is common to more than one use case
+C. To describe the functionality of a use case that is extended by another use case(s)
+D. To describe a conditional part of a different use case that is only executed under certain circumstances	D
+###
+Which of the following is an example of a design principle? (Choose 1 answer)
+A. Only the business layer can access the database.
+B. Services must communicate using REST.
+C. Development teams should use asynchronous messaging between services to increase performance.
+D. The system must be deployed on Linux servers.	C
+###
+What is the main goal when decomposing a system into subsystems during architectural design? (Choose 1 answer)
+A. To minimize the number of use cases
+B. To increase communication between subsystems
+C. To ensure each subsystem handles a distinct and relatively independent function
+D. To remove dynamic modeling steps	C
+###
+What is "white box" testing? (Choose 1 answer)
+A. Unit testing
+B. Integration testing
+C. Testing with knowledge of the system internals
+D. Testing without knowledge of the software internals	C
+###
+In UML, what does an Association represent in Static Modeling? (Choose 1 answer)
+A. A sequence of operations performed by an object
+B. A shared attribute among different classes
+C. A relationship between two or more classes that shows how instances of those classes interact
+D. The inheritance relationship between a parent class and its child classes	C
+###
+Which of the following best describes the Subscription/Notification pattern in distributed systems? (Choose 1 answer)
+A. A client sends a request and waits synchronously for a direct reply from a specific server.
+B. Components receive messages by polling a central queue rather than being notified.
+C. Components subscribe to a group and automatically receive multicast messages sent to that group.
+D. Each component must be individually addressed to receive updates from the sender.	C
+###
+The software process model for SPL engineering has two main processes, which are: (Choose 1 answer)
+A. SPL Engineering and Software Application Engineering
+B. SPL Engineering and real-time software Engineering
+C. Real time software Engineering and Software Application Engineering
+D. Real-time software Engineering and Component-Based Software Engineering	A
+###
+What does a state machine class encapsulate? (Choose 1 answer)
+A. A state transition table
+B. A state chart
+C. The current state of the machine
+D. A state transition table and the current state of the machine	D
+###
+Which component of software architecture ensures scalability and modularity? (Choose 1 answer)
+A. Client-Server Model
+B. Monolithic Architecture
+C. Procedural Programming
+D. Testing Frameworks	A
+###
+Yellow pages brokering is useful when a service requester: (Choose 1 answer)
+A. Needs to discover the location of the service
+B. Knows the type of service required but not the specific service
+C. Knows the specific service required but not the type of service
+D. Needs to discover the broker	B
+###
+What is a boundary object? (Choose 1 answer)
+A. An external object
+B. An object that stores data
+C. An object that communicates with an external object
+D. An object that controls other objects	C
+###
+What is carried out during design modeling? (Choose 1 answer)
+A. Developing use case models
+B. Developing data flow and entity relationship diagrams
+C. Developing static and dynamic models
+D. Developing software architectures	C

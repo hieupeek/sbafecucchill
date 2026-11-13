@@ -1,0 +1,4839 @@
+[
+  {
+    "id": 1,
+    "label": "Câu 1",
+    "question": "What role do 'Events' play in State-Dependent Dynamic Interaction Modeling?",
+    "choices": {
+      "A": "They are used to define the deployment configuration",
+      "B": "They are only relevant in static modeling",
+      "C": "They trigger transitions in statecharts and influence interactions in diagrams",
+      "D": "They represent the physical connections between system components"
+    },
+    "correct": "C",
+    "correctText": "They trigger transitions in statecharts and influence interactions in diagrams",
+    "explanation": "Đáp án chính xác là C: They trigger transitions in statecharts and influence interactions in diagrams"
+  },
+  {
+    "id": 2,
+    "label": "Câu 2",
+    "question": "Which of the following is considered a software quality attribute?",
+    "choices": {
+      "A": "File organization",
+      "B": "Code syntax",
+      "C": "Maintainability",
+      "D": "User interface design"
+    },
+    "correct": "C",
+    "correctText": "Maintainability",
+    "explanation": "Đáp án chính xác là C: Maintainability"
+  },
+  {
+    "id": 3,
+    "label": "Câu 3",
+    "question": "Which design pattern is used to provide a unified interface to a set of interfaces in a subsystem?",
+    "choices": {
+      "A": "Observer pattern",
+      "B": "Factory method pattern",
+      "C": "Facade pattern",
+      "D": "Strategy pattern"
+    },
+    "correct": "C",
+    "correctText": "Facade pattern",
+    "explanation": "Đáp án chính xác là C: Facade pattern"
+  },
+  {
+    "id": 4,
+    "label": "Câu 4",
+    "question": "What architectural style is predominantly used in the ATM System case study?",
+    "choices": {
+      "A": "Layered Architecture",
+      "B": "Client-Server Architecture",
+      "C": "Event-Driven Architecture",
+      "D": "Peer-to-Peer Architecture"
+    },
+    "correct": "B",
+    "correctText": "Client-Server Architecture",
+    "explanation": "Đáp án chính xác là B: Client-Server Architecture"
+  },
+  {
+    "id": 5,
+    "label": "Câu 5",
+    "question": "What is a component in component-based software architecture?",
+    "choices": {
+      "A": "A function",
+      "B": "A class",
+      "C": "A database",
+      "D": "A reusable piece of software"
+    },
+    "correct": "D",
+    "correctText": "A reusable piece of software",
+    "explanation": "Đáp án chính xác là D: A reusable piece of software"
+  },
+  {
+    "id": 6,
+    "label": "Câu 6",
+    "question": "Which architectural style emphasizes loosely coupled services communicating through interfaces?",
+    "choices": {
+      "A": "Client-Server",
+      "B": "Layered",
+      "C": "Service-Oriented Architecture (SOA)",
+      "D": "Pipe-and-Filter"
+    },
+    "correct": "C",
+    "correctText": "Service-Oriented Architecture (SOA)",
+    "explanation": "Đáp án chính xác là C: Service-Oriented Architecture (SOA)"
+  },
+  {
+    "id": 7,
+    "label": "Câu 7",
+    "question": "If the same state machine is used in more than one use case, how is this modeled on interaction diagrams?",
+    "choices": {
+      "A": "Develop one state-dependent control object for each use case.",
+      "B": "Develop one state-dependent control object containing states from each use case.",
+      "C": "Develop a hierarchical state machine",
+      "D": "Develop a coordinator object"
+    },
+    "correct": "A",
+    "correctText": "Develop one state-dependent control object for each use case.",
+    "explanation": "Đáp án chính xác là A: Develop one state-dependent control object for each use case."
+  },
+  {
+    "id": 8,
+    "label": "Câu 8",
+    "question": "What is an information hiding object?",
+    "choices": {
+      "A": "An active object that encapsulates data",
+      "B": "A passive object that encapsulates data",
+      "C": "A class that encapsulates data",
+      "D": "A task that encapsulates data"
+    },
+    "correct": "B",
+    "correctText": "A passive object that encapsulates data",
+    "explanation": "Đáp án chính xác là B: A passive object that encapsulates data"
+  },
+  {
+    "id": 9,
+    "label": "Câu 9",
+    "question": "Which of the following best explains why iterative and incremental development is often preferred over the Waterfall model in modern software engineering?",
+    "choices": {
+      "A": "It reduces documentation requirements",
+      "B": "It avoids stakeholder involvement during early phases",
+      "C": "It allows progressive refinement of requirements and architecture with feedback loops",
+      "D": "It eliminates the need for system testing"
+    },
+    "correct": "C",
+    "correctText": "It allows progressive refinement of requirements and architecture with feedback loops",
+    "explanation": "Đáp án chính xác là C: It allows progressive refinement of requirements and architecture with feedback loops"
+  },
+  {
+    "id": 10,
+    "label": "Câu 10",
+    "question": "Which normal form eliminates partial dependency on a composite primary key?",
+    "choices": {
+      "A": "1NF",
+      "B": "2NF",
+      "C": "3NF",
+      "D": "BCNF"
+    },
+    "correct": "B",
+    "correctText": "2NF",
+    "explanation": "Đáp án chính xác là B: 2NF"
+  },
+  {
+    "id": 11,
+    "label": "Câu 11",
+    "question": "What does a delegation connector join?",
+    "choices": {
+      "A": "An outer provided port to an inner provided port",
+      "B": "An outer provided port to an inner required port",
+      "C": "An outer required port to an inner provided port",
+      "D": "An outer provided port to an outer required port"
+    },
+    "correct": "A",
+    "correctText": "An outer provided port to an inner provided port",
+    "explanation": "Đáp án chính xác là A: An outer provided port to an inner provided port"
+  },
+  {
+    "id": 12,
+    "label": "Câu 12",
+    "question": "What type of object coordinates behavior among multiple objects?",
+    "choices": {
+      "A": "Entity object",
+      "B": "Boundary object",
+      "C": "Control object",
+      "D": "Interface object"
+    },
+    "correct": "C",
+    "correctText": "Control object",
+    "explanation": "Đáp án chính xác là C: Control object"
+  },
+  {
+    "id": 13,
+    "label": "Câu 13",
+    "question": "Which of the following patterns allows treating individual objects and compositions of objects uniformly?",
+    "choices": {
+      "A": "Composite",
+      "B": "Decorator",
+      "C": "Adapter",
+      "D": "Proxy"
+    },
+    "correct": "A",
+    "correctText": "Composite",
+    "explanation": "Đáp án chính xác là A: Composite"
+  },
+  {
+    "id": 14,
+    "label": "Câu 14",
+    "question": "Which design pattern attaches additional responsibilities to an object dynamically?",
+    "choices": {
+      "A": "Proxy",
+      "B": "Decorator",
+      "C": "Composite",
+      "D": "Bridge"
+    },
+    "correct": "B",
+    "correctText": "Decorator",
+    "explanation": "Đáp án chính xác là B: Decorator"
+  },
+  {
+    "id": 15,
+    "label": "Câu 15",
+    "question": "Which of the following is NOT a case of event synchronization?",
+    "choices": {
+      "A": "External event",
+      "B": "Internal event",
+      "C": "Timer event",
+      "D": "User event"
+    },
+    "correct": "D",
+    "correctText": "User event",
+    "explanation": "Đáp án chính xác là D: User event"
+  },
+  {
+    "id": 16,
+    "label": "Câu 16",
+    "question": "A subsystem provides a larger-grained information-hiding solution than an object. Objects that realize the same use case have higher coupling because they communicate with each other (as depicted on the use case-based interaction diagram) and have lower (or no) coupling with objects in other use cases.",
+    "choices": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": "B",
+    "correctText": "False",
+    "explanation": "Đáp án chính xác là B: False"
+  },
+  {
+    "id": 17,
+    "label": "Câu 17",
+    "question": "In SOA, what is the role of the service bus?",
+    "choices": {
+      "A": "It serves only as a message queue.",
+      "B": "It acts as an intermediary for all service calls, functioning as an integration hub and orchestration engine.",
+      "C": "It is responsible for data persistence.",
+      "D": "It handles only user interface requests."
+    },
+    "correct": "B",
+    "correctText": "It acts as an intermediary for all service calls, functioning as an integration hub and orchestration engine.",
+    "explanation": "Đáp án chính xác là B: It acts as an intermediary for all service calls, functioning as an integration hub and orchestration engine."
+  },
+  {
+    "id": 18,
+    "label": "Câu 18",
+    "question": "What is a deployment view of a software architecture?",
+    "choices": {
+      "A": "A static view in terms of a module hierarchy",
+      "B": "A static view in terms of components and connectors",
+      "C": "A view of the physical configuration in terms of nodes and interconnections",
+      "D": "A dynamic interaction view in terms of objects and messages"
+    },
+    "correct": "C",
+    "correctText": "A view of the physical configuration in terms of nodes and interconnections",
+    "explanation": "Đáp án chính xác là C: A view of the physical configuration in terms of nodes and interconnections"
+  },
+  {
+    "id": 19,
+    "label": "Câu 19",
+    "question": "Which of the following is NOT a benefit of using software models?",
+    "choices": {
+      "A": "Better communication between stakeholders",
+      "B": "Easier maintenance of code",
+      "C": "Increased hardware performance",
+      "D": "Early detection of design flaws"
+    },
+    "correct": "C",
+    "correctText": "Increased hardware performance",
+    "explanation": "Đáp án chính xác là C: Increased hardware performance"
+  },
+  {
+    "id": 20,
+    "label": "Câu 20",
+    "question": "Which of the following is true for a Centralized Control architectural pattern?",
+    "choices": {
+      "A": "Control is divided among various control components.",
+      "B": "It provides the overall control and sequencing of the system.",
+      "C": "It provides overall control by coordinating several control components.",
+      "D": "It provides overall control over various I/O objects"
+    },
+    "correct": "B",
+    "correctText": "It provides the overall control and sequencing of the system.",
+    "explanation": "Đáp án chính xác là B: It provides the overall control and sequencing of the system."
+  },
+  {
+    "id": 21,
+    "label": "Câu 21",
+    "question": "What is a database wrapper class?",
+    "choices": {
+      "A": "A class that encapsulates a data structure",
+      "B": "A class that encapsulates a database",
+      "C": "A class that encapsulates the details of how to access data in a database",
+      "D": "A class that encapsulates a relational table"
+    },
+    "correct": "C",
+    "correctText": "A class that encapsulates the details of how to access data in a database",
+    "explanation": "Đáp án chính xác là C: A class that encapsulates the details of how to access data in a database"
+  },
+  {
+    "id": 22,
+    "label": "Câu 22",
+    "question": "What does an interaction diagram depict?",
+    "choices": {
+      "A": "The state and transitions inside a control object",
+      "B": "Classes and their relationships",
+      "C": "Software objects and the sequence of their interactions",
+      "D": "The external objects communicating with the system"
+    },
+    "correct": "C",
+    "correctText": "Software objects and the sequence of their interactions",
+    "explanation": "Đáp án chính xác là C: Software objects and the sequence of their interactions"
+  },
+  {
+    "id": 23,
+    "label": "Câu 23",
+    "question": "How does Event-Driven Architecture work?",
+    "choices": {
+      "A": "Components communicate via asynchronous events",
+      "B": "Components communicate synchronously",
+      "C": "Components are tightly coupled",
+      "D": "Components must share the database"
+    },
+    "correct": "A",
+    "correctText": "Components communicate via asynchronous events",
+    "explanation": "Đáp án chính xác là A: Components communicate via asynchronous events"
+  },
+  {
+    "id": 24,
+    "label": "Câu 24",
+    "question": "What does a sequence diagram depict?",
+    "choices": {
+      "A": "The sequence of external objects communicating with each other",
+      "B": "Classes and their relationships",
+      "C": "Software objects and the sequence of their interactions",
+      "D": "The external objects communicating with the system"
+    },
+    "correct": "C",
+    "correctText": "Software objects and the sequence of their interactions",
+    "explanation": "Đáp án chính xác là C: Software objects and the sequence of their interactions"
+  },
+  {
+    "id": 25,
+    "label": "Câu 25",
+    "question": "Which of the following is a primary focus in software architectural design when analyzing the problem domain and structuring a system into subsystems?",
+    "choices": {
+      "A": "Ensuring that all subsystems are tightly coupled for better performance.",
+      "B": "Focusing on functional decomposition, where each subsystem addresses a distinct part of the system.",
+      "C": "Minimizing the number of subsystems to simplify the system design.",
+      "D": "Ignoring the geographical distribution of components during subsystem design."
+    },
+    "correct": "B",
+    "correctText": "Focusing on functional decomposition, where each subsystem addresses a distinct part of the system.",
+    "explanation": "Đáp án chính xác là B: Focusing on functional decomposition, where each subsystem addresses a distinct part of the system."
+  },
+  {
+    "id": 26,
+    "label": "Câu 26",
+    "question": "Which of the following best describes the information hiding concept in software design?",
+    "choices": {
+      "A": "A class exposes all its data structures to allow flexibility in communication.",
+      "B": "A class hides certain details, such as a data structure, internally and keeps them inaccessible to the rest of the system.",
+      "C": "A class combines its interface and implementation to simplify design.",
+      "D": "A class prioritizes synchronous communication between objects."
+    },
+    "correct": "B",
+    "correctText": "A class hides certain details, such as a data structure, internally and keeps them inaccessible to the rest of the system.",
+    "explanation": "Đáp án chính xác là B: A class hides certain details, such as a data structure, internally and keeps them inaccessible to the rest of the system."
+  },
+  {
+    "id": 27,
+    "label": "Câu 27",
+    "question": "What is the key characteristic of a component in a component-based software architecture?",
+    "choices": {
+      "A": "It must be implemented in Java",
+      "B": "It shares all internal data with other components",
+      "C": "It is self-contained and encapsulates information",
+      "D": "t must be deployed on the cloud"
+    },
+    "correct": "C",
+    "correctText": "It is self-contained and encapsulates information",
+    "explanation": "Đáp án chính xác là C: It is self-contained and encapsulates information"
+  },
+  {
+    "id": 28,
+    "label": "Câu 28",
+    "question": "What is the main goal of object-oriented analysis in software engineering?",
+    "choices": {
+      "A": "Define user interface layouts",
+      "B": "Identify the system's objects and their relationships",
+      "C": "Optimize database queries",
+      "D": "Develop a deployment model"
+    },
+    "correct": "B",
+    "correctText": "Identify the system's objects and their relationships",
+    "explanation": "Đáp án chính xác là B: Identify the system's objects and their relationships"
+  },
+  {
+    "id": 29,
+    "label": "Câu 29",
+    "question": "What is the purpose of \"product line engineering\"?",
+    "choices": {
+      "A": "To develop and maintain a specific product within the line",
+      "B": "To establish the processes, tools, and methods for developing and evolving the product line",
+      "C": "To market and sell individual products",
+      "D": "To ensure that each product meets its unique requirements"
+    },
+    "correct": "B",
+    "correctText": "To establish the processes, tools, and methods for developing and evolving the product line",
+    "explanation": "Đáp án chính xác là B: To establish the processes, tools, and methods for developing and evolving the product line"
+  },
+  {
+    "id": 30,
+    "label": "Câu 30",
+    "question": "What is a key consideration in component partitioning?",
+    "choices": {
+      "A": "Programming language used",
+      "B": "Hardware the system will run on",
+      "C": "Whether to partition by domain or technical capabilities",
+      "D": "UI color scheme"
+    },
+    "correct": "C",
+    "correctText": "Whether to partition by domain or technical capabilities",
+    "explanation": "Đáp án chính xác là C: Whether to partition by domain or technical capabilities"
+  },
+  {
+    "id": 31,
+    "label": "Câu 31",
+    "question": "In the sales problem, to pay, customers can use cash or card payment, so what is the relationship between the Payment use case and the Cash payment use case?",
+    "choices": {
+      "A": "Extend",
+      "B": "Include",
+      "C": "Generalization",
+      "D": "Abstract"
+    },
+    "correct": "C",
+    "correctText": "Generalization",
+    "explanation": "Đáp án chính xác là C: Generalization"
+  },
+  {
+    "id": 32,
+    "label": "Câu 32",
+    "question": "What is data abstraction?",
+    "choices": {
+      "A": "Another name for information hiding",
+      "B": "Encapsulating data so that its structure is hidden",
+      "C": "Storing data in a database",
+      "D": "Storing data in a data structure"
+    },
+    "correct": "B",
+    "correctText": "Encapsulating data so that its structure is hidden",
+    "explanation": "Đáp án chính xác là B: Encapsulating data so that its structure is hidden"
+  },
+  {
+    "id": 33,
+    "label": "Câu 33",
+    "question": "What is a SPL feature?",
+    "choices": {
+      "A": "A requirement or characteristic that is provided by one or more SPL members",
+      "B": "A marketing need",
+      "C": "A class provided by the SPL",
+      "D": "A SPL use case"
+    },
+    "correct": "A",
+    "correctText": "A requirement or characteristic that is provided by one or more SPL members",
+    "explanation": "Đáp án chính xác là A: A requirement or characteristic that is provided by one or more SPL members"
+  },
+  {
+    "id": 34,
+    "label": "Câu 34",
+    "question": "In COMET, which diagram integrates static and dynamic models for software design?",
+    "choices": {
+      "A": "Statechart diagram",
+      "B": "Interaction diagram",
+      "C": "Composite class interaction diagram",
+      "D": "Package diagram"
+    },
+    "correct": "C",
+    "correctText": "Composite class interaction diagram",
+    "explanation": "Đáp án chính xác là C: Composite class interaction diagram"
+  },
+  {
+    "id": 35,
+    "label": "Câu 35",
+    "question": "Which architectural style organizes the system into a hierarchy of layers, each layer providing services to the layer above?",
+    "choices": {
+      "A": "Client-server architecture",
+      "B": "Layered architecture",
+      "C": "Peer-to-peer architecture",
+      "D": "Pipe and filter architecture"
+    },
+    "correct": "B",
+    "correctText": "Layered architecture",
+    "explanation": "Đáp án chính xác là B: Layered architecture"
+  },
+  {
+    "id": 36,
+    "label": "Câu 36",
+    "question": "Which software quality attribute focuses on the ease of correcting faults and modifying the system after deployment?",
+    "choices": {
+      "A": "Scalability",
+      "B": "Maintainability",
+      "C": "Performance",
+      "D": "Security"
+    },
+    "correct": "B",
+    "correctText": "Maintainability",
+    "explanation": "Đáp án chính xác là B: Maintainability"
+  },
+  {
+    "id": 37,
+    "label": "Câu 37",
+    "question": "Which of the following best describes an \"abstract class\" in UML?",
+    "choices": {
+      "A": "A class that cannot be instantiated and may contain abstract operations",
+      "B": "A class that has no attributes",
+      "C": "A class with only static methods",
+      "D": "A class defined without associations"
+    },
+    "correct": "A",
+    "correctText": "A class that cannot be instantiated and may contain abstract operations",
+    "explanation": "Đáp án chính xác là A: A class that cannot be instantiated and may contain abstract operations"
+  },
+  {
+    "id": 38,
+    "label": "Câu 38",
+    "question": "What is the primary goal of using COMET in software design?",
+    "choices": {
+      "A": "Increase database performance",
+      "B": "Provide structured architectural modeling",
+      "C": "Eliminate the need for state charts",
+      "D": "Enforce strict coding conventions"
+    },
+    "correct": "B",
+    "correctText": "Provide structured architectural modeling",
+    "explanation": "Đáp án chính xác là B: Provide structured architectural modeling"
+  },
+  {
+    "id": 39,
+    "label": "Câu 39",
+    "question": "What is the focus of subsystem architectural design?",
+    "choices": {
+      "A": "The transition from analysis to design",
+      "B": "The design of user interfaces",
+      "C": "The implementation of individual classes",
+      "D": "The structuring of the system into subsystems"
+    },
+    "correct": "D",
+    "correctText": "The structuring of the system into subsystems",
+    "explanation": "Đáp án chính xác là D: The structuring of the system into subsystems"
+  },
+  {
+    "id": 40,
+    "label": "Câu 40",
+    "question": "What is the primary focus of software subsystem architecture design?",
+    "choices": {
+      "A": "To partition the system into manageable, reusable modules",
+      "B": "To eliminate object-oriented design dependencies",
+      "C": "To simplify use case modeling",
+      "D": "To reduce the need for UML diagrams"
+    },
+    "correct": "A",
+    "correctText": "To partition the system into manageable, reusable modules",
+    "explanation": "Đáp án chính xác là A: To partition the system into manageable, reusable modules"
+  },
+  {
+    "id": 41,
+    "label": "Câu 41",
+    "question": "What is a UML package?",
+    "choices": {
+      "A": "A box",
+      "B": "A grouping of classes",
+      "C": "A grouping of use cases",
+      "D": "A grouping of model elements"
+    },
+    "correct": "D",
+    "correctText": "A grouping of model elements",
+    "explanation": "Đáp án chính xác là D: A grouping of model elements"
+  },
+  {
+    "id": 42,
+    "label": "Câu 42",
+    "question": "Why is it important to document a design pattern's Consequences in the GoF template?",
+    "choices": {
+      "A": "To list UML symbols used",
+      "B": "To describe trade-offs, impact on flexibility, reusability, and potential liabilities of using the pattern",
+      "C": "To replace the need for code implementation",
+      "D": "To ensure automatic generation of test cases"
+    },
+    "correct": "B",
+    "correctText": "To describe trade-offs, impact on flexibility, reusability, and potential liabilities of using the pattern",
+    "explanation": "Đáp án chính xác là B: To describe trade-offs, impact on flexibility, reusability, and potential liabilities of using the pattern"
+  },
+  {
+    "id": 43,
+    "label": "Câu 43",
+    "question": "What is a control task?",
+    "choices": {
+      "A": "A task that control other module",
+      "B": "A task that executes a statechart",
+      "C": "A task that executes on command",
+      "D": "A task that controls I/O service"
+    },
+    "correct": "B",
+    "correctText": "A task that executes a statechart",
+    "explanation": "Đáp án chính xác là B: A task that executes a statechart"
+  },
+  {
+    "id": 44,
+    "label": "Câu 44",
+    "question": "In UML, what is the purpose of a \"composite structure diagram\"?",
+    "choices": {
+      "A": "To represent the static structure of a system's classes and their relationships.",
+      "B": "To illustrate the interactions and collaborations between objects in a system.",
+      "C": "To model the organization and behavior of objects within a single classifier.",
+      "D": "To depict the flow of control and the partitioning of a system into states and transitions."
+    },
+    "correct": "C",
+    "correctText": "To model the organization and behavior of objects within a single classifier.",
+    "explanation": "Đáp án chính xác là C: To model the organization and behavior of objects within a single classifier."
+  },
+  {
+    "id": 45,
+    "label": "Câu 45",
+    "question": "Which concept is fundamental when establishing associations between objects in a class diagram?",
+    "choices": {
+      "A": "Data types",
+      "B": "Use case names",
+      "C": "Multiplicity",
+      "D": "Transition triggers"
+    },
+    "correct": "C",
+    "correctText": "Multiplicity",
+    "explanation": "Đáp án chính xác là C: Multiplicity"
+  },
+  {
+    "id": 46,
+    "label": "Câu 46",
+    "question": "Which phase focuses on defining how software elements fit together and interact to meet requirements?",
+    "choices": {
+      "A": "Requirement gathering",
+      "B": "Software architecture design",
+      "C": "User interface design",
+      "D": "Testing and validation"
+    },
+    "correct": "B",
+    "correctText": "Software architecture design",
+    "explanation": "Đáp án chính xác là B: Software architecture design"
+  },
+  {
+    "id": 47,
+    "label": "Câu 47",
+    "question": "What is the generic form of an interaction diagram?",
+    "choices": {
+      "A": "Depicts several objects interacting with each other",
+      "B": "Depicts one possible sequence of interactions among objects",
+      "C": "Depicts all possible interactions among objects",
+      "D": "Depicts all classes and their associations with each other"
+    },
+    "correct": "B",
+    "correctText": "Depicts one possible sequence of interactions among objects",
+    "explanation": "Đáp án chính xác là B: Depicts one possible sequence of interactions among objects"
+  },
+  {
+    "id": 48,
+    "label": "Câu 48",
+    "question": "Which modeling artifact defines the static structure of the system in OO analysis?",
+    "choices": {
+      "A": "Statechart",
+      "B": "Class diagram",
+      "C": "Activity diagram",
+      "D": "Deployment diagram"
+    },
+    "correct": "B",
+    "correctText": "Class diagram",
+    "explanation": "Đáp án chính xác là B: Class diagram"
+  },
+  {
+    "id": 49,
+    "label": "Câu 49",
+    "question": "What does \"scalability\" in architecture refer to?",
+    "choices": {
+      "A": "Ability to handle increasing load",
+      "B": "Ability to be portable across platforms",
+      "C": "Security to protect resources",
+      "D": "Speed of algorithm"
+    },
+    "correct": "A",
+    "correctText": "Ability to handle increasing load",
+    "explanation": "Đáp án chính xác là A: Ability to handle increasing load"
+  },
+  {
+    "id": 50,
+    "label": "Câu 50",
+    "question": "What can an inclusion use case be used for?",
+    "choices": {
+      "A": "To describe an inclusive use case",
+      "B": "To describe a lengthy interaction with an actor",
+      "C": "To describe a use case that includes other use cases"
+    },
+    "correct": "C",
+    "correctText": "To describe a use case that includes other use cases",
+    "explanation": "Đáp án chính xác là C: To describe a use case that includes other use cases"
+  },
+  {
+    "id": 51,
+    "label": "Câu 51",
+    "question": "In object-oriented programming, which keyword is often used to implement information hiding within a class?",
+    "choices": {
+      "A": "Public",
+      "B": "Private",
+      "C": "Protected",
+      "D": "Static"
+    },
+    "correct": "B",
+    "correctText": "Private",
+    "explanation": "Đáp án chính xác là B: Private"
+  },
+  {
+    "id": 52,
+    "label": "Câu 52",
+    "question": "What is a kernel class in a SPL?",
+    "choices": {
+      "A": "An entity class in the SPL",
+      "B": "A SPL class that stores essential data",
+      "C": "A class that is required by all members of the SPL",
+      "D": "An external class to the SPL"
+    },
+    "correct": "C",
+    "correctText": "A class that is required by all members of the SPL",
+    "explanation": "Đáp án chính xác là C: A class that is required by all members of the SPL"
+  },
+  {
+    "id": 53,
+    "label": "Câu 53",
+    "question": "What does \"multiplicity\" represent in UML?",
+    "choices": {
+      "A": "The number of objects in a relationship.",
+      "B": "The number of classes.",
+      "C": "The number of attributes.",
+      "D": "The number of state transitions."
+    },
+    "correct": "A",
+    "correctText": "The number of objects in a relationship.",
+    "explanation": "Đáp án chính xác là A: The number of objects in a relationship."
+  },
+  {
+    "id": 54,
+    "label": "Câu 54",
+    "question": "What is a server?",
+    "choices": {
+      "A": "A hardware/software system that serves customers",
+      "B": "A subsystem that makes requests and waits for the responses",
+      "C": "A subsystem that responds to requests from clients",
+      "D": "A hardware/software system that provides one or more services for multiple clients"
+    },
+    "correct": "D",
+    "correctText": "A hardware/software system that provides one or more services for multiple clients",
+    "explanation": "Đáp án chính xác là D: A hardware/software system that provides one or more services for multiple clients"
+  },
+  {
+    "id": 55,
+    "label": "Câu 55",
+    "question": "What is a finite state machine?",
+    "choices": {
+      "A": "A machine with infinite states",
+      "B": "A machine with finite states",
+      "C": "A model of computation",
+      "D": "A model of system behavior"
+    },
+    "correct": "B",
+    "correctText": "A machine with finite states",
+    "explanation": "Đáp án chính xác là B: A machine with finite states"
+  },
+  {
+    "id": 56,
+    "label": "Câu 56",
+    "question": "What is \"black box\" testing?",
+    "choices": {
+      "A": "System testing",
+      "B": "Integration testing",
+      "C": "Testing with knowledge of the system internals",
+      "D": "Testing without knowledge of the software internals"
+    },
+    "correct": "D",
+    "correctText": "Testing without knowledge of the software internals",
+    "explanation": "Đáp án chính xác là D: Testing without knowledge of the software internals"
+  },
+  {
+    "id": 57,
+    "label": "Câu 57",
+    "question": "What is an entry action in a state machine?",
+    "choices": {
+      "A": "An action that is performed when the state is entered",
+      "B": "An action that is performed when the state is left",
+      "C": "An action that starts executing when the state is entered and completes executing when the state is left",
+      "D": "An action that executes as a result of a state transition"
+    },
+    "correct": "A",
+    "correctText": "An action that is performed when the state is entered",
+    "explanation": "Đáp án chính xác là A: An action that is performed when the state is entered"
+  },
+  {
+    "id": 58,
+    "label": "Câu 58",
+    "question": "What is the primary focus of architectural design in software development?",
+    "choices": {
+      "A": "Detailing class implementations",
+      "B": "Defining system structure and high-level components",
+      "C": "Writing test cases",
+      "D": "Refactoring source code"
+    },
+    "correct": "B",
+    "correctText": "Defining system structure and high-level components",
+    "explanation": "Đáp án chính xác là B: Defining system structure and high-level components"
+  },
+  {
+    "id": 59,
+    "label": "Câu 59",
+    "question": "When is it particularly useful to use the Broker Handle pattern in place of the Broker Forwarding pattern?",
+    "choices": {
+      "A": "If the client only communicates with the service once",
+      "B": "If the client needs to have a dialog with the service",
+      "C": "If the client knows the type of service required but not the specific service",
+      "D": "If the client needs to provide the broker with a handle"
+    },
+    "correct": "B",
+    "correctText": "If the client needs to have a dialog with the service",
+    "explanation": "Đáp án chính xác là B: If the client needs to have a dialog with the service"
+  },
+  {
+    "id": 60,
+    "label": "Câu 60",
+    "question": "Which one of the following is NOT a concept associated with object-oriented programming?",
+    "choices": {
+      "A": "Encapsulation",
+      "B": "Class",
+      "C": "Subclass",
+      "D": "Subroutine"
+    },
+    "correct": "D",
+    "correctText": "Subroutine",
+    "explanation": "Đáp án chính xác là D: Subroutine"
+  },
+  {
+    "id": 61,
+    "label": "Câu 61",
+    "question": "What is a transaction?",
+    "choices": {
+      "A": "Consists of two or more functions",
+      "B": "Consists of one function",
+      "C": "Consists of two or more operations that are indivisible",
+      "D": "Consists of two or more operations that are divisible"
+    },
+    "correct": "C",
+    "correctText": "Consists of two or more operations that are indivisible",
+    "explanation": "Đáp án chính xác là C: Consists of two or more operations that are indivisible"
+  },
+  {
+    "id": 62,
+    "label": "Câu 62",
+    "question": "What is an advantage of component-based architecture?",
+    "choices": {
+      "A": "Increased development time",
+      "B": "Reduced reusability",
+      "C": "Enhanced maintainability",
+      "D": "Decreased modularity"
+    },
+    "correct": "C",
+    "correctText": "Enhanced maintainability",
+    "explanation": "Đáp án chính xác là C: Enhanced maintainability"
+  },
+  {
+    "id": 63,
+    "label": "Câu 63",
+    "question": "Which of the following statements correctly describes the COMET method?",
+    "choices": {
+      "A": "COMET is a linear software development method focusing mainly on coding and testing phases.",
+      "B": "COMET is an iterative, use case-driven, and object-oriented method that addresses requirements, analysis, and design modeling phases.",
+      "C": "COMET focuses only on functional testing and user interface design.",
+      "D": "COMET is a UML-free approach that emphasizes documentation over modeling."
+    },
+    "correct": "B",
+    "correctText": "COMET is an iterative, use case-driven, and object-oriented method that addresses requirements, analysis, and design modeling phases.",
+    "explanation": "Đáp án chính xác là B: COMET is an iterative, use case-driven, and object-oriented method that addresses requirements, analysis, and design modeling phases."
+  },
+  {
+    "id": 64,
+    "label": "Câu 64",
+    "question": "Which architectural style is most suitable when system modules must be highly reusable and independently deployable?",
+    "choices": {
+      "A": "Monolithic",
+      "B": "Service-Oriented Architecture (SOA)",
+      "C": "Layered",
+      "D": "Repository"
+    },
+    "correct": "B",
+    "correctText": "Service-Oriented Architecture (SOA)",
+    "explanation": "Đáp án chính xác là B: Service-Oriented Architecture (SOA)"
+  },
+  {
+    "id": 65,
+    "label": "Câu 65",
+    "question": "What does the term \"testability\" primarily relate to?",
+    "choices": {
+      "A": "Visual design of the application",
+      "B": "Speed of software development",
+      "C": "Early detection of defects and reducing cost of fixing",
+      "D": "User interface modules only"
+    },
+    "correct": "C",
+    "correctText": "Early detection of defects and reducing cost of fixing",
+    "explanation": "Đáp án chính xác là C: Early detection of defects and reducing cost of fixing"
+  },
+  {
+    "id": 66,
+    "label": "Câu 66",
+    "question": "What is an event-driven input task?",
+    "choices": {
+      "A": "A task that executes every few seconds",
+      "B": "A task that controls other tasks",
+      "C": "A task that receives inputs from an external device when it generates interrupts",
+      "D": "A task that checks whether there is new input from an external device"
+    },
+    "correct": "C",
+    "correctText": "A task that receives inputs from an external device when it generates interrupts",
+    "explanation": "Đáp án chính xác là C: A task that receives inputs from an external device when it generates interrupts"
+  },
+  {
+    "id": 67,
+    "label": "Câu 67",
+    "question": "What kind of object would be the first object to receive an input from an external object?",
+    "choices": {
+      "A": "A user interaction object",
+      "B": "A proxy object",
+      "C": "An entity object",
+      "D": "A boundary object"
+    },
+    "correct": "D",
+    "correctText": "A boundary object",
+    "explanation": "Đáp án chính xác là D: A boundary object"
+  },
+  {
+    "id": 68,
+    "label": "Câu 68",
+    "question": "What is a composition in software architecture?",
+    "choices": {
+      "A": "A detailed code implementation",
+      "B": "Arrangement of multiple components to form a system",
+      "C": "A simple database schema",
+      "D": "A user interface design"
+    },
+    "correct": "B",
+    "correctText": "Arrangement of multiple components to form a system",
+    "explanation": "Đáp án chính xác là B: Arrangement of multiple components to form a system"
+  },
+  {
+    "id": 69,
+    "label": "Câu 69",
+    "question": "Which design pattern provides a simplified interface to a complex subsystem?",
+    "choices": {
+      "A": "Singleton",
+      "B": "Factory",
+      "C": "Facade",
+      "D": "Adapter"
+    },
+    "correct": "C",
+    "correctText": "Facade",
+    "explanation": "Đáp án chính xác là C: Facade"
+  },
+  {
+    "id": 70,
+    "label": "Câu 70",
+    "question": "What is the significance of 'Inheritance' in designing object-oriented software architectures?",
+    "choices": {
+      "A": "It allows for the direct manipulation of database schemas",
+      "B": "It is a mechanism for code reuse and to establish a subtype from an existing class",
+      "C": "It is used to prevent any form of code reuse",
+      "D": "It provides a way to create complex user interfaces"
+    },
+    "correct": "B",
+    "correctText": "It is a mechanism for code reuse and to establish a subtype from an existing class",
+    "explanation": "Đáp án chính xác là B: It is a mechanism for code reuse and to establish a subtype from an existing class"
+  },
+  {
+    "id": 71,
+    "label": "Câu 71",
+    "question": "In relational databases, how are associations represented?",
+    "choices": {
+      "A": "Through primary keys embedded in another table",
+      "B": "Foreign keys represent mapping an association between classes into a table",
+      "C": "Through attributes that are part of the primary key",
+      "D": "Through attribute arrays within a relational table"
+    },
+    "correct": "B",
+    "correctText": "Foreign keys represent mapping an association between classes into a table",
+    "explanation": "Đáp án chính xác là B: Foreign keys represent mapping an association between classes into a table"
+  },
+  {
+    "id": 72,
+    "label": "Câu 72",
+    "question": "What does a structural view of software architecture include?",
+    "choices": {
+      "A": "Components and connectors",
+      "B": "Objects and messages",
+      "C": "Nodes and interconnections",
+      "D": "Module hierarchy"
+    },
+    "correct": "A",
+    "correctText": "Components and connectors",
+    "explanation": "Đáp án chính xác là A: Components and connectors"
+  },
+  {
+    "id": 73,
+    "label": "Câu 73",
+    "question": "What is carried out during analysis modeling?",
+    "choices": {
+      "A": "Developing use case models",
+      "B": "Developing data flow and entityrelationship diagrams",
+      "C": "Developing static and dynamic models",
+      "D": "Developing software architectures"
+    },
+    "correct": "B",
+    "correctText": "Developing data flow and entityrelationship diagrams",
+    "explanation": "Đáp án chính xác là B: Developing data flow and entityrelationship diagrams"
+  },
+  {
+    "id": 74,
+    "label": "Câu 74",
+    "question": "When using asynchronous message communication, which pattern is used?",
+    "choices": {
+      "A": "Asynchronous Message Communication pattern",
+      "B": "Synchronous Message Communication with Reply pattern",
+      "C": "Unidirectional Message Communication pattern",
+      "D": "Bidirectional Message Communication pattern"
+    },
+    "correct": "A",
+    "correctText": "Asynchronous Message Communication pattern",
+    "explanation": "Đáp án chính xác là A: Asynchronous Message Communication pattern"
+  },
+  {
+    "id": 75,
+    "label": "Câu 75",
+    "question": "Which of the following statements best describes a key characteristic of Service-Oriented Architecture (SOA)?",
+    "choices": {
+      "A": "All services in SOA must be implemented in the same programming language for compatibility.",
+      "B": "SOA requires services to run on the same physical machine to ensure reliable communication.",
+      "C": "SOA enables the composition of distributed, autonomous services that may run on different platforms and use standard protocols for communication.",
+      "D": "In SOA, services do not require descriptions because communication is handled directly through the operating system."
+    },
+    "correct": "C",
+    "correctText": "SOA enables the composition of distributed, autonomous services that may run on different platforms and use standard protocols for communication.",
+    "explanation": "Đáp án chính xác là C: SOA enables the composition of distributed, autonomous services that may run on different platforms and use standard protocols for communication."
+  },
+  {
+    "id": 76,
+    "label": "Câu 76",
+    "question": "What is a primary benefit of using inheritance in software design?",
+    "choices": {
+      "A": "It ensures that all classes in the design are completely identical.",
+      "B": "It eliminates the need for architectural design by automating class creation.",
+      "C": "It allows for code sharing and incremental modifications during maintenance or reuse.",
+      "D": "It enforces strict separation of class characteristics with no overlap."
+    },
+    "correct": "C",
+    "correctText": "It allows for code sharing and incremental modifications during maintenance or reuse.",
+    "explanation": "Đáp án chính xác là C: It allows for code sharing and incremental modifications during maintenance or reuse."
+  },
+  {
+    "id": 77,
+    "label": "Câu 77",
+    "question": "What is the primary goal of service-oriented architecture?",
+    "choices": {
+      "A": "To minimize coupling between services",
+      "B": "To maximize reuse of services",
+      "C": "To eliminate orchestration engines",
+      "D": "To enforce strict data isolation between services"
+    },
+    "correct": "B",
+    "correctText": "To maximize reuse of services",
+    "explanation": "Đáp án chính xác là B: To maximize reuse of services"
+  },
+  {
+    "id": 78,
+    "label": "Câu 78",
+    "question": "What is an action in a state machine?",
+    "choices": {
+      "A": "An occurrence at a point in time",
+      "B": "A cause of a state transition",
+      "C": "An interval between two successive events",
+      "D": "A computation that executes as a result of a state transition"
+    },
+    "correct": "D",
+    "correctText": "A computation that executes as a result of a state transition",
+    "explanation": "Đáp án chính xác là D: A computation that executes as a result of a state transition"
+  },
+  {
+    "id": 79,
+    "label": "Câu 79",
+    "question": "An object can send alternative messages a or b to a state-dependent control object. How is this handled in the state machine?",
+    "choices": {
+      "A": "One state with a different transition out of it for each incoming message",
+      "B": "One state for each of the alternative messages",
+      "C": "A composite state to handle the alternative messages",
+      "D": "A substate for each alternative message"
+    },
+    "correct": "A",
+    "correctText": "One state with a different transition out of it for each incoming message",
+    "explanation": "Đáp án chính xác là A: One state with a different transition out of it for each incoming message"
+  },
+  {
+    "id": 80,
+    "label": "Câu 80",
+    "question": "The software process model for SPL engineering has two main processes, which are:",
+    "choices": {
+      "A": "SPL Engineering and Software Application Engineering",
+      "B": "SPL Engineering and real- time software Engineering",
+      "C": "Real- time software Engineering and Software Application Engineering",
+      "D": "Real- time software Engineering and Component-Based Software Engineering"
+    },
+    "correct": "A",
+    "correctText": "SPL Engineering and Software Application Engineering",
+    "explanation": "Đáp án chính xác là A: SPL Engineering and Software Application Engineering"
+  },
+  {
+    "id": 81,
+    "label": "Câu 81",
+    "question": "What approach does the spiral model emphasize?",
+    "choices": {
+      "A": "Phased software development",
+      "B": "Throwaway prototyping",
+      "C": "Risk-driven development",
+      "D": "Incremental development"
+    },
+    "correct": "C",
+    "correctText": "Risk-driven development",
+    "explanation": "Đáp án chính xác là C: Risk-driven development"
+  },
+  {
+    "id": 82,
+    "label": "Câu 82",
+    "question": "Which of the following best describes the role of UML in software engineering?",
+    "choices": {
+      "A": "A textual programming language",
+      "B": "A standard modeling notation across the development lifecycle",
+      "C": "A specific method for database optimization",
+      "D": "A GUI framework for Java"
+    },
+    "correct": "B",
+    "correctText": "A standard modeling notation across the development lifecycle",
+    "explanation": "Đáp án chính xác là B: A standard modeling notation across the development lifecycle"
+  },
+  {
+    "id": 83,
+    "label": "Câu 83",
+    "question": "What is a software design method?",
+    "choices": {
+      "A": "A systematic approach for producing a design.",
+      "B": "Guidelines used to help in structuring a software system into its components.",
+      "C": "An overall plan for developing a design.",
+      "D": "A graphical or textual description of the software."
+    },
+    "correct": "A",
+    "correctText": "A systematic approach for producing a design.",
+    "explanation": "Đáp án chính xác là A: A systematic approach for producing a design."
+  },
+  {
+    "id": 84,
+    "label": "Câu 84",
+    "question": "What is a software design strategy?",
+    "choices": {
+      "A": "A graphical or textual description of the software.",
+      "B": "A fundamental idea that can be applied to designing a system.",
+      "C": "A systematic approach for producing a design",
+      "D": "An overall plan and direction for developing a design"
+    },
+    "correct": "D",
+    "correctText": "An overall plan and direction for developing a design",
+    "explanation": "Đáp án chính xác là D: An overall plan and direction for developing a design"
+  },
+  {
+    "id": 85,
+    "label": "Câu 85",
+    "question": "When designing an entity class as a relational table, which of the following is NOT true?",
+    "choices": {
+      "A": "The relational table has multiple primary keys.",
+      "B": "The relational table has multiple foreign keys.",
+      "C": "The relational table has a primary key.",
+      "D": "The relational table has a concatenated primary key."
+    },
+    "correct": "A",
+    "correctText": "The relational table has multiple primary keys.",
+    "explanation": "Đáp án chính xác là A: The relational table has multiple primary keys."
+  },
+  {
+    "id": 86,
+    "label": "Câu 86",
+    "question": "What is \"flexibility\" in the context of software quality attributes?",
+    "choices": {
+      "A": "The ability to adapt to changing requirements or environments",
+      "B": "The software's ability to perform under high loads",
+      "C": "The ease of modifying the software",
+      "D": "The software's capability to ensure data security"
+    },
+    "correct": "A",
+    "correctText": "The ability to adapt to changing requirements or environments",
+    "explanation": "Đáp án chính xác là A: The ability to adapt to changing requirements or environments"
+  },
+  {
+    "id": 87,
+    "label": "Câu 87",
+    "question": "In UML, what symbol represents an actor in a use case diagram?",
+    "choices": {
+      "A": "Ellipse",
+      "B": "Square",
+      "C": "Stick figure",
+      "D": "Diamond"
+    },
+    "correct": "C",
+    "correctText": "Stick figure",
+    "explanation": "Đáp án chính xác là C: Stick figure"
+  },
+  {
+    "id": 88,
+    "label": "Câu 88",
+    "question": "Which view in the 4+1 model represents the static organization?",
+    "choices": {
+      "A": "logical view",
+      "B": "Development view",
+      "C": "Physical view",
+      "D": "Scenario view"
+    },
+    "correct": "B",
+    "correctText": "Development view",
+    "explanation": "Đáp án chính xác là B: Development view"
+  },
+  {
+    "id": 89,
+    "label": "Câu 89",
+    "question": "What is an exit action in a state machine?",
+    "choices": {
+      "A": "An action that is performed when the state is entered",
+      "B": "An action that is performed when the state is left",
+      "C": "An action that starts executing when the state is entered and completes executing when the state is left",
+      "D": "An action that executes as a result of a state transition"
+    },
+    "correct": "B",
+    "correctText": "An action that is performed when the state is left",
+    "explanation": "Đáp án chính xác là B: An action that is performed when the state is left"
+  },
+  {
+    "id": 90,
+    "label": "Câu 90",
+    "question": "An activity diagram can therefore be used to provide a more precise description of the use case, because it shows exactly where in the sequence and what the condition is for an alternative sequence to diverge from the main sequence.",
+    "choices": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": "A",
+    "correctText": "True",
+    "explanation": "Đáp án chính xác là A: True"
+  },
+  {
+    "id": 91,
+    "label": "Câu 91",
+    "question": "What is a composition hierarchy?",
+    "choices": {
+      "A": "A weak form of a generalization/specialization hierarchy",
+      "B": "A strong form of a generalization/specialization hierarchy",
+      "C": "A weak form of a whole/part relationship",
+      "D": "A strong form of a whole/part relationship"
+    },
+    "correct": "D",
+    "correctText": "A strong form of a whole/part relationship",
+    "explanation": "Đáp án chính xác là D: A strong form of a whole/part relationship"
+  },
+  {
+    "id": 92,
+    "label": "Câu 92",
+    "question": "What is a state in a state machine?",
+    "choices": {
+      "A": "A recognizable situation that exists over an interval of time",
+      "B": "A condition that is True or False",
+      "C": "An input from the external environment",
+      "D": "An output from the system"
+    },
+    "correct": "A",
+    "correctText": "A recognizable situation that exists over an interval of time",
+    "explanation": "Đáp án chính xác là A: A recognizable situation that exists over an interval of time"
+  },
+  {
+    "id": 93,
+    "label": "Câu 93",
+    "question": "Which of the following best describes synchronous message communication in software system design?",
+    "choices": {
+      "A": "Messages are sent and received independently of each other, allowing for immediate processing.",
+      "B": "Messages are sent and received simultaneously, enabling parallel processing of tasks.",
+      "C": "Messages are sent and received with a predefined delay, allowing for scheduled processing.",
+      "D": "Messages are sent and received in a sequential order, ensuring a strict order of execution."
+    },
+    "correct": "D",
+    "correctText": "Messages are sent and received in a sequential order, ensuring a strict order of execution.",
+    "explanation": "Đáp án chính xác là D: Messages are sent and received in a sequential order, ensuring a strict order of execution."
+  },
+  {
+    "id": 94,
+    "label": "Câu 94",
+    "question": "How is an association depicted on a class diagram?",
+    "choices": {
+      "A": "A solid line joining two class boxes",
+      "B": "A dashed line joining two class boxes",
+      "C": "A diamond touching the upper class box",
+      "D": "An arrowhead touching the upper class box"
+    },
+    "correct": "A",
+    "correctText": "A solid line joining two class boxes",
+    "explanation": "Đáp án chính xác là A: A solid line joining two class boxes"
+  },
+  {
+    "id": 95,
+    "label": "Câu 95",
+    "question": "Which UML diagram is most appropriate for visualizing concurrent communication between system components?",
+    "choices": {
+      "A": "Sequence Diagram",
+      "B": "Deployment Diagram",
+      "C": "Communication Diagram",
+      "D": "Use Case Diagram"
+    },
+    "correct": "A",
+    "correctText": "Sequence Diagram",
+    "explanation": "Đáp án chính xác là A: Sequence Diagram"
+  },
+  {
+    "id": 96,
+    "label": "Câu 96",
+    "question": "What is the significance of State-Dependent Dynamic Interaction Models in software design?",
+    "choices": {
+      "A": "Helps define system behavior based on input and transitions",
+      "B": "Simplifies the coding process",
+      "C": "Reduces the need for user documentation",
+      "D": "Focuses only on data storage"
+    },
+    "correct": "A",
+    "correctText": "Helps define system behavior based on input and transitions",
+    "explanation": "Đáp án chính xác là A: Helps define system behavior based on input and transitions"
+  },
+  {
+    "id": 97,
+    "label": "Câu 97",
+    "question": "Which of the following is NOT a type of object interaction diagram?",
+    "choices": {
+      "A": "Sequence Diagram",
+      "B": "Collaboration Diagram",
+      "C": "Activity Diagram",
+      "D": "Communication Diagram"
+    },
+    "correct": "C",
+    "correctText": "Activity Diagram",
+    "explanation": "Đáp án chính xác là C: Activity Diagram"
+  },
+  {
+    "id": 98,
+    "label": "Câu 98",
+    "question": "What is the primary purpose of a dynamic interaction model in software design?",
+    "choices": {
+      "A": "To represent the static structure of a system's classes and their relationships",
+      "B": "To illustrate the organization of objects within a single classifier",
+      "C": "To depict the high-level functionality of a system",
+      "D": "To show the dynamic behavior and interactions between objects or components"
+    },
+    "correct": "D",
+    "correctText": "To show the dynamic behavior and interactions between objects or components",
+    "explanation": "Đáp án chính xác là D: To show the dynamic behavior and interactions between objects or components"
+  },
+  {
+    "id": 99,
+    "label": "Câu 99",
+    "question": "Which of the following is NOT one of the main categories of design patterns?",
+    "choices": {
+      "A": "Creational",
+      "B": "Structural",
+      "C": "Behavioral",
+      "D": "Procedural"
+    },
+    "correct": "D",
+    "correctText": "Procedural",
+    "explanation": "Đáp án chính xác là D: Procedural"
+  },
+  {
+    "id": 100,
+    "label": "Câu 100",
+    "question": "When refining an existing software model, what is the best practice for introducing new features while minimizing risk?",
+    "choices": {
+      "A": "Directly altering core architecture",
+      "B": "Using architectural patterns that allow incremental expansion",
+      "C": "Rebuilding the system from scratch",
+      "D": "Relying only on database changes"
+    },
+    "correct": "B",
+    "correctText": "Using architectural patterns that allow incremental expansion",
+    "explanation": "Đáp án chính xác là B: Using architectural patterns that allow incremental expansion"
+  },
+  {
+    "id": 101,
+    "label": "Câu 101",
+    "question": "Which of the following best describes group communication in distributed applications?",
+    "choices": {
+      "A": "A form of one-to-one communication where messages are sent directly between two components only.",
+      "B": "A method where a sender transmits the same message to multiple recipients using broadcast or multicast mechanisms.",
+      "C": "A technique for encrypting messages before sending them across different nodes.",
+      "D": "A communication pattern where all components in a system send messages to a single central controller"
+    },
+    "correct": "B",
+    "correctText": "A method where a sender transmits the same message to multiple recipients using broadcast or multicast mechanisms.",
+    "explanation": "Đáp án chính xác là B: A method where a sender transmits the same message to multiple recipients using broadcast or multicast mechanisms."
+  },
+  {
+    "id": 102,
+    "label": "Câu 102",
+    "question": "What is a coordinator object?",
+    "choices": {
+      "A": "A manager object",
+      "B": "An object that makes decisions based on a state machine",
+      "C": "A decision-making object",
+      "D": "An object that decides which entity object to interact with"
+    },
+    "correct": "C",
+    "correctText": "A decision-making object",
+    "explanation": "Đáp án chính xác là C: A decision-making object"
+  },
+  {
+    "id": 103,
+    "label": "Câu 103",
+    "question": "When is a control subsystem required?",
+    "choices": {
+      "A": "If the subsystem needs to control several internal objects",
+      "B": "If the subsystem needs to control multiple I/O devices",
+      "C": "If the subsystem needs to control multiple client subsystems",
+      "D": "If the subsystem needs to control the execution of other subsystems"
+    },
+    "correct": "D",
+    "correctText": "If the subsystem needs to control the execution of other subsystems",
+    "explanation": "Đáp án chính xác là D: If the subsystem needs to control the execution of other subsystems"
+  },
+  {
+    "id": 104,
+    "label": "Câu 104",
+    "question": "What is the key characteristic of a component in a component-based software architecture?",
+    "choices": {
+      "A": "It must be implemented in Java",
+      "B": "It shares all internal data with other components",
+      "C": "It is self-contained and encapsulates information",
+      "D": "It must be deployed on the cloud"
+    },
+    "correct": "C",
+    "correctText": "It is self-contained and encapsulates information",
+    "explanation": "Đáp án chính xác là C: It is self-contained and encapsulates information"
+  },
+  {
+    "id": 105,
+    "label": "Câu 105",
+    "question": "In the use case model, the system is treated as a:",
+    "choices": {
+      "A": "Transparent box, detailing internal workings",
+      "B": "Hybrid box, focusing on both internal and external interactions",
+      "C": "Black box, focusing on inputs and responses",
+      "D": "Testing the final system"
+    },
+    "correct": "C",
+    "correctText": "Black box, focusing on inputs and responses",
+    "explanation": "Đáp án chính xác là C: Black box, focusing on inputs and responses"
+  },
+  {
+    "id": 106,
+    "label": "Câu 106",
+    "question": "Which objects should be placed in the same subsystem?",
+    "choices": {
+      "A": "Objects that are associated with each other",
+      "B": "Objects that are part of the same composite object",
+      "C": "Objects in geographically different locations",
+      "D": "Objects that serve different purposes"
+    },
+    "correct": "B",
+    "correctText": "Objects that are part of the same composite object",
+    "explanation": "Đáp án chính xác là B: Objects that are part of the same composite object"
+  },
+  {
+    "id": 107,
+    "label": "Câu 107",
+    "question": "What is a characteristic of a sequential program?",
+    "choices": {
+      "A": "It contains multiple active objects with independent control flows.",
+      "B": "It contains passive objects and supports a single thread of control.",
+      "C": "It can execute operations asynchronously.",
+      "D": "It allows simultaneous method invocations on multiple objects."
+    },
+    "correct": "B",
+    "correctText": "It contains passive objects and supports a single thread of control.",
+    "explanation": "Đáp án chính xác là B: It contains passive objects and supports a single thread of control."
+  },
+  {
+    "id": 108,
+    "label": "Câu 108",
+    "question": "What is a SPL feature group?",
+    "choices": {
+      "A": "A collection of features",
+      "B": "A group of features with a partiular constraint on their usage in a SPL member",
+      "C": "A group of mutually exclusive features",
+      "D": "A group of optional features with a particular constraint on their usage in a SPL member"
+    },
+    "correct": "B",
+    "correctText": "A group of features with a partiular constraint on their usage in a SPL member",
+    "explanation": "Đáp án chính xác là B: A group of features with a partiular constraint on their usage in a SPL member"
+  },
+  {
+    "id": 109,
+    "label": "Câu 109",
+    "question": "What is maintainability?",
+    "choices": {
+      "A": "The extent to which software is capable of being changed before deployment",
+      "B": "The extent to which software is capable of being changed after deployment",
+      "C": "The extent to which software is capable of being changed during development",
+      "D": "The extent to which software is capable of being changed after deployment"
+    },
+    "correct": "B",
+    "correctText": "The extent to which software is capable of being changed after deployment",
+    "explanation": "Đáp án chính xác là B: The extent to which software is capable of being changed after deployment"
+  },
+  {
+    "id": 110,
+    "label": "Câu 110",
+    "question": "Which of the following best distinguishes \"composition\" from aggregation?",
+    "choices": {
+      "A": "Composition uses hollow diamond, aggregation uses solid diamond",
+      "B": "Composition is a stronger form of aggregation where parts cannot exist independently",
+      "C": "Composition represents inheritance while aggregation represents association",
+      "D": "Composition and aggregation are identical"
+    },
+    "correct": "B",
+    "correctText": "Composition is a stronger form of aggregation where parts cannot exist independently",
+    "explanation": "Đáp án chính xác là B: Composition is a stronger form of aggregation where parts cannot exist independently"
+  },
+  {
+    "id": 111,
+    "label": "Câu 111",
+    "question": "In the context of software product lines, what is 'Feature Modeling'?",
+    "choices": {
+      "A": "A technique for documenting software performance metrics",
+      "B": "A process for creating graphical user interfaces for software products",
+      "C": "A method for identifying and organizing the features common and variable across the product line",
+      "D": "A strategy for reducing the number of features in software to minimize costs"
+    },
+    "correct": "C",
+    "correctText": "A method for identifying and organizing the features common and variable across the product line",
+    "explanation": "Đáp án chính xác là C: A method for identifying and organizing the features common and variable across the product line"
+  },
+  {
+    "id": 112,
+    "label": "Câu 112",
+    "question": "In UML notation, an active object is used to represent which of the following?",
+    "choices": {
+      "A": "A non-concurrent object",
+      "B": "An attribute of a class",
+      "C": "A concurrent object, process, thread, or task",
+      "D": "A single-threaded method"
+    },
+    "correct": "C",
+    "correctText": "A concurrent object, process, thread, or task",
+    "explanation": "Đáp án chính xác là C: A concurrent object, process, thread, or task"
+  },
+  {
+    "id": 113,
+    "label": "Câu 113",
+    "question": "In UML use case diagrams, the <<extend>> relationship is typically used to:",
+    "choices": {
+      "A": "Capture optional behavior invoked under certain conditions",
+      "B": "Represent inheritance between actors",
+      "C": "Represent shared mandatory behavior",
+      "D": "Model system deployment nodes"
+    },
+    "correct": "A",
+    "correctText": "Capture optional behavior invoked under certain conditions",
+    "explanation": "Đáp án chính xác là A: Capture optional behavior invoked under certain conditions"
+  },
+  {
+    "id": 114,
+    "label": "Câu 114",
+    "question": "What is the primary goal of Software Product Line Engineering?",
+    "choices": {
+      "A": "To develop a single software product that fits all market needs",
+      "B": "To decrease software production costs by reducing the quality",
+      "C": "To focus exclusively on the customization of software for individual customers",
+      "D": "To create a set of software products sharing a common, managed set of features to satisfy specific market segments"
+    },
+    "correct": "D",
+    "correctText": "To create a set of software products sharing a common, managed set of features to satisfy specific market segments",
+    "explanation": "Đáp án chính xác là D: To create a set of software products sharing a common, managed set of features to satisfy specific market segments"
+  },
+  {
+    "id": 115,
+    "label": "Câu 115",
+    "question": "In COMET, what is the first step in the software development process?",
+    "choices": {
+      "A": "Requirements modeling",
+      "B": "Incremental software construction",
+      "C": "Design modeling",
+      "D": "System testing"
+    },
+    "correct": "A",
+    "correctText": "Requirements modeling",
+    "explanation": "Đáp án chính xác là A: Requirements modeling"
+  },
+  {
+    "id": 116,
+    "label": "Câu 116",
+    "question": "What is the difference between an active object and a passive object in Concurrent and Real-Time Software Architecture?",
+    "choices": {
+      "A": "An active object controls a passive object.",
+      "B": "An active object does not have a thread of control; a passive object has a thread of control.",
+      "C": "An active object executes in a distributed system; a passive object executes in a centralized system.",
+      "D": "An active object has a thread of control; a passive object does not have a thread of control"
+    },
+    "correct": "D",
+    "correctText": "An active object has a thread of control; a passive object does not have a thread of control",
+    "explanation": "Đáp án chính xác là D: An active object has a thread of control; a passive object does not have a thread of control"
+  },
+  {
+    "id": 117,
+    "label": "Câu 117",
+    "question": "When designing a layered architecture for an enterprise system using COMET, which layer typically handles business logic operations?",
+    "choices": {
+      "A": "User Interface Layer",
+      "B": "Application Logic Layer",
+      "C": "Database Layer",
+      "D": "Network Communication Layer"
+    },
+    "correct": "B",
+    "correctText": "Application Logic Layer",
+    "explanation": "Đáp án chính xác là B: Application Logic Layer"
+  },
+  {
+    "id": 118,
+    "label": "Câu 118",
+    "question": "What is the primary purpose of a sequence diagram in UML?",
+    "choices": {
+      "A": "To model the static structure of a system",
+      "B": "To represent the flow of data between objects",
+      "C": "To describe the interactions between objects over time",
+      "D": "To design database schemas"
+    },
+    "correct": "C",
+    "correctText": "To describe the interactions between objects over time",
+    "explanation": "Đáp án chính xác là C: To describe the interactions between objects over time"
+  },
+  {
+    "id": 119,
+    "label": "Câu 119",
+    "question": "Which key relationship ensures referential integrity in a relational database?",
+    "choices": {
+      "A": "Primary key",
+      "B": "Foreign key",
+      "C": "Index",
+      "D": "View"
+    },
+    "correct": "B",
+    "correctText": "Foreign key",
+    "explanation": "Đáp án chính xác là B: Foreign key"
+  },
+  {
+    "id": 120,
+    "label": "Câu 120",
+    "question": "When is a coordinator subsystem required?",
+    "choices": {
+      "A": "If the subsystem needs to coordinate several internal objects",
+      "B": "If the subsystem needs to coordinate multiple I/O devices",
+      "C": "If the subsystem receives messages from multiple client subsystems",
+      "D": "If the subsystem needs to coordinate the execution of other subsystems"
+    },
+    "correct": "D",
+    "correctText": "If the subsystem needs to coordinate the execution of other subsystems",
+    "explanation": "Đáp án chính xác là D: If the subsystem needs to coordinate the execution of other subsystems"
+  },
+  {
+    "id": 121,
+    "label": "Câu 121",
+    "question": "_______________ defines the decision-making, business-specific application logic for processing a client's request. The goal is to encapsulate business rules that could change independently of each other into separate business logic classes",
+    "choices": {
+      "A": "A business logic class",
+      "B": "A graphical user interaction (GUI) class",
+      "C": "Data Abstraction Class",
+      "D": "State-machine class"
+    },
+    "correct": "A",
+    "correctText": "A business logic class",
+    "explanation": "Đáp án chính xác là A: A business logic class"
+  },
+  {
+    "id": 122,
+    "label": "Câu 122",
+    "question": "What is a major consideration when analyzing software architecture for improvements?",
+    "choices": {
+      "A": "Coding style guidelines",
+      "B": "System scalability and maintainability",
+      "C": "Operating system configuration",
+      "D": "Database backups"
+    },
+    "correct": "B",
+    "correctText": "System scalability and maintainability",
+    "explanation": "Đáp án chính xác là B: System scalability and maintainability"
+  },
+  {
+    "id": 123,
+    "label": "Câu 123",
+    "question": "What does a one-to-many association represent in UML class diagrams?",
+    "choices": {
+      "A": "An object only connects to itself",
+      "B": "Every object connects to all others",
+      "C": "One object links to multiple others",
+      "D": "All objects are independent"
+    },
+    "correct": "C",
+    "correctText": "One object links to multiple others",
+    "explanation": "Đáp án chính xác là C: One object links to multiple others"
+  },
+  {
+    "id": 124,
+    "label": "Câu 124",
+    "question": "Which of the following is a common bottleneck that impacts scalability in traditional web applications?",
+    "choices": {
+      "A": "The web server layer.",
+      "B": "The application server layer.",
+      "C": "The database server layer.",
+      "D": "All of the above"
+    },
+    "correct": "D",
+    "correctText": "All of the above",
+    "explanation": "Đáp án chính xác là D: All of the above"
+  },
+  {
+    "id": 125,
+    "label": "Câu 125",
+    "question": "Which of the following is NOT an object-oriented concept?",
+    "choices": {
+      "A": "Information hiding",
+      "B": "Class",
+      "C": "Subclass",
+      "D": "Subroutine"
+    },
+    "correct": "D",
+    "correctText": "Subroutine",
+    "explanation": "Đáp án chính xác là D: Subroutine"
+  },
+  {
+    "id": 126,
+    "label": "Câu 126",
+    "question": "What is a software product line (SPL)?",
+    "choices": {
+      "A": "A family of systems with some common components and some variable components",
+      "B": "An assembly line",
+      "C": "A family of identical systems",
+      "D": "The software products marketed by a company"
+    },
+    "correct": "A",
+    "correctText": "A family of systems with some common components and some variable components",
+    "explanation": "Đáp án chính xác là A: A family of systems with some common components and some variable components"
+  },
+  {
+    "id": 127,
+    "label": "Câu 127",
+    "question": "What is the primary purpose of software modeling in the software development process?",
+    "choices": {
+      "A": "To create a visually appealing user interface",
+      "B": "To write code and implement software functionality",
+      "C": "To document, analyze, and design software systems",
+      "D": "To perform software testing and quality assurance"
+    },
+    "correct": "C",
+    "correctText": "To document, analyze, and design software systems",
+    "explanation": "Đáp án chính xác là C: To document, analyze, and design software systems"
+  },
+  {
+    "id": 128,
+    "label": "Câu 128",
+    "question": "What impact will achieving a quality attribute have?",
+    "choices": {
+      "A": "The achievement of quality attributes will always have a positive effect",
+      "B": "The achievement of quality attributes will always have a negative effect",
+      "C": "The achievement of quality attributes will have a positive as well as negative effect",
+      "D": "None of the mentioned"
+    },
+    "correct": "C",
+    "correctText": "The achievement of quality attributes will have a positive as well as negative effect",
+    "explanation": "Đáp án chính xác là C: The achievement of quality attributes will have a positive as well as negative effect"
+  },
+  {
+    "id": 129,
+    "label": "Câu 129",
+    "question": "What is the key concept of microservices architecture?",
+    "choices": {
+      "A": "Small, independent services",
+      "B": "Monolithic applications",
+      "C": "Centralized database",
+      "D": "Event-driven architectures"
+    },
+    "correct": "A",
+    "correctText": "Small, independent services",
+    "explanation": "Đáp án chính xác là A: Small, independent services"
+  },
+  {
+    "id": 130,
+    "label": "Câu 130",
+    "question": "In a state transition labeled as Event [condition] / Action in a statechart, what does the condition represent?",
+    "choices": {
+      "A": "An action performed after the transition",
+      "B": "A Boolean expression that must be true for the transition to occur",
+      "C": "The event that triggers the transition",
+      "D": "The next state entered after the transition"
+    },
+    "correct": "B",
+    "correctText": "A Boolean expression that must be true for the transition to occur",
+    "explanation": "Đáp án chính xác là B: A Boolean expression that must be true for the transition to occur"
+  },
+  {
+    "id": 131,
+    "label": "Câu 131",
+    "question": "How does a composite state relate to a substate?",
+    "choices": {
+      "A": "A composite state is decomposed into substates.",
+      "B": "Composite states are composed into substates.",
+      "C": "A composite state transitions to a substate.",
+      "D": "A substate transitions to a composite state"
+    },
+    "correct": "A",
+    "correctText": "A composite state is decomposed into substates.",
+    "explanation": "Đáp án chính xác là A: A composite state is decomposed into substates."
+  },
+  {
+    "id": 132,
+    "label": "Câu 132",
+    "question": "Which phase of the software development life cycle primarily focuses on \"requirements capture\" and \"use case modeling\"?",
+    "choices": {
+      "A": "Implementation",
+      "B": "Analysis",
+      "C": "Design",
+      "D": "Testing"
+    },
+    "correct": "B",
+    "correctText": "Analysis",
+    "explanation": "Đáp án chính xác là B: Analysis"
+  },
+  {
+    "id": 133,
+    "label": "Câu 133",
+    "question": "What does the system context class diagram define?",
+    "choices": {
+      "A": "The entity classes in the system",
+      "B": "How the system interfaces to other systems",
+      "C": "The boundary between the system and the external environment",
+      "D": "The context classes in the system"
+    },
+    "correct": "C",
+    "correctText": "The boundary between the system and the external environment",
+    "explanation": "Đáp án chính xác là C: The boundary between the system and the external environment"
+  },
+  {
+    "id": 134,
+    "label": "Câu 134",
+    "question": "What is an alternative sequence in a use case?",
+    "choices": {
+      "A": "A sequence that describes an error case",
+      "B": "A sequence that is different from the main sequence",
+      "C": "A sequence that describes interactions with a secondary actor",
+      "D": "A sequence that describes interactions with a primary actor"
+    },
+    "correct": "B",
+    "correctText": "A sequence that is different from the main sequence",
+    "explanation": "Đáp án chính xác là B: A sequence that is different from the main sequence"
+  },
+  {
+    "id": 135,
+    "label": "Câu 135",
+    "question": "In UML, what does multiplicity describe in an association?",
+    "choices": {
+      "A": "Class visibility",
+      "B": "The number of objects participating in a relationship",
+      "C": "Method accessibility",
+      "D": "Object inheritance"
+    },
+    "correct": "B",
+    "correctText": "The number of objects participating in a relationship",
+    "explanation": "Đáp án chính xác là B: The number of objects participating in a relationship"
+  },
+  {
+    "id": 136,
+    "label": "Câu 136",
+    "question": "What is the role of architecture characteristics in software architecture?",
+    "choices": {
+      "A": "To define the functionality of the system",
+      "B": "To specify the development process",
+      "C": "To define success criteria, orthogonal to functionality",
+      "D": "To dictate the user interface design"
+    },
+    "correct": "C",
+    "correctText": "To define success criteria, orthogonal to functionality",
+    "explanation": "Đáp án chính xác là C: To define success criteria, orthogonal to functionality"
+  },
+  {
+    "id": 137,
+    "label": "Câu 137",
+    "question": "Which of the following approaches can overcome the limitation in the waterfall model?",
+    "choices": {
+      "A": "Phased software development",
+      "B": "Throwaway prototyping",
+      "C": "Evolutionary prototyping",
+      "D": "Incremental development"
+    },
+    "correct": "C",
+    "correctText": "Evolutionary prototyping",
+    "explanation": "Đáp án chính xác là C: Evolutionary prototyping"
+  },
+  {
+    "id": 138,
+    "label": "Câu 138",
+    "question": "What is the main goal of system testing?",
+    "choices": {
+      "A": "To test individual components before integration",
+      "B": "To verify that the fully integrated hardware and software system meets its specified requirements",
+      "C": "To test the internal code structure for errors",
+      "D": "To perform load testing only"
+    },
+    "correct": "B",
+    "correctText": "To verify that the fully integrated hardware and software system meets its specified requirements",
+    "explanation": "Đáp án chính xác là B: To verify that the fully integrated hardware and software system meets its specified requirements"
+  },
+  {
+    "id": 139,
+    "label": "Câu 139",
+    "question": "Which UML diagram helps visualize multiple levels of system states?",
+    "choices": {
+      "A": "Hierarchical Statecharts",
+      "B": "Sequence Diagram",
+      "C": "Activity Diagram",
+      "D": "Deployment Diagram"
+    },
+    "correct": "A",
+    "correctText": "Hierarchical Statecharts",
+    "explanation": "Đáp án chính xác là A: Hierarchical Statecharts"
+  },
+  {
+    "id": 140,
+    "label": "Câu 140",
+    "question": "In the example \"Employee Works in Department,\" which of the following represents the association?",
+    "choices": {
+      "A": "Employee",
+      "B": "Department",
+      "C": "Works in",
+      "D": "Both Employee and Department"
+    },
+    "correct": "C",
+    "correctText": "Works in",
+    "explanation": "Đáp án chính xác là C: Works in"
+  },
+  {
+    "id": 141,
+    "label": "Câu 141",
+    "question": "Which UML stereotype is most appropriate to represent a subsystem in a service-oriented architecture?",
+    "choices": {
+      "A": "«subsystem»",
+      "B": "«module»",
+      "C": "«component»",
+      "D": "«service»"
+    },
+    "correct": "A",
+    "correctText": "«subsystem»",
+    "explanation": "Đáp án chính xác là A: «subsystem»"
+  },
+  {
+    "id": 142,
+    "label": "Câu 142",
+    "question": "Which of the following is a key benefit of using object interaction diagrams?",
+    "choices": {
+      "A": "They simplify the design of database schemas",
+      "B": "They help in visualizing object responsibilities and collaborations",
+      "C": "They are used primarily for modeling hardware interactions",
+      "D": "They enforce coding standards during the development"
+    },
+    "correct": "B",
+    "correctText": "They help in visualizing object responsibilities and collaborations",
+    "explanation": "Đáp án chính xác là B: They help in visualizing object responsibilities and collaborations"
+  },
+  {
+    "id": 143,
+    "label": "Câu 143",
+    "question": "Which design pattern is most suitable for allowing a system to vary its behavior dynamically at runtime?",
+    "choices": {
+      "A": "Strategy pattern",
+      "B": "Singleton pattern",
+      "C": "Adapter pattern",
+      "D": "Facade pattern"
+    },
+    "correct": "A",
+    "correctText": "Strategy pattern",
+    "explanation": "Đáp án chính xác là A: Strategy pattern"
+  },
+  {
+    "id": 144,
+    "label": "Câu 144",
+    "question": "What approach is recommended for refining the user interface during system evolution?",
+    "choices": {
+      "A": "Redesign all screens at once",
+      "B": "Preserve user workflows and adapt layouts incrementally",
+      "C": "Focus on backend refactoring only",
+      "D": "Ignore legacy usability standards"
+    },
+    "correct": "B",
+    "correctText": "Preserve user workflows and adapt layouts incrementally",
+    "explanation": "Đáp án chính xác là B: Preserve user workflows and adapt layouts incrementally"
+  },
+  {
+    "id": 145,
+    "label": "Câu 145",
+    "question": "What is the purpose of State-Dependent Dynamic Interaction Modeling in software design?",
+    "choices": {
+      "A": "To manage database transactions efficiently",
+      "B": "To model how object interactions vary depending on the system's state",
+      "C": "To document the static structure of the system",
+      "D": "To outline deployment strategies for software applications"
+    },
+    "correct": "B",
+    "correctText": "To model how object interactions vary depending on the system's state",
+    "explanation": "Đáp án chính xác là B: To model how object interactions vary depending on the system's state"
+  },
+  {
+    "id": 146,
+    "label": "Câu 146",
+    "question": "Which UML relationship is most appropriate for representing common functionality shared across multiple use cases?",
+    "choices": {
+      "A": "<<extend>>",
+      "B": "<<include>>",
+      "C": "Generalization",
+      "D": "Aggregation"
+    },
+    "correct": "B",
+    "correctText": "<<include>>",
+    "explanation": "Đáp án chính xác là B: <<include>>"
+  },
+  {
+    "id": 147,
+    "label": "Câu 147",
+    "question": "What is an optional use case in SPL?",
+    "choices": {
+      "A": "A use case with some optional steps",
+      "B": "A use case that does not need to be developed",
+      "C": "A use case that is required by some product line members but not others",
+      "D": "A use case that can be chosen in place of a different use case in an SPL member"
+    },
+    "correct": "C",
+    "correctText": "A use case that is required by some product line members but not others",
+    "explanation": "Đáp án chính xác là C: A use case that is required by some product line members but not others"
+  },
+  {
+    "id": 148,
+    "label": "Câu 148",
+    "question": "What is a real-time system?",
+    "choices": {
+      "A": "A system that processes data in real-time",
+      "B": "A batch processing system",
+      "C": "A system with no timing constraints",
+      "D": "A system that processes data offline"
+    },
+    "correct": "A",
+    "correctText": "A system that processes data in real-time",
+    "explanation": "Đáp án chính xác là A: A system that processes data in real-time"
+  },
+  {
+    "id": 149,
+    "label": "Câu 149",
+    "question": "What is a state transition out of a composite state equivalent to?",
+    "choices": {
+      "A": "A transition out of only one of the substates",
+      "B": "A transition out of each of the substates",
+      "C": "A transition out of none of the substates",
+      "D": "A transition out of any one of the substates"
+    },
+    "correct": "B",
+    "correctText": "A transition out of each of the substates",
+    "explanation": "Đáp án chính xác là B: A transition out of each of the substates"
+  },
+  {
+    "id": 150,
+    "label": "Câu 150",
+    "question": "Which system is commonly used as a case study example for illustrating banking transaction processing?",
+    "choices": {
+      "A": "Emergency Monitoring System",
+      "B": "ATM System",
+      "C": "Online Shopping System",
+      "D": "Inventory Management System"
+    },
+    "correct": "B",
+    "correctText": "ATM System",
+    "explanation": "Đáp án chính xác là B: ATM System"
+  },
+  {
+    "id": 151,
+    "label": "Câu 151",
+    "question": "What kind of relationship between tables typically requires a foreign key in relational database design?",
+    "choices": {
+      "A": "One-to-one",
+      "B": "One-to-many",
+      "C": "Many-to-many",
+      "D": "None of the above"
+    },
+    "correct": "B",
+    "correctText": "One-to-many",
+    "explanation": "Đáp án chính xác là B: One-to-many"
+  },
+  {
+    "id": 152,
+    "label": "Câu 152",
+    "question": "What is a user interaction task?",
+    "choices": {
+      "A": "A task that interacts with I/O devices",
+      "B": "A task that interacts with users",
+      "C": "A task that interacts with a user sequentially",
+      "D": "A task that interacts with a user concurrently"
+    },
+    "correct": "C",
+    "correctText": "A task that interacts with a user sequentially",
+    "explanation": "Đáp án chính xác là C: A task that interacts with a user sequentially"
+  },
+  {
+    "id": 153,
+    "label": "Câu 153",
+    "question": "What is a business logic object?",
+    "choices": {
+      "A": "An object used in business applications",
+      "B": "An object that defines business - specific application logic",
+      "C": "The internal logic of an object",
+      "D": "A business object that determines whether a client request is logical"
+    },
+    "correct": "B",
+    "correctText": "An object that defines business - specific application logic",
+    "explanation": "Đáp án chính xác là B: An object that defines business - specific application logic"
+  },
+  {
+    "id": 154,
+    "label": "Câu 154",
+    "question": "What is the primary focus of state-dependent dynamic interaction modeling?",
+    "choices": {
+      "A": "Capturing the physical structure of the system",
+      "B": "Modeling the behavior of objects based on their state changes",
+      "C": "Defining the database schema for the system.",
+      "D": "Identifying reusable software components"
+    },
+    "correct": "B",
+    "correctText": "Modeling the behavior of objects based on their state changes",
+    "explanation": "Đáp án chính xác là B: Modeling the behavior of objects based on their state changes"
+  },
+  {
+    "id": 155,
+    "label": "Câu 155",
+    "question": "The COMET method emphasizes which key modeling activity?",
+    "choices": {
+      "A": "Code refactoring",
+      "B": "UI prototyping",
+      "C": "Use case-driven modeling",
+      "D": "Database normalization"
+    },
+    "correct": "C",
+    "correctText": "Use case-driven modeling",
+    "explanation": "Đáp án chính xác là C: Use case-driven modeling"
+  },
+  {
+    "id": 156,
+    "label": "Câu 156",
+    "question": "What is a use case package?",
+    "choices": {
+      "A": "A package describing the actors in the system",
+      "B": "A package describing the use cases in the system",
+      "C": "A group of related use cases",
+      "D": "The package of objects that participate in the use case"
+    },
+    "correct": "C",
+    "correctText": "A group of related use cases",
+    "explanation": "Đáp án chính xác là C: A group of related use cases"
+  },
+  {
+    "id": 157,
+    "label": "Câu 157",
+    "question": "Which stereotype represents a class that encapsulates data and may serve as an interface to a database?",
+    "choices": {
+      "A": "Boundary class",
+      "B": "Entity class",
+      "C": "Control class",
+      "D": "Application logic class"
+    },
+    "correct": "B",
+    "correctText": "Entity class",
+    "explanation": "Đáp án chính xác là B: Entity class"
+  },
+  {
+    "id": 158,
+    "label": "Câu 158",
+    "question": "Why is generalization/specialization hierarchy important in class modeling?",
+    "choices": {
+      "A": "It reduces the number of diagrams required",
+      "B": "It eliminates the need for attributes",
+      "C": "It supports reuse by factoring common features into superclasses",
+      "D": "It automatically generates source code"
+    },
+    "correct": "C",
+    "correctText": "It supports reuse by factoring common features into superclasses",
+    "explanation": "Đáp án chính xác là C: It supports reuse by factoring common features into superclasses"
+  },
+  {
+    "id": 159,
+    "label": "Câu 159",
+    "question": "When applying the Observer pattern in a system, what is the primary responsibility of the subject object?",
+    "choices": {
+      "A": "Requesting data from observers",
+      "B": "Notifying observers about state changes",
+      "C": "Aggregating different interfaces",
+      "D": "Creating instances of observers"
+    },
+    "correct": "B",
+    "correctText": "Notifying observers about state changes",
+    "explanation": "Đáp án chính xác là B: Notifying observers about state changes"
+  },
+  {
+    "id": 160,
+    "label": "Câu 160",
+    "question": "Which of the following design principles ensures that a service's internal workings are hidden and only its operations, inputs, and outputs are exposed?",
+    "choices": {
+      "A": "Abstraction",
+      "B": "Loose coupling",
+      "C": "Service contract",
+      "D": "Composability"
+    },
+    "correct": "A",
+    "correctText": "Abstraction",
+    "explanation": "Đáp án chính xác là A: Abstraction"
+  },
+  {
+    "id": 161,
+    "label": "Câu 161",
+    "question": "What is a software design notation?",
+    "choices": {
+      "A": "Notes about the software design.",
+      "B": "A graphical or textual description of the software.",
+      "C": "Documentation of the software.",
+      "D": "A systematic approach for producing a design."
+    },
+    "correct": "B",
+    "correctText": "A graphical or textual description of the software.",
+    "explanation": "Đáp án chính xác là B: A graphical or textual description of the software."
+  },
+  {
+    "id": 162,
+    "label": "Câu 162",
+    "question": "What is a primary actor?",
+    "choices": {
+      "A": "The actor who goes on stage first",
+      "B": "The actor that starts the use case",
+      "C": "An actor that participates in the use case",
+      "D": "An object inside the system"
+    },
+    "correct": "B",
+    "correctText": "The actor that starts the use case",
+    "explanation": "Đáp án chính xác là B: The actor that starts the use case"
+  },
+  {
+    "id": 163,
+    "label": "Câu 163",
+    "question": "What is one major objective of the COMET method in software design?",
+    "choices": {
+      "A": "To generate system code automatically",
+      "B": "To integrate object-oriented analysis, design, and architecture",
+      "C": "To build hardware models",
+      "D": "To eliminate the need for modeling"
+    },
+    "correct": "B",
+    "correctText": "To integrate object-oriented analysis, design, and architecture",
+    "explanation": "Đáp án chính xác là B: To integrate object-oriented analysis, design, and architecture"
+  },
+  {
+    "id": 164,
+    "label": "Câu 164",
+    "question": "What does information hiding in object-oriented design help achieve?",
+    "choices": {
+      "A": "Increased complexity of software systems",
+      "B": "Decreased software maintainability",
+      "C": "Enhanced modifiability and maintainability of software",
+      "D": "Reduction in software functionality"
+    },
+    "correct": "C",
+    "correctText": "Enhanced modifiability and maintainability of software",
+    "explanation": "Đáp án chính xác là C: Enhanced modifiability and maintainability of software"
+  },
+  {
+    "id": 165,
+    "label": "Câu 165",
+    "question": "An output message from a state dependent control object corresponds to:",
+    "choices": {
+      "A": "An event on the internal state machine",
+      "B": "An action on the internal state machine",
+      "C": "A condition on the internal state machine",
+      "D": "A state on the internal state machine"
+    },
+    "correct": "B",
+    "correctText": "An action on the internal state machine",
+    "explanation": "Đáp án chính xác là B: An action on the internal state machine"
+  },
+  {
+    "id": 166,
+    "label": "Câu 166",
+    "question": "Which of the following best describes a 'Component' in software architecture?",
+    "choices": {
+      "A": "A tool used for project management",
+      "B": "A replaceable part of a system that fulfills a clear function within the architectural design",
+      "C": "A documentation method for software projects",
+      "D": "A user interface element"
+    },
+    "correct": "B",
+    "correctText": "A replaceable part of a system that fulfills a clear function within the architectural design",
+    "explanation": "Đáp án chính xác là B: A replaceable part of a system that fulfills a clear function within the architectural design"
+  },
+  {
+    "id": 167,
+    "label": "Câu 167",
+    "question": "What is a software design concept?",
+    "choices": {
+      "A": "A graphical or textual description of the software.",
+      "B": "Documentation of the software.",
+      "C": "A fundamental idea that can be applied to designing a system.",
+      "D": "A systematic approach for producing a design."
+    },
+    "correct": "C",
+    "correctText": "A fundamental idea that can be applied to designing a system.",
+    "explanation": "Đáp án chính xác là C: A fundamental idea that can be applied to designing a system."
+  },
+  {
+    "id": 168,
+    "label": "Câu 168",
+    "question": "What is software modeling?",
+    "choices": {
+      "A": "Designing software applications after coding",
+      "B": "Designing software applications before coding",
+      "C": "Writing code for software applications",
+      "D": "Debugging software applications"
+    },
+    "correct": "B",
+    "correctText": "Designing software applications before coding",
+    "explanation": "Đáp án chính xác là B: Designing software applications before coding"
+  },
+  {
+    "id": 169,
+    "label": "Câu 169",
+    "question": "Which of the following is a key reason for using modeling in software design?",
+    "choices": {
+      "A": "To avoid coding completely",
+      "B": "To abstract and manage complexity in large systems",
+      "C": "To eliminate the need for testing",
+      "D": "To increase hardware performance"
+    },
+    "correct": "B",
+    "correctText": "To abstract and manage complexity in large systems",
+    "explanation": "Đáp án chính xác là B: To abstract and manage complexity in large systems"
+  },
+  {
+    "id": 170,
+    "label": "Câu 170",
+    "question": "In UML, what does a package represent?",
+    "choices": {
+      "A": "A single class within the system",
+      "B": "A grouping of model elements such as systems or subsystems",
+      "C": "An individual object instance",
+      "D": "A state in a state machine diagram"
+    },
+    "correct": "B",
+    "correctText": "A grouping of model elements such as systems or subsystems",
+    "explanation": "Đáp án chính xác là B: A grouping of model elements such as systems or subsystems"
+  },
+  {
+    "id": 171,
+    "label": "Câu 171",
+    "question": "What does a stereotype on a connection in a deployment diagram indicate?",
+    "choices": {
+      "A": "The programming language used by the node",
+      "B": "The type of physical connection, such as «local area network» or «wide area network»",
+      "C": "The number of instances of a node",
+      "D": "The security level of the connection"
+    },
+    "correct": "B",
+    "correctText": "The type of physical connection, such as «local area network» or «wide area network»",
+    "explanation": "Đáp án chính xác là B: The type of physical connection, such as «local area network» or «wide area network»"
+  },
+  {
+    "id": 172,
+    "label": "Câu 172",
+    "question": "In a UML deployment diagram, how is a node typically represented?",
+    "choices": {
+      "A": "As a cube",
+      "B": "As a rectangle with two vertical lines",
+      "C": "As a circle",
+      "D": "As a folder icon"
+    },
+    "correct": "A",
+    "correctText": "As a cube",
+    "explanation": "Đáp án chính xác là A: As a cube"
+  },
+  {
+    "id": 173,
+    "label": "Câu 173",
+    "question": "Which of the following is the first step in the software design process?",
+    "choices": {
+      "A": "Implementation",
+      "B": "Requirement Analysis",
+      "C": "Architectural Design",
+      "D": "Testing"
+    },
+    "correct": "B",
+    "correctText": "Requirement Analysis",
+    "explanation": "Đáp án chính xác là B: Requirement Analysis"
+  },
+  {
+    "id": 174,
+    "label": "Câu 174",
+    "question": "What does the Waterfall model emphasize?",
+    "choices": {
+      "A": "Iterative development",
+      "B": "Parallel testing",
+      "C": "Sequential execution of phases",
+      "D": "Rapid delivery of software"
+    },
+    "correct": "C",
+    "correctText": "Sequential execution of phases",
+    "explanation": "Đáp án chính xác là C: Sequential execution of phases"
+  },
+  {
+    "id": 175,
+    "label": "Câu 175",
+    "question": "What is the goal of software verification?",
+    "choices": {
+      "A": "Building the system",
+      "B": "Building the right system",
+      "C": "Building the system right",
+      "D": "Testing the system"
+    },
+    "correct": "C",
+    "correctText": "Building the system right",
+    "explanation": "Đáp án chính xác là C: Building the system right"
+  },
+  {
+    "id": 176,
+    "label": "Câu 176",
+    "question": "Which AI tool can be used to suggest design patterns?",
+    "choices": {
+      "A": "Photoshop",
+      "B": "ChatGPT",
+      "C": "SQL Developer",
+      "D": "Postman"
+    },
+    "correct": "B",
+    "correctText": "ChatGPT",
+    "explanation": "Đáp án chính xác là B: ChatGPT"
+  },
+  {
+    "id": 177,
+    "label": "Câu 177",
+    "question": "How is a use case depicted on a use case diagram?",
+    "choices": {
+      "A": "An oval",
+      "B": "A stick figure",
+      "C": "A box",
+      "D": "A dashed line"
+    },
+    "correct": "A",
+    "correctText": "An oval",
+    "explanation": "Đáp án chính xác là A: An oval"
+  },
+  {
+    "id": 178,
+    "label": "Câu 178",
+    "question": "How does information hiding relate to the concept of encapsulation in software engineering?",
+    "choices": {
+      "A": "Information hiding is a different term for the same concept as encapsulation.",
+      "B": "Information hiding is a subset of encapsulation, focusing on hiding internal details.",
+      "C": "Encapsulation is a subset of information hiding, emphasizing data security.",
+      "D": "Information hiding and encapsulation are unrelated concepts in software design."
+    },
+    "correct": "B",
+    "correctText": "Information hiding is a subset of encapsulation, focusing on hiding internal details.",
+    "explanation": "Đáp án chính xác là B: Information hiding is a subset of encapsulation, focusing on hiding internal details."
+  },
+  {
+    "id": 179,
+    "label": "Câu 179",
+    "question": "Which of the following architectural styles organizes the system into presentation, business logic, and data layers?",
+    "choices": {
+      "A": "Client-Server",
+      "B": "Layered Architecture",
+      "C": "Service-Oriented Architecture",
+      "D": "Repository"
+    },
+    "correct": "B",
+    "correctText": "Layered Architecture",
+    "explanation": "Đáp án chính xác là B: Layered Architecture"
+  },
+  {
+    "id": 180,
+    "label": "Câu 180",
+    "question": "What is carried out during system testing?",
+    "choices": {
+      "A": "White box testing",
+      "B": "Black box testing",
+      "C": "Unit testing",
+      "D": "Integration testing"
+    },
+    "correct": "B",
+    "correctText": "Black box testing",
+    "explanation": "Đáp án chính xác là B: Black box testing"
+  },
+  {
+    "id": 181,
+    "label": "Câu 181",
+    "question": "Which of the following is NOT a phase in the COMET life cycle?",
+    "choices": {
+      "A": "Requirements Modeling",
+      "B": "Analysis Modeling",
+      "C": "Design Modeling",
+      "D": "Maintenance Modeling"
+    },
+    "correct": "D",
+    "correctText": "Maintenance Modeling",
+    "explanation": "Đáp án chính xác là D: Maintenance Modeling"
+  },
+  {
+    "id": 182,
+    "label": "Câu 182",
+    "question": "Which SQL command is used to enforce referential integrity between two tables?",
+    "choices": {
+      "A": "CREATE INDEX",
+      "B": "FOREIGN KEY",
+      "C": "UNIQUE",
+      "D": "CHECK"
+    },
+    "correct": "B",
+    "correctText": "FOREIGN KEY",
+    "explanation": "Đáp án chính xác là B: FOREIGN KEY"
+  },
+  {
+    "id": 183,
+    "label": "Câu 183",
+    "question": "Which of the following is NOT a valid use case relationship?",
+    "choices": {
+      "A": "Include",
+      "B": "Extend",
+      "C": "Exclude",
+      "D": "Generalization"
+    },
+    "correct": "C",
+    "correctText": "Exclude",
+    "explanation": "Đáp án chính xác là C: Exclude"
+  },
+  {
+    "id": 184,
+    "label": "Câu 184",
+    "question": "Which of the following is a primary goal of relational database design?",
+    "choices": {
+      "A": "Reducing hardware requirements",
+      "B": "Minimizing data redundancy and ensuring consistency",
+      "C": "Increasing programming speed",
+      "D": "Eliminating normalization"
+    },
+    "correct": "B",
+    "correctText": "Minimizing data redundancy and ensuring consistency",
+    "explanation": "Đáp án chính xác là B: Minimizing data redundancy and ensuring consistency"
+  },
+  {
+    "id": 185,
+    "label": "Câu 185",
+    "question": "What is a generalization/specialization hierarchy?",
+    "choices": {
+      "A": "A whole/part relationship",
+      "B": "An inheritance relationship",
+      "C": "An association between a generalized class and a specialized class",
+      "D": "A layered hierarchy"
+    },
+    "correct": "B",
+    "correctText": "An inheritance relationship",
+    "explanation": "Đáp án chính xác là B: An inheritance relationship"
+  },
+  {
+    "id": 186,
+    "label": "Câu 186",
+    "question": "Which design pattern ensures that a class has only one instance and provides a global point of access to it?",
+    "choices": {
+      "A": "Factory Method",
+      "B": "Singleton",
+      "C": "Prototype",
+      "D": "Builder"
+    },
+    "correct": "B",
+    "correctText": "Singleton",
+    "explanation": "Đáp án chính xác là B: Singleton"
+  },
+  {
+    "id": 187,
+    "label": "Câu 187",
+    "question": "What is an aggregation hierarchy?",
+    "choices": {
+      "A": "A weak form of a generalization/specialization hierarchy",
+      "B": "A strong form of a generalization/specialization hierarchy",
+      "C": "A weak form of a whole/part relationship",
+      "D": "A strong form of a whole/part relationship"
+    },
+    "correct": "C",
+    "correctText": "A weak form of a whole/part relationship",
+    "explanation": "Đáp án chính xác là C: A weak form of a whole/part relationship"
+  },
+  {
+    "id": 188,
+    "label": "Câu 188",
+    "question": "Within the framework of a use case, what does a control object offer?",
+    "choices": {
+      "A": "Obtaining access to classes in the external environment",
+      "B": "Information encapsulation and accessibility",
+      "C": "Overall object coordination for the involved items",
+      "D": "Physical connection to hardware I/O devices"
+    },
+    "correct": "C",
+    "correctText": "Overall object coordination for the involved items",
+    "explanation": "Đáp án chính xác là C: Overall object coordination for the involved items"
+  },
+  {
+    "id": 189,
+    "label": "Câu 189",
+    "question": "What is a timer object?",
+    "choices": {
+      "A": "An external clock",
+      "B": "An internal clock",
+      "C": "An object that is awakened by an external timer",
+      "D": "An object that interacts with a clock"
+    },
+    "correct": "C",
+    "correctText": "An object that is awakened by an external timer",
+    "explanation": "Đáp án chính xác là C: An object that is awakened by an external timer"
+  },
+  {
+    "id": 190,
+    "label": "Câu 190",
+    "question": "What is the purpose of a stereotype in class structuring?",
+    "choices": {
+      "A": "To label a class according to its class structuring criterion",
+      "B": "To identify the objects that belong to the same class",
+      "C": "To distinguish between external objects and software objects",
+      "D": "To identify the association between two classes"
+    },
+    "correct": "A",
+    "correctText": "To label a class according to its class structuring criterion",
+    "explanation": "Đáp án chính xác là A: To label a class according to its class structuring criterion"
+  },
+  {
+    "id": 191,
+    "label": "Câu 191",
+    "question": "What is the role of Interaction Diagrams in UML?",
+    "choices": {
+      "A": "Show interactions among objects over time",
+      "B": "Define the internal logic of system components",
+      "C": "Illustrate the physical deployment of modules",
+      "D": "Simplify the creation of test cases"
+    },
+    "correct": "A",
+    "correctText": "Show interactions among objects over time",
+    "explanation": "Đáp án chính xác là A: Show interactions among objects over time"
+  },
+  {
+    "id": 192,
+    "label": "Câu 192",
+    "question": "In Dynamic Interaction Modeling, what role does the 'alt' frame play in a Sequence Diagram?",
+    "choices": {
+      "A": "It specifies alternative sequences of interactions based on conditions.",
+      "B": "It represents the alternative lifelines that an object may take.",
+      "C": "It is used to alternate between different diagrams.",
+      "D": "It defines the alternative messages that can be sent between objects."
+    },
+    "correct": "A",
+    "correctText": "It specifies alternative sequences of interactions based on conditions.",
+    "explanation": "Đáp án chính xác là A: It specifies alternative sequences of interactions based on conditions."
+  },
+  {
+    "id": 193,
+    "label": "Câu 193",
+    "question": "Which UML diagram is primarily used for modeling relationships between",
+    "choices": {
+      "A": "Statechart Diagram",
+      "B": "Class Diagram",
+      "C": "Activity Diagram",
+      "D": "Deployment Diagram"
+    },
+    "correct": "B",
+    "correctText": "Class Diagram",
+    "explanation": "Đáp án chính xác là B: Class Diagram"
+  },
+  {
+    "id": 194,
+    "label": "Câu 194",
+    "question": "What is a state transition into a composite state equivalent to?",
+    "choices": {
+      "A": "A transition into only one of the substates",
+      "B": "A transition into each of the substates",
+      "C": "A transition into none of the substates",
+      "D": "A transition into any one of the substates"
+    },
+    "correct": "A",
+    "correctText": "A transition into only one of the substates",
+    "explanation": "Đáp án chính xác là A: A transition into only one of the substates"
+  },
+  {
+    "id": 195,
+    "label": "Câu 195",
+    "question": "What is the advantage of hierarchical statecharts over flat statecharts?",
+    "choices": {
+      "A": "Avoids dynamic behavior",
+      "B": "Faster processing",
+      "C": "Allows state decomposition for complex systems",
+      "D": "Requires no transitions"
+    },
+    "correct": "C",
+    "correctText": "Allows state decomposition for complex systems",
+    "explanation": "Đáp án chính xác là C: Allows state decomposition for complex systems"
+  },
+  {
+    "id": 196,
+    "label": "Câu 196",
+    "question": "In a state machine diagram, what is a guard condition?",
+    "choices": {
+      "A": "An action that must be performed when entering a state",
+      "B": "A condition that must be true for a transition to occur",
+      "C": "An event that triggers a transition",
+      "D": "A state that an object enters when an error occurs"
+    },
+    "correct": "B",
+    "correctText": "A condition that must be true for a transition to occur",
+    "explanation": "Đáp án chính xác là B: A condition that must be true for a transition to occur"
+  },
+  {
+    "id": 197,
+    "label": "Câu 197",
+    "question": "Which of the following could happen on an interaction diagram?",
+    "choices": {
+      "A": "A state-dependent control object sends a message to an entity object.",
+      "B": "A state-dependent control object sends a message to a coordinator object.",
+      "C": "A state-dependent control object sends a message to a printer object.",
+      "D": "All of the above"
+    },
+    "correct": "D",
+    "correctText": "All of the above",
+    "explanation": "Đáp án chính xác là D: All of the above"
+  },
+  {
+    "id": 198,
+    "label": "Câu 198",
+    "question": "Which kind of object executes a state machine?",
+    "choices": {
+      "A": "Any software object",
+      "B": "An entity object",
+      "C": "A state-dependent control object",
+      "D": "A state chart"
+    },
+    "correct": "C",
+    "correctText": "A state-dependent control object",
+    "explanation": "Đáp án chính xác là C: A state-dependent control object"
+  },
+  {
+    "id": 199,
+    "label": "Câu 199",
+    "question": "What does \"layered architecture\" mean?",
+    "choices": {
+      "A": "Organizing components into separated levels with specific roles.",
+      "B": "Merging all code into a single-tier application.",
+      "C": "Using only databases for structure.",
+      "D": "Prioritizing UI design over logic."
+    },
+    "correct": "A",
+    "correctText": "Organizing components into separated levels with specific roles.",
+    "explanation": "Đáp án chính xác là A: Organizing components into separated levels with specific roles."
+  },
+  {
+    "id": 200,
+    "label": "Câu 200",
+    "question": "What is a dynamic view of a software architecture?",
+    "choices": {
+      "A": "A view in terms of a module hierarchy",
+      "B": "A view in terms of components and connectors",
+      "C": "A view of the physical configuration in terms of nodes and interconnections",
+      "D": "A view in terms of objects and messages"
+    },
+    "correct": "D",
+    "correctText": "A view in terms of objects and messages",
+    "explanation": "Đáp án chính xác là D: A view in terms of objects and messages"
+  },
+  {
+    "id": 201,
+    "label": "Câu 201",
+    "question": "What is the significance of asynchronous messaging in architectural communication patterns?",
+    "choices": {
+      "A": "Enables non-blocking communication between system components",
+      "B": "Centralizes all communication in one server",
+      "C": "Simplifies use case diagrams",
+      "D": "Eliminates state transition modeling"
+    },
+    "correct": "A",
+    "correctText": "Enables non-blocking communication between system components",
+    "explanation": "Đáp án chính xác là A: Enables non-blocking communication between system components"
+  },
+  {
+    "id": 202,
+    "label": "Câu 202",
+    "question": "Which choice was the most crucial to make while moving from the analysis model to the design model?",
+    "choices": {
+      "A": "Determining the subsystem structure",
+      "B": "Deciding on the precise semantics of message communication",
+      "C": "Naming and defining each message's parameters",
+      "D": "Prioritizing data transferred between objects above message names and parameters"
+    },
+    "correct": "B",
+    "correctText": "Deciding on the precise semantics of message communication",
+    "explanation": "Đáp án chính xác là B: Deciding on the precise semantics of message communication"
+  },
+  {
+    "id": 203,
+    "label": "Câu 203",
+    "question": "What does it mean to communicate messages in both directions?",
+    "choices": {
+      "A": "Communication where only one subsystem sends messages to another subsystem",
+      "B": "Communication where both subsystems can send messages to each other",
+      "C": "Communication where messages are sent asynchronously",
+      "D": "Communication where messages contain reply content"
+    },
+    "correct": "B",
+    "correctText": "Communication where both subsystems can send messages to each other",
+    "explanation": "Đáp án chính xác là B: Communication where both subsystems can send messages to each other"
+  },
+  {
+    "id": 204,
+    "label": "Câu 204",
+    "question": "What is a characteristic of a more complex user interaction subsystem?",
+    "choices": {
+      "A": "It supports a command line interface exclusively",
+      "B": "It operates on a single node",
+      "C": "It doesn't interface with user I/O devices",
+      "D": "It involves multiple windows and multiple threads of control"
+    },
+    "correct": "D",
+    "correctText": "It involves multiple windows and multiple threads of control",
+    "explanation": "Đáp án chính xác là D: It involves multiple windows and multiple threads of control"
+  },
+  {
+    "id": 205,
+    "label": "Câu 205",
+    "question": "Which pattern focuses on dynamically binding classes at runtime?",
+    "choices": {
+      "A": "Factory Pattern",
+      "B": "Singleton Pattern",
+      "C": "Strategy Pattern",
+      "D": "Abstract Factory Pattern"
+    },
+    "correct": "C",
+    "correctText": "Strategy Pattern",
+    "explanation": "Đáp án chính xác là C: Strategy Pattern"
+  },
+  {
+    "id": 206,
+    "label": "Câu 206",
+    "question": "In the refinement of the design process, which activity focuses on enhancing the reusability of components?",
+    "choices": {
+      "A": "Initial requirements capture",
+      "B": "Class library organization",
+      "C": "Deployment configuration",
+      "D": "Interface design"
+    },
+    "correct": "B",
+    "correctText": "Class library organization",
+    "explanation": "Đáp án chính xác là B: Class library organization"
+  },
+  {
+    "id": 207,
+    "label": "Câu 207",
+    "question": "What is a key characteristic of a state-machine class as described in the context?",
+    "choices": {
+      "A": "It exposes the contents of the state transition table for easy access.",
+      "B": "It encapsulates the statechart information and hides the state transition table.",
+      "C": "It allows multiple statecharts to share the same state-machine class without modifications.",
+      "D": "It does not provide operations for processing incoming events"
+    },
+    "correct": "B",
+    "correctText": "It encapsulates the statechart information and hides the state transition table.",
+    "explanation": "Đáp án chính xác là B: It encapsulates the statechart information and hides the state transition table."
+  },
+  {
+    "id": 208,
+    "label": "Câu 208",
+    "question": "In a relational database mapping a one-to-one relationship between two classes, where should the foreign key be placed?",
+    "choices": {
+      "A": "In association class",
+      "B": "In the optional relational table",
+      "C": "In both classes participating in the association",
+      "D": "In neither class, as it is not needed"
+    },
+    "correct": "B",
+    "correctText": "In the optional relational table",
+    "explanation": "Đáp án chính xác là B: In the optional relational table"
+  },
+  {
+    "id": 209,
+    "label": "Câu 209",
+    "question": "What is a common approach to securing services in SOA?",
+    "choices": {
+      "A": "Using open access without authentication",
+      "B": "Implementing service-level security mechanisms such as OAuth",
+      "C": "Relying on client-side security only",
+      "D": "Avoiding encryption to reduce overhead"
+    },
+    "correct": "B",
+    "correctText": "Implementing service-level security mechanisms such as OAuth",
+    "explanation": "Đáp án chính xác là B: Implementing service-level security mechanisms such as OAuth"
+  },
+  {
+    "id": 210,
+    "label": "Câu 210",
+    "question": "What is a service-oriented architecture (SOA)?",
+    "choices": {
+      "A": "A distributed software architecture consisting of multiple related services",
+      "B": "A distributed software architecture consisting of multiple autonomous services",
+      "C": "A distributed client/service architecture",
+      "D": "A distributed software architecture"
+    },
+    "correct": "B",
+    "correctText": "A distributed software architecture consisting of multiple autonomous services",
+    "explanation": "Đáp án chính xác là B: A distributed software architecture consisting of multiple autonomous services"
+  },
+  {
+    "id": 211,
+    "label": "Câu 211",
+    "question": "How does SOA coordinate communication between services?",
+    "choices": {
+      "A": "Using only direct REST calls between services.",
+      "B": "Via service bus as an integration hub.",
+      "C": "By shared database triggers.",
+      "D": "By UI polling only."
+    },
+    "correct": "B",
+    "correctText": "Via service bus as an integration hub.",
+    "explanation": "Đáp án chính xác là B: Via service bus as an integration hub."
+  },
+  {
+    "id": 212,
+    "label": "Câu 212",
+    "question": "What does a component interface consist of?",
+    "choices": {
+      "A": "The operations provided by a function",
+      "B": "The externally visible operations of a component",
+      "C": "The operations that a component supports",
+      "D": "The operations required by a method"
+    },
+    "correct": "B",
+    "correctText": "The externally visible operations of a component",
+    "explanation": "Đáp án chính xác là B: The externally visible operations of a component"
+  },
+  {
+    "id": 213,
+    "label": "Câu 213",
+    "question": "What does a component interface consist of?",
+    "choices": {
+      "A": "The externally visible operations of a component",
+      "B": "The operations provided by a component",
+      "C": "The operations required by a component",
+      "D": "The operations that a component supports"
+    },
+    "correct": "A",
+    "correctText": "The externally visible operations of a component",
+    "explanation": "Đáp án chính xác là A: The externally visible operations of a component"
+  },
+  {
+    "id": 214,
+    "label": "Câu 214",
+    "question": "In integrating patterns into object models, which artifact typically captures the collaborative behavior among classes?",
+    "choices": {
+      "A": "Statechart diagram",
+      "B": "Class diagram",
+      "C": "Interaction diagram",
+      "D": "Deployment diagram"
+    },
+    "correct": "C",
+    "correctText": "Interaction diagram",
+    "explanation": "Đáp án chính xác là C: Interaction diagram"
+  },
+  {
+    "id": 215,
+    "label": "Câu 215",
+    "question": "Which of the following is true for a Distributed Control architectural pattern?",
+    "choices": {
+      "A": "Control is divided among various control components.",
+      "B": "It responds to multiple requests from client subsystems.",
+      "C": "It provides overall control by coordinating several control components.",
+      "D": "It provides distributed control over various I/O objects."
+    },
+    "correct": "A",
+    "correctText": "Control is divided among various control components.",
+    "explanation": "Đáp án chính xác là A: Control is divided among various control components."
+  },
+  {
+    "id": 216,
+    "label": "Câu 216",
+    "question": "Which of the following is true for a Hierarchical Control architectural pattern?",
+    "choices": {
+      "A": "Control is divided among various control components.",
+      "B": "It provides overall control over several client subsystems.",
+      "C": "It provides overall control by coordinating several control components.",
+      "D": "It provides overall control over various I/O objects"
+    },
+    "correct": "C",
+    "correctText": "It provides overall control by coordinating several control components.",
+    "explanation": "Đáp án chính xác là C: It provides overall control by coordinating several control components."
+  },
+  {
+    "id": 217,
+    "label": "Câu 217",
+    "question": "What is an optional use case?",
+    "choices": {
+      "A": "A use case with some optional steps",
+      "B": "A use case that does not need to be developed",
+      "C": "A use case that is required by some product line members but not others",
+      "D": "A use case that can be chosen in place of a different use case in a SPL member"
+    },
+    "correct": "C",
+    "correctText": "A use case that is required by some product line members but not others",
+    "explanation": "Đáp án chính xác là C: A use case that is required by some product line members but not others"
+  },
+  {
+    "id": 218,
+    "label": "Câu 218",
+    "question": "How are feature conditions used in a SPL state machine?",
+    "choices": {
+      "A": "A guard condition",
+      "B": "A condition that is True or False",
+      "C": "To identify if a feature is selected or not in the state machine",
+      "D": "To allow state machine inheritance"
+    },
+    "correct": "C",
+    "correctText": "To identify if a feature is selected or not in the state machine",
+    "explanation": "Đáp án chính xác là C: To identify if a feature is selected or not in the state machine"
+  },
+  {
+    "id": 219,
+    "label": "Câu 219",
+    "question": "Which of the following is NOT a software architecture quality attribute?",
+    "choices": {
+      "A": "Scalability",
+      "B": "Maintainability",
+      "C": "Design pattern",
+      "D": "Availability"
+    },
+    "correct": "C",
+    "correctText": "Design pattern",
+    "explanation": "Đáp án chính xác là C: Design pattern"
+  },
+  {
+    "id": 220,
+    "label": "Câu 220",
+    "question": "Which quality attribute ensures that a system can efficiently handle increased loads without significant performance degradation?",
+    "choices": {
+      "A": "Testability",
+      "B": "Scalability",
+      "C": "Availability",
+      "D": "Security"
+    },
+    "correct": "B",
+    "correctText": "Scalability",
+    "explanation": "Đáp án chính xác là B: Scalability"
+  },
+  {
+    "id": 221,
+    "label": "Câu 221",
+    "question": "An input message to a state-dependent control object corresponds to:",
+    "choices": {
+      "A": "An event on the internal state machine",
+      "B": "An action on the internal state machine",
+      "C": "A condition on the internal state machine",
+      "D": "A state on the internal state machine"
+    },
+    "correct": "A",
+    "correctText": "An event on the internal state machine",
+    "explanation": "Đáp án chính xác là A: An event on the internal state machine"
+  },
+  {
+    "id": 222,
+    "label": "Câu 222",
+    "question": "Why is it recommended to combine use case diagrams with \"textual use case descriptions\" in software modeling?",
+    "choices": {
+      "A": "Diagrams are sufficient, but text is used for decoration",
+      "B": "Text provides detailed flows, conditions, and exceptions not captured in diagrams",
+      "C": "Text replaces diagrams completely",
+      "D": "Text reduces the need for validation with stakeholders"
+    },
+    "correct": "B",
+    "correctText": "Text provides detailed flows, conditions, and exceptions not captured in diagrams",
+    "explanation": "Đáp án chính xác là B: Text provides detailed flows, conditions, and exceptions not captured in diagrams"
+  },
+  {
+    "id": 223,
+    "label": "Câu 223",
+    "question": "What is a software product line (SPL)?",
+    "choices": {
+      "A": "The pipeline in cloud",
+      "B": "A service in server",
+      "C": "The software products marketed by a company",
+      "D": "A family of systems with some common components and some variable components"
+    },
+    "correct": "D",
+    "correctText": "A family of systems with some common components and some variable components",
+    "explanation": "Đáp án chính xác là D: A family of systems with some common components and some variable components"
+  },
+  {
+    "id": 224,
+    "label": "Câu 224",
+    "question": "What is a 'Composite State' in the context of State Machine Diagrams?",
+    "choices": {
+      "A": "A state that is composed of multiple sub-states, allowing for the modeling of more complex behaviors",
+      "B": "A simple state that cannot be broken down further",
+      "C": "A state that combines the behaviors of two machines into one",
+      "D": "The initial state of any finite state machine"
+    },
+    "correct": "A",
+    "correctText": "A state that is composed of multiple sub-states, allowing for the modeling of more complex behaviors",
+    "explanation": "Đáp án chính xác là A: A state that is composed of multiple sub-states, allowing for the modeling of more complex behaviors"
+  },
+  {
+    "id": 225,
+    "label": "Câu 225",
+    "question": "When modeling alternate pathways, when should one apply the extend relationship?",
+    "choices": {
+      "A": "when a single, intricate interaction sequence requires the participation of numerous performers",
+      "B": "when a single use case contains an excessive number of alternate, optional, or extraordinary interaction sequences",
+      "C": "when numerous existing use cases exhibit shared functionality that may be taken and used again",
+      "D": "Sometimes it is necessary to group relevant use cases in a use case package to improve organization"
+    },
+    "correct": "B",
+    "correctText": "when a single use case contains an excessive number of alternate, optional, or extraordinary interaction sequences",
+    "explanation": "Đáp án chính xác là B: when a single use case contains an excessive number of alternate, optional, or extraordinary interaction sequences"
+  },
+  {
+    "id": 226,
+    "label": "Câu 226",
+    "question": "Which of the following statements is NOT true for a component?",
+    "choices": {
+      "A": "A composite object composed of other objects",
+      "B": "A method",
+      "C": "A simple object",
+      "D": "Provides an interface"
+    },
+    "correct": "B",
+    "correctText": "A method",
+    "explanation": "Đáp án chính xác là B: A method"
+  },
+  {
+    "id": 227,
+    "label": "Câu 227",
+    "question": "What is a software life cycle?",
+    "choices": {
+      "A": "The life of the software",
+      "B": "A cyclic approach to developing software",
+      "C": "A phased approach to developing software",
+      "D": "The life of software developed in cycles"
+    },
+    "correct": "C",
+    "correctText": "A phased approach to developing software",
+    "explanation": "Đáp án chính xác là C: A phased approach to developing software"
+  },
+  {
+    "id": 228,
+    "label": "Câu 228",
+    "question": "Which UML diagram is best suited for modeling the dynamic behavior of a system?",
+    "choices": {
+      "A": "Class Diagram",
+      "B": "Sequence Diagram",
+      "C": "Use Case Diagram",
+      "D": "Component Diagram"
+    },
+    "correct": "B",
+    "correctText": "Sequence Diagram",
+    "explanation": "Đáp án chính xác là B: Sequence Diagram"
+  },
+  {
+    "id": 229,
+    "label": "Câu 229",
+    "question": "Which of the following system problems does availability address?",
+    "choices": {
+      "A": "Denial of service",
+      "B": "Single point of failure",
+      "C": "System throughput",
+      "D": "System penetration"
+    },
+    "correct": "B",
+    "correctText": "Single point of failure",
+    "explanation": "Đáp án chính xác là B: Single point of failure"
+  },
+  {
+    "id": 230,
+    "label": "Câu 230",
+    "question": "What is the COMET life cycle primarily based on?",
+    "choices": {
+      "A": "Prototyping",
+      "B": "Use cases",
+      "C": "Waterfall model",
+      "D": "Spiral model"
+    },
+    "correct": "B",
+    "correctText": "Use cases",
+    "explanation": "Đáp án chính xác là B: Use cases"
+  },
+  {
+    "id": 231,
+    "label": "Câu 231",
+    "question": "In UML class diagrams, which notation represents an association between two classes?",
+    "choices": {
+      "A": "Solid line connecting the classes",
+      "B": "Dotted line with open arrowhead",
+      "C": "Diamond shape at one end",
+      "D": "Dashed line with filled arrowhead"
+    },
+    "correct": "A",
+    "correctText": "Solid line connecting the classes",
+    "explanation": "Đáp án chính xác là A: Solid line connecting the classes"
+  },
+  {
+    "id": 232,
+    "label": "Câu 232",
+    "question": "What is a composition hierarchy?",
+    "choices": {
+      "A": "A weak form of a generalization/ specialization hierarchy",
+      "B": "A strong form of a generalization/ specialization hierarchy",
+      "C": "A weak form of a whole/part relationship",
+      "D": "A strong form of a whole/part relationship"
+    },
+    "correct": "D",
+    "correctText": "A strong form of a whole/part relationship",
+    "explanation": "Đáp án chính xác là D: A strong form of a whole/part relationship"
+  },
+  {
+    "id": 233,
+    "label": "Câu 233",
+    "question": "Why is testability considered an important architecture characteristic?",
+    "choices": {
+      "A": "It primarily affects the visual design of the application.",
+      "B": "It directly determines the speed of development.",
+      "C": "It enables early detection of defects, reducing the cost of change.",
+      "D": "It is only important for user interface components."
+    },
+    "correct": "C",
+    "correctText": "It enables early detection of defects, reducing the cost of change.",
+    "explanation": "Đáp án chính xác là C: It enables early detection of defects, reducing the cost of change."
+  },
+  {
+    "id": 234,
+    "label": "Câu 234",
+    "question": "Which of the following interactions could happen on an interaction diagram?",
+    "choices": {
+      "A": "An external user sends a message to a user interaction object.",
+      "B": "An external user sends a message to an entity object.",
+      "C": "An external user sends a message to an I/O object.",
+      "D": "An external user sends a message to a printer object."
+    },
+    "correct": "A",
+    "correctText": "An external user sends a message to a user interaction object.",
+    "explanation": "Đáp án chính xác là A: An external user sends a message to a user interaction object."
+  },
+  {
+    "id": 235,
+    "label": "Câu 235",
+    "question": "What is carried out during incremental software integration?",
+    "choices": {
+      "A": "Implementation of the classes in each software increment",
+      "B": "Unit testing of the classes in each software increment",
+      "C": "Integration testing of the classes in each software increment",
+      "D": "System testing of the classes in each software increment"
+    },
+    "correct": "C",
+    "correctText": "Integration testing of the classes in each software increment",
+    "explanation": "Đáp án chính xác là C: Integration testing of the classes in each software increment"
+  },
+  {
+    "id": 236,
+    "label": "Câu 236",
+    "question": "How does COMET compare the life cycle with the Unified Software Development Process?",
+    "choices": {
+      "A": "Identifies them as identical with no differences",
+      "B": "Does not acknowledge the Unified Software Development Process",
+      "C": "Highlights key differences and similarities between them",
+      "D": "Suggests that the Unified Software Development Process is outdated"
+    },
+    "correct": "C",
+    "correctText": "Highlights key differences and similarities between them",
+    "explanation": "Đáp án chính xác là C: Highlights key differences and similarities between them"
+  },
+  {
+    "id": 237,
+    "label": "Câu 237",
+    "question": "What is the main purpose of a data abstraction class in object-oriented design?",
+    "choices": {
+      "A": "To encapsulate the logic and algorithms required by an application",
+      "B": "To act as an interface between the system and its external environment",
+      "C": "To hide the internal details of a data structure while providing operations to access and manipulate it",
+      "D": "To coordinate the interactions and behaviors of other objects in the system"
+    },
+    "correct": "C",
+    "correctText": "To hide the internal details of a data structure while providing operations to access and manipulate it",
+    "explanation": "Đáp án chính xác là C: To hide the internal details of a data structure while providing operations to access and manipulate it"
+  },
+  {
+    "id": 238,
+    "label": "Câu 238",
+    "question": "What role do interaction diagrams play in dynamic modeling?",
+    "choices": {
+      "A": "Visualizing message flow between system objects",
+      "B": "Defining data storage locations",
+      "C": "Simplifying testing processes",
+      "D": "Centralizing UML diagrams"
+    },
+    "correct": "A",
+    "correctText": "Visualizing message flow between system objects",
+    "explanation": "Đáp án chính xác là A: Visualizing message flow between system objects"
+  },
+  {
+    "id": 239,
+    "label": "Câu 239",
+    "question": "Which of the following interactions is NOT likely to happen on an interaction diagram?",
+    "choices": {
+      "A": "A user interaction object sends a message to an entity object",
+      "B": "An input object sends a message to a state-dependent control object",
+      "C": "An input object sends a message to a printer object",
+      "D": "A user interaction object sends a message to a proxy object"
+    },
+    "correct": "C",
+    "correctText": "An input object sends a message to a printer object",
+    "explanation": "Đáp án chính xác là C: An input object sends a message to a printer object"
+  },
+  {
+    "id": 240,
+    "label": "Câu 240",
+    "question": "What is the main function of the COMET methodology in Software Architecture Design?",
+    "choices": {
+      "A": "Focusing on object-oriented methods for modularity",
+      "B": "Simplifying data storage",
+      "C": "Testing the performance of the system",
+      "D": "Automating the coding process"
+    },
+    "correct": "A",
+    "correctText": "Focusing on object-oriented methods for modularity",
+    "explanation": "Đáp án chính xác là A: Focusing on object-oriented methods for modularity"
+  },
+  {
+    "id": 241,
+    "label": "Câu 241",
+    "question": "What is a secondary actor?",
+    "choices": {
+      "A": "The actor who goes on stage second",
+      "B": "The actor that starts the use case",
+      "C": "An actor that participates in the use case",
+      "D": "An object inside the system"
+    },
+    "correct": "C",
+    "correctText": "An actor that participates in the use case",
+    "explanation": "Đáp án chính xác là C: An actor that participates in the use case"
+  },
+  {
+    "id": 242,
+    "label": "Câu 242",
+    "question": "What is the primary goal of designing client/server software architectures?",
+    "choices": {
+      "A": "To enable distributed processing across multiple systems",
+      "B": "To centralize data storage on a single server",
+      "C": "To reduce the number of clients in a system",
+      "D": "To eliminate middleware usage"
+    },
+    "correct": "A",
+    "correctText": "To enable distributed processing across multiple systems",
+    "explanation": "Đáp án chính xác là A: To enable distributed processing across multiple systems"
+  },
+  {
+    "id": 243,
+    "label": "Câu 243",
+    "question": "In SOA, services are typically:",
+    "choices": {
+      "A": "Tightly coupled",
+      "B": "Loosely coupled",
+      "C": "Hardcoded to specific clients",
+      "D": "Bound to a single technology stack"
+    },
+    "correct": "B",
+    "correctText": "Loosely coupled",
+    "explanation": "Đáp án chính xác là B: Loosely coupled"
+  },
+  {
+    "id": 244,
+    "label": "Câu 244",
+    "question": "What is the primary purpose of the integrated communication diagram in the software design process?",
+    "choices": {
+      "A": "To depict the static structure of subsystems and their relationships.",
+      "B": "To merge all use case-based communication diagrams into a single diagram, showing all message interactions between objects.",
+      "C": "To visualize the geographical distribution of subsystems.",
+      "D": "To show the sequence of operations for a single use case only."
+    },
+    "correct": "B",
+    "correctText": "To merge all use case-based communication diagrams into a single diagram, showing all message interactions between objects.",
+    "explanation": "Đáp án chính xác là B: To merge all use case-based communication diagrams into a single diagram, showing all message interactions between objects."
+  },
+  {
+    "id": 245,
+    "label": "Câu 245",
+    "question": "What is a kernel system in a SPL?",
+    "choices": {
+      "A": "A member of the SPL only composed of kernel classes",
+      "B": "A member of the SPL composed of kernel classes and possibly some default classes",
+      "C": "A member of the SPL composed of kernel classes and possibly some optional classes",
+      "D": "A member of the SPL composed of kernel classes and possibly some entity classes"
+    },
+    "correct": "C",
+    "correctText": "A member of the SPL composed of kernel classes and possibly some optional classes",
+    "explanation": "Đáp án chính xác là C: A member of the SPL composed of kernel classes and possibly some optional classes"
+  },
+  {
+    "id": 246,
+    "label": "Câu 246",
+    "question": "What is a demand-driven task?",
+    "choices": {
+      "A": "A task that responds to each message it receives",
+      "B": "A task that is activated by an internal message or event from another task",
+      "C": "A task that is activated by an external event",
+      "D": "A task that is activated by an input event"
+    },
+    "correct": "B",
+    "correctText": "A task that is activated by an internal message or event from another task",
+    "explanation": "Đáp án chính xác là B: A task that is activated by an internal message or event from another task"
+  },
+  {
+    "id": 247,
+    "label": "Câu 247",
+    "question": "In object-oriented design, polymorphism means that:",
+    "choices": {
+      "A": "Different classes may have the same name.",
+      "B": "Different classes may have the same interface name.",
+      "C": "Different classes may have the same superclass name",
+      "D": "Different classes may have the same operation name."
+    },
+    "correct": "D",
+    "correctText": "Different classes may have the same operation name.",
+    "explanation": "Đáp án chính xác là D: Different classes may have the same operation name."
+  },
+  {
+    "id": 248,
+    "label": "Câu 248",
+    "question": "What ensures consistency between a communication diagram and a statechart when modeling state-dependent interaction scenarios?",
+    "choices": {
+      "A": "Using different naming conventions for events and messages.",
+      "B": "Assigning unique names to each state in the statechart.",
+      "C": "Numbering messages and events in the same sequence across both diagrams.",
+      "D": "Defining separate control objects for each diagram."
+    },
+    "correct": "C",
+    "correctText": "Numbering messages and events in the same sequence across both diagrams.",
+    "explanation": "Đáp án chính xác là C: Numbering messages and events in the same sequence across both diagrams."
+  },
+  {
+    "id": 249,
+    "label": "Câu 249",
+    "question": "Which of the following is not addressed by a secure system?",
+    "choices": {
+      "A": "System penetration",
+      "B": "Denial of service",
+      "C": "System scalability",
+      "D": "System authorization"
+    },
+    "correct": "C",
+    "correctText": "System scalability",
+    "explanation": "Đáp án chính xác là C: System scalability"
+  },
+  {
+    "id": 250,
+    "label": "Câu 250",
+    "question": "What is inheritance in object-oriented programming?",
+    "choices": {
+      "A": "The process of creating private data",
+      "B": "The mechanism by which one class acquires the properties of another class",
+      "C": "The method of implementing encapsulation",
+      "D": "The function of hiding data"
+    },
+    "correct": "B",
+    "correctText": "The mechanism by which one class acquires the properties of another class",
+    "explanation": "Đáp án chính xác là B: The mechanism by which one class acquires the properties of another class"
+  },
+  {
+    "id": 251,
+    "label": "Câu 251",
+    "question": "In a statechart, what does a transition represent?",
+    "choices": {
+      "A": "A class hierarchy",
+      "B": "A change of state due to an event",
+      "C": "Object inheritance",
+      "D": "UML package inclusion"
+    },
+    "correct": "B",
+    "correctText": "A change of state due to an event",
+    "explanation": "Đáp án chính xác là B: A change of state due to an event"
+  },
+  {
+    "id": 252,
+    "label": "Câu 252",
+    "question": "Which design pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable?",
+    "choices": {
+      "A": "Strategy",
+      "B": "Observer",
+      "C": "Singleton",
+      "D": "Facade"
+    },
+    "correct": "A",
+    "correctText": "Strategy",
+    "explanation": "Đáp án chính xác là A: Strategy"
+  },
+  {
+    "id": 253,
+    "label": "Câu 253",
+    "question": "What is a key characteristic of SOA?",
+    "choices": {
+      "A": "Services are dependent on each other",
+      "B": "Services are autonomous",
+      "C": "Services are not reusable",
+      "D": "Services are tightly integrated"
+    },
+    "correct": "B",
+    "correctText": "Services are autonomous",
+    "explanation": "Đáp án chính xác là B: Services are autonomous"
+  },
+  {
+    "id": 254,
+    "label": "Câu 254",
+    "question": "What is an entity object in software design?",
+    "choices": {
+      "A": "An object that performs actions and operations",
+      "B": "An object that stores information and provides limited access to that data",
+      "C": "An object that interacts with other objects in real-time",
+      "D": "An object that controls the flow of the system's processes"
+    },
+    "correct": "B",
+    "correctText": "An object that stores information and provides limited access to that data",
+    "explanation": "Đáp án chính xác là B: An object that stores information and provides limited access to that data"
+  },
+  {
+    "id": 255,
+    "label": "Câu 255",
+    "question": "What is a transaction?",
+    "choices": {
+      "A": "Consists of two or more operations",
+      "B": "Consists of one operation",
+      "C": "Consists of two or more operations that are indivisible",
+      "D": "Consists of two or more operations that are divisible"
+    },
+    "correct": "C",
+    "correctText": "Consists of two or more operations that are indivisible",
+    "explanation": "Đáp án chính xác là C: Consists of two or more operations that are indivisible"
+  },
+  {
+    "id": 256,
+    "label": "Câu 256",
+    "question": "Which key concept in system refinement focuses on adapting the software model to accommodate new requirements over time?",
+    "choices": {
+      "A": "Model rigidity",
+      "B": "Model evolution",
+      "C": "Code optimization",
+      "D": "Static deployment"
+    },
+    "correct": "B",
+    "correctText": "Model evolution",
+    "explanation": "Đáp án chính xác là B: Model evolution"
+  },
+  {
+    "id": 257,
+    "label": "Câu 257",
+    "question": "In a distributed component-based software architecture, which of the following statements is the most complete description of component deployment?",
+    "choices": {
+      "A": "Component instances can be deployed to different nodes in a geographically distributed environment",
+      "B": "Component instances can be deployed to different nodes in a geographically distributed environment before design",
+      "C": "Component instances can be deployed to different nodes in a geographically distributed environment before implementation",
+      "D": "Component instances can be deployed to different nodes in a geographically distributed environment after design and implementation"
+    },
+    "correct": "D",
+    "correctText": "Component instances can be deployed to different nodes in a geographically distributed environment after design and implementation",
+    "explanation": "Đáp án chính xác là D: Component instances can be deployed to different nodes in a geographically distributed environment after design and implementation"
+  },
+  {
+    "id": 258,
+    "label": "Câu 258",
+    "question": "What is the main purpose of information hiding in object design?",
+    "choices": {
+      "A": "To make all parts of an object visible to other objects",
+      "B": "To decide what information should be visible and what should be hidden",
+      "C": "To expose the internal details of an object to other objects",
+      "D": "To allow unrestricted access to an object's internals"
+    },
+    "correct": "B",
+    "correctText": "To decide what information should be visible and what should be hidden",
+    "explanation": "Đáp án chính xác là B: To decide what information should be visible and what should be hidden"
+  },
+  {
+    "id": 259,
+    "label": "Câu 259",
+    "question": "What is the primary role of architecture characteristics in software architecture?",
+    "choices": {
+      "A": "To define the functionality of the system.",
+      "B": "To specify the rules for how the system should be constructed.",
+      "C": "To define the success criteria of the system, orthogonal to its functionality.",
+      "D": "To provide guidelines for the development teams"
+    },
+    "correct": "C",
+    "correctText": "To define the success criteria of the system, orthogonal to its functionality.",
+    "explanation": "Đáp án chính xác là C: To define the success criteria of the system, orthogonal to its functionality."
+  },
+  {
+    "id": 260,
+    "label": "Câu 260",
+    "question": "A user interface subsystem is a type of:",
+    "choices": {
+      "A": "Control subsystem",
+      "B": "Service subsystem",
+      "C": "Client subsystem",
+      "D": "I/O subsystem"
+    },
+    "correct": "C",
+    "correctText": "Client subsystem",
+    "explanation": "Đáp án chính xác là C: Client subsystem"
+  },
+  {
+    "id": 261,
+    "label": "Câu 261",
+    "question": "In the context of a use case, a control object is most similar to:",
+    "choices": {
+      "A": "A conductor of an orchestra",
+      "B": "A composer writing music",
+      "C": "An audience member",
+      "D": "A musician in the orchestra"
+    },
+    "correct": "A",
+    "correctText": "A conductor of an orchestra",
+    "explanation": "Đáp án chính xác là A: A conductor of an orchestra"
+  },
+  {
+    "id": 262,
+    "label": "Câu 262",
+    "question": "Which of the following best describes UML (Unified Modeling Language)?",
+    "choices": {
+      "A": "A programming language for object-oriented systems",
+      "B": "A standardized modeling language used to specify, visualize, and document software systems",
+      "C": "A database schema language",
+      "D": "A user interface markup language"
+    },
+    "correct": "B",
+    "correctText": "A standardized modeling language used to specify, visualize, and document software systems",
+    "explanation": "Đáp án chính xác là B: A standardized modeling language used to specify, visualize, and document software systems"
+  },
+  {
+    "id": 263,
+    "label": "Câu 263",
+    "question": "What is described using a use case model?",
+    "choices": {
+      "A": "Object layout",
+      "B": "Functional behavior of the system",
+      "C": "Database structure",
+      "D": "Component dependencies"
+    },
+    "correct": "B",
+    "correctText": "Functional behavior of the system",
+    "explanation": "Đáp án chính xác là B: Functional behavior of the system"
+  },
+  {
+    "id": 264,
+    "label": "Câu 264",
+    "question": "Objects that are in geographically different locations should be:",
+    "choices": {
+      "A": "In the same subsystem",
+      "B": "In different subsystems",
+      "C": "In a composite subsystem",
+      "D": "In layered subsystems"
+    },
+    "correct": "B",
+    "correctText": "In different subsystems",
+    "explanation": "Đáp án chính xác là B: In different subsystems"
+  },
+  {
+    "id": 265,
+    "label": "Câu 265",
+    "question": "What does a component's provided interface consist of?",
+    "choices": {
+      "A": "The operations that a component must fulfill",
+      "B": "The operations inside a component",
+      "C": "The operations that a component uses",
+      "D": "The operations of a component"
+    },
+    "correct": "A",
+    "correctText": "The operations that a component must fulfill",
+    "explanation": "Đáp án chính xác là A: The operations that a component must fulfill"
+  },
+  {
+    "id": 266,
+    "label": "Câu 266",
+    "question": "Which of the following is a characteristic of an object?",
+    "choices": {
+      "A": "A function or subroutine",
+      "B": "A module",
+      "C": "Groups data and procedures that operate on the data",
+      "D": "Groups a function and an algorithm"
+    },
+    "correct": "C",
+    "correctText": "Groups data and procedures that operate on the data",
+    "explanation": "Đáp án chính xác là C: Groups data and procedures that operate on the data"
+  },
+  {
+    "id": 267,
+    "label": "Câu 267",
+    "question": "Which UML relationship models the \"is-a\" hierarchy?",
+    "choices": {
+      "A": "Aggregation",
+      "B": "Generalization",
+      "C": "Association",
+      "D": "Dependency"
+    },
+    "correct": "B",
+    "correctText": "Generalization",
+    "explanation": "Đáp án chính xác là B: Generalization"
+  },
+  {
+    "id": 268,
+    "label": "Câu 268",
+    "question": "In a sequential service design, how are client transactions processed?",
+    "choices": {
+      "A": "Multiple transactions are processed concurrently",
+      "B": "Transactions are processed in random order",
+      "C": "Each transaction is processed to completion before the next starts",
+      "D": "Only withdrawal transactions are processed sequentially"
+    },
+    "correct": "C",
+    "correctText": "Each transaction is processed to completion before the next starts",
+    "explanation": "Đáp án chính xác là C: Each transaction is processed to completion before the next starts"
+  },
+  {
+    "id": 269,
+    "label": "Câu 269",
+    "question": "What is an entity class?",
+    "choices": {
+      "A": "A class on an entity/relationship diagram",
+      "B": "A class that stores data",
+      "C": "A class that interfaces to an external entity",
+      "D": "An external class"
+    },
+    "correct": "B",
+    "correctText": "A class that stores data",
+    "explanation": "Đáp án chính xác là B: A class that stores data"
+  },
+  {
+    "id": 270,
+    "label": "Câu 270",
+    "question": "Which COMET step focuses on identifying system use cases and actors?",
+    "choices": {
+      "A": "Architectural design",
+      "B": "Analysis modeling",
+      "C": "Requirements capture",
+      "D": "Testing"
+    },
+    "correct": "C",
+    "correctText": "Requirements capture",
+    "explanation": "Đáp án chính xác là C: Requirements capture"
+  },
+  {
+    "id": 271,
+    "label": "Câu 271",
+    "question": "What is a unary association in UML?",
+    "choices": {
+      "A": "An association between objects of different classes",
+      "B": "An association between objects of the same class",
+      "C": "An association between an object and an external system",
+      "D": "An association that does not involve any objects"
+    },
+    "correct": "B",
+    "correctText": "An association between objects of the same class",
+    "explanation": "Đáp án chính xác là B: An association between objects of the same class"
+  },
+  {
+    "id": 272,
+    "label": "Câu 272",
+    "question": "Which design pattern is frequently applied to handle event notifications in the Emergency Monitoring System?",
+    "choices": {
+      "A": "Observer pattern",
+      "B": "Strategy pattern",
+      "C": "Factory method pattern",
+      "D": "Decorator pattern"
+    },
+    "correct": "A",
+    "correctText": "Observer pattern",
+    "explanation": "Đáp án chính xác là A: Observer pattern"
+  },
+  {
+    "id": 273,
+    "label": "Câu 273",
+    "question": "What is the role of a service broker in SOA?",
+    "choices": {
+      "A": "To host services",
+      "B": "To find and connect services",
+      "C": "To provide user interfaces",
+      "D": "To manage transactions"
+    },
+    "correct": "B",
+    "correctText": "To find and connect services",
+    "explanation": "Đáp án chính xác là B: To find and connect services"
+  },
+  {
+    "id": 274,
+    "label": "Câu 274",
+    "question": "Which case study involves monitoring patient conditions in a healthcare environment?",
+    "choices": {
+      "A": "ATM System",
+      "B": "Online Shopping System",
+      "C": "Emergency Monitoring System",
+      "D": "Library Management System"
+    },
+    "correct": "C",
+    "correctText": "Emergency Monitoring System",
+    "explanation": "Đáp án chính xác là C: Emergency Monitoring System"
+  },
+  {
+    "id": 275,
+    "label": "Câu 275",
+    "question": "What is a subsystem in software architecture?",
+    "choices": {
+      "A": "A hardware module.",
+      "B": "A single database.",
+      "C": "A logical module grouping related functionality.",
+      "D": "Only the user interface."
+    },
+    "correct": "C",
+    "correctText": "A logical module grouping related functionality.",
+    "explanation": "Đáp án chính xác là C: A logical module grouping related functionality."
+  },
+  {
+    "id": 276,
+    "label": "Câu 276",
+    "question": "What is the main goal when applying the principle of separation of concerns in subsystem design?",
+    "choices": {
+      "A": "To make subsystems more interconnected",
+      "B": "To assign multiple concerns to each subsystem",
+      "C": "To ensure each subsystem addresses a distinct concern",
+      "D": "To combine all subsystems into one aggregate object"
+    },
+    "correct": "C",
+    "correctText": "To ensure each subsystem addresses a distinct concern",
+    "explanation": "Đáp án chính xác là C: To ensure each subsystem addresses a distinct concern"
+  },
+  {
+    "id": 277,
+    "label": "Câu 277",
+    "question": "What is information hiding in software design?",
+    "choices": {
+      "A": "Hiding information so that it cannot be found",
+      "B": "Hiding a design decision that is considered likely to change",
+      "C": "Hiding information to make it secure",
+      "D": "Encapsulating data in a class"
+    },
+    "correct": "B",
+    "correctText": "Hiding a design decision that is considered likely to change",
+    "explanation": "Đáp án chính xác là B: Hiding a design decision that is considered likely to change"
+  },
+  {
+    "id": 278,
+    "label": "Câu 278",
+    "question": "What is an operation (also known as method) of a class?",
+    "choices": {
+      "A": "Specification and the implementation of a function performed by a class",
+      "B": "Specification and the implementation of a subroutine provided by a class",
+      "C": "Specification and the implementation of a function or procedure provided by a class",
+      "D": "Specification and the implementation of an interface provided by a class"
+    },
+    "correct": "C",
+    "correctText": "Specification and the implementation of a function or procedure provided by a class",
+    "explanation": "Đáp án chính xác là C: Specification and the implementation of a function or procedure provided by a class"
+  },
+  {
+    "id": 279,
+    "label": "Câu 279",
+    "question": "What is inheritance?",
+    "choices": {
+      "A": "A mechanism for inheriting characteristics from a parent",
+      "B": "A mechanism for sharing and reusing code between classes",
+      "C": "A mechanism for sharing data between classes",
+      "D": "A mechanism for hiding information between classes"
+    },
+    "correct": "B",
+    "correctText": "A mechanism for sharing and reusing code between classes",
+    "explanation": "Đáp án chính xác là B: A mechanism for sharing and reusing code between classes"
+  },
+  {
+    "id": 280,
+    "label": "Câu 280",
+    "question": "What is a condition used for in a state machine?",
+    "choices": {
+      "A": "A conditional action",
+      "B": "A conditional state",
+      "C": "A conditional state transition",
+      "D": "A conditional event"
+    },
+    "correct": "C",
+    "correctText": "A conditional state transition",
+    "explanation": "Đáp án chính xác là C: A conditional state transition"
+  },
+  {
+    "id": 281,
+    "label": "Câu 281",
+    "question": "Which UML diagram is primarily used for modeling relationships between classes and interfaces?",
+    "choices": {
+      "A": "Statechart Diagram",
+      "B": "Class Diagram",
+      "C": "Activity Diagram",
+      "D": "Deployment Diagram"
+    },
+    "correct": "B",
+    "correctText": "Class Diagram",
+    "explanation": "Đáp án chính xác là B: Class Diagram"
+  },
+  {
+    "id": 282,
+    "label": "Câu 282",
+    "question": "If two actions are shown on a given state transition, which of the following is true?",
+    "choices": {
+      "A": "The two actions are dependent on each other.",
+      "B": "The two actions are independent of each other.",
+      "C": "One action provides an input to the other action.",
+      "D": "The second action executes when the first action completes execution."
+    },
+    "correct": "D",
+    "correctText": "The second action executes when the first action completes execution.",
+    "explanation": "Đáp án chính xác là D: The second action executes when the first action completes execution."
+  },
+  {
+    "id": 283,
+    "label": "Câu 283",
+    "question": "What is the main difference between a class and an interface?",
+    "choices": {
+      "A": "A class can contain implementations of methods, while an interface cannot",
+      "B": "An interface can be instantiated, while a class cannot",
+      "C": "A class cannot be extended, while an interface can",
+      "D": "A class only contains method declarations, while an interface contains method implementations"
+    },
+    "correct": "A",
+    "correctText": "A class can contain implementations of methods, while an interface cannot",
+    "explanation": "Đáp án chính xác là A: A class can contain implementations of methods, while an interface cannot"
+  },
+  {
+    "id": 284,
+    "label": "Câu 284",
+    "question": "Which of the following is not included in the main object and class structuring categories?",
+    "choices": {
+      "A": "Entity object",
+      "B": "Boundary object",
+      "C": "Control object",
+      "D": "User object"
+    },
+    "correct": "D",
+    "correctText": "User object",
+    "explanation": "Đáp án chính xác là D: User object"
+  },
+  {
+    "id": 285,
+    "label": "Câu 285",
+    "question": "Which of the following best describes the role of software quality attributes in architectural design?",
+    "choices": {
+      "A": "They provide guidelines for programming language syntax",
+      "B": "They represent non-functional requirements that influence architectural choices",
+      "C": "They describe database constraints only",
+      "D": "They replace functional requirements"
+    },
+    "correct": "B",
+    "correctText": "They represent non-functional requirements that influence architectural choices",
+    "explanation": "Đáp án chính xác là B: They represent non-functional requirements that influence architectural choices"
+  },
+  {
+    "id": 286,
+    "label": "Câu 286",
+    "question": "When applying the Observer design pattern, which role is responsible for notifying all dependent objects about a state change?",
+    "choices": {
+      "A": "Observer",
+      "B": "Subject",
+      "C": "Mediator",
+      "D": "Adapter"
+    },
+    "correct": "B",
+    "correctText": "Subject",
+    "explanation": "Đáp án chính xác là B: Subject"
+  },
+  {
+    "id": 287,
+    "label": "Câu 287",
+    "question": "What are the two kinds of UML interaction diagrams?",
+    "choices": {
+      "A": "Class diagram and sequence diagram",
+      "B": "Sequence diagram and communication diagram",
+      "C": "Class diagram and communication diagram",
+      "D": "Statechart and communication diagram"
+    },
+    "correct": "B",
+    "correctText": "Sequence diagram and communication diagram",
+    "explanation": "Đáp án chính xác là B: Sequence diagram and communication diagram"
+  },
+  {
+    "id": 288,
+    "label": "Câu 288",
+    "question": "What is the primary purpose of a use case diagram in UML?",
+    "choices": {
+      "A": "To show the interactions between classes in a system",
+      "B": "To represent the dynamic behavior of a system",
+      "C": "To illustrate the organization of objects within a class",
+      "D": "To depict the high-level functionality of a system"
+    },
+    "correct": "D",
+    "correctText": "To depict the high-level functionality of a system",
+    "explanation": "Đáp án chính xác là D: To depict the high-level functionality of a system"
+  },
+  {
+    "id": 289,
+    "label": "Câu 289",
+    "question": "In COMET-based system design, how is the quality attribute of testability primarily supported?",
+    "choices": {
+      "A": "By tightly coupling modules for faster access",
+      "B": "By structuring the system with clearly defined interfaces and decoupled components",
+      "C": "By embedding test code into production logic",
+      "D": "By minimizing documentation and focusing on rapid prototyping"
+    },
+    "correct": "B",
+    "correctText": "By structuring the system with clearly defined interfaces and decoupled components",
+    "explanation": "Đáp án chính xác là B: By structuring the system with clearly defined interfaces and decoupled components"
+  },
+  {
+    "id": 290,
+    "label": "Câu 290",
+    "question": "What is the main purpose of using Use Case Modeling in system development?",
+    "choices": {
+      "A": "Identifying the interactions between users and the system",
+      "B": "Developing algorithms for data storage",
+      "C": "Automating performance testing",
+      "D": "Establishing network protocols"
+    },
+    "correct": "A",
+    "correctText": "Identifying the interactions between users and the system",
+    "explanation": "Đáp án chính xác là A: Identifying the interactions between users and the system"
+  },
+  {
+    "id": 291,
+    "label": "Câu 291",
+    "question": "Which method can be applied to define a system's functional requirements?",
+    "choices": {
+      "A": "Use case modeling",
+      "B": "Requirements analysis",
+      "C": "Static modeling",
+      "D": "Activity diagrams"
+    },
+    "correct": "A",
+    "correctText": "Use case modeling",
+    "explanation": "Đáp án chính xác là A: Use case modeling"
+  },
+  {
+    "id": 292,
+    "label": "Câu 292",
+    "question": "When evolving a complex software system, which strategy minimizes risks during the introduction of major design changes?",
+    "choices": {
+      "A": "Immediate deployment to production",
+      "B": "Parallel model refinement and incremental integration",
+      "C": "Isolated team development without integration",
+      "D": "Skipping design documentation updates"
+    },
+    "correct": "B",
+    "correctText": "Parallel model refinement and incremental integration",
+    "explanation": "Đáp án chính xác là B: Parallel model refinement and incremental integration"
+  },
+  {
+    "id": 293,
+    "label": "Câu 293",
+    "question": "How is the discriminator represented in the relational database mapping from the generalization/specialization hierarchy?",
+    "choices": {
+      "A": "As a primary key in the superclass table.",
+      "B": "As an attribute in each subclass table.",
+      "C": "As part of the concatenated primary key in each subclass table.",
+      "D": "As an explicit attribute of the superclass table."
+    },
+    "correct": "D",
+    "correctText": "As an explicit attribute of the superclass table.",
+    "explanation": "Đáp án chính xác là D: As an explicit attribute of the superclass table."
+  },
+  {
+    "id": 294,
+    "label": "Câu 294",
+    "question": "In class diagram, optional relationship is",
+    "choices": {
+      "A": "1..*",
+      "B": "m..n",
+      "C": "*",
+      "D": "0..1"
+    },
+    "correct": "D",
+    "correctText": "0..1",
+    "explanation": "Đáp án chính xác là D: 0..1"
+  },
+  {
+    "id": 295,
+    "label": "Câu 295",
+    "question": "How does Copilot assist during software design?",
+    "choices": {
+      "A": "By compiling code",
+      "B": "By providing code suggestions and generating design structures",
+      "C": "By executing database queries",
+      "D": "By configuring deployment pipelines"
+    },
+    "correct": "B",
+    "correctText": "By providing code suggestions and generating design structures",
+    "explanation": "Đáp án chính xác là B: By providing code suggestions and generating design structures"
+  },
+  {
+    "id": 296,
+    "label": "Câu 296",
+    "question": "What does a component's required interface consist of?",
+    "choices": {
+      "A": "The operations that a component must fulfill",
+      "B": "The operations inside a component",
+      "C": "The operations that a component uses",
+      "D": "The visible operations of a component"
+    },
+    "correct": "C",
+    "correctText": "The operations that a component uses",
+    "explanation": "Đáp án chính xác là C: The operations that a component uses"
+  },
+  {
+    "id": 297,
+    "label": "Câu 297",
+    "question": "How is a concurrent service designed?",
+    "choices": {
+      "A": "One object that responds to requests from clients",
+      "B": "Multiple objects that respond to requests from clients",
+      "C": "One subsystem that responds to requests from clients",
+      "D": "Multiple subsystems that respond to requests from clients"
+    },
+    "correct": "B",
+    "correctText": "Multiple objects that respond to requests from clients",
+    "explanation": "Đáp án chính xác là B: Multiple objects that respond to requests from clients"
+  },
+  {
+    "id": 298,
+    "label": "Câu 298",
+    "question": "What constitutes a client/server software architecture's fundamental structure?",
+    "choices": {
+      "A": "One client and multiple services",
+      "B": "Multiple clients and one service",
+      "C": "Multiple clients and multiple services",
+      "D": "One client and one service"
+    },
+    "correct": "B",
+    "correctText": "Multiple clients and one service",
+    "explanation": "Đáp án chính xác là B: Multiple clients and one service"
+  },
+  {
+    "id": 299,
+    "label": "Câu 299",
+    "question": "Which database constraint enforces uniqueness of each record?",
+    "choices": {
+      "A": "Foreign key",
+      "B": "Primary key",
+      "C": "Index",
+      "D": "Trigger"
+    },
+    "correct": "B",
+    "correctText": "Primary key",
+    "explanation": "Đáp án chính xác là B: Primary key"
+  },
+  {
+    "id": 300,
+    "label": "Câu 300",
+    "question": "What is a periodic task?",
+    "choices": {
+      "A": "A task that responds to each message it receives",
+      "B": "A task that is activated by a timer event",
+      "C": "A task that is activated by an external event",
+      "D": "A task that is activated by an input event"
+    },
+    "correct": "B",
+    "correctText": "A task that is activated by a timer event",
+    "explanation": "Đáp án chính xác là B: A task that is activated by a timer event"
+  },
+  {
+    "id": 301,
+    "label": "Câu 301",
+    "question": "What is a structural view of a software architecture?",
+    "choices": {
+      "A": "A view in terms of a module hierarchy",
+      "B": "A view in terms of components and connectors",
+      "C": "A view of the physical configuration in terms of nodes and interconnections",
+      "D": "A view in terms of objects and messages"
+    },
+    "correct": "B",
+    "correctText": "A view in terms of components and connectors",
+    "explanation": "Đáp án chính xác là B: A view in terms of components and connectors"
+  },
+  {
+    "id": 302,
+    "label": "Câu 302",
+    "question": "Which UML diagram is typically used to show the dynamic behavior of a system, including the sequence of interactions between objects or components?",
+    "choices": {
+      "A": "Class diagram",
+      "B": "Use case diagram",
+      "C": "Sequence diagram",
+      "D": "State diagram"
+    },
+    "correct": "C",
+    "correctText": "Sequence diagram",
+    "explanation": "Đáp án chính xác là C: Sequence diagram"
+  },
+  {
+    "id": 303,
+    "label": "Câu 303",
+    "question": "What are software structuring criteria?",
+    "choices": {
+      "A": "Fundamental ideas that can be applied to designing a system.",
+      "B": "Systematic approaches for producing a design.",
+      "C": "Guidelines used to help in structuring a software system into its components.",
+      "D": "Overall plans for developing a design."
+    },
+    "correct": "C",
+    "correctText": "Guidelines used to help in structuring a software system into its components.",
+    "explanation": "Đáp án chính xác là C: Guidelines used to help in structuring a software system into its components."
+  },
+  {
+    "id": 304,
+    "label": "Câu 304",
+    "question": "What is a software architecture?",
+    "choices": {
+      "A": "The software inside a building.",
+      "B": "The structure of a client/server system.",
+      "C": "The overall structure of a software system.",
+      "D": "The software classes and their relationships."
+    },
+    "correct": "C",
+    "correctText": "The overall structure of a software system.",
+    "explanation": "Đáp án chính xác là C: The overall structure of a software system."
+  },
+  {
+    "id": 305,
+    "label": "Câu 305",
+    "question": "What is the primary goal of dynamic interaction modeling?",
+    "choices": {
+      "A": "To illustrate runtime behavior and communication between components",
+      "B": "To automate testing processes",
+      "C": "To centralize system deployment",
+      "D": "To simplify static modeling"
+    },
+    "correct": "A",
+    "correctText": "To illustrate runtime behavior and communication between components",
+    "explanation": "Đáp án chính xác là A: To illustrate runtime behavior and communication between components"
+  },
+  {
+    "id": 306,
+    "label": "Câu 306",
+    "question": "What is the primary purpose of determining the boundary object(s) in the state-dependent dynamic interaction modeling strategy?",
+    "choices": {
+      "A": "To execute the statechart",
+      "B": "To identify alternative sequence scenarios",
+      "C": "To specify the interactions between software objects",
+      "D": "To consider objects that receive inputs from the external environment"
+    },
+    "correct": "D",
+    "correctText": "To consider objects that receive inputs from the external environment",
+    "explanation": "Đáp án chính xác là D: To consider objects that receive inputs from the external environment"
+  },
+  {
+    "id": 307,
+    "label": "Câu 307",
+    "question": "You are tasked with choosing a design pattern for a scenario where an object must change its behavior dynamically at runtime depending on its internal state. Which design pattern would you recommend?",
+    "choices": {
+      "A": "Observer Pattern",
+      "B": "Strategy Pattern",
+      "C": "State Pattern",
+      "D": "Singleton Pattern"
+    },
+    "correct": "C",
+    "correctText": "State Pattern",
+    "explanation": "Đáp án chính xác là C: State Pattern"
+  },
+  {
+    "id": 308,
+    "label": "Câu 308",
+    "question": "Which pattern applied to the architectural structure?",
+    "choices": {
+      "A": "Call/Return pattern",
+      "B": "Layers of Abstraction pattern",
+      "C": "Asynchronous Message Communication pattern",
+      "D": "Synchronous Message Communication with Reply pattern"
+    },
+    "correct": "B",
+    "correctText": "Layers of Abstraction pattern",
+    "explanation": "Đáp án chính xác là B: Layers of Abstraction pattern"
+  },
+  {
+    "id": 309,
+    "label": "Câu 309",
+    "question": "Which object category best suits capturing business rules independently?",
+    "choices": {
+      "A": "Control",
+      "B": "Boundary",
+      "C": "Application logic",
+      "D": "Entity"
+    },
+    "correct": "A",
+    "correctText": "Control",
+    "explanation": "Đáp án chính xác là A: Control"
+  },
+  {
+    "id": 310,
+    "label": "Câu 310",
+    "question": "How is a relational database mapped to a whole/part relationship?",
+    "choices": {
+      "A": "The part class becomes a foreign key in the whole class.",
+      "B": "The whole class becomes part of the primary key in the part class.",
+      "C": "Each part class is designed as its own relational table.",
+      "D": "In relational databases, the flat (nonhierarchical) norm is broken by the creation of a hierarchy."
+    },
+    "correct": "C",
+    "correctText": "Each part class is designed as its own relational table.",
+    "explanation": "Đáp án chính xác là C: Each part class is designed as its own relational table."
+  },
+  {
+    "id": 311,
+    "label": "Câu 311",
+    "question": "Which of the following elements is NOT typically found in a Sequence Diagram?",
+    "choices": {
+      "A": "Lifelines",
+      "B": "Messages",
+      "C": "Entities",
+      "D": "Activation bars"
+    },
+    "correct": "C",
+    "correctText": "Entities",
+    "explanation": "Đáp án chính xác là C: Entities"
+  },
+  {
+    "id": 312,
+    "label": "Câu 312",
+    "question": "When evolving a complex software system, which practice ensures consistency across multiple model refinements?",
+    "choices": {
+      "A": "Refining each model independently without cross-checking",
+      "B": "Synchronizing refinements between analysis, design, and architecture models",
+      "C": "Postponing model updates until after implementation",
+      "D": "Relying only on component-level testing"
+    },
+    "correct": "B",
+    "correctText": "Synchronizing refinements between analysis, design, and architecture models",
+    "explanation": "Đáp án chính xác là B: Synchronizing refinements between analysis, design, and architecture models"
+  },
+  {
+    "id": 313,
+    "label": "Câu 313",
+    "question": "Which design pattern focuses on ensuring a single instance of a class throughout a program?",
+    "choices": {
+      "A": "Singleton Pattern",
+      "B": "Factory Pattern",
+      "C": "MVC Pattern",
+      "D": "Observer Pattern"
+    },
+    "correct": "A",
+    "correctText": "Singleton Pattern",
+    "explanation": "Đáp án chính xác là A: Singleton Pattern"
+  },
+  {
+    "id": 314,
+    "label": "Câu 314",
+    "question": "An interaction diagram should be developed for:",
+    "choices": {
+      "A": "Only the main sequence of the use case",
+      "B": "The main sequence and every alternative sequence of the use case",
+      "C": "The main sequence and a representative alternative sequence of the use case",
+      "D": "The alternative sequences of the use case"
+    },
+    "correct": "C",
+    "correctText": "The main sequence and a representative alternative sequence of the use case",
+    "explanation": "Đáp án chính xác là C: The main sequence and a representative alternative sequence of the use case"
+  },
+  {
+    "id": 315,
+    "label": "Câu 315",
+    "question": "Which of the following is a potential drawback of prioritizing reuse in SOA?",
+    "choices": {
+      "A": "Increased agility",
+      "B": "Reduced complexity",
+      "C": "High coupling between services",
+      "D": "Improved service granularity"
+    },
+    "correct": "C",
+    "correctText": "High coupling between services",
+    "explanation": "Đáp án chính xác là C: High coupling between services"
+  },
+  {
+    "id": 316,
+    "label": "Câu 316",
+    "question": "Which of the following best describes a composite component?",
+    "choices": {
+      "A": "A component that cannot be reused",
+      "B": "A component that is composed of several smaller, reusable components",
+      "C": "A component that is monolithic and cannot be divided",
+      "D": "A component designed for a single, specific task"
+    },
+    "correct": "B",
+    "correctText": "A component that is composed of several smaller, reusable components",
+    "explanation": "Đáp án chính xác là B: A component that is composed of several smaller, reusable components"
+  },
+  {
+    "id": 317,
+    "label": "Câu 317",
+    "question": "What is a common approach to managing concurrency in a software system?",
+    "choices": {
+      "A": "Using global variables extensively",
+      "B": "Implementing locks and synchronization mechanisms",
+      "C": "Avoiding thread creation",
+      "D": "Utilizing single-threaded execution only"
+    },
+    "correct": "B",
+    "correctText": "Implementing locks and synchronization mechanisms",
+    "explanation": "Đáp án chính xác là B: Implementing locks and synchronization mechanisms"
+  },
+  {
+    "id": 318,
+    "label": "Câu 318",
+    "question": "The integrated communication diagram is a synthesis of all the communication diagrams developed to support the use cases. The integrated communication diagram is, in effect, a merger of the communication diagrams, and its development is described next.",
+    "choices": {
+      "A": "True",
+      "B": "False"
+    },
+    "correct": "A",
+    "correctText": "True",
+    "explanation": "Đáp án chính xác là A: True"
+  },
+  {
+    "id": 319,
+    "label": "Câu 319",
+    "question": "Which of the following metrics can be used to calculate the quality attributes?",
+    "choices": {
+      "A": "Observable",
+      "B": "Non-observable",
+      "C": "All of the mentioned",
+      "D": "None of the mentioned"
+    },
+    "correct": "C",
+    "correctText": "All of the mentioned",
+    "explanation": "Đáp án chính xác là C: All of the mentioned"
+  },
+  {
+    "id": 320,
+    "label": "Câu 320",
+    "question": "Which of the following best describes the goal of the Software Design Process?",
+    "choices": {
+      "A": "Write executable code immediately",
+      "B": "Transform user requirements into a system architecture and design",
+      "C": "Design the database schema first",
+      "D": "Focus solely on security testing"
+    },
+    "correct": "B",
+    "correctText": "Transform user requirements into a system architecture and design",
+    "explanation": "Đáp án chính xác là B: Transform user requirements into a system architecture and design"
+  },
+  {
+    "id": 321,
+    "label": "Câu 321",
+    "question": "What is the primary purpose of software subsystem architecture?",
+    "choices": {
+      "A": "To divide a system into smaller, manageable components for design and development",
+      "B": "To create testing frameworks for software applications",
+      "C": "To simplify the use of UML diagrams",
+      "D": "To centralize data storage"
+    },
+    "correct": "A",
+    "correctText": "To divide a system into smaller, manageable components for design and development",
+    "explanation": "Đáp án chính xác là A: To divide a system into smaller, manageable components for design and development"
+  },
+  {
+    "id": 322,
+    "label": "Câu 322",
+    "question": "Which software architecture perspectives are explained?",
+    "choices": {
+      "A": "Static, dynamic, and deployment views",
+      "B": "Static, deployment, and user interface views",
+      "C": "Dynamic, user interface, and data management views",
+      "D": "Deployment, user interface, and data management views"
+    },
+    "correct": "A",
+    "correctText": "Static, dynamic, and deployment views",
+    "explanation": "Đáp án chính xác là A: Static, dynamic, and deployment views"
+  },
+  {
+    "id": 323,
+    "label": "Câu 323",
+    "question": "Which of the following is the BEST description of maintainability in software architecture?",
+    "choices": {
+      "A": "The ability of a system to perform its intended functions without failure.",
+      "B": "The ease with which software can be modified to correct defects, improve performance, or adapt to changes.",
+      "C": "The ability of a system to scale and handle increased load.",
+      "D": "The degree to which software can be used in different operating environments."
+    },
+    "correct": "B",
+    "correctText": "The ease with which software can be modified to correct defects, improve performance, or adapt to changes.",
+    "explanation": "Đáp án chính xác là B: The ease with which software can be modified to correct defects, improve performance, or adapt to changes."
+  },
+  {
+    "id": 324,
+    "label": "Câu 324",
+    "question": "How are alternative paths represented in a sequence diagram?",
+    "choices": {
+      "A": "With conditional frames (alt)",
+      "B": "With optional frames (opt)",
+      "C": "With loops (loop)",
+      "D": "With concurrent regions (par)"
+    },
+    "correct": "A",
+    "correctText": "With conditional frames (alt)",
+    "explanation": "Đáp án chính xác là A: With conditional frames (alt)"
+  },
+  {
+    "id": 325,
+    "label": "Câu 325",
+    "question": "Which of the following objects executes the state machine in state-dependent interaction modeling?",
+    "choices": {
+      "A": "Boundary object",
+      "B": "Entity object",
+      "C": "Control object",
+      "D": "User interface object"
+    },
+    "correct": "C",
+    "correctText": "Control object",
+    "explanation": "Đáp án chính xác là C: Control object"
+  },
+  {
+    "id": 326,
+    "label": "Câu 326",
+    "question": "What is maintainability?",
+    "choices": {
+      "A": "The extent to which software is capable of being changed before deployment",
+      "B": "The extent to which software is capable of being changed after deployment",
+      "C": "The extent to which software is capable of being changed during development",
+      "D": "The extent to which software is capable of being changed after development"
+    },
+    "correct": "B",
+    "correctText": "The extent to which software is capable of being changed after deployment",
+    "explanation": "Đáp án chính xác là B: The extent to which software is capable of being changed after deployment"
+  },
+  {
+    "id": 327,
+    "label": "Câu 327",
+    "question": "In UML state machine diagrams (statecharts), what symbol is used to represent the initial state?",
+    "choices": {
+      "A": "A rounded rectangle",
+      "B": "A small black circle",
+      "C": "A small black circle inside a larger white circle (bull's-eye)",
+      "D": "A diamond shape"
+    },
+    "correct": "B",
+    "correctText": "A small black circle",
+    "explanation": "Đáp án chính xác là B: A small black circle"
+  },
+  {
+    "id": 328,
+    "label": "Câu 328",
+    "question": "In a SOA (service-oriented architecture), which of the following is NOT true?",
+    "choices": {
+      "A": "A client communicates with a specific service provided on a fixed server configuration.",
+      "B": "A client discovers and links to a service.",
+      "C": "Multiple clients communicate with a service.",
+      "D": "Standard protocols are provided to allow clients to communicate with services."
+    },
+    "correct": "A",
+    "correctText": "A client communicates with a specific service provided on a fixed server configuration.",
+    "explanation": "Đáp án chính xác là A: A client communicates with a specific service provided on a fixed server configuration."
+  },
+  {
+    "id": 329,
+    "label": "Câu 329",
+    "question": "What is the primary role of middleware in a distributed system?",
+    "choices": {
+      "A": "To replace the operating system on each node in the network",
+      "B": "To directly manage hardware resources across distributed systems",
+      "C": "To provide a uniform platform that abstracts heterogeneous operating systems for distributed applications",
+      "D": "To serve as a graphical interface for user interaction in distributed environments"
+    },
+    "correct": "C",
+    "correctText": "To provide a uniform platform that abstracts heterogeneous operating systems for distributed applications",
+    "explanation": "Đáp án chính xác là C: To provide a uniform platform that abstracts heterogeneous operating systems for distributed applications"
+  },
+  {
+    "id": 330,
+    "label": "Câu 330",
+    "question": "Which architectural style organizes software into separate interacting components?",
+    "choices": {
+      "A": "Monolithic architecture",
+      "B": "Component-based architecture",
+      "C": "Layered architecture",
+      "D": "Event-driven architecture"
+    },
+    "correct": "B",
+    "correctText": "Component-based architecture",
+    "explanation": "Đáp án chính xác là B: Component-based architecture"
+  },
+  {
+    "id": 331,
+    "label": "Câu 331",
+    "question": "What is the primary focus of the analysis model?",
+    "choices": {
+      "A": "Designing the user interface",
+      "B": "Understanding and analyzing the problem domain",
+      "C": "Writing code for the solution",
+      "D": "Testing the final system"
+    },
+    "correct": "B",
+    "correctText": "Understanding and analyzing the problem domain",
+    "explanation": "Đáp án chính xác là B: Understanding and analyzing the problem domain"
+  },
+  {
+    "id": 332,
+    "label": "Câu 332",
+    "question": "During the analysis phase, which of the following diagrams is most commonly used to model functional requirements?",
+    "choices": {
+      "A": "Class diagram",
+      "B": "Use Case diagram",
+      "C": "Deployment diagram",
+      "D": "Statechart diagram"
+    },
+    "correct": "B",
+    "correctText": "Use Case diagram",
+    "explanation": "Đáp án chính xác là B: Use Case diagram"
+  },
+  {
+    "id": 333,
+    "label": "Câu 333",
+    "question": "What is the primary purpose of modeling in software development?",
+    "choices": {
+      "A": "Writing code",
+      "B": "Marketing software",
+      "C": "Simulating hardware",
+      "D": "Designing applications before coding"
+    },
+    "correct": "D",
+    "correctText": "Designing applications before coding",
+    "explanation": "Đáp án chính xác là D: Designing applications before coding"
+  },
+  {
+    "id": 334,
+    "label": "Câu 334",
+    "question": "What is a typical use case model diagram used for?",
+    "choices": {
+      "A": "Represent interactions between users and system",
+      "B": "Detail hardware setup",
+      "C": "Drill down into source code",
+      "D": "Show low-level database design"
+    },
+    "correct": "A",
+    "correctText": "Represent interactions between users and system",
+    "explanation": "Đáp án chính xác là A: Represent interactions between users and system"
+  },
+  {
+    "id": 335,
+    "label": "Câu 335",
+    "question": "What can an extension use case be used for?",
+    "choices": {
+      "A": "To describe a lengthy interaction with an actor",
+      "B": "To describe functionality that is common to more than one use case",
+      "C": "To describe the functionality of a use case that is extended by another use case(s)",
+      "D": "To describe a conditional part of a different use case that is only executed under certain circumstances"
+    },
+    "correct": "D",
+    "correctText": "To describe a conditional part of a different use case that is only executed under certain circumstances",
+    "explanation": "Đáp án chính xác là D: To describe a conditional part of a different use case that is only executed under certain circumstances"
+  },
+  {
+    "id": 336,
+    "label": "Câu 336",
+    "question": "Which of the following is an example of a design principle?",
+    "choices": {
+      "A": "Only the business layer can access the database.",
+      "B": "Services must communicate using REST.",
+      "C": "Development teams should use asynchronous messaging between services to increase performance.",
+      "D": "The system must be deployed on Linux servers."
+    },
+    "correct": "C",
+    "correctText": "Development teams should use asynchronous messaging between services to increase performance.",
+    "explanation": "Đáp án chính xác là C: Development teams should use asynchronous messaging between services to increase performance."
+  },
+  {
+    "id": 337,
+    "label": "Câu 337",
+    "question": "What is the main goal when decomposing a system into subsystems during architectural design?",
+    "choices": {
+      "A": "To minimize the number of use cases",
+      "B": "To increase communication between subsystems",
+      "C": "To ensure each subsystem handles a distinct and relatively independent function",
+      "D": "To remove dynamic modeling steps"
+    },
+    "correct": "C",
+    "correctText": "To ensure each subsystem handles a distinct and relatively independent function",
+    "explanation": "Đáp án chính xác là C: To ensure each subsystem handles a distinct and relatively independent function"
+  },
+  {
+    "id": 338,
+    "label": "Câu 338",
+    "question": "What is \"white box\" testing?",
+    "choices": {
+      "A": "Unit testing",
+      "B": "Integration testing",
+      "C": "Testing with knowledge of the system internals",
+      "D": "Testing without knowledge of the software internals"
+    },
+    "correct": "C",
+    "correctText": "Testing with knowledge of the system internals",
+    "explanation": "Đáp án chính xác là C: Testing with knowledge of the system internals"
+  },
+  {
+    "id": 339,
+    "label": "Câu 339",
+    "question": "In UML, what does an Association represent in Static Modeling?",
+    "choices": {
+      "A": "A sequence of operations performed by an object",
+      "B": "A shared attribute among different classes",
+      "C": "A relationship between two or more classes that shows how instances of those classes interact",
+      "D": "The inheritance relationship between a parent class and its child classes"
+    },
+    "correct": "C",
+    "correctText": "A relationship between two or more classes that shows how instances of those classes interact",
+    "explanation": "Đáp án chính xác là C: A relationship between two or more classes that shows how instances of those classes interact"
+  },
+  {
+    "id": 340,
+    "label": "Câu 340",
+    "question": "Which of the following best describes the Subscription/Notification pattern in distributed systems?",
+    "choices": {
+      "A": "A client sends a request and waits synchronously for a direct reply from a specific server.",
+      "B": "Components receive messages by polling a central queue rather than being notified.",
+      "C": "Components subscribe to a group and automatically receive multicast messages sent to that group.",
+      "D": "Each component must be individually addressed to receive updates from the sender."
+    },
+    "correct": "C",
+    "correctText": "Components subscribe to a group and automatically receive multicast messages sent to that group.",
+    "explanation": "Đáp án chính xác là C: Components subscribe to a group and automatically receive multicast messages sent to that group."
+  },
+  {
+    "id": 341,
+    "label": "Câu 341",
+    "question": "The software process model for SPL engineering has two main processes, which are:",
+    "choices": {
+      "A": "SPL Engineering and Software Application Engineering",
+      "B": "SPL Engineering and real-time software Engineering",
+      "C": "Real time software Engineering and Software Application Engineering",
+      "D": "Real-time software Engineering and Component-Based Software Engineering"
+    },
+    "correct": "A",
+    "correctText": "SPL Engineering and Software Application Engineering",
+    "explanation": "Đáp án chính xác là A: SPL Engineering and Software Application Engineering"
+  },
+  {
+    "id": 342,
+    "label": "Câu 342",
+    "question": "What does a state machine class encapsulate?",
+    "choices": {
+      "A": "A state transition table",
+      "B": "A state chart",
+      "C": "The current state of the machine",
+      "D": "A state transition table and the current state of the machine"
+    },
+    "correct": "D",
+    "correctText": "A state transition table and the current state of the machine",
+    "explanation": "Đáp án chính xác là D: A state transition table and the current state of the machine"
+  },
+  {
+    "id": 343,
+    "label": "Câu 343",
+    "question": "Which component of software architecture ensures scalability and modularity?",
+    "choices": {
+      "A": "Client-Server Model",
+      "B": "Monolithic Architecture",
+      "C": "Procedural Programming",
+      "D": "Testing Frameworks"
+    },
+    "correct": "A",
+    "correctText": "Client-Server Model",
+    "explanation": "Đáp án chính xác là A: Client-Server Model"
+  },
+  {
+    "id": 344,
+    "label": "Câu 344",
+    "question": "Yellow pages brokering is useful when a service requester:",
+    "choices": {
+      "A": "Needs to discover the location of the service",
+      "B": "Knows the type of service required but not the specific service",
+      "C": "Knows the specific service required but not the type of service",
+      "D": "Needs to discover the broker"
+    },
+    "correct": "B",
+    "correctText": "Knows the type of service required but not the specific service",
+    "explanation": "Đáp án chính xác là B: Knows the type of service required but not the specific service"
+  },
+  {
+    "id": 345,
+    "label": "Câu 345",
+    "question": "What is a boundary object?",
+    "choices": {
+      "A": "An external object",
+      "B": "An object that stores data",
+      "C": "An object that communicates with an external object",
+      "D": "An object that controls other objects"
+    },
+    "correct": "C",
+    "correctText": "An object that communicates with an external object",
+    "explanation": "Đáp án chính xác là C: An object that communicates with an external object"
+  },
+  {
+    "id": 346,
+    "label": "Câu 346",
+    "question": "What is carried out during design modeling?",
+    "choices": {
+      "A": "Developing use case models",
+      "B": "Developing data flow and entity relationship diagrams",
+      "C": "Developing static and dynamic models",
+      "D": "Developing software architectures"
+    },
+    "correct": "C",
+    "correctText": "Developing static and dynamic models",
+    "explanation": "Đáp án chính xác là C: Developing static and dynamic models"
+  }
+]

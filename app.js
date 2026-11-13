@@ -1,17 +1,30 @@
-// === QUIZ APPLICATION LOGIC === //
+// === QUIZ APPLICATION LOGIC (MULTI-SUBJECT SUPPORT) === //
 (function() {
   'use strict';
+
+  // --- SUBJECT CONFIGURATION ---
+  const subjectId = window.SUBJECT_ID || 'sba';
+  const subjectName = subjectId === 'swd' ? 'Môn SWD' : 'Môn SBA';
 
   // --- STATE ---
   let questions = window.QUIZ_DATA || [];
   let currentIndex = 0;
-  let userAnswers = {}; // { [questionId]: 'A' | 'B' | 'C' | 'D' }
+  let userAnswers = {}; // { [questionId]: 'A' | 'B' | ... }
   let bookmarks = new Set();
   let isAnswerVisible = false;
   let autoHideOnNext = false;
   let likes = 0;
   let currentGridFilter = 'all';
   let searchQuery = '';
+
+  // Storage keys scoped per subject
+  const STORAGE_KEYS = {
+    answers: `quiz_${subjectId}_answers`,
+    bookmarks: `quiz_${subjectId}_bookmarks`,
+    index: `quiz_${subjectId}_current_index`,
+    autoHide: `quiz_auto_hide_global`,
+    likes: `quiz_${subjectId}_likes`
+  };
 
   // --- DOM ELEMENTS ---
   const elCurrentIndexDisplay = document.getElementById('current-index-display');
@@ -48,6 +61,7 @@
   const elBtnBookmark = document.getElementById('btn-bookmark');
 
   const elGridModal = document.getElementById('grid-modal');
+  const elGridTitle = document.getElementById('grid-title');
   const elBtnOpenGrid = document.getElementById('btn-open-grid');
   const elBtnCloseGrid = document.getElementById('btn-close-grid');
   const elBtnCloseGridFooter = document.getElementById('btn-close-grid-footer');
@@ -59,16 +73,16 @@
   const elBtnShortcuts = document.getElementById('btn-shortcuts');
   const elBtnCloseShortcuts = document.getElementById('btn-close-shortcuts');
 
-  // --- LOCAL STORAGE HELPERS ---
+  // --- LOCAL STORAGE ---
   function loadPersistedState() {
     try {
-      const savedAnswers = localStorage.getItem('quiz_user_answers');
+      const savedAnswers = localStorage.getItem(STORAGE_KEYS.answers);
       if (savedAnswers) userAnswers = JSON.parse(savedAnswers);
 
-      const savedBookmarks = localStorage.getItem('quiz_bookmarks');
+      const savedBookmarks = localStorage.getItem(STORAGE_KEYS.bookmarks);
       if (savedBookmarks) bookmarks = new Set(JSON.parse(savedBookmarks));
 
-      const savedIndex = localStorage.getItem('quiz_current_index');
+      const savedIndex = localStorage.getItem(STORAGE_KEYS.index);
       if (savedIndex !== null) {
         const idx = parseInt(savedIndex, 10);
         if (!isNaN(idx) && idx >= 0 && idx < questions.length) {
@@ -76,13 +90,13 @@
         }
       }
 
-      const savedAutoHide = localStorage.getItem('quiz_auto_hide');
+      const savedAutoHide = localStorage.getItem(STORAGE_KEYS.autoHide);
       if (savedAutoHide !== null) {
         autoHideOnNext = savedAutoHide === 'true';
         elChkAutoHide.checked = autoHideOnNext;
       }
 
-      const savedLikes = localStorage.getItem('quiz_likes');
+      const savedLikes = localStorage.getItem(STORAGE_KEYS.likes);
       if (savedLikes !== null) {
         likes = parseInt(savedLikes, 10) || 0;
         updateLikeCounter();
@@ -94,11 +108,11 @@
 
   function saveState() {
     try {
-      localStorage.setItem('quiz_user_answers', JSON.stringify(userAnswers));
-      localStorage.setItem('quiz_bookmarks', JSON.stringify(Array.from(bookmarks)));
-      localStorage.setItem('quiz_current_index', currentIndex.toString());
-      localStorage.setItem('quiz_auto_hide', autoHideOnNext.toString());
-      localStorage.setItem('quiz_likes', likes.toString());
+      localStorage.setItem(STORAGE_KEYS.answers, JSON.stringify(userAnswers));
+      localStorage.setItem(STORAGE_KEYS.bookmarks, JSON.stringify(Array.from(bookmarks)));
+      localStorage.setItem(STORAGE_KEYS.index, currentIndex.toString());
+      localStorage.setItem(STORAGE_KEYS.autoHide, autoHideOnNext.toString());
+      localStorage.setItem(STORAGE_KEYS.likes, likes.toString());
     } catch (e) {
       console.warn('Failed to save state to localStorage:', e);
     }
@@ -108,17 +122,25 @@
   async function init() {
     if (!questions || questions.length === 0) {
       try {
-        const res = await fetch('questions.json');
+        const res = await fetch(`data_${subjectId}.json`);
         questions = await res.json();
       } catch (err) {
-        console.error('Error fetching questions.json:', err);
+        console.error('Error fetching questions JSON:', err);
       }
     }
 
     if (!questions || questions.length === 0) {
-      elQuestionText.textContent = 'Không tìm thấy dữ liệu câu hỏi.';
+      elQuestionText.textContent = 'Không tìm thấy dữ liệu câu hỏi cho môn học này.';
       return;
     }
+
+    if (elGridTitle) {
+      elGridTitle.textContent = `Danh Sách Câu Hỏi - ${subjectName} (${questions.length} câu)`;
+    }
+
+    // Update filter pill "Tất cả"
+    const pillAll = document.querySelector('.filter-pill[data-filter="all"]');
+    if (pillAll) pillAll.textContent = `Tất cả (${questions.length})`;
 
     loadPersistedState();
     setupEventListeners();
@@ -126,7 +148,7 @@
     updateOverallStats();
   }
 
-  // --- RENDER QUESTION ---
+  // --- RENDER CURRENT QUESTION ---
   function renderCurrentQuestion() {
     if (!questions[currentIndex]) return;
     const q = questions[currentIndex];
@@ -148,15 +170,41 @@
       elBtnBookmark.classList.remove('bookmarked');
     }
 
-    // Render Options
-    elOptionsList.innerHTML = '';
-    const letters = ['A', 'B', 'C', 'D'];
+    const availableChoices = Object.keys(q.choices || {}).sort();
     const chosenAnswer = userAnswers[q.id];
 
-    letters.forEach(letter => {
-      const choiceText = (q.choices && q.choices[letter]) ? q.choices[letter] : '';
-      if (!choiceText) return;
+    // Render floating letter pills on the left (A, B, C, D...)
+    elLettersColumn.innerHTML = '';
+    availableChoices.forEach(letter => {
+      const pill = document.createElement('button');
+      pill.className = 'letter-pill';
+      pill.dataset.choice = letter;
+      pill.textContent = letter;
+      pill.title = `Chọn ${letter}`;
 
+      if (chosenAnswer === letter) {
+        pill.classList.add('selected');
+      }
+
+      if (isAnswerVisible) {
+        if (q.correct === letter) {
+          pill.classList.add('correct-answer');
+        } else if (chosenAnswer === letter) {
+          pill.classList.add('wrong-answer');
+        }
+      }
+
+      pill.addEventListener('click', () => {
+        selectChoice(letter);
+      });
+
+      elLettersColumn.appendChild(pill);
+    });
+
+    // Render Options list
+    elOptionsList.innerHTML = '';
+    availableChoices.forEach(letter => {
+      const choiceText = q.choices[letter] || '';
       const optionItem = document.createElement('div');
       optionItem.className = 'option-item';
       optionItem.dataset.choice = letter;
@@ -189,25 +237,6 @@
       elOptionsList.appendChild(optionItem);
     });
 
-    // Update left floating letter pills (A, B, C, D)
-    const pills = elLettersColumn.querySelectorAll('.letter-pill');
-    pills.forEach(pill => {
-      const choice = pill.dataset.choice;
-      pill.className = 'letter-pill';
-
-      if (chosenAnswer === choice) {
-        pill.classList.add('selected');
-      }
-
-      if (isAnswerVisible) {
-        if (q.correct === choice) {
-          pill.classList.add('correct-answer');
-        } else if (chosenAnswer === choice) {
-          pill.classList.add('wrong-answer');
-        }
-      }
-    });
-
     // Render Right Panel (Answer & Explanation)
     renderAnswerPanel(q);
 
@@ -228,7 +257,7 @@
     // Solution box
     elCorrectLetterBadge.textContent = correctLetter;
     elCorrectTextContent.textContent = `${correctLetter}. ${correctFullText}`;
-    elExplanationBody.textContent = q.explanation || 'Không có giải thích bổ sung.';
+    elExplanationBody.textContent = q.explanation || `Đáp án chính xác là ${correctLetter}.`;
 
     // User feedback
     const chosenAnswer = userAnswers[q.id];
@@ -362,11 +391,9 @@
 
   function renderGridQuestions() {
     elQuestionsGridContainer.innerHTML = '';
-
     const query = searchQuery.trim().toLowerCase();
 
     questions.forEach((q, idx) => {
-      // Filtering
       const chosen = userAnswers[q.id];
       const isCorrect = chosen && chosen === q.correct;
       const isWrong = chosen && chosen !== q.correct;
@@ -452,13 +479,6 @@
       saveState();
     });
 
-    // Floating letter pills click (A, B, C, D)
-    elLettersColumn.querySelectorAll('.letter-pill').forEach(pill => {
-      pill.addEventListener('click', () => {
-        selectChoice(pill.dataset.choice);
-      });
-    });
-
     // Modal Grid
     elBtnOpenGrid.addEventListener('click', openQuestionGrid);
     elBtnCloseGrid.addEventListener('click', closeQuestionGrid);
@@ -483,7 +503,7 @@
 
     // Reset Progress
     elBtnResetProgress.addEventListener('click', () => {
-      if (confirm('Bạn có chắc chắn muốn xóa toàn bộ câu trả lời để làm lại từ đầu không?')) {
+      if (confirm(`Bạn có chắc chắn muốn xóa toàn bộ kết quả môn ${subjectName} để làm lại từ đầu không?`)) {
         userAnswers = {};
         saveState();
         updateOverallStats();
@@ -506,20 +526,17 @@
 
     // --- KEYBOARD SHORTCUTS ---
     window.addEventListener('keydown', (e) => {
-      // Don't trigger shortcuts if user is typing in search input
       if (document.activeElement === elSearchQuestionsInput) {
         if (e.key === 'Escape') closeQuestionGrid();
         return;
       }
 
-      // Close modal on Escape
       if (e.key === 'Escape') {
         closeQuestionGrid();
         closeShortcuts();
         return;
       }
 
-      // Prev / Next
       if (e.key === 'ArrowRight' || (e.key === 'Enter' && !elGridModal.classList.contains('open'))) {
         e.preventDefault();
         nextQuestion();
@@ -528,13 +545,11 @@
         prevQuestion();
       }
 
-      // Space or H: Toggle answer
       if (e.key === ' ' || e.key === 'h' || e.key === 'H') {
         e.preventDefault();
         toggleAnswerVisibility();
       }
 
-      // Number keys 1-4 or letters A-D: select choice
       if (e.key === '1' || e.key === 'a' || e.key === 'A') {
         selectChoice('A');
       } else if (e.key === '2' || e.key === 'b' || e.key === 'B') {
@@ -545,7 +560,6 @@
         selectChoice('D');
       }
 
-      // 'G' opens question grid
       if (e.key === 'g' || e.key === 'G') {
         if (elGridModal.classList.contains('open')) {
           closeQuestionGrid();
@@ -554,12 +568,10 @@
         }
       }
 
-      // 'F' bookmarks question
       if (e.key === 'f' || e.key === 'F') {
         toggleBookmark();
       }
 
-      // '?' opens shortcuts
       if (e.key === '?') {
         if (elShortcutsModal.classList.contains('open')) {
           closeShortcuts();
@@ -581,11 +593,9 @@
       .replace(/'/g, '&#039;');
   }
 
-  // Run on page ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {
     init();
   }
 })();
-

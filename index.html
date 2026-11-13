@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ôn Luyện Trắc Nghiệm - Quiz Study</title>
+  <title>Ôn Luyện Trắc Nghiệm - Môn SBA & SWD</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,9 +14,16 @@
   <header class="app-header">
     <div class="header-left">
       <div class="brand">
-        <span class="brand-badge">QUIZ</span>
-        <span class="brand-title">Học Trắc Nghiệm</span>
+        <span class="brand-badge">SBA</span>
+        <span class="brand-title">Môn SBA</span>
       </div>
+
+      <!-- Subject Switcher Tabs -->
+      <nav class="subject-switcher">
+        <a href="sba.html" class="subject-tab active" title="Trang luyện tập môn SBA (336 câu)">📚 Môn SBA</a>
+        <a href="swd.html" class="subject-tab" title="Trang luyện tập môn SWD (346 câu)">📘 Môn SWD</a>
+      </nav>
+
       <div class="progress-info">
         <span id="current-index-display">Câu 1</span> / <span id="total-count-display">336</span>
         <div class="progress-bar-container">
@@ -71,7 +78,7 @@
       <!-- Question Header -->
       <div class="question-header">
         <div class="question-title-wrap">
-          <h2 class="question-number" id="question-number">Câu 3</h2>
+          <h2 class="question-number" id="question-number">Câu 1</h2>
         </div>
         <div class="question-badges">
           <span class="badge badge-yellow">Choose 1 answer</span>
@@ -83,16 +90,13 @@
       <div class="question-content-layout">
         <!-- Floating Letter Indicators Column (A, B, C, D như ảnh) -->
         <div class="letters-column" id="letters-column">
-          <button class="letter-pill" data-choice="A" title="Chọn A (Phím 1 hoặc A)">A</button>
-          <button class="letter-pill" data-choice="B" title="Chọn B (Phím 2 hoặc B)">B</button>
-          <button class="letter-pill" data-choice="C" title="Chọn C (Phím 3 hoặc C)">C</button>
-          <button class="letter-pill" data-choice="D" title="Chọn D (Phím 4 hoặc D)">D</button>
+          <!-- Populated dynamically -->
         </div>
 
         <!-- Question Prompt & Options -->
         <div class="question-main-content">
           <div class="question-text" id="question-text">
-            Đang tải câu hỏi...
+            Đang tải câu hỏi môn SBA...
           </div>
 
           <div class="options-list" id="options-list">
@@ -184,12 +188,12 @@
             <div class="solution-badge-label">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
               <span>Đáp án chính xác:</span>
-              <strong class="correct-letter-badge" id="correct-letter-badge">C</strong>
+              <strong class="correct-letter-badge" id="correct-letter-badge">A</strong>
             </div>
           </div>
 
           <div class="correct-text-content" id="correct-text-content">
-            Facade pattern
+            Nội dung đáp án
           </div>
 
           <div class="explanation-section" id="explanation-section">
@@ -218,7 +222,7 @@
   <div class="modal-overlay" id="grid-modal">
     <div class="modal-card">
       <div class="modal-header">
-        <h3>Danh Sách Tất Cả Câu Hỏi (336 câu)</h3>
+        <h3 id="grid-title">Danh Sách Câu Hỏi - Môn SBA (336 câu)</h3>
         <button class="modal-close-btn" id="btn-close-grid">&times;</button>
       </div>
 
@@ -234,7 +238,7 @@
       </div>
 
       <div class="questions-grid-container" id="questions-grid-container">
-        <!-- 336 buttons generated dynamically -->
+        <!-- Buttons generated dynamically -->
       </div>
 
       <div class="modal-footer">
@@ -280,9 +284,9 @@
     </div>
   </div>
 
-  <!-- Load Questions Data and App Script -->
-  <script src="questions.js"></script>
+  <!-- SBA DATA & APP SCRIPT -->
+  <script>window.SUBJECT_ID = 'sba';</script>
+  <script src="data_sba.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
-
