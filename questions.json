@@ -10,7 +10,7 @@
       "D": "<Dropdown> <option>1</option> <option>2</option> </Dropdown>"
     },
     "correct": "A",
-    "correctText": "<Form.Select> <option>1 </option> <option>2 </option> </Form.Select>",
+    "correctText": "<Form.Select> <option>1</option> <option>2</option> </Form.Select>",
     "explanation": "React-Bootstrap dùng Form.Select cho thẻ select và các phần tử option bên trong. Đây là component được thư viện bọc theo kiểu Bootstrap."
   },
   {
@@ -32,14 +32,14 @@
     "label": "Câu 3",
     "question": "Which of the following is NOT a valid way to handle events in React?",
     "choices": {
-      "A": "onClick= {handleClick}",
-      "B": "onClick= {handleClick()}",
-      "C": "onClick= {() => handleClick ()}",
+      "A": "onClick={handleClick}",
+      "B": "onClick={handleClick()}",
+      "C": "onClick={() => handleClick()}",
       "D": "onClick={(e) => handleClick(e)}"
     },
     "correct": "B",
-    "correctText": "onClick= {handleClick()}",
-    "explanation": "onClick cần nhận một hàm để gọi khi xảy ra sự kiện. Viết handleClick () sẽ chạy ngay lúc render, còn handleClick hoặc hàm arrow sẽ đợi click."
+    "correctText": "onClick={handleClick()}",
+    "explanation": "onClick cần nhận một hàm để gọi khi xảy ra sự kiện. Viết handleClick() sẽ chạy ngay lúc render, còn handleClick hoặc hàm arrow sẽ đợi click."
   },
   {
     "id": 4,
@@ -52,7 +52,7 @@
       "D": "useContextValue()"
     },
     "correct": "A",
-    "correctText": "useContext ()",
+    "correctText": "useContext()",
     "explanation": "useContext (Context) lấy giá trị từ Provider gần nhất phía trên component. Nó giúp truyền dữ liệu xuyên nhiều tầng mà không phải chuyển props thủ công."
   },
   {
@@ -103,12 +103,12 @@
     "question": "How is state initialized in a Class Component?",
     "choices": {
       "A": "Using useState().",
-      "B": "Using this.setState ().",
-      "C": "By assigning a value to this.state in the constructor ().",
+      "B": "Using this.setState().",
+      "C": "By assigning a value to this.state in the constructor().",
       "D": "By using props.state."
     },
     "correct": "C",
-    "correctText": "By assigning a value to this.state in the constructor ().",
+    "correctText": "By assigning a value to this.state in the constructor().",
     "explanation": "Class component có thể khởi tạo this.state trong constructor (hoặc class field). Sau khi render, cập nhật qua this.setState để React render lại."
   },
   {
@@ -271,7 +271,7 @@
     "question": "How do you update state in a Functional Component?",
     "choices": {
       "A": "By directly modifying the state variable.",
-      "B": "By calling this.setState ().",
+      "B": "By calling this.setState().",
       "C": "By calling the setter function returned by useState().",
       "D": "By using props.setState()."
     },
@@ -402,7 +402,7 @@
       "D": "useEffect()"
     },
     "correct": "B",
-    "correctText": "useContext ()",
+    "correctText": "useContext()",
     "explanation": "useContext (Context) lấy giá trị Provider gần nhất trong cây React, giảm việc truyền props qua nhiều tầng trung gian."
   },
   {
@@ -436,7 +436,7 @@
   {
     "id": 32,
     "label": "Câu 32",
-    "question": "What does useReducer () return?",
+    "question": "What does useReducer() return?",
     "choices": {
       "A": "state and dispatch",
       "B": "state only",
@@ -706,7 +706,7 @@
     "choices": {
       "A": "useMemo()",
       "B": "useCallback()",
-      "C": "useReducer ()",
+      "C": "useReducer()",
       "D": "useRef()"
     },
     "correct": "A",
@@ -805,10 +805,10 @@
       "A": "useParams()",
       "B": "useContext()",
       "C": "useRef()",
-      "D": "useReducer ()"
+      "D": "useReducer()"
     },
     "correct": "B",
-    "correctText": "useContext ()",
+    "correctText": "useContext()",
     "explanation": "useContext cung cấp giá trị được React Context Provider truyền từ phía trên mà không cần props drilling."
   },
   {
@@ -837,7 +837,7 @@
     },
     "correct": "B",
     "correctText": "@Id",
-    "explanation": "@Id đánh dấu thuộc tính làm khóa chính để JPA nhận diện từng bản ghi; @Generate dValue có thể cấu hình sinh khóa tự động."
+    "explanation": "@Id đánh dấu thuộc tính làm khóa chính để JPA nhận diện từng bản ghi; @GeneratedValue có thể cấu hình sinh khóa tự động."
   },
   {
     "id": 61,
@@ -879,12 +879,12 @@
     },
     "correct": "B",
     "correctText": "Scan for components/services/ controllers",
-    "explanation": "@Compone ntScan chỉ định package mà Spring quét để tìm các bean có @Component, @Service, @Controller hoặc annotation tương tự."
+    "explanation": "@ComponentScan chỉ định package mà Spring quét để tìm các bean có @Component, @Service, @Controller hoặc annotation tương tự."
   },
   {
     "id": 64,
     "label": "Câu 64",
-    "question": "What does \"unidirectio nal data flow\" in React mean?",
+    "question": "What does \"unidirectional data flow\" in React mean?",
     "choices": {
       "A": "Data flows only from server to client",
       "B": "Data is shared globally across all components",
@@ -1152,14 +1152,14 @@
     "label": "Câu 83",
     "question": "How do you access route parameters in a component rendered by React Router v6?",
     "choices": {
-      "A": "Using this.props.p arams.",
+      "A": "Using this.props.params.",
       "B": "Using useParams() Hook.",
       "C": "Using props.match.params.",
       "D": "Using context params."
     },
     "correct": "B",
     "correctText": "Using useParams() Hook.",
-    "explanation": "useParams() đọc các tham số động trong URL, ví dụ /users/ sẽ trả về id.React Router v6 không còn cách dùng props.match.params như v5."
+    "explanation": "useParams() đọc các tham số động trong URL, ví dụ /users/sẽ trả về id.React Router v6 không còn cách dùng props.match.params như v5."
   },
   {
     "id": 84,
@@ -1257,7 +1257,7 @@
     },
     "correct": "B",
     "correctText": "useNavigate()",
-    "explanation": "useNavigate trả về hàm navigate để chuyển URL trong handler hoặc effect, chẳng hạn navigate('/l ogin')."
+    "explanation": "useNavigate trả về hàm navigate để chuyển URL trong handler hoặc effect, chẳng hạn navigate('/login')."
   },
   {
     "id": 91,
@@ -1589,7 +1589,7 @@
       "A": "<Link> triggers a full page reload.",
       "B": "<Link> prevents a full page reload and allows client-side routing.",
       "C": "<a> tags automatically handle client-side routing.",
-      "D": "There is no benefit; they are interchange able."
+      "D": "There is no benefit; they are interchangeable."
     },
     "correct": "B",
     "correctText": "<Link> prevents a full page reload and allows client-side routing.",
@@ -1635,7 +1635,7 @@
     },
     "correct": "B",
     "correctText": "To make HTTP requests.",
-    "explanation": "Axios là HTTP client dựa trên Promise, có các hàm get/post/p ut/delete và thường tự chuyển JSON response thành object JavaScript."
+    "explanation": "Axios là HTTP client dựa trên Promise, có các hàm get/post/put/delete và thường tự chuyển JSON response thành object JavaScript."
   },
   {
     "id": 118,
@@ -1656,14 +1656,14 @@
     "label": "Câu 119",
     "question": "What is the syntax for creating a new Promise?",
     "choices": {
-      "A": "new Promise(cal lback)",
+      "A": "new Promise(callback)",
       "B": "createPromise(callback)",
-      "C": "Promise.cre ate(callback)",
+      "C": "Promise.create(callback)",
       "D": "Promise.new(callback)"
     },
     "correct": "A",
-    "correctText": "new Promise(cal lback)",
-    "explanation": "new Promise(ex ecutor) tạo Promise, trong đó executor nhận resolve và reject để báo thành công hoặc thất bại của tác vụ bất đồng bộ."
+    "correctText": "new Promise(callback)",
+    "explanation": "new Promise(executor) tạo Promise, trong đó executor nhận resolve và reject để báo thành công hoặc thất bại của tác vụ bất đồng bộ."
   },
   {
     "id": 120,
@@ -1673,7 +1673,7 @@
       "A": "useEffect()",
       "B": "useCallback()",
       "C": "useMemo()",
-      "D": "useLayoutEf fect()"
+      "D": "useLayoutEffect()"
     },
     "correct": "A",
     "correctText": "useEffect()",
@@ -1719,48 +1719,48 @@
     },
     "correct": "B",
     "correctText": "Auto JSON parsing",
-    "explanation": "Axios thường tự phân tích JSON response theo cấu hình mặc định; dữ liệu có thể truy cập qua response.d ata."
+    "explanation": "Axios thường tự phân tích JSON response theo cấu hình mặc định; dữ liệu có thể truy cập qua response.data."
   },
   {
     "id": 124,
     "label": "Câu 124",
     "question": "Which of the following is a valid way to handle a Promise rejection?",
     "choices": {
-      "A": "promise.err or(err => {})",
-      "B": "promise.rej ect(err => {})",
+      "A": "promise.error(err => {})",
+      "B": "promise.reject(err => {})",
       "C": "promise.catch(err => {})",
-      "D": "promise.fail (err => {})"
+      "D": "promise.fail(err => {})"
     },
     "correct": "C",
-    "correctText": "promise.ca tch(err => {})",
-    "explanation": "Promise bị reject có thể được bắt bằng.catch(error => ...), nhờ đó ứng dụng xử lý lỗi thay vì để rejection không được xử lý."
+    "correctText": "promise.catch(err => {})",
+    "explanation": "Promise bị reject có thể được bắt bằng .catch(error => ...), nhờ đó ứng dụng xử lý lỗi thay vì để rejection không được xử lý."
   },
   {
     "id": 125,
     "label": "Câu 125",
     "question": "Which of the following is the correct way to handle a successful fetch request?",
     "choices": {
-      "A": "fetch(url).th en(response => response.js on()).then(d ata => console.log (data));",
-      "B": "fetch(url).th en(data => data.json()).t hen(console.log(data));",
-      "C": "fetch(url).da ta().then(co nsole.log);",
-      "D": "fetch(url).js on().then(da ta => console.log (data));"
+      "A": "fetch(url).then(response => response.json()).then(data => console.log(data));",
+      "B": "fetch(url).then(data => data.json()).then(console.log(data));",
+      "C": "fetch(url).data().then(console.log);",
+      "D": "fetch(url).json().then(data => console.log(data));"
     },
     "correct": "A",
-    "correctText": "fetch(url).t hen(response => response.js on()).then(d ata => console.log (data));",
-    "explanation": "fetch() trả về Promise chứa Response; cần gọi response.js on() để đọc JSON rồi dùng.then() tiếp theo để xử lý dữ liệu."
+    "correctText": "fetch(url).then(response => response.json()).then(data => console.log(data));",
+    "explanation": "fetch() trả về Promise chứa Response; cần gọi response.json() để đọc JSON rồi dùng .then() tiếp theo để xử lý dữ liệu."
   },
   {
     "id": 126,
     "label": "Câu 126",
     "question": "How do you send POST data using Axios?",
     "choices": {
-      "A": "axios.write(' url', data)",
-      "B": "axios.sendP ost('url', data)",
-      "C": "axios.post(' url', data)",
+      "A": "axios.write('url', data)",
+      "B": "axios.sendPost('url', data)",
+      "C": "axios.post('url', data)",
       "D": "axios.get('url', data)"
     },
     "correct": "C",
-    "correctText": "axios.post(' url', data)",
+    "correctText": "axios.post('url', data)",
     "explanation": "axios.post(url, data) gửi request POST với data làm request body, thường được chuyển thành JSON khi truyền object thông thường."
   },
   {
@@ -1775,14 +1775,14 @@
     },
     "correct": "D",
     "correctText": "Promise",
-    "explanation": "Axios trả về Promise; khi thành công nhận AxiosRespo nse có data, status và headers, khi lỗi Promise bị reject."
+    "explanation": "Axios trả về Promise; khi thành công nhận AxiosResponse có data, status và headers, khi lỗi Promise bị reject."
   },
   {
     "id": 128,
     "label": "Câu 128",
     "question": "What does the fetch() function in JavaScript return?",
     "choices": {
-      "A": "An XMLHttpRe quest object",
+      "A": "An XMLHttpRequest object",
       "B": "A Promise",
       "C": "A callback function",
       "D": "A JSON object"
@@ -1796,42 +1796,42 @@
     "label": "Câu 129",
     "question": "How can you handle errors in an Axios request?",
     "choices": {
-      "A": "Using.error()",
-      "B": "Using.catch()",
-      "C": "Using.handle()",
-      "D": "Using.fail()"
+      "A": "Using .error()",
+      "B": "Using .catch()",
+      "C": "Using .handle()",
+      "D": "Using .fail()"
     },
     "correct": "B",
-    "correctText": "Using.catch()",
-    "explanation": "Axios Promise có thể bắt lỗi bằng.catch(error) hoặc try/catch với await; phân biệt error.respo nse và error.request để xử lý rõ ràng."
+    "correctText": "Using .catch()",
+    "explanation": "Axios Promise có thể bắt lỗi bằng .catch(error) hoặc try/catch với await; phân biệt error.response và error.request để xử lý rõ ràng."
   },
   {
     "id": 130,
     "label": "Câu 130",
     "question": "How can you set a default base URL in Axios?",
     "choices": {
-      "A": "axios.defaults.baseURL = 'https://api.example.co m'",
-      "B": "axios.config ure.baseURL = 'https://api.example.co m'",
-      "C": "axios.setBas eURL('https: //api.example.com')",
-      "D": "axios.baseURL('https://a pi.example.com')"
+      "A": "axios.defaults.baseURL = 'https://api.example.com'",
+      "B": "axios.configure.baseURL = 'https://api.example.com'",
+      "C": "axios.setBaseURL('https://api.example.com')",
+      "D": "axios.baseURL('https://api.example.com')"
     },
     "correct": "A",
-    "correctText": "axios.defau lts.baseURL = 'https://api.example.c om'",
-    "explanation": "axios.defau lts.baseURL đặt tiền tố URL chung cho các request dùng instance mặc định; nhờ đó có thể gọi axios.get('/ users') thay vì lặp địa chỉ server."
+    "correctText": "axios.defaults.baseURL = 'https://api.example.com'",
+    "explanation": "axios.defaults.baseURL đặt tiền tố URL chung cho các request dùng instance mặc định; nhờ đó có thể gọi axios.get('/users') thay vì lặp địa chỉ server."
   },
   {
     "id": 131,
     "label": "Câu 131",
     "question": "Which of the following is the correct way to make a GET request using Axios?",
     "choices": {
-      "A": "axios.get('ht tps://api.ex ample.com/ data')",
-      "B": "axios.send(' GET', 'https://api.example.co m/data')",
-      "C": "axios.fetch(' https://api.e xample.co m/data')",
-      "D": "fetch.axios(' https://api.e xample.co m/data')"
+      "A": "axios.get('https://api.example.com/data')",
+      "B": "axios.send('GET', 'https://api.example.com/data')",
+      "C": "axios.fetch('https://api.example.co m/data')",
+      "D": "fetch.axios('https://api.example.co m/data')"
     },
     "correct": "A",
-    "correctText": "axios.get('h ttps://api.e xample.co m/data')",
-    "explanation": "axios.get(u rl) gửi HTTP GET và trả về Promise chứa response; dữ liệu server trả về thường truy cập qua response.d ata."
+    "correctText": "axios.get('https://api.example.co m/data')",
+    "explanation": "axios.get(u rl) gửi HTTP GET và trả về Promise chứa response; dữ liệu server trả về thường truy cập qua response.data."
   },
   {
     "id": 132,
@@ -1859,7 +1859,7 @@
     },
     "correct": "B",
     "correctText": "By using.catch () on the Axios promise and accessing the error object",
-    "explanation": "Axios trả về Promise; có thể bắt lỗi bằng.catch(error => ...), hoặc try/catch khi dùng await.error.respo nse giúp xem mã HTTP khi máy chủ phản hồi lỗi."
+    "explanation": "Axios trả về Promise; có thể bắt lỗi bằng .catch(error => ...), hoặc try/catch khi dùng await.error.response giúp xem mã HTTP khi máy chủ phản hồi lỗi."
   },
   {
     "id": 134,
@@ -1873,15 +1873,15 @@
     },
     "correct": "B",
     "correctText": "Configuring CORS in Spring Boot.",
-    "explanation": "CORS được trình duyệt kiểm tra theo các header máy chủ trả về; Spring Boot có thể cấu hình bằng @CrossOri gin hoặc WebMvcCo nfigurer để cho phép origin của React."
+    "explanation": "CORS được trình duyệt kiểm tra theo các header máy chủ trả về; Spring Boot có thể cấu hình bằng @CrossOrigin hoặc WebMvcConfigurer để cho phép origin của React."
   },
   {
     "id": 135,
     "label": "Câu 135",
     "question": "Which annotation is used to provide a summary and description for a specific API endpoint or method in a controller?",
     "choices": {
-      "A": "@Descripti on",
-      "B": "@RequestM apping",
+      "A": "@Description",
+      "B": "@RequestMapping",
       "C": "@Operation",
       "D": "@Endpoint Des"
     },
@@ -1910,12 +1910,12 @@
     "choices": {
       "A": "Content-Language",
       "B": "Content-Encoding",
-      "C": "Content-Type: application /json",
+      "C": "Content-Type: application/json",
       "D": "Content-Length"
     },
     "correct": "C",
-    "correctText": "Content-Type: application /json",
-    "explanation": "Content-Type cho biết kiểu dữ liệu của phần body.application /json thông báo nội dung được biểu diễn dưới dạng JSON."
+    "correctText": "Content-Type: application/json",
+    "explanation": "Content-Type cho biết kiểu dữ liệu của phần body.application/json thông báo nội dung được biểu diễn dưới dạng JSON."
   },
   {
     "id": 138,
@@ -1950,14 +1950,14 @@
     "label": "Câu 140",
     "question": "Which annotation is used to map HTTP request bodies to method parameters in Spring Boot REST?",
     "choices": {
-      "A": "@PathVaria ble",
-      "B": "@RequestP aram",
-      "C": "@RequestB ody",
-      "D": "@RequestH eader"
+      "A": "@PathVariable",
+      "B": "@RequestParam",
+      "C": "@RequestBody",
+      "D": "@RequestHeader"
     },
     "correct": "C",
-    "correctText": "@RequestB ody",
-    "explanation": "@RequestB ody yêu cầu Spring chuyển JSON/XML trong request body thành tham số Java thông qua HttpMessageConverter thích hợp."
+    "correctText": "@RequestBody",
+    "explanation": "@RequestBody yêu cầu Spring chuyển JSON/XML trong request body thành tham số Java thông qua HttpMessageConverter thích hợp."
   },
   {
     "id": 141,
@@ -1978,19 +1978,19 @@
     "label": "Câu 142",
     "question": "In Spring Boot REST, which annotation is used to extract path variables from the URL?",
     "choices": {
-      "A": "@RequestB ody",
-      "B": "@RequestP aram",
-      "C": "@PathVaria ble",
-      "D": "@RequestH eader"
+      "A": "@RequestBody",
+      "B": "@RequestParam",
+      "C": "@PathVariable",
+      "D": "@RequestHeader"
     },
     "correct": "C",
-    "correctText": "@PathVaria ble",
-    "explanation": "@PathVaria ble lấy giá trị trong đường dẫn như /users/{id}; @RequestP aram lấy tham số query sau dấu?."
+    "correctText": "@PathVariable",
+    "explanation": "@PathVariable lấy giá trị trong đường dẫn như /users/{id}; @RequestParam lấy tham số query sau dấu?."
   },
   {
     "id": 143,
     "label": "Câu 143",
-    "question": "Which of the following is NOT a key element typically found in Spring REST documentat ion?",
+    "question": "Which of the following is NOT a key element typically found in Spring REST documentation?",
     "choices": {
       "A": "The HTTP method (e.g., GET, POST)",
       "B": "The endpoint URL",
@@ -1999,7 +1999,7 @@
     },
     "correct": "D",
     "correctText": "The underlying database schema",
-    "explanation": "Tài liệu REST thường cần endpoint, HTTP method và cấu trúc request/res ponse; chi tiết lược đồ database nội bộ không phải thành phần bắt buộc."
+    "explanation": "Tài liệu REST thường cần endpoint, HTTP method và cấu trúc request/response; chi tiết lược đồ database nội bộ không phải thành phần bắt buộc."
   },
   {
     "id": 144,
@@ -2097,12 +2097,12 @@
     },
     "correct": "A",
     "correctText": "Declares controller",
-    "explanation": "@RestController đánh dấu lớp xử lý REST request và tự áp dụng @Response Body cho các phương thức, khiến giá trị trả về được ghi vào response body."
+    "explanation": "@RestController đánh dấu lớp xử lý REST request và tự áp dụng @ResponseBody cho các phương thức, khiến giá trị trả về được ghi vào response body."
   },
   {
     "id": 151,
     "label": "Câu 151",
-    "question": "@PathVaria ble does?",
+    "question": "@PathVariable does?",
     "choices": {
       "A": "Extract query",
       "B": "Extract path",
@@ -2111,12 +2111,12 @@
     },
     "correct": "B",
     "correctText": "Extract path",
-    "explanation": "@PathVaria ble ánh xạ đoạn biến trong path, ví dụ /items/{id}, vào tham số phương thức controller."
+    "explanation": "@PathVariable ánh xạ đoạn biến trong path, ví dụ /items/{id}, vào tham số phương thức controller."
   },
   {
     "id": 152,
     "label": "Câu 152",
-    "question": "@RequestB ody does?",
+    "question": "@RequestBody does?",
     "choices": {
       "A": "Bind JSON",
       "B": "Bind XML",
@@ -2125,7 +2125,7 @@
     },
     "correct": "A",
     "correctText": "Bind JSON",
-    "explanation": "@RequestB ody dùng message converter để đọc request body và biến JSON thành object Java tương ứng khi có bộ chuyển đổi phù hợp."
+    "explanation": "@RequestBody dùng message converter để đọc request body và biến JSON thành object Java tương ứng khi có bộ chuyển đổi phù hợp."
   },
   {
     "id": 153,
@@ -2139,7 +2139,7 @@
     },
     "correct": "B",
     "correctText": "Maps GET",
-    "explanation": "@GetMapping là cách viết rút gọn của @RequestM apping(met hod = RequestMet hod.GET), dùng cho endpoint đọc dữ liệu."
+    "explanation": "@GetMapping là cách viết rút gọn của @RequestMapping(met hod = RequestMet hod.GET), dùng cho endpoint đọc dữ liệu."
   },
   {
     "id": 154,
@@ -2172,7 +2172,7 @@
   {
     "id": 156,
     "label": "Câu 156",
-    "question": "Purpose of @Response Status?",
+    "question": "Purpose of @ResponseStatus?",
     "choices": {
       "A": "Add headers",
       "B": "Set status code",
@@ -2181,7 +2181,7 @@
     },
     "correct": "B",
     "correctText": "Set status code",
-    "explanation": "@Response Status đặt status HTTP mặc định của method hoặc exception, ví dụ @Response Status(Http Status.CRE ATED) cho response 201."
+    "explanation": "@ResponseStatus đặt status HTTP mặc định của method hoặc exception, ví dụ @ResponseStatus(Http Status.CRE ATED) cho response 201."
   },
   {
     "id": 157,
@@ -2330,40 +2330,40 @@
     "choices": {
       "A": "@Controller",
       "B": "@RestController",
-      "C": "@Response Body",
+      "C": "@ResponseBody",
       "D": "@Service"
     },
     "correct": "B",
     "correctText": "@RestController",
-    "explanation": "@RestController kết hợp @Controller và @Response Body, thích hợp cho API trả JSON/XML thay vì tên view."
+    "explanation": "@RestController kết hợp @Controller và @ResponseBody, thích hợp cho API trả JSON/XML thay vì tên view."
   },
   {
     "id": 168,
     "label": "Câu 168",
     "question": "Which annotation binds JSON to a Java object?",
     "choices": {
-      "A": "@PathVaria ble",
-      "B": "@RequestP aram",
-      "C": "@RequestB ody",
-      "D": "@ModelAtt ribute"
+      "A": "@PathVariable",
+      "B": "@RequestParam",
+      "C": "@RequestBody",
+      "D": "@ModelAttribute"
     },
     "correct": "C",
-    "correctText": "@RequestB ody",
-    "explanation": "Spring dùng @RequestB ody cùng message converter để ánh xạ dữ liệu JSON trong body thành object Java."
+    "correctText": "@RequestBody",
+    "explanation": "Spring dùng @RequestBody cùng message converter để ánh xạ dữ liệu JSON trong body thành object Java."
   },
   {
     "id": 169,
     "label": "Câu 169",
     "question": "Which annotation maps GET requests?",
     "choices": {
-      "A": "@PostMapp ing",
+      "A": "@PostMapping",
       "B": "@GetMapping",
       "C": "@PutMapping",
       "D": "@Mapping"
     },
     "correct": "B",
     "correctText": "@GetMapping",
-    "explanation": "@GetMapping ánh xạ HTTP GET đến phương thức controller, tương đương @RequestM apping(met hod = GET)."
+    "explanation": "@GetMapping ánh xạ HTTP GET đến phương thức controller, tương đương @RequestMapping(met hod = GET)."
   },
   {
     "id": 170,
@@ -2443,11 +2443,11 @@
       "A": "pom.xml",
       "B": "build.gradle",
       "C": "application.properties",
-      "D": "controller.p roperties"
+      "D": "controller.properties"
     },
     "correct": "C",
     "correctText": "application.properties",
-    "explanation": "application.properties (hoặc application.yml) thường cấu hình spring.data source.url, username, password; nên cung cấp thông tin bí mật qua biến môi trường hoặc secret manager."
+    "explanation": "application.properties (hoặc application.yml) thường cấu hình spring.datasource.url, username, password; nên cung cấp thông tin bí mật qua biến môi trường hoặc secret manager."
   },
   {
     "id": 176,
@@ -2482,14 +2482,14 @@
     "label": "Câu 178",
     "question": "Which annotation handles exceptions globally?",
     "choices": {
-      "A": "@Exception Handler",
-      "B": "@Controlle rAdvice",
+      "A": "@ExceptionHandler",
+      "B": "@ControllerAdvice",
       "C": "@Advice",
-      "D": "@ErrorHan dler"
+      "D": "@ErrorHandler"
     },
     "correct": "B",
-    "correctText": "@Controlle rAdvice",
-    "explanation": "@Controlle rAdvice cho phép định nghĩa xử lý exception áp dụng cho nhiều controller; thường kết hợp @Exception Handler."
+    "correctText": "@ControllerAdvice",
+    "explanation": "@ControllerAdvice cho phép định nghĩa xử lý exception áp dụng cho nhiều controller; thường kết hợp @ExceptionHandler."
   },
   {
     "id": 179,
@@ -2553,13 +2553,13 @@
     "question": "Which JSON content type is correct?",
     "choices": {
       "A": "text/json",
-      "B": "application /json",
+      "B": "application/json",
       "C": "json/applic ation",
       "D": "data/json"
     },
     "correct": "B",
-    "correctText": "application /json",
-    "explanation": "MIME type application /json trong Content-Type cho biết body được mã hóa dạng JSON, giúp bên nhận chọn parser phù hợp."
+    "correctText": "application/json",
+    "explanation": "MIME type application/json trong Content-Type cho biết body được mã hóa dạng JSON, giúp bên nhận chọn parser phù hợp."
   },
   {
     "id": 184,
@@ -2578,7 +2578,7 @@
   {
     "id": 185,
     "label": "Câu 185",
-    "question": "What is the purpose of the @RequestP aram annotation?",
+    "question": "What is the purpose of the @RequestParam annotation?",
     "choices": {
       "A": "Maps headers to method parameters",
       "B": "Binds form data to method parameters",
@@ -2587,7 +2587,7 @@
     },
     "correct": "D",
     "correctText": "Maps query parameters to method parameters",
-    "explanation": "@RequestP aram ánh xạ query parameter như? page=2 vào tham số Java, hỗ trợ cả giá trị mặc định và required."
+    "explanation": "@RequestParam ánh xạ query parameter như? page=2 vào tham số Java, hỗ trợ cả giá trị mặc định và required."
   },
   {
     "id": 186,
@@ -2624,12 +2624,12 @@
     "choices": {
       "A": "By using HttpServlet Response",
       "B": "You cannot control the status code",
-      "C": "By using @Response Status annotation",
+      "C": "By using @ResponseStatus annotation",
       "D": "By returning an int"
     },
     "correct": "C",
-    "correctText": "By using @Response Status annotation",
-    "explanation": "@Response Status gán mã trạng thái HTTP cho method hoặc exception; ResponseE ntity linh hoạt hơn nếu muốn quyết định status theo từng nhánh xử lý."
+    "correctText": "By using @ResponseStatus annotation",
+    "explanation": "@ResponseStatus gán mã trạng thái HTTP cho method hoặc exception; ResponseE ntity linh hoạt hơn nếu muốn quyết định status theo từng nhánh xử lý."
   },
   {
     "id": 189,
@@ -2652,31 +2652,31 @@
     "choices": {
       "A": "@RestStatus",
       "B": "@StatusCode",
-      "C": "@Response Status",
+      "C": "@ResponseStatus",
       "D": "@HttpStatus"
     },
     "correct": "C",
-    "correctText": "@Response Status",
-    "explanation": "@Response Status dùng để cố định status trả về của controller method, ví dụ CREATED (201), ngay cả khi method không trả ResponseE ntity."
+    "correctText": "@ResponseStatus",
+    "explanation": "@ResponseStatus dùng để cố định status trả về của controller method, ví dụ CREATED (201), ngay cả khi method không trả ResponseE ntity."
   },
   {
     "id": 191,
     "label": "Câu 191",
     "question": "Which annotation combination is used for a method that handles POST requests and accepts a request body?",
     "choices": {
-      "A": "@PostMapp ing and @RequestP aram",
-      "B": "@PostMapp ing and @Response Body",
-      "C": "@GetMapping and @PathVaria ble",
-      "D": "@PostMapp ing and @RequestB ody"
+      "A": "@PostMapping and @RequestParam",
+      "B": "@PostMapping and @ResponseBody",
+      "C": "@GetMapping and @PathVariable",
+      "D": "@PostMapping and @RequestBody"
     },
     "correct": "D",
-    "correctText": "@PostMapp ing and @RequestB ody",
-    "explanation": "@PostMapp ing ánh xạ HTTP POST, còn @RequestB ody yêu cầu Spring chuyển body thành đối tượng tham số Java."
+    "correctText": "@PostMapping and @RequestBody",
+    "explanation": "@PostMapping ánh xạ HTTP POST, còn @RequestBody yêu cầu Spring chuyển body thành đối tượng tham số Java."
   },
   {
     "id": 192,
     "label": "Câu 192",
-    "question": "What is the purpose of the @RequestB ody annotation?",
+    "question": "What is the purpose of the @RequestBody annotation?",
     "choices": {
       "A": "Maps the request body to a Java object",
       "B": "Binds a query parameter to a method",
@@ -2685,7 +2685,7 @@
     },
     "correct": "A",
     "correctText": "Maps the request body to a Java object",
-    "explanation": "@RequestB ody đánh dấu tham số được tạo từ HTTP request body qua message converter, thay vì lấy từ path hoặc query string."
+    "explanation": "@RequestBody đánh dấu tham số được tạo từ HTTP request body qua message converter, thay vì lấy từ path hoặc query string."
   },
   {
     "id": 193,
@@ -2706,28 +2706,28 @@
     "label": "Câu 194",
     "question": "Which annotation would you use to create a REST endpoint that consumes only XML data?",
     "choices": {
-      "A": "@RequestM apping(pro duces = \"application /xml\")",
-      "B": "@GetMapping(consumes = \"application /json\")",
-      "C": "@PostMapp ing(produces = \"application /json\")",
-      "D": "@PostMapp ing(consumes = \"application /xml\")"
+      "A": "@RequestMapping(pro duces = \"application /xml\")",
+      "B": "@GetMapping(consumes = \"application/json\")",
+      "C": "@PostMapping(produces = \"application/json\")",
+      "D": "@PostMapping(consumes = \"application /xml\")"
     },
     "correct": "D",
-    "correctText": "@PostMapp ing(consumes = \"application/xml\")",
-    "explanation": "@PostMapp ing(consumes=\"applic ation/xml\") chỉ cho phép request có Content-Type XML cho endpoint POST; nội dung được đọc qua message converter phù hợp."
+    "correctText": "@PostMapping(consumes = \"application/xml\")",
+    "explanation": "@PostMapping(consumes=\"applic ation/xml\") chỉ cho phép request có Content-Type XML cho endpoint POST; nội dung được đọc qua message converter phù hợp."
   },
   {
     "id": 195,
     "label": "Câu 195",
     "question": "What is the correct annotation to define a method that handles both JSON request and response formats?",
     "choices": {
-      "A": "@JsonRequ est",
-      "B": "@PostMapp ing with @RequestB ody and @Response Body",
+      "A": "@JsonRequest",
+      "B": "@PostMapping with @RequestBody and @ResponseBody",
       "C": "@Consumes and @Produces",
-      "D": "@RequestB ody"
+      "D": "@RequestBody"
     },
     "correct": "B",
-    "correctText": "@PostMapp ing with @RequestB ody and @Response Body",
-    "explanation": "@RequestB ody đọc JSON request thành object, @Response Body ghi object trả về vào response; @RestController cũng tự áp dụng @Response Body."
+    "correctText": "@PostMapping with @RequestBody and @ResponseBody",
+    "explanation": "@RequestBody đọc JSON request thành object, @ResponseBody ghi object trả về vào response; @RestController cũng tự áp dụng @ResponseBody."
   },
   {
     "id": 196,
@@ -2735,27 +2735,27 @@
     "question": "What is the effect of using @RestController instead of @Controller?",
     "choices": {
       "A": "It forces methods to return HTML views",
-      "B": "It applies @Response Body to all methods by default",
+      "B": "It applies @ResponseBody to all methods by default",
       "C": "It disables automatic serialization",
       "D": "It disables exception handling"
     },
     "correct": "B",
-    "correctText": "It applies @Response Body to all methods by default",
-    "explanation": "@RestController tương đương @Controller cộng @Response Body trên các method, nên dữ liệu trả về được serialize vào HTTP body thay vì tìm view."
+    "correctText": "It applies @ResponseBody to all methods by default",
+    "explanation": "@RestController tương đương @Controller cộng @ResponseBody trên các method, nên dữ liệu trả về được serialize vào HTTP body thay vì tìm view."
   },
   {
     "id": 197,
     "label": "Câu 197",
     "question": "How can you bind a custom header value from a request to a method parameter?",
     "choices": {
-      "A": "@HeaderPa ram",
-      "B": "@RequestH eader",
-      "C": "@RequestB ody",
-      "D": "@RequestP aram"
+      "A": "@HeaderParam",
+      "B": "@RequestHeader",
+      "C": "@RequestBody",
+      "D": "@RequestParam"
     },
     "correct": "B",
-    "correctText": "@RequestH eader",
-    "explanation": "@RequestH eader ánh xạ giá trị HTTP header như X-Request-ID vào tham số controller; @RequestP aram dùng cho query string còn @RequestB ody dùng cho body."
+    "correctText": "@RequestHeader",
+    "explanation": "@RequestHeader ánh xạ giá trị HTTP header như X-Request-ID vào tham số controller; @RequestParam dùng cho query string còn @RequestBody dùng cho body."
   },
   {
     "id": 198,
@@ -2806,7 +2806,7 @@
     "choices": {
       "A": "By using different @Schema annotations.",
       "B": "By using the tags attribute in @Tag annotations.",
-      "C": "By using different @OpenAPI Definition annotations.",
+      "C": "By using different @OpenAPIDefinition annotations.",
       "D": "By using different @ApiResponse annotations."
     },
     "correct": "B",
@@ -2816,16 +2816,16 @@
   {
     "id": 202,
     "label": "Câu 202",
-    "question": "How can you customize title/descrip tion of API in Swagger 3?",
+    "question": "How can you customize title/description of API in Swagger 3?",
     "choices": {
       "A": "@Operation",
       "B": "@Schema",
-      "C": "@OpenAPI Definition",
+      "C": "@OpenAPIDefinition",
       "D": "@ApiResponse"
     },
     "correct": "C",
-    "correctText": "@OpenAPI Definition",
-    "explanation": "@OpenAPI Definition khai báo metadata chung cho tài liệu OpenAPI như Info.title, version và description."
+    "correctText": "@OpenAPIDefinition",
+    "explanation": "@OpenAPIDefinition khai báo metadata chung cho tài liệu OpenAPI như Info.title, version và description."
   },
   {
     "id": 203,
@@ -2833,13 +2833,13 @@
     "question": "What is Swagger used for?",
     "choices": {
       "A": "Logging",
-      "B": "API documentat ion",
+      "B": "API documentation",
       "C": "SQL queries",
       "D": "Testing UI"
     },
     "correct": "B",
     "correctText": "API documenta tion",
-    "explanation": "Swagger/O penAPI mô tả đường dẫn API, tham số, body và kiểu response; Swagger UI tạo giao diện tài liệu có thể thử API."
+    "explanation": "Swagger/OpenAPI mô tả đường dẫn API, tham số, body và kiểu response; Swagger UI tạo giao diện tài liệu có thể thử API."
   },
   {
     "id": 204,
@@ -2847,13 +2847,13 @@
     "question": "Swagger UI is accessed by default at:",
     "choices": {
       "A": "/docs",
-      "B": "/document ation",
-      "C": "/swagger-ui/index.ht ml",
+      "B": "/documentation",
+      "C": "/swagger-ui/index.html",
       "D": "/openapi"
     },
     "correct": "C",
-    "correctText": "/swagger-ui/index.ht ml",
-    "explanation": "Với cấu hình Springdoc thông dụng, Swagger UI mở tại /swagger-ui/index.ht ml; đường dẫn có thể thay đổi bằng cấu hình ứng dụng."
+    "correctText": "/swagger-ui/index.html",
+    "explanation": "Với cấu hình Springdoc thông dụng, Swagger UI mở tại /swagger-ui/index.html; đường dẫn có thể thay đổi bằng cấu hình ứng dụng."
   },
   {
     "id": 205,
@@ -2872,7 +2872,7 @@
   {
     "id": 206,
     "label": "Câu 206",
-    "question": "What is API documentat ion used for?",
+    "question": "What is API documentation used for?",
     "choices": {
       "A": "Styling UI",
       "B": "Helping developers use the API",
@@ -2881,7 +2881,7 @@
     },
     "correct": "B",
     "correctText": "Helping developers use the API",
-    "explanation": "API documenta tion cho biết endpoint, method, tham số, xác thực và mẫu request/res ponse để các lập trình viên tích hợp đúng."
+    "explanation": "API documenta tion cho biết endpoint, method, tham số, xác thực và mẫu request/response để các lập trình viên tích hợp đúng."
   },
   {
     "id": 207,
@@ -2902,7 +2902,7 @@
     "label": "Câu 208",
     "question": "Which OpenAPI annotation documents an endpoint?",
     "choices": {
-      "A": "@Documen tAPI",
+      "A": "@DocumentAPI",
       "B": "@Endpoint",
       "C": "@Operation",
       "D": "@Info"
@@ -2945,13 +2945,13 @@
     "question": "Which annotation is used to describe the request body content in an OpenAPI operation?",
     "choices": {
       "A": "@ApiBody",
-      "B": "@RequestC ontent",
-      "C": "@RequestB ody (from swagger package)",
+      "B": "@RequestContent",
+      "C": "@RequestBody (from swagger package)",
       "D": "@RequestDoc"
     },
     "correct": "C",
-    "correctText": "@RequestB ody (from swagger package)",
-    "explanation": "@RequestB ody thuộc gói annotation OpenAPI mô tả schema, media type và ví dụ request body trong tài liệu; không nhầm với @RequestB ody của Spring dùng để bind dữ liệu."
+    "correctText": "@RequestBody (from swagger package)",
+    "explanation": "@RequestBody thuộc gói annotation OpenAPI mô tả schema, media type và ví dụ request body trong tài liệu; không nhầm với @RequestBody của Spring dùng để bind dữ liệu."
   },
   {
     "id": 212,
@@ -2959,9 +2959,9 @@
     "question": "What Spring configuration property changes the default OpenAPI endpoint?",
     "choices": {
       "A": "swagger.api.url",
-      "B": "openapi.sw agger.path",
-      "C": "spring.open api.path",
-      "D": "springdoc.a pi-docs.path"
+      "B": "openapi.swagger.path",
+      "C": "spring.openapi.path",
+      "D": "springdoc.api-docs.path"
     },
     "correct": "D",
     "correctText": "springdoc.api-docs.path",
@@ -2998,10 +2998,10 @@
   {
     "id": 215,
     "label": "Câu 215",
-    "question": "How can you hide an endpoint from OpenAPI documentat ion?",
+    "question": "How can you hide an endpoint from OpenAPI documentation?",
     "choices": {
       "A": "Disable the controller",
-      "B": "Use @IgnoreMa pping",
+      "B": "Use @IgnoreMapping",
       "C": "Add @Hidden annotation",
       "D": "Rename the method"
     },
@@ -3141,13 +3141,13 @@
     "question": "Which Spring annotation defines security configuration?",
     "choices": {
       "A": "@Bean",
-      "B": "@Configura tion",
-      "C": "@SecurityS cheme",
-      "D": "@EnableWe bSecurity"
+      "B": "@Configuration",
+      "C": "@SecurityScheme",
+      "D": "@EnableWebSecurity"
     },
     "correct": "D",
-    "correctText": "@EnableWe bSecurity",
-    "explanation": "@EnableWe bSecurity kích hoạt tích hợp cấu hình bảo mật web của Spring Security trong cấu hình phù hợp; các quy tắc truy cập thường định nghĩa qua SecurityFilt erChain."
+    "correctText": "@EnableWebSecurity",
+    "explanation": "@EnableWebSecurity kích hoạt tích hợp cấu hình bảo mật web của Spring Security trong cấu hình phù hợp; các quy tắc truy cập thường định nghĩa qua SecurityFilt erChain."
   },
   {
     "id": 226,
@@ -3329,12 +3329,12 @@
     },
     "correct": "A",
     "correctText": "Principal",
-    "explanation": "Principal đại diện danh tính của chủ thể đã xác thực trong security context; có thể lấy từ Authentication.getPrin cipal()."
+    "explanation": "Principal đại diện danh tính của chủ thể đã xác thực trong security context; có thể lấy từ Authentication.getPrincipal()."
   },
   {
     "id": 239,
     "label": "Câu 239",
-    "question": "GrantedAut hority represents:",
+    "question": "GrantedAuthority represents:",
     "choices": {
       "A": "Password",
       "B": "Permission/ role",
@@ -3343,7 +3343,7 @@
     },
     "correct": "B",
     "correctText": "Permission /role",
-    "explanation": "GrantedAut hority biểu diễn một quyền hoặc role được cấp cho user, thường ở dạng chuỗi như ROLE_ADMIN để kiểm tra authorizati on."
+    "explanation": "GrantedAuthority biểu diễn một quyền hoặc role được cấp cho user, thường ở dạng chuỗi như ROLE_ADMIN để kiểm tra authorizati on."
   },
   {
     "id": 240,
@@ -3351,18 +3351,18 @@
     "question": "Which annotation restricts access by role?",
     "choices": {
       "A": "@Block",
-      "B": "@RolesAllo wed",
+      "B": "@RolesAllowed",
       "C": "@Allow",
       "D": "@Access"
     },
     "correct": "B",
-    "correctText": "@RolesAllo wed",
-    "explanation": "@RolesAllo wed cho phép giới hạn việc gọi method theo role được khai báo khi bật method security tương ứng."
+    "correctText": "@RolesAllowed",
+    "explanation": "@RolesAllowed cho phép giới hạn việc gọi method theo role được khai báo khi bật method security tương ứng."
   },
   {
     "id": 241,
     "label": "Câu 241",
-    "question": "Which class handles JWT creation/val idation?",
+    "question": "Which class handles JWT creation/validation?",
     "choices": {
       "A": "JwtUtils",
       "B": "JwtEngine",
@@ -3490,7 +3490,7 @@
     "label": "Câu 250",
     "question": "What annotation is used to inject a Spring Data JPA repository into a service or controller?",
     "choices": {
-      "A": "@RequestM apping",
+      "A": "@RequestMapping",
       "B": "@Autowired",
       "C": "@RestController",
       "D": "@Entity"
@@ -3548,31 +3548,31 @@
     "choices": {
       "A": "@OneToOne",
       "B": "@OneToMany",
-      "C": "@ManyToM any",
+      "C": "@ManyToMany",
       "D": "@JoinColumn"
     },
     "correct": "C",
-    "correctText": "@ManyToM any",
-    "explanation": "@ManyToM any mô tả quan hệ nhiều-nhiều, thường thông qua bảng trung gian chứa khóa ngoại đến hai entity."
+    "correctText": "@ManyToMany",
+    "explanation": "@ManyToMany mô tả quan hệ nhiều-nhiều, thường thông qua bảng trung gian chứa khóa ngoại đến hai entity."
   },
   {
     "id": 255,
     "label": "Câu 255",
     "question": "Which Hibernate Cache property enables the second-level cache?",
     "choices": {
-      "A": "hibernate.c ache.use_se cond_level_ cache",
-      "B": "hibernate.c ache.provid er_class",
-      "C": "hibernate.c ache.region.factory_cla ss",
-      "D": "hibernate.c ache.use_qu ery_cache"
+      "A": "hibernate.cache.use_se cond_level_ cache",
+      "B": "hibernate.cache.provid er_class",
+      "C": "hibernate.cache.region.factory_cla ss",
+      "D": "hibernate.cache.use_qu ery_cache"
     },
     "correct": "A",
-    "correctText": "hibernate.c ache.use_s econd_level _cache",
-    "explanation": "hibernate.c ache.use_s econd_level _cache bật bộ đệm cấp 2 dùng chung giữa các Session; còn bộ đệm cấp 1 luôn gắn với một Session."
+    "correctText": "hibernate.cache.use_s econd_level _cache",
+    "explanation": "hibernate.cache.use_s econd_level _cache bật bộ đệm cấp 2 dùng chung giữa các Session; còn bộ đệm cấp 1 luôn gắn với một Session."
   },
   {
     "id": 256,
     "label": "Câu 256",
-    "question": "What is the purpose of the @Generate dValue annotation?",
+    "question": "What is the purpose of the @GeneratedValue annotation?",
     "choices": {
       "A": "To define a column name.",
       "B": "To specify the strategy for generating primary key values.",
@@ -3581,15 +3581,15 @@
     },
     "correct": "B",
     "correctText": "To specify the strategy for generating primary key values.",
-    "explanation": "@Generate dValue cấu hình chiến lược sinh khóa chính như IDENTITY, SEQUENCE hoặc AUTO, thường đi cùng trường được đánh dấu @Id."
+    "explanation": "@GeneratedValue cấu hình chiến lược sinh khóa chính như IDENTITY, SEQUENCE hoặc AUTO, thường đi cùng trường được đánh dấu @Id."
   },
   {
     "id": 257,
     "label": "Câu 257",
     "question": "Which method is used to create a Sort object for ascending order?",
     "choices": {
-      "A": "Sort.descen ding()",
-      "B": "Sort.ascend ing()",
+      "A": "Sort.descending()",
+      "B": "Sort.ascending()",
       "C": "Sort.unsorted()",
       "D": "Sort.by()"
     },
@@ -3684,7 +3684,7 @@
   {
     "id": 264,
     "label": "Câu 264",
-    "question": "What is the purpose of the <property name=\"hibe rnate.dialect\"> tag in hibernate.cfg.xml?",
+    "question": "What is the purpose of the <property name=\"hibernate.dialect\"> tag in hibernate.cfg.xml?",
     "choices": {
       "A": "To specify the database driver class.",
       "B": "To define the SQL dialect used by Hibernate for the specific database.",
@@ -3712,7 +3712,7 @@
   {
     "id": 266,
     "label": "Câu 266",
-    "question": "Purpose of hibernate.di alect property?",
+    "question": "Purpose of hibernate.dialect property?",
     "choices": {
       "A": "Specify DB driver",
       "B": "Define SQL dialect",
@@ -3757,13 +3757,13 @@
     "question": "What file configures Hibernate?",
     "choices": {
       "A": "hibernate.xml",
-      "B": "config.prop erties",
+      "B": "config.properties",
       "C": "hibernate.cfg.xml",
       "D": "database.xml"
     },
     "correct": "C",
-    "correctText": "hibernate.c fg.xml",
-    "explanation": "hibernate.c fg.xml thường chứa cấu hình kết nối, SQL dialect và mapping cần thiết cho Hibernate SessionFact ory."
+    "correctText": "hibernate.cfg.xml",
+    "explanation": "hibernate.cfg.xml thường chứa cấu hình kết nối, SQL dialect và mapping cần thiết cho Hibernate SessionFact ory."
   },
   {
     "id": 270,
@@ -3882,10 +3882,10 @@
     "label": "Câu 278",
     "question": "Which annotation creates a Spring Bean?",
     "choices": {
-      "A": "@SpringBo otApplicati on",
+      "A": "@SpringBootApplication on",
       "B": "@Bean",
       "C": "@Autowired",
-      "D": "@Configura tion"
+      "D": "@Configuration"
     },
     "correct": "B",
     "correctText": "@Bean",
@@ -3927,7 +3927,7 @@
       "A": "@OneToOne",
       "B": "@OneToMany",
       "C": "@ManyToOne",
-      "D": "@ManyToM any"
+      "D": "@ManyToMany"
     },
     "correct": "C",
     "correctText": "@ManyToOne",
@@ -3966,14 +3966,14 @@
     "label": "Câu 284",
     "question": "Spring Boot auto-configures beans using:",
     "choices": {
-      "A": "@EnableAu toConfig",
+      "A": "@EnableAutoConfiguration",
       "B": "@AutoBean",
-      "C": "@SpringBo otApplicati on",
+      "C": "@SpringBootApplication on",
       "D": "@AutoScan"
     },
     "correct": "C",
-    "correctText": "@SpringBo otApplicati on",
-    "explanation": "@SpringBo otApplicati on gồm @SpringBo otConfiguration, @EnableAu toConfiguration và @Compone ntScan; auto-configurati on tạo bean theo dependency và điều kiện cấu hình."
+    "correctText": "@SpringBootApplication on",
+    "explanation": "@SpringBootApplication on gồm @SpringBootConfiguration, @EnableAutoConfiguration và @ComponentScan; auto-configurati on tạo bean theo dependency và điều kiện cấu hình."
   },
   {
     "id": 285,
@@ -4067,11 +4067,11 @@
       "A": "update()",
       "B": "find()",
       "C": "insertOne()",
-      "D": "deleteMany () or deleteOne()"
+      "D": "deleteMany() or deleteOne()"
     },
     "correct": "D",
-    "correctText": "deleteMany () or deleteOne()",
-    "explanation": "deleteOne() xóa một document khớp điều kiện, còn deleteMany () xóa tất cả document khớp.find() chỉ truy vấn dữ liệu."
+    "correctText": "deleteMany() or deleteOne()",
+    "explanation": "deleteOne() xóa một document khớp điều kiện, còn deleteMany() xóa tất cả document khớp.find() chỉ truy vấn dữ liệu."
   },
   {
     "id": 292,
@@ -4123,7 +4123,7 @@
       "A": "update()",
       "B": "find()",
       "C": "insertOne()",
-      "D": "deleteMany ()"
+      "D": "deleteMany()"
     },
     "correct": "B",
     "correctText": "find()",
@@ -4331,13 +4331,13 @@
     "question": "Which command deletes multiple MongoDB documents?",
     "choices": {
       "A": "deleteOne()",
-      "B": "deleteMany ()",
+      "B": "deleteMany()",
       "C": "remove()",
       "D": "drop()"
     },
     "correct": "B",
-    "correctText": "deleteMany ()",
-    "explanation": "deleteMany (filter) xóa tất cả document khớp filter; deleteOne(f ilter) chỉ xóa một document khớp."
+    "correctText": "deleteMany()",
+    "explanation": "deleteMany(filter) xóa tất cả document khớp filter; deleteOne(f ilter) chỉ xóa một document khớp."
   },
   {
     "id": 311,
@@ -4388,7 +4388,7 @@
     "choices": {
       "A": "db.collection.create()",
       "B": "db.collection.insertOne ()",
-      "C": "db.collection.insertDoc ument()",
+      "C": "db.collection.insertDocument()",
       "D": "db.collection.add()"
     },
     "correct": "B",
@@ -4429,7 +4429,7 @@
     "question": "Which annotation is used to define a MongoDB document in Spring Data MongoDB?",
     "choices": {
       "A": "@Collection",
-      "B": "@MongoEn tity",
+      "B": "@MongoEntity",
       "C": "@Document",
       "D": "@Entity"
     },
@@ -4471,9 +4471,9 @@
     "question": "Which property is used in application.properties to set the MongoDB database name?",
     "choices": {
       "A": "spring.data.mongo.name",
-      "B": "spring.mon godb.dbna me",
-      "C": "spring.data.mongodb.d atabase",
-      "D": "spring.mon go.database"
+      "B": "spring.mongodb.dbname",
+      "C": "spring.data.mongodb.database",
+      "D": "spring.mongo.database"
     },
     "correct": "C",
     "correctText": "spring.data.mongodb.database",
@@ -4500,12 +4500,12 @@
     "choices": {
       "A": "db.collection.setIndex()",
       "B": "db.collection.index()",
-      "C": "db.collection.createInd ex()",
-      "D": "db.collection.makeInde x()"
+      "C": "db.collection.createIndex()",
+      "D": "db.collection.makeIndex()"
     },
     "correct": "C",
-    "correctText": "db.collection.createInd ex()",
-    "explanation": "db.collection.createInd ex({field:1}) tạo chỉ mục tăng dần cho field, giúp một số filter và sort nhanh hơn nhưng có chi phí lưu trữ/ ghi."
+    "correctText": "db.collection.createIndex()",
+    "explanation": "db.collection.createIndex({field:1}) tạo chỉ mục tăng dần cho field, giúp một số filter và sort nhanh hơn nhưng có chi phí lưu trữ/ ghi."
   },
   {
     "id": 323,
@@ -4640,7 +4640,7 @@
     "choices": {
       "A": "Use @MockBean",
       "B": "Use webEnviron ment = WebEnviron ment.NONE",
-      "C": "Use @WebMvcT est",
+      "C": "Use @WebMvcTest",
       "D": "Use webEnviron ment = WebEnviron ment.RAND OM_PORT"
     },
     "correct": "D",
@@ -4655,7 +4655,7 @@
       "A": "@MockBean",
       "B": "@ExtendWith(SpringExt ension.class)",
       "C": "@DataJpaTest",
-      "D": "@TestConfi guration"
+      "D": "@TestConfiguration"
     },
     "correct": "B",
     "correctText": "@ExtendWith(SpringEx tension.class)",
@@ -4680,14 +4680,14 @@
     "label": "Câu 335",
     "question": "Which of the following annotations can be used instead of @SpringBootTest for testing only the web layer?",
     "choices": {
-      "A": "@Configura tion",
+      "A": "@Configuration",
       "B": "@DataJpaTest",
-      "C": "@WebMvcT est",
-      "D": "@EnableAu toConfigura tion"
+      "C": "@WebMvcTest",
+      "D": "@EnableAutoConfiguration tion"
     },
     "correct": "C",
-    "correctText": "@WebMvcT est",
-    "explanation": "@WebMvcT est chỉ nạp các thành phần Spring MVC như controller, converter và hỗ trợ MockMvc, nhanh hơn test toàn bộ context bằng @SpringBootTest."
+    "correctText": "@WebMvcTest",
+    "explanation": "@WebMvcTest chỉ nạp các thành phần Spring MVC như controller, converter và hỗ trợ MockMvc, nhanh hơn test toàn bộ context bằng @SpringBootTest."
   },
   {
     "id": 336,

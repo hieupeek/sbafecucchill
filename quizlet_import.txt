@@ -2,7 +2,7 @@ Câu 1. Which code snippet correctly creates a React-Bootstrap form select contr
 A. <Form.Select> <option>1</option> <option>2</option> </Form.Select>
 B. <Select> <option>1</option> <option>2</option> </Select>
 C. <Form.Dropdown> <option>1</option> <option>2</option> </Form.Dropdown>
-D. <Dropdown> <option>1</option> <option>2</option> </Dropdown>	A. <Form.Select> <option>1 </option> <option>2 </option> </Form.Select> - React-Bootstrap dùng Form.Select cho thẻ select và các phần tử option bên trong. Đây là component được thư viện bọc theo kiểu Bootstrap.
+D. <Dropdown> <option>1</option> <option>2</option> </Dropdown>	A. <Form.Select> <option>1</option> <option>2</option> </Form.Select> - React-Bootstrap dùng Form.Select cho thẻ select và các phần tử option bên trong. Đây là component được thư viện bọc theo kiểu Bootstrap.
 ###
 Câu 2. Which lifecycle method in React class components is used for side effects?
 A. componentDidMount
@@ -11,16 +11,16 @@ C. constructor
 D. shouldComponentUpdate	A. componentDidMount - componentDidMount chạy sau khi class component được gắn vào DOM, phù hợp cho tải dữ liệu hoặc đăng ký subscription; cần dọn dẹp khi unmount nếu có đăng ký.
 ###
 Câu 3. Which of the following is NOT a valid way to handle events in React?
-A. onClick= {handleClick}
-B. onClick= {handleClick()}
-C. onClick= {() => handleClick ()}
-D. onClick={(e) => handleClick(e)}	B. onClick= {handleClick()} - onClick cần nhận một hàm để gọi khi xảy ra sự kiện. Viết handleClick () sẽ chạy ngay lúc render, còn handleClick hoặc hàm arrow sẽ đợi click.
+A. onClick={handleClick}
+B. onClick={handleClick()}
+C. onClick={() => handleClick()}
+D. onClick={(e) => handleClick(e)}	B. onClick={handleClick()} - onClick cần nhận một hàm để gọi khi xảy ra sự kiện. Viết handleClick() sẽ chạy ngay lúc render, còn handleClick hoặc hàm arrow sẽ đợi click.
 ###
 Câu 4. Which built-in Hook is used to access context values in Functional Components?
 A. useContext()
 B. useProps()
 C. useValue()
-D. useContextValue()	A. useContext () - useContext (Context) lấy giá trị từ Provider gần nhất phía trên component. Nó giúp truyền dữ liệu xuyên nhiều tầng mà không phải chuyển props thủ công.
+D. useContextValue()	A. useContext() - useContext (Context) lấy giá trị từ Provider gần nhất phía trên component. Nó giúp truyền dữ liệu xuyên nhiều tầng mà không phải chuyển props thủ công.
 ###
 Câu 5. Which hook is an alternative to useState for complex state management?
 A. useMemo
@@ -42,9 +42,9 @@ D. To manage database connections.	B. To share stateful logic between components
 ###
 Câu 8. How is state initialized in a Class Component?
 A. Using useState().
-B. Using this.setState ().
-C. By assigning a value to this.state in the constructor ().
-D. By using props.state.	C. By assigning a value to this.state in the constructor (). - Class component có thể khởi tạo this.state trong constructor (hoặc class field). Sau khi render, cập nhật qua this.setState để React render lại.
+B. Using this.setState().
+C. By assigning a value to this.state in the constructor().
+D. By using props.state.	C. By assigning a value to this.state in the constructor(). - Class component có thể khởi tạo this.state trong constructor (hoặc class field). Sau khi render, cập nhật qua this.setState để React render lại.
 ###
 Câu 9. How do you show a success message alert in React-Bootstrap?
 A. <Alert type="success">Message</Alert>
@@ -114,7 +114,7 @@ D. <Data>	A. <Button> - Button là component giao diện có sẵn của React-B
 ###
 Câu 20. How do you update state in a Functional Component?
 A. By directly modifying the state variable.
-B. By calling this.setState ().
+B. By calling this.setState().
 C. By calling the setter function returned by useState().
 D. By using props.setState().	C. By calling the setter function returned by useState(). - useState trả về [state, setState]; gọi hàm setter báo cho React xử lý state mới và render lại khi cần.
 ###
@@ -170,7 +170,7 @@ Câu 29. Which hook is used to read values from a React context?
 A. useState()
 B. useContext()
 C. useRef()
-D. useEffect()	B. useContext () - useContext (Context) lấy giá trị Provider gần nhất trong cây React, giảm việc truyền props qua nhiều tầng trung gian.
+D. useEffect()	B. useContext() - useContext (Context) lấy giá trị Provider gần nhất trong cây React, giảm việc truyền props qua nhiều tầng trung gian.
 ###
 Câu 30. Which rule of hooks is correct?
 A. Hooks inside loops
@@ -184,7 +184,7 @@ B. useLocalSt ore()
 C. useMemory ()
 D. useValue()	A. useState() - useState lưu state cục bộ của function component và trả về setter để yêu cầu cập nhật state rồi render lại.
 ###
-Câu 32. What does useReducer () return?
+Câu 32. What does useReducer() return?
 A. state and dispatch
 B. state only
 C. reducer and state
@@ -301,7 +301,7 @@ D. useReducer	C. useMemo - useMemo ghi nhớ kết quả phép tính đến khi 
 Câu 51. Which Hook is used for memoizing expensive computations?
 A. useMemo()
 B. useCallback()
-C. useReducer ()
+C. useReducer()
 D. useRef()	A. useMemo() - useMemo trả lại kết quả đã lưu nếu dependency không đổi; dùng nó để hạn chế tính toán lại các biểu thức tốn kém.
 ###
 Câu 52. What is the purpose of the React-Bootstrap <Container> component?
@@ -344,7 +344,7 @@ Câu 58. Which hook reads context values?
 A. useParams()
 B. useContext()
 C. useRef()
-D. useReducer ()	B. useContext () - useContext cung cấp giá trị được React Context Provider truyền từ phía trên mà không cần props drilling.
+D. useReducer()	B. useContext() - useContext cung cấp giá trị được React Context Provider truyền từ phía trên mà không cần props drilling.
 ###
 Câu 59. What does Virtual DOM improve?
 A. SEO
@@ -356,7 +356,7 @@ Câu 60. Which annotation maps a primary key?
 A. @Column
 B. @Id
 C. @PK
-D. @Key	B. @Id - @Id đánh dấu thuộc tính làm khóa chính để JPA nhận diện từng bản ghi; @Generate dValue có thể cấu hình sinh khóa tự động.
+D. @Key	B. @Id - @Id đánh dấu thuộc tính làm khóa chính để JPA nhận diện từng bản ghi; @GeneratedValue có thể cấu hình sinh khóa tự động.
 ###
 Câu 61. Which hook returns a mutable object?
 A. useState
@@ -374,9 +374,9 @@ Câu 63. What is Component Scan used for?
 A. Scan for CSS files
 B. Scan for components/services/c ontrollers
 C. Scan for databases
-D. Scan for routers	B. Scan for components/services/ controllers - @Compone ntScan chỉ định package mà Spring quét để tìm các bean có @Component, @Service, @Controller hoặc annotation tương tự.
+D. Scan for routers	B. Scan for components/services/ controllers - @ComponentScan chỉ định package mà Spring quét để tìm các bean có @Component, @Service, @Controller hoặc annotation tương tự.
 ###
-Câu 64. What does "unidirectio nal data flow" in React mean?
+Câu 64. What does "unidirectional data flow" in React mean?
 A. Data flows only from server to client
 B. Data is shared globally across all components
 C. Data flows from parent to child via props
@@ -491,10 +491,10 @@ C. They use refs to access values
 D. They can't be used in forms	B. Their state is managed by React - Controlled component nhận giá trị input từ React state và thông báo thay đổi qua onChange; nó không tự quản lý giá trị chỉ bằng DOM.
 ###
 Câu 83. How do you access route parameters in a component rendered by React Router v6?
-A. Using this.props.p arams.
+A. Using this.props.params.
 B. Using useParams() Hook.
 C. Using props.match.params.
-D. Using context params.	B. Using useParams() Hook. - useParams() đọc các tham số động trong URL, ví dụ /users/ sẽ trả về id.React Router v6 không còn cách dùng props.match.params như v5.
+D. Using context params.	B. Using useParams() Hook. - useParams() đọc các tham số động trong URL, ví dụ /users/sẽ trả về id.React Router v6 không còn cách dùng props.match.params như v5.
 ###
 Câu 84. What is a key advantage of client-side routing?
 A. Improved SEO.
@@ -536,7 +536,7 @@ Câu 90. Hook for navigation?
 A. useRoute()
 B. useNavigate()
 C. useNavLink()
-D. useSwitch()	B. useNavigate() - useNavigate trả về hàm navigate để chuyển URL trong handler hoặc effect, chẳng hạn navigate('/l ogin').
+D. useSwitch()	B. useNavigate() - useNavigate trả về hàm navigate để chuyển URL trong handler hoặc effect, chẳng hạn navigate('/login').
 ###
 Câu 91. Advantage of SPA?
 A. Full reload
@@ -680,7 +680,7 @@ Câu 114. What is the benefit of using <Link> over traditional anchor (<a>) tags
 A. <Link> triggers a full page reload.
 B. <Link> prevents a full page reload and allows client-side routing.
 C. <a> tags automatically handle client-side routing.
-D. There is no benefit; they are interchange able.	B. <Link> prevents a full page reload and allows client-side routing. - Link của React Router xử lý client-side navigation và cập nhật URL mà không reload toàn trang; thẻ a thông thường làm trình duyệt tải tài liệu mới.
+D. There is no benefit; they are interchangeable.	B. <Link> prevents a full page reload and allows client-side routing. - Link của React Router xử lý client-side navigation và cập nhật URL mà không reload toàn trang; thẻ a thông thường làm trình duyệt tải tài liệu mới.
 ###
 Câu 115. What is the core feature of Node.js that makes it efficient for handling concurrent requests?
 A. Multi-threading
@@ -698,7 +698,7 @@ Câu 117. What is Axios primarily used for in JavaScript applications?
 A. To define CSS styles.
 B. To make HTTP requests.
 C. To manage database connections.
-D. To handle client-side rendering exclusively.	B. To make HTTP requests. - Axios là HTTP client dựa trên Promise, có các hàm get/post/p ut/delete và thường tự chuyển JSON response thành object JavaScript.
+D. To handle client-side rendering exclusively.	B. To make HTTP requests. - Axios là HTTP client dựa trên Promise, có các hàm get/post/put/delete và thường tự chuyển JSON response thành object JavaScript.
 ###
 Câu 118. Which keyword is used to pause the execution of an async function until a Promise is resolved?
 A. async
@@ -707,16 +707,16 @@ C. await
 D. callback	C. await - await tạm dừng việc thực thi bên trong async function cho đến khi Promise hoàn tất; nó không chặn toàn bộ event loop.
 ###
 Câu 119. What is the syntax for creating a new Promise?
-A. new Promise(cal lback)
+A. new Promise(callback)
 B. createPromise(callback)
-C. Promise.cre ate(callback)
-D. Promise.new(callback)	A. new Promise(cal lback) - new Promise(ex ecutor) tạo Promise, trong đó executor nhận resolve và reject để báo thành công hoặc thất bại của tác vụ bất đồng bộ.
+C. Promise.create(callback)
+D. Promise.new(callback)	A. new Promise(callback) - new Promise(executor) tạo Promise, trong đó executor nhận resolve và reject để báo thành công hoặc thất bại của tác vụ bất đồng bộ.
 ###
 Câu 120. Which hook is used for performing side effects such as data fetching?
 A. useEffect()
 B. useCallback()
 C. useMemo()
-D. useLayoutEf fect()	A. useEffect() - useEffect thực hiện side effect sau render như tải dữ liệu, đăng ký sự kiện hoặc đồng bộ với dịch vụ bên ngoài.
+D. useLayoutEffect()	A. useEffect() - useEffect thực hiện side effect sau render như tải dữ liệu, đăng ký sự kiện hoặc đồng bộ với dịch vụ bên ngoài.
 ###
 Câu 121. Realtime tech?
 A. Axios
@@ -734,55 +734,55 @@ Câu 123. Advantage of Axios?
 A. No promises
 B. Auto JSON parsing
 C. UI elements
-D. No JS needed	B. Auto JSON parsing - Axios thường tự phân tích JSON response theo cấu hình mặc định; dữ liệu có thể truy cập qua response.d ata.
+D. No JS needed	B. Auto JSON parsing - Axios thường tự phân tích JSON response theo cấu hình mặc định; dữ liệu có thể truy cập qua response.data.
 ###
 Câu 124. Which of the following is a valid way to handle a Promise rejection?
-A. promise.err or(err => {})
-B. promise.rej ect(err => {})
+A. promise.error(err => {})
+B. promise.reject(err => {})
 C. promise.catch(err => {})
-D. promise.fail (err => {})	C. promise.ca tch(err => {}) - Promise bị reject có thể được bắt bằng.catch(error => ...), nhờ đó ứng dụng xử lý lỗi thay vì để rejection không được xử lý.
+D. promise.fail(err => {})	C. promise.catch(err => {}) - Promise bị reject có thể được bắt bằng .catch(error => ...), nhờ đó ứng dụng xử lý lỗi thay vì để rejection không được xử lý.
 ###
 Câu 125. Which of the following is the correct way to handle a successful fetch request?
-A. fetch(url).th en(response => response.js on()).then(d ata => console.log (data));
-B. fetch(url).th en(data => data.json()).t hen(console.log(data));
-C. fetch(url).da ta().then(co nsole.log);
-D. fetch(url).js on().then(da ta => console.log (data));	A. fetch(url).t hen(response => response.js on()).then(d ata => console.log (data)); - fetch() trả về Promise chứa Response; cần gọi response.js on() để đọc JSON rồi dùng.then() tiếp theo để xử lý dữ liệu.
+A. fetch(url).then(response => response.json()).then(data => console.log(data));
+B. fetch(url).then(data => data.json()).then(console.log(data));
+C. fetch(url).data().then(console.log);
+D. fetch(url).json().then(data => console.log(data));	A. fetch(url).then(response => response.json()).then(data => console.log(data)); - fetch() trả về Promise chứa Response; cần gọi response.json() để đọc JSON rồi dùng .then() tiếp theo để xử lý dữ liệu.
 ###
 Câu 126. How do you send POST data using Axios?
-A. axios.write(' url', data)
-B. axios.sendP ost('url', data)
-C. axios.post(' url', data)
-D. axios.get('url', data)	C. axios.post(' url', data) - axios.post(url, data) gửi request POST với data làm request body, thường được chuyển thành JSON khi truyền object thông thường.
+A. axios.write('url', data)
+B. axios.sendPost('url', data)
+C. axios.post('url', data)
+D. axios.get('url', data)	C. axios.post('url', data) - axios.post(url, data) gửi request POST với data làm request body, thường được chuyển thành JSON khi truyền object thông thường.
 ###
 Câu 127. What is returned by an Axios request?
 A. String
 B. Object
 C. Array
-D. Promise	D. Promise - Axios trả về Promise; khi thành công nhận AxiosRespo nse có data, status và headers, khi lỗi Promise bị reject.
+D. Promise	D. Promise - Axios trả về Promise; khi thành công nhận AxiosResponse có data, status và headers, khi lỗi Promise bị reject.
 ###
 Câu 128. What does the fetch() function in JavaScript return?
-A. An XMLHttpRe quest object
+A. An XMLHttpRequest object
 B. A Promise
 C. A callback function
 D. A JSON object	B. A Promise - fetch() trả Promise được resolve thành Response khi có HTTP response; trạng thái 4xx/5xx không tự làm Promise reject, cần kiểm tra response.ok.
 ###
 Câu 129. How can you handle errors in an Axios request?
-A. Using.error()
-B. Using.catch()
-C. Using.handle()
-D. Using.fail()	B. Using.catch() - Axios Promise có thể bắt lỗi bằng.catch(error) hoặc try/catch với await; phân biệt error.respo nse và error.request để xử lý rõ ràng.
+A. Using .error()
+B. Using .catch()
+C. Using .handle()
+D. Using .fail()	B. Using .catch() - Axios Promise có thể bắt lỗi bằng .catch(error) hoặc try/catch với await; phân biệt error.response và error.request để xử lý rõ ràng.
 ###
 Câu 130. How can you set a default base URL in Axios?
-A. axios.defaults.baseURL = 'https://api.example.co m'
-B. axios.config ure.baseURL = 'https://api.example.co m'
-C. axios.setBas eURL('https: //api.example.com')
-D. axios.baseURL('https://a pi.example.com')	A. axios.defau lts.baseURL = 'https://api.example.c om' - axios.defau lts.baseURL đặt tiền tố URL chung cho các request dùng instance mặc định; nhờ đó có thể gọi axios.get('/ users') thay vì lặp địa chỉ server.
+A. axios.defaults.baseURL = 'https://api.example.com'
+B. axios.configure.baseURL = 'https://api.example.com'
+C. axios.setBaseURL('https://api.example.com')
+D. axios.baseURL('https://api.example.com')	A. axios.defaults.baseURL = 'https://api.example.com' - axios.defaults.baseURL đặt tiền tố URL chung cho các request dùng instance mặc định; nhờ đó có thể gọi axios.get('/users') thay vì lặp địa chỉ server.
 ###
 Câu 131. Which of the following is the correct way to make a GET request using Axios?
-A. axios.get('ht tps://api.ex ample.com/ data')
-B. axios.send(' GET', 'https://api.example.co m/data')
-C. axios.fetch(' https://api.e xample.co m/data')
-D. fetch.axios(' https://api.e xample.co m/data')	A. axios.get('h ttps://api.e xample.co m/data') - axios.get(u rl) gửi HTTP GET và trả về Promise chứa response; dữ liệu server trả về thường truy cập qua response.d ata.
+A. axios.get('https://api.example.com/data')
+B. axios.send('GET', 'https://api.example.com/data')
+C. axios.fetch('https://api.example.co m/data')
+D. fetch.axios('https://api.example.co m/data')	A. axios.get('https://api.example.co m/data') - axios.get(u rl) gửi HTTP GET và trả về Promise chứa response; dữ liệu server trả về thường truy cập qua response.data.
 ###
 Câu 132. Which REST principle ensures that each request from a client to a server must contain all of the information needed to understand and process the request?
 A. Layered System
@@ -794,17 +794,17 @@ Câu 133. How do you typically handle errors when making requests to a RESTful A
 A. By ignoring the error
 B. By using.catch() on the Axios promise and accessing the error object
 C. By using static HTML error messages
-D. By redirecting to a different page without displaying an error	B. By using.catch () on the Axios promise and accessing the error object - Axios trả về Promise; có thể bắt lỗi bằng.catch(error => ...), hoặc try/catch khi dùng await.error.respo nse giúp xem mã HTTP khi máy chủ phản hồi lỗi.
+D. By redirecting to a different page without displaying an error	B. By using.catch () on the Axios promise and accessing the error object - Axios trả về Promise; có thể bắt lỗi bằng .catch(error => ...), hoặc try/catch khi dùng await.error.response giúp xem mã HTTP khi máy chủ phản hồi lỗi.
 ###
 Câu 134. Which of the following is a common approach to handling cross-origin requests (CORS) between React and Spring Boot?
 A. Disabling security in React.
 B. Configuring CORS in Spring Boot.
 C. Using server-side rendering exclusively.
-D. Using iframes to embed the Spring Boot application.	B. Configuring CORS in Spring Boot. - CORS được trình duyệt kiểm tra theo các header máy chủ trả về; Spring Boot có thể cấu hình bằng @CrossOri gin hoặc WebMvcCo nfigurer để cho phép origin của React.
+D. Using iframes to embed the Spring Boot application.	B. Configuring CORS in Spring Boot. - CORS được trình duyệt kiểm tra theo các header máy chủ trả về; Spring Boot có thể cấu hình bằng @CrossOrigin hoặc WebMvcConfigurer để cho phép origin của React.
 ###
 Câu 135. Which annotation is used to provide a summary and description for a specific API endpoint or method in a controller?
-A. @Descripti on
-B. @RequestM apping
+A. @Description
+B. @RequestMapping
 C. @Operation
 D. @Endpoint Des	C. @Operation - @Operation của OpenAPI mô tả summary, description và thông tin của một API operation trong Swagger UI.
 ###
@@ -817,8 +817,8 @@ D. DELETE	A. GET - GET là phương thức safe vì về mặt ngữ nghĩa ch�
 Câu 137. Which HTTP header is used to specify the content type of a JSON response?
 A. Content-Language
 B. Content-Encoding
-C. Content-Type: application /json
-D. Content-Length	C. Content-Type: application /json - Content-Type cho biết kiểu dữ liệu của phần body.application /json thông báo nội dung được biểu diễn dưới dạng JSON.
+C. Content-Type: application/json
+D. Content-Length	C. Content-Type: application/json - Content-Type cho biết kiểu dữ liệu của phần body.application/json thông báo nội dung được biểu diễn dưới dạng JSON.
 ###
 Câu 138. Which HTTP method is idempotent?
 A. GET
@@ -833,10 +833,10 @@ C. To manage database connections.
 D. To handle client-side rendering exclusively.	B. To transfer data over the internet, especially between web browsers and servers. - HTTP là giao thức request-response giữa client và server; trình duyệt dùng nó để gửi yêu cầu và nhận status, headers và body.
 ###
 Câu 140. Which annotation is used to map HTTP request bodies to method parameters in Spring Boot REST?
-A. @PathVaria ble
-B. @RequestP aram
-C. @RequestB ody
-D. @RequestH eader	C. @RequestB ody - @RequestB ody yêu cầu Spring chuyển JSON/XML trong request body thành tham số Java thông qua HttpMessageConverter thích hợp.
+A. @PathVariable
+B. @RequestParam
+C. @RequestBody
+D. @RequestHeader	C. @RequestBody - @RequestBody yêu cầu Spring chuyển JSON/XML trong request body thành tham số Java thông qua HttpMessageConverter thích hợp.
 ###
 Câu 141. When should you use PUT instead of PATCH?
 A. When updating only part of a resource
@@ -845,16 +845,16 @@ C. When deleting a resource
 D. When creating new resource	B. When replacing the entire resource - PUT theo ngữ nghĩa HTTP dùng để tạo hoặc thay thế toàn bộ trạng thái tài nguyên tại URI; PATCH dành cho cập nhật một phần.
 ###
 Câu 142. In Spring Boot REST, which annotation is used to extract path variables from the URL?
-A. @RequestB ody
-B. @RequestP aram
-C. @PathVaria ble
-D. @RequestH eader	C. @PathVaria ble - @PathVaria ble lấy giá trị trong đường dẫn như /users/{id}; @RequestP aram lấy tham số query sau dấu?.
+A. @RequestBody
+B. @RequestParam
+C. @PathVariable
+D. @RequestHeader	C. @PathVariable - @PathVariable lấy giá trị trong đường dẫn như /users/{id}; @RequestParam lấy tham số query sau dấu?.
 ###
-Câu 143. Which of the following is NOT a key element typically found in Spring REST documentat ion?
+Câu 143. Which of the following is NOT a key element typically found in Spring REST documentation?
 A. The HTTP method (e.g., GET, POST)
 B. The endpoint URL
 C. The request and response payloads
-D. The underlying database schema	D. The underlying database schema - Tài liệu REST thường cần endpoint, HTTP method và cấu trúc request/res ponse; chi tiết lược đồ database nội bộ không phải thành phần bắt buộc.
+D. The underlying database schema	D. The underlying database schema - Tài liệu REST thường cần endpoint, HTTP method và cấu trúc request/response; chi tiết lược đồ database nội bộ không phải thành phần bắt buộc.
 ###
 Câu 144. What is the primary role of ReactJS in a Spring Boot + React SPA architecture?
 A. To handle server-side logic and database interactions.
@@ -896,25 +896,25 @@ Câu 150. @RestController does?
 A. Declares controller
 B. RestBody
 C. API mapping
-D. Entity mapping	A. Declares controller - @RestController đánh dấu lớp xử lý REST request và tự áp dụng @Response Body cho các phương thức, khiến giá trị trả về được ghi vào response body.
+D. Entity mapping	A. Declares controller - @RestController đánh dấu lớp xử lý REST request và tự áp dụng @ResponseBody cho các phương thức, khiến giá trị trả về được ghi vào response body.
 ###
-Câu 151. @PathVaria ble does?
+Câu 151. @PathVariable does?
 A. Extract query
 B. Extract path
 C. Extract body
-D. Extract header	B. Extract path - @PathVaria ble ánh xạ đoạn biến trong path, ví dụ /items/{id}, vào tham số phương thức controller.
+D. Extract header	B. Extract path - @PathVariable ánh xạ đoạn biến trong path, ví dụ /items/{id}, vào tham số phương thức controller.
 ###
-Câu 152. @RequestB ody does?
+Câu 152. @RequestBody does?
 A. Bind JSON
 B. Bind XML
 C. Bind header
-D. Bind path	A. Bind JSON - @RequestB ody dùng message converter để đọc request body và biến JSON thành object Java tương ứng khi có bộ chuyển đổi phù hợp.
+D. Bind path	A. Bind JSON - @RequestBody dùng message converter để đọc request body và biến JSON thành object Java tương ứng khi có bộ chuyển đổi phù hợp.
 ###
 Câu 153. @GetMapping does?
 A. Maps POST
 B. Maps GET
 C. Maps DELETE
-D. Maps PUT	B. Maps GET - @GetMapping là cách viết rút gọn của @RequestM apping(met hod = RequestMet hod.GET), dùng cho endpoint đọc dữ liệu.
+D. Maps PUT	B. Maps GET - @GetMapping là cách viết rút gọn của @RequestMapping(met hod = RequestMet hod.GET), dùng cho endpoint đọc dữ liệu.
 ###
 Câu 154. Business logic layer?
 A. Controller
@@ -928,11 +928,11 @@ B. Repository
 C. Controller
 D. Middleware	B. Repository - Repository đóng gói thao tác truy cập database như findById, save và delete, giúp service tách khỏi chi tiết lưu trữ.
 ###
-Câu 156. Purpose of @Response Status?
+Câu 156. Purpose of @ResponseStatus?
 A. Add headers
 B. Set status code
 C. Map controller
-D. Validate request	B. Set status code - @Response Status đặt status HTTP mặc định của method hoặc exception, ví dụ @Response Status(Http Status.CRE ATED) cho response 201.
+D. Validate request	B. Set status code - @ResponseStatus đặt status HTTP mặc định của method hoặc exception, ví dụ @ResponseStatus(Http Status.CRE ATED) cho response 201.
 ###
 Câu 157. Library simplifies HTTP?
 A. Axios
@@ -997,20 +997,20 @@ D. 503	B. 201 - HTTP 201 Created báo server đã tạo xong tài nguyên mới,
 Câu 167. Which annotation creates a REST controller?
 A. @Controller
 B. @RestController
-C. @Response Body
-D. @Service	B. @RestController - @RestController kết hợp @Controller và @Response Body, thích hợp cho API trả JSON/XML thay vì tên view.
+C. @ResponseBody
+D. @Service	B. @RestController - @RestController kết hợp @Controller và @ResponseBody, thích hợp cho API trả JSON/XML thay vì tên view.
 ###
 Câu 168. Which annotation binds JSON to a Java object?
-A. @PathVaria ble
-B. @RequestP aram
-C. @RequestB ody
-D. @ModelAtt ribute	C. @RequestB ody - Spring dùng @RequestB ody cùng message converter để ánh xạ dữ liệu JSON trong body thành object Java.
+A. @PathVariable
+B. @RequestParam
+C. @RequestBody
+D. @ModelAttribute	C. @RequestBody - Spring dùng @RequestBody cùng message converter để ánh xạ dữ liệu JSON trong body thành object Java.
 ###
 Câu 169. Which annotation maps GET requests?
-A. @PostMapp ing
+A. @PostMapping
 B. @GetMapping
 C. @PutMapping
-D. @Mapping	B. @GetMapping - @GetMapping ánh xạ HTTP GET đến phương thức controller, tương đương @RequestM apping(met hod = GET).
+D. @Mapping	B. @GetMapping - @GetMapping ánh xạ HTTP GET đến phương thức controller, tương đương @RequestMapping(met hod = GET).
 ###
 Câu 170. Which layer contains business logic?
 A. Repository
@@ -1046,7 +1046,7 @@ Câu 175. Which file contains DB credentials in Spring Boot?
 A. pom.xml
 B. build.gradle
 C. application.properties
-D. controller.p roperties	C. application.properties - application.properties (hoặc application.yml) thường cấu hình spring.data source.url, username, password; nên cung cấp thông tin bí mật qua biến môi trường hoặc secret manager.
+D. controller.properties	C. application.properties - application.properties (hoặc application.yml) thường cấu hình spring.datasource.url, username, password; nên cung cấp thông tin bí mật qua biến môi trường hoặc secret manager.
 ###
 Câu 176. Which Spring annotation injects dependencies automatically?
 A. @Autowired
@@ -1061,10 +1061,10 @@ C. Component
 D. Controller	D. Controller - Controller nhận HTTP request, phân tích tham số và gọi service; service xử lý nghiệp vụ còn repository làm việc với database.
 ###
 Câu 178. Which annotation handles exceptions globally?
-A. @Exception Handler
-B. @Controlle rAdvice
+A. @ExceptionHandler
+B. @ControllerAdvice
 C. @Advice
-D. @ErrorHan dler	B. @Controlle rAdvice - @Controlle rAdvice cho phép định nghĩa xử lý exception áp dụng cho nhiều controller; thường kết hợp @Exception Handler.
+D. @ErrorHandler	B. @ControllerAdvice - @ControllerAdvice cho phép định nghĩa xử lý exception áp dụng cho nhiều controller; thường kết hợp @ExceptionHandler.
 ###
 Câu 179. Which tool in Spring Boot auto-generates API docs?
 A. springdoc-openapi
@@ -1092,9 +1092,9 @@ D. POST	D. POST - POST không được bảo đảm idempotent: gửi lại mộ
 ###
 Câu 183. Which JSON content type is correct?
 A. text/json
-B. application /json
+B. application/json
 C. json/applic ation
-D. data/json	B. application /json - MIME type application /json trong Content-Type cho biết body được mã hóa dạng JSON, giúp bên nhận chọn parser phù hợp.
+D. data/json	B. application/json - MIME type application/json trong Content-Type cho biết body được mã hóa dạng JSON, giúp bên nhận chọn parser phù hợp.
 ###
 Câu 184. Which principle requires uniform API design?
 A. Cacheable
@@ -1102,11 +1102,11 @@ B. Uniform interface
 C. Stateless
 D. Layered system	B. Uniform interface - Uniform Interface là ràng buộc REST về cách tương tác thống nhất với tài nguyên qua identifier, representat ion và thông điệp tự mô tả.
 ###
-Câu 185. What is the purpose of the @RequestP aram annotation?
+Câu 185. What is the purpose of the @RequestParam annotation?
 A. Maps headers to method parameters
 B. Binds form data to method parameters
 C. Maps path variables to fields
-D. Maps query parameters to method parameters	D. Maps query parameters to method parameters - @RequestP aram ánh xạ query parameter như? page=2 vào tham số Java, hỗ trợ cả giá trị mặc định và required.
+D. Maps query parameters to method parameters	D. Maps query parameters to method parameters - @RequestParam ánh xạ query parameter như? page=2 vào tham số Java, hỗ trợ cả giá trị mặc định và required.
 ###
 Câu 186. Which Spring annotation is used to map HTTP GET requests to a method?
 A. @RequestGet
@@ -1123,8 +1123,8 @@ D. GET, POST, DELETE only	B. GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD - Axio
 Câu 188. How can you specify the response status code in a REST controller?
 A. By using HttpServlet Response
 B. You cannot control the status code
-C. By using @Response Status annotation
-D. By returning an int	C. By using @Response Status annotation - @Response Status gán mã trạng thái HTTP cho method hoặc exception; ResponseE ntity linh hoạt hơn nếu muốn quyết định status theo từng nhánh xử lý.
+C. By using @ResponseStatus annotation
+D. By returning an int	C. By using @ResponseStatus annotation - @ResponseStatus gán mã trạng thái HTTP cho method hoặc exception; ResponseE ntity linh hoạt hơn nếu muốn quyết định status theo từng nhánh xử lý.
 ###
 Câu 189. What is the primary purpose of a RESTful web service in Spring Boot?
 A. To render HTML content
@@ -1135,20 +1135,20 @@ D. To secure the application with OAuth2	B. To provide data through JSON or XML 
 Câu 190. Which of the following annotations would you use to return a specific HTTP status from a method?
 A. @RestStatus
 B. @StatusCode
-C. @Response Status
-D. @HttpStatus	C. @Response Status - @Response Status dùng để cố định status trả về của controller method, ví dụ CREATED (201), ngay cả khi method không trả ResponseE ntity.
+C. @ResponseStatus
+D. @HttpStatus	C. @ResponseStatus - @ResponseStatus dùng để cố định status trả về của controller method, ví dụ CREATED (201), ngay cả khi method không trả ResponseE ntity.
 ###
 Câu 191. Which annotation combination is used for a method that handles POST requests and accepts a request body?
-A. @PostMapp ing and @RequestP aram
-B. @PostMapp ing and @Response Body
-C. @GetMapping and @PathVaria ble
-D. @PostMapp ing and @RequestB ody	D. @PostMapp ing and @RequestB ody - @PostMapp ing ánh xạ HTTP POST, còn @RequestB ody yêu cầu Spring chuyển body thành đối tượng tham số Java.
+A. @PostMapping and @RequestParam
+B. @PostMapping and @ResponseBody
+C. @GetMapping and @PathVariable
+D. @PostMapping and @RequestBody	D. @PostMapping and @RequestBody - @PostMapping ánh xạ HTTP POST, còn @RequestBody yêu cầu Spring chuyển body thành đối tượng tham số Java.
 ###
-Câu 192. What is the purpose of the @RequestB ody annotation?
+Câu 192. What is the purpose of the @RequestBody annotation?
 A. Maps the request body to a Java object
 B. Binds a query parameter to a method
 C. Injects beans into controller
-D. Validates request parameters	A. Maps the request body to a Java object - @RequestB ody đánh dấu tham số được tạo từ HTTP request body qua message converter, thay vì lấy từ path hoặc query string.
+D. Validates request parameters	A. Maps the request body to a Java object - @RequestBody đánh dấu tham số được tạo từ HTTP request body qua message converter, thay vì lấy từ path hoặc query string.
 ###
 Câu 193. Which HTTP method is used by default when making a fetch request?
 A. POST
@@ -1157,28 +1157,28 @@ C. DELETE
 D. PUT	B. GET - fetch(url) không truyền method sẽ mặc định dùng GET; muốn POST cần truyền thêm đối tượng options với method và body.
 ###
 Câu 194. Which annotation would you use to create a REST endpoint that consumes only XML data?
-A. @RequestM apping(pro duces = "application /xml")
-B. @GetMapping(consumes = "application /json")
-C. @PostMapp ing(produces = "application /json")
-D. @PostMapp ing(consumes = "application /xml")	D. @PostMapp ing(consumes = "application/xml") - @PostMapp ing(consumes="applic ation/xml") chỉ cho phép request có Content-Type XML cho endpoint POST; nội dung được đọc qua message converter phù hợp.
+A. @RequestMapping(pro duces = "application /xml")
+B. @GetMapping(consumes = "application/json")
+C. @PostMapping(produces = "application/json")
+D. @PostMapping(consumes = "application /xml")	D. @PostMapping(consumes = "application/xml") - @PostMapping(consumes="applic ation/xml") chỉ cho phép request có Content-Type XML cho endpoint POST; nội dung được đọc qua message converter phù hợp.
 ###
 Câu 195. What is the correct annotation to define a method that handles both JSON request and response formats?
-A. @JsonRequ est
-B. @PostMapp ing with @RequestB ody and @Response Body
+A. @JsonRequest
+B. @PostMapping with @RequestBody and @ResponseBody
 C. @Consumes and @Produces
-D. @RequestB ody	B. @PostMapp ing with @RequestB ody and @Response Body - @RequestB ody đọc JSON request thành object, @Response Body ghi object trả về vào response; @RestController cũng tự áp dụng @Response Body.
+D. @RequestBody	B. @PostMapping with @RequestBody and @ResponseBody - @RequestBody đọc JSON request thành object, @ResponseBody ghi object trả về vào response; @RestController cũng tự áp dụng @ResponseBody.
 ###
 Câu 196. What is the effect of using @RestController instead of @Controller?
 A. It forces methods to return HTML views
-B. It applies @Response Body to all methods by default
+B. It applies @ResponseBody to all methods by default
 C. It disables automatic serialization
-D. It disables exception handling	B. It applies @Response Body to all methods by default - @RestController tương đương @Controller cộng @Response Body trên các method, nên dữ liệu trả về được serialize vào HTTP body thay vì tìm view.
+D. It disables exception handling	B. It applies @ResponseBody to all methods by default - @RestController tương đương @Controller cộng @ResponseBody trên các method, nên dữ liệu trả về được serialize vào HTTP body thay vì tìm view.
 ###
 Câu 197. How can you bind a custom header value from a request to a method parameter?
-A. @HeaderPa ram
-B. @RequestH eader
-C. @RequestB ody
-D. @RequestP aram	B. @RequestH eader - @RequestH eader ánh xạ giá trị HTTP header như X-Request-ID vào tham số controller; @RequestP aram dùng cho query string còn @RequestB ody dùng cho body.
+A. @HeaderParam
+B. @RequestHeader
+C. @RequestBody
+D. @RequestParam	B. @RequestHeader - @RequestHeader ánh xạ giá trị HTTP header như X-Request-ID vào tham số controller; @RequestParam dùng cho query string còn @RequestBody dùng cho body.
 ###
 Câu 198. In which file format can Swagger 3 (OpenAPI 3) specifications be written?
 A. XML
@@ -1201,26 +1201,26 @@ D. By creating separate methods for each possible response code.	A. By using the
 Câu 201. How can you group related API endpoints in Swagger 3?
 A. By using different @Schema annotations.
 B. By using the tags attribute in @Tag annotations.
-C. By using different @OpenAPI Definition annotations.
+C. By using different @OpenAPIDefinition annotations.
 D. By using different @ApiResponse annotations.	B. By using the tags attribute in @Tag annotations. - @Tag đặt tên nhóm cho API; các operation/ controller dùng cùng tag sẽ được gom nhóm trên Swagger UI.
 ###
-Câu 202. How can you customize title/descrip tion of API in Swagger 3?
+Câu 202. How can you customize title/description of API in Swagger 3?
 A. @Operation
 B. @Schema
-C. @OpenAPI Definition
-D. @ApiResponse	C. @OpenAPI Definition - @OpenAPI Definition khai báo metadata chung cho tài liệu OpenAPI như Info.title, version và description.
+C. @OpenAPIDefinition
+D. @ApiResponse	C. @OpenAPIDefinition - @OpenAPIDefinition khai báo metadata chung cho tài liệu OpenAPI như Info.title, version và description.
 ###
 Câu 203. What is Swagger used for?
 A. Logging
-B. API documentat ion
+B. API documentation
 C. SQL queries
-D. Testing UI	B. API documenta tion - Swagger/O penAPI mô tả đường dẫn API, tham số, body và kiểu response; Swagger UI tạo giao diện tài liệu có thể thử API.
+D. Testing UI	B. API documenta tion - Swagger/OpenAPI mô tả đường dẫn API, tham số, body và kiểu response; Swagger UI tạo giao diện tài liệu có thể thử API.
 ###
 Câu 204. Swagger UI is accessed by default at:
 A. /docs
-B. /document ation
-C. /swagger-ui/index.ht ml
-D. /openapi	C. /swagger-ui/index.ht ml - Với cấu hình Springdoc thông dụng, Swagger UI mở tại /swagger-ui/index.ht ml; đường dẫn có thể thay đổi bằng cấu hình ứng dụng.
+B. /documentation
+C. /swagger-ui/index.html
+D. /openapi	C. /swagger-ui/index.html - Với cấu hình Springdoc thông dụng, Swagger UI mở tại /swagger-ui/index.html; đường dẫn có thể thay đổi bằng cấu hình ứng dụng.
 ###
 Câu 205. Swagger's @Operation is used to:
 A. Define REST controller
@@ -1228,11 +1228,11 @@ B. Document API method
 C. Map exception
 D. Generate model schema	B. Document API method - @Operation mô tả endpoint OpenAPI gồm summary, description và các thông tin để Swagger UI hiển thị.
 ###
-Câu 206. What is API documentat ion used for?
+Câu 206. What is API documentation used for?
 A. Styling UI
 B. Helping developers use the API
 C. Running SQL scripts
-D. Caching assets	B. Helping developers use the API - API documenta tion cho biết endpoint, method, tham số, xác thực và mẫu request/res ponse để các lập trình viên tích hợp đúng.
+D. Caching assets	B. Helping developers use the API - API documenta tion cho biết endpoint, method, tham số, xác thực và mẫu request/response để các lập trình viên tích hợp đúng.
 ###
 Câu 207. Which OpenAPI annotation groups API operations?
 A. @Operation
@@ -1241,7 +1241,7 @@ C. @Schema
 D. @Info	B. @Tag - @Tag gán nhóm cho các API operation trong OpenAPI; nhiều endpoint cùng tag sẽ xuất hiện trong cùng nhóm trên Swagger UI.
 ###
 Câu 208. Which OpenAPI annotation documents an endpoint?
-A. @Documen tAPI
+A. @DocumentAPI
 B. @Endpoint
 C. @Operation
 D. @Info	C. @Operation - @Operation cung cấp metadata cho một endpoint như summary và description, khác @Schema mô tả model dữ liệu.
@@ -1260,15 +1260,15 @@ D. routes.js	B. application.properties - application.properties có thể chứa
 ###
 Câu 211. Which annotation is used to describe the request body content in an OpenAPI operation?
 A. @ApiBody
-B. @RequestC ontent
-C. @RequestB ody (from swagger package)
-D. @RequestDoc	C. @RequestB ody (from swagger package) - @RequestB ody thuộc gói annotation OpenAPI mô tả schema, media type và ví dụ request body trong tài liệu; không nhầm với @RequestB ody của Spring dùng để bind dữ liệu.
+B. @RequestContent
+C. @RequestBody (from swagger package)
+D. @RequestDoc	C. @RequestBody (from swagger package) - @RequestBody thuộc gói annotation OpenAPI mô tả schema, media type và ví dụ request body trong tài liệu; không nhầm với @RequestBody của Spring dùng để bind dữ liệu.
 ###
 Câu 212. What Spring configuration property changes the default OpenAPI endpoint?
 A. swagger.api.url
-B. openapi.sw agger.path
-C. spring.open api.path
-D. springdoc.a pi-docs.path	D. springdoc.api-docs.path - springdoc.api-docs.path đổi đường dẫn phục vụ tài liệu OpenAPI JSON, chẳng hạn từ /v3/api-docs sang đường dẫn tùy chỉnh.
+B. openapi.swagger.path
+C. spring.openapi.path
+D. springdoc.api-docs.path	D. springdoc.api-docs.path - springdoc.api-docs.path đổi đường dẫn phục vụ tài liệu OpenAPI JSON, chẳng hạn từ /v3/api-docs sang đường dẫn tùy chỉnh.
 ###
 Câu 213. How do you group APIs in Swagger UI using Springdoc OpenAPI?
 A. Using @Group
@@ -1282,9 +1282,9 @@ B. spring-boot-devtools
 C. springfox-swagger2
 D. spring-boot-starter-jdbc	A. springdoc-openapi-ui - springdoc-openapi-ui là artifact tích hợp Swagger UI từng dùng với các đời Spring Boot cũ; với Spring Boot 3 nên dùng starter tương ứng như springdoc-openapi-starter-webmvc-ui.
 ###
-Câu 215. How can you hide an endpoint from OpenAPI documentat ion?
+Câu 215. How can you hide an endpoint from OpenAPI documentation?
 A. Disable the controller
-B. Use @IgnoreMa pping
+B. Use @IgnoreMapping
 C. Add @Hidden annotation
 D. Rename the method	C. Add @Hidden annotation - @Hidden của springdoc/ swagger-core loại một controller hoặc endpoint khỏi tài liệu OpenAPI, nhưng không tự vô hiệu hóa API thật.
 ###
@@ -1344,9 +1344,9 @@ D. Session-based auth	D. Session-based auth - Session-based authentication thư�
 ###
 Câu 225. Which Spring annotation defines security configuration?
 A. @Bean
-B. @Configura tion
-C. @SecurityS cheme
-D. @EnableWe bSecurity	D. @EnableWe bSecurity - @EnableWe bSecurity kích hoạt tích hợp cấu hình bảo mật web của Spring Security trong cấu hình phù hợp; các quy tắc truy cập thường định nghĩa qua SecurityFilt erChain.
+B. @Configuration
+C. @SecurityScheme
+D. @EnableWebSecurity	D. @EnableWebSecurity - @EnableWebSecurity kích hoạt tích hợp cấu hình bảo mật web của Spring Security trong cấu hình phù hợp; các quy tắc truy cập thường định nghĩa qua SecurityFilt erChain.
 ###
 Câu 226. OAuth2 allows:
 A. Servers to share HTML
@@ -1424,21 +1424,21 @@ Câu 238. Which Spring term identifies the authenticated user?
 A. Principal
 B. Subject
 C. Authority
-D. Claim	A. Principal - Principal đại diện danh tính của chủ thể đã xác thực trong security context; có thể lấy từ Authentication.getPrin cipal().
+D. Claim	A. Principal - Principal đại diện danh tính của chủ thể đã xác thực trong security context; có thể lấy từ Authentication.getPrincipal().
 ###
-Câu 239. GrantedAut hority represents:
+Câu 239. GrantedAuthority represents:
 A. Password
 B. Permission/ role
 C. Username
-D. Token	B. Permission /role - GrantedAut hority biểu diễn một quyền hoặc role được cấp cho user, thường ở dạng chuỗi như ROLE_ADMIN để kiểm tra authorizati on.
+D. Token	B. Permission /role - GrantedAuthority biểu diễn một quyền hoặc role được cấp cho user, thường ở dạng chuỗi như ROLE_ADMIN để kiểm tra authorizati on.
 ###
 Câu 240. Which annotation restricts access by role?
 A. @Block
-B. @RolesAllo wed
+B. @RolesAllowed
 C. @Allow
-D. @Access	B. @RolesAllo wed - @RolesAllo wed cho phép giới hạn việc gọi method theo role được khai báo khi bật method security tương ứng.
+D. @Access	B. @RolesAllowed - @RolesAllowed cho phép giới hạn việc gọi method theo role được khai báo khi bật method security tương ứng.
 ###
-Câu 241. Which class handles JWT creation/val idation?
+Câu 241. Which class handles JWT creation/validation?
 A. JwtUtils
 B. JwtEngine
 C. TokenService
@@ -1493,7 +1493,7 @@ C. Slice
 D. List	B. Pageable - Pageable chứa số trang và kích thước trang; Spring Data dùng nó để phân trang truy vấn. Sort chỉ quy định thứ tự sắp xếp.
 ###
 Câu 250. What annotation is used to inject a Spring Data JPA repository into a service or controller?
-A. @RequestM apping
+A. @RequestMapping
 B. @Autowired
 C. @RestController
 D. @Entity	B. @Autowired - @Autowired yêu cầu Spring tiêm bean phụ thuộc vào lớp đang dùng, gồm cả repository.Constructor injection cũng thực hiện được mà không cần annotation nếu chỉ có một constructor.
@@ -1519,24 +1519,24 @@ D. The object is cached in the second-level cache.	B. The object is not associat
 Câu 254. In JPA, which annotation defines a many-to-many relationship?
 A. @OneToOne
 B. @OneToMany
-C. @ManyToM any
-D. @JoinColumn	C. @ManyToM any - @ManyToM any mô tả quan hệ nhiều-nhiều, thường thông qua bảng trung gian chứa khóa ngoại đến hai entity.
+C. @ManyToMany
+D. @JoinColumn	C. @ManyToMany - @ManyToMany mô tả quan hệ nhiều-nhiều, thường thông qua bảng trung gian chứa khóa ngoại đến hai entity.
 ###
 Câu 255. Which Hibernate Cache property enables the second-level cache?
-A. hibernate.c ache.use_se cond_level_ cache
-B. hibernate.c ache.provid er_class
-C. hibernate.c ache.region.factory_cla ss
-D. hibernate.c ache.use_qu ery_cache	A. hibernate.c ache.use_s econd_level _cache - hibernate.c ache.use_s econd_level _cache bật bộ đệm cấp 2 dùng chung giữa các Session; còn bộ đệm cấp 1 luôn gắn với một Session.
+A. hibernate.cache.use_se cond_level_ cache
+B. hibernate.cache.provid er_class
+C. hibernate.cache.region.factory_cla ss
+D. hibernate.cache.use_qu ery_cache	A. hibernate.cache.use_s econd_level _cache - hibernate.cache.use_s econd_level _cache bật bộ đệm cấp 2 dùng chung giữa các Session; còn bộ đệm cấp 1 luôn gắn với một Session.
 ###
-Câu 256. What is the purpose of the @Generate dValue annotation?
+Câu 256. What is the purpose of the @GeneratedValue annotation?
 A. To define a column name.
 B. To specify the strategy for generating primary key values.
 C. To create a new table.
-D. To define a new entity.	B. To specify the strategy for generating primary key values. - @Generate dValue cấu hình chiến lược sinh khóa chính như IDENTITY, SEQUENCE hoặc AUTO, thường đi cùng trường được đánh dấu @Id.
+D. To define a new entity.	B. To specify the strategy for generating primary key values. - @GeneratedValue cấu hình chiến lược sinh khóa chính như IDENTITY, SEQUENCE hoặc AUTO, thường đi cùng trường được đánh dấu @Id.
 ###
 Câu 257. Which method is used to create a Sort object for ascending order?
-A. Sort.descen ding()
-B. Sort.ascend ing()
+A. Sort.descending()
+B. Sort.ascending()
 C. Sort.unsorted()
 D. Sort.by()	D. Sort.by() - Sort.by("name") tạo đối tượng Sort sắp xếp tăng dần theo mặc định; cũng có thể dùng Sort.by(Sort.Direction.ASC, "name").
 ###
@@ -1576,7 +1576,7 @@ B. List<Book> findAllBook sAfterDate AndSortByT itle(LocalDate date);
 C. List<Book> findByPubli shedDate(L ocalDate date, Sort sort);
 D. List<Book> queryAfterP ublishedDat eSortedByT itle(LocalDate date);	A. List<Book> findByPubli shedDateAf terOrderBy TitleAsc(Lo calDate date); - Spring Data phân tích tên hàm: PublishedD ateAfter tạo điều kiện ngày lớn hơn mốc, còn OrderByTitl eAsc sắp xếp tăng dần theo title.
 ###
-Câu 264. What is the purpose of the <property name="hibe rnate.dialect"> tag in hibernate.cfg.xml?
+Câu 264. What is the purpose of the <property name="hibernate.dialect"> tag in hibernate.cfg.xml?
 A. To specify the database driver class.
 B. To define the SQL dialect used by Hibernate for the specific database.
 C. To map Java classes to database tables.
@@ -1588,7 +1588,7 @@ B. ServiceRep ository
 C. ControllerR epository
 D. EntityRepos itory	A. CrudReposi tory - CrudReposi tory cung cấp các hàm CRUD cơ bản như save, findById, findAll và deleteById; JpaReposit ory mở rộng thêm các tiện ích JPA.
 ###
-Câu 266. Purpose of hibernate.di alect property?
+Câu 266. Purpose of hibernate.dialect property?
 A. Specify DB driver
 B. Define SQL dialect
 C. Map Java classes
@@ -1608,9 +1608,9 @@ D. Create CSS	B. Map Java objects to DB tables - Hibernate là công cụ ORM á
 ###
 Câu 269. What file configures Hibernate?
 A. hibernate.xml
-B. config.prop erties
+B. config.properties
 C. hibernate.cfg.xml
-D. database.xml	C. hibernate.c fg.xml - hibernate.c fg.xml thường chứa cấu hình kết nối, SQL dialect và mapping cần thiết cho Hibernate SessionFact ory.
+D. database.xml	C. hibernate.cfg.xml - hibernate.cfg.xml thường chứa cấu hình kết nối, SQL dialect và mapping cần thiết cho Hibernate SessionFact ory.
 ###
 Câu 270. Which annotation maps a class to a DB table?
 A. @Entity
@@ -1661,10 +1661,10 @@ C. XML cache
 D. SQL cache	A. First-level cache - First-level cache thuộc riêng từng Hibernate Session, tránh truy vấn database lặp lại khi lấy cùng entity trong cùng persistence context.
 ###
 Câu 278. Which annotation creates a Spring Bean?
-A. @SpringBo otApplicati on
+A. @SpringBootApplication on
 B. @Bean
 C. @Autowired
-D. @Configura tion	B. @Bean - @Bean trên method cấu hình báo Spring lấy giá trị trả về của method làm bean trong Application Context.
+D. @Configuration	B. @Bean - @Bean trên method cấu hình báo Spring lấy giá trị trả về của method làm bean trong Application Context.
 ###
 Câu 279. Which Spring Boot dependency enables JPA?
 A. spring-boot-starter-web
@@ -1682,7 +1682,7 @@ Câu 281. Which relationship is many-to-one?
 A. @OneToOne
 B. @OneToMany
 C. @ManyToOne
-D. @ManyToM any	C. @ManyToOne - @ManyToOne cho biết nhiều bản ghi entity này có thể tham chiếu một bản ghi entity khác, thường qua một foreign key.
+D. @ManyToMany	C. @ManyToOne - @ManyToOne cho biết nhiều bản ghi entity này có thể tham chiếu một bản ghi entity khác, thường qua một foreign key.
 ###
 Câu 282. Which relationship uses a join table?
 A. One-to-one
@@ -1697,10 +1697,10 @@ C. All operations cascade
 D. Delete only	C. All operations cascade - CascadeType.ALL áp dụng tất cả thao tác cascade chuẩn như PERSIST, MERGE, REMOVE, REFRESH và DETACH từ entity cha sang entity liên quan.
 ###
 Câu 284. Spring Boot auto-configures beans using:
-A. @EnableAu toConfig
+A. @EnableAutoConfiguration
 B. @AutoBean
-C. @SpringBo otApplicati on
-D. @AutoScan	C. @SpringBo otApplicati on - @SpringBo otApplicati on gồm @SpringBo otConfiguration, @EnableAu toConfiguration và @Compone ntScan; auto-configurati on tạo bean theo dependency và điều kiện cấu hình.
+C. @SpringBootApplication on
+D. @AutoScan	C. @SpringBootApplication on - @SpringBootApplication on gồm @SpringBootConfiguration, @EnableAutoConfiguration và @ComponentScan; auto-configurati on tạo bean theo dependency và điều kiện cấu hình.
 ###
 Câu 285. Paging in Spring Boot is implemented using:
 A. PageRequest
@@ -1742,7 +1742,7 @@ Câu 291. Which MongoDB command is used to delete documents from a collection?
 A. update()
 B. find()
 C. insertOne()
-D. deleteMany () or deleteOne()	D. deleteMany () or deleteOne() - deleteOne() xóa một document khớp điều kiện, còn deleteMany () xóa tất cả document khớp.find() chỉ truy vấn dữ liệu.
+D. deleteMany() or deleteOne()	D. deleteMany() or deleteOne() - deleteOne() xóa một document khớp điều kiện, còn deleteMany() xóa tất cả document khớp.find() chỉ truy vấn dữ liệu.
 ###
 Câu 292. What does the spring-boot-starter-data-mongodb dependency include?
 A. Only the MongoDB Java driver.
@@ -1766,7 +1766,7 @@ Câu 295. Which MongoDB command is used to retrieve documents from a collection?
 A. update()
 B. find()
 C. insertOne()
-D. deleteMany ()	B. find() - find() trả về các document phù hợp bộ lọc trong collection; có thể kết hợp projection, sort và limit.
+D. deleteMany()	B. find() - find() trả về các document phù hợp bộ lọc trong collection; có thể kết hợp projection, sort và limit.
 ###
 Câu 296. Which class in Spring Data MongoDB provides a template for performing low-level MongoDB operations?
 A. MongoRep ository
@@ -1854,9 +1854,9 @@ D. $join	B. $and - $and yêu cầu tất cả điều kiện con cùng đúng; M
 ###
 Câu 310. Which command deletes multiple MongoDB documents?
 A. deleteOne()
-B. deleteMany ()
+B. deleteMany()
 C. remove()
-D. drop()	B. deleteMany () - deleteMany (filter) xóa tất cả document khớp filter; deleteOne(f ilter) chỉ xóa một document khớp.
+D. drop()	B. deleteMany() - deleteMany(filter) xóa tất cả document khớp filter; deleteOne(f ilter) chỉ xóa một document khớp.
 ###
 Câu 311. What is the purpose of the @DBRef annotation in Spring Data MongoDB?
 A. To map embedded documents
@@ -1879,7 +1879,7 @@ D. spring-boot-starter-mongo	B. spring-boot-starter-data-mongodb - spring-boot-s
 Câu 314. Which command is used to insert a single document into a collection?
 A. db.collection.create()
 B. db.collection.insertOne ()
-C. db.collection.insertDoc ument()
+C. db.collection.insertDocument()
 D. db.collection.add()	B. db.collection.insertOne () - db.collection.insertOne (document) thêm chính xác một document mới; MongoDB sẽ cấp _id nếu chưa có.
 ###
 Câu 315. What does the MongoTemplate class provide in Spring Data MongoDB?
@@ -1896,7 +1896,7 @@ D. CriteriaBuil der	A. Criteria - Criteria biểu diễn điều kiện lọc nh
 ###
 Câu 317. Which annotation is used to define a MongoDB document in Spring Data MongoDB?
 A. @Collection
-B. @MongoEn tity
+B. @MongoEntity
 C. @Document
 D. @Entity	C. @Document - @Document chỉ định lớp Java ánh xạ thành document MongoDB và có thể quy định tên collection qua thuộc tính collection.
 ###
@@ -1914,9 +1914,9 @@ D. An index on multiple fields in a document	D. An index on multiple fields in a
 ###
 Câu 320. Which property is used in application.properties to set the MongoDB database name?
 A. spring.data.mongo.name
-B. spring.mon godb.dbna me
-C. spring.data.mongodb.d atabase
-D. spring.mon go.database	C. spring.data.mongodb.database - spring.data.mongodb.database chỉ định tên database mặc định cho kết nối Spring Data MongoDB nếu không được chọn theo cấu hình khác.
+B. spring.mongodb.dbname
+C. spring.data.mongodb.database
+D. spring.mongo.database	C. spring.data.mongodb.database - spring.data.mongodb.database chỉ định tên database mặc định cho kết nối Spring Data MongoDB nếu không được chọn theo cấu hình khác.
 ###
 Câu 321. When using MongoTemplate, how would you insert a new document?
 A. mongoTemplate.create (object)
@@ -1927,8 +1927,8 @@ D. mongoTemplate.add(o bject)	C. mongoTemplate.save(object) - mongoTemplate.save
 Câu 322. Which of the following is used to create an index on a field in MongoDB?
 A. db.collection.setIndex()
 B. db.collection.index()
-C. db.collection.createInd ex()
-D. db.collection.makeInde x()	C. db.collection.createInd ex() - db.collection.createInd ex({field:1}) tạo chỉ mục tăng dần cho field, giúp một số filter và sort nhanh hơn nhưng có chi phí lưu trữ/ ghi.
+C. db.collection.createIndex()
+D. db.collection.makeIndex()	C. db.collection.createIndex() - db.collection.createIndex({field:1}) tạo chỉ mục tăng dần cho field, giúp một số filter và sort nhanh hơn nhưng có chi phí lưu trữ/ ghi.
 ###
 Câu 323. In MongoDB, which of the following allows for joining documents from two collections?
 A. $merge
@@ -1987,14 +1987,14 @@ D. Starts the embedded server on a random port	D. Starts the embedded server on 
 Câu 332. You want to inject a TestRestTemplate in a @SpringBootTest.What is required?
 A. Use @MockBean
 B. Use webEnviron ment = WebEnviron ment.NONE
-C. Use @WebMvcT est
+C. Use @WebMvcTest
 D. Use webEnviron ment = WebEnviron ment.RAND OM_PORT	D. Use webEnviron ment = WebEnviron ment.RAND OM_PORT - TestRestTemplate thường được cung cấp khi @SpringBootTest chạy với môi trường web thực như RANDOM_P ORT, để test gửi HTTP request đến server nhúng.
 ###
 Câu 333. When used with JUnit 5, which annotation is commonly paired with @SpringBootTest?
 A. @MockBean
 B. @ExtendWith(SpringExt ension.class)
 C. @DataJpaTest
-D. @TestConfi guration	B. @ExtendWith(SpringEx tension.class) - SpringExte nsion tích hợp Spring TestContext với JUnit Jupiter; @SpringBootTest hiện đã tự đăng ký extension này nên thường không cần thêm @ExtendWith thủ công.
+D. @TestConfiguration	B. @ExtendWith(SpringEx tension.class) - SpringExte nsion tích hợp Spring TestContext với JUnit Jupiter; @SpringBootTest hiện đã tự đăng ký extension này nên thường không cần thêm @ExtendWith thủ công.
 ###
 Câu 334. Which configuration allows @SpringBootTest to test controller endpoints using real HTTP calls?
 A. webEnviron ment = NONE
@@ -2003,10 +2003,10 @@ C. useMockMvc = true
 D. webEnviron ment = DEFINED_P ORT	D. webEnviron ment = DEFINED_P ORT - DEFINED_P ORT khởi chạy web server trên cổng cấu hình nên có thể test endpoint qua HTTP thực; RANDOM_P ORT cũng hỗ trợ kiểu test này và tránh xung đột cổng.
 ###
 Câu 335. Which of the following annotations can be used instead of @SpringBootTest for testing only the web layer?
-A. @Configura tion
+A. @Configuration
 B. @DataJpaTest
-C. @WebMvcT est
-D. @EnableAu toConfigura tion	C. @WebMvcT est - @WebMvcT est chỉ nạp các thành phần Spring MVC như controller, converter và hỗ trợ MockMvc, nhanh hơn test toàn bộ context bằng @SpringBootTest.
+C. @WebMvcTest
+D. @EnableAutoConfiguration tion	C. @WebMvcTest - @WebMvcTest chỉ nạp các thành phần Spring MVC như controller, converter và hỗ trợ MockMvc, nhanh hơn test toàn bộ context bằng @SpringBootTest.
 ###
 Câu 336. Which command is used to create a new branch called "feature-login"?
 A. git branch create feature-login
