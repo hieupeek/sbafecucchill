@@ -1222,14 +1222,14 @@
     "label": "Câu 88",
     "question": "Which router wraps app?",
     "choices": {
-      "A": "RouterProvi der",
-      "B": "BrowserRou ter",
+      "A": "RouterProvider",
+      "B": "BrowserRouter",
       "C": "PageRouter",
       "D": "Route"
     },
     "correct": "B",
-    "correctText": "BrowserRo uter",
-    "explanation": "BrowserRo uter đồng bộ URL với lịch sử trình duyệt, tạo ngữ cảnh định tuyến cho Routes, Link và các Hook của React Router."
+    "correctText": "BrowserRouter",
+    "explanation": "BrowserRouter đồng bộ URL với lịch sử trình duyệt, tạo ngữ cảnh định tuyến cho Routes, Link và các Hook của React Router."
   },
   {
     "id": 89,
@@ -1453,7 +1453,7 @@
     },
     "correct": "B",
     "correctText": "react-router-dom",
-    "explanation": "react-router-dom cung cấp các component và Hook định tuyến cho ứng dụng React trên web, như BrowserRo uter, Link và useNavigate trong v6."
+    "explanation": "react-router-dom cung cấp các component và Hook định tuyến cho ứng dụng React trên web, như BrowserRouter, Link và useNavigate trong v6."
   },
   {
     "id": 105,
@@ -1481,7 +1481,7 @@
     },
     "correct": "D",
     "correctText": "Routes must be wrapped in <Router>or <BrowserRouter>",
-    "explanation": "Routes và Route cần nằm trong ngữ cảnh router như BrowserRo uter để đọc location và lịch sử điều hướng."
+    "explanation": "Routes và Route cần nằm trong ngữ cảnh router như BrowserRouter để đọc location và lịch sử điều hướng."
   },
   {
     "id": 107,
@@ -1522,7 +1522,7 @@
       "D": "Manual configuration is needed to manage browser history correctly"
     },
     "correct": "D",
-    "correctText": "Manual configurati on is needed to manage browser history correctly",
+    "correctText": "Manual configuration is needed to manage browser history correctly",
     "explanation": "Khi tự thiết kế SPA, cần đồng bộ trạng thái URL và lịch sử trình duyệt để back/forward hoạt động đúng; thư viện router hỗ trợ phần lớn việc này."
   },
   {
@@ -2203,13 +2203,13 @@
     "question": "REST stands for?",
     "choices": {
       "A": "SOAP",
-      "B": "Representat ional State Transfer",
+      "B": "Representational State Transfer",
       "C": "Microservices",
       "D": "GraphQL"
     },
     "correct": "B",
-    "correctText": "Representa tional State Transfer",
-    "explanation": "REST viết tắt của Representa tional State Transfer, một kiểu kiến trúc tài nguyên có các ràng buộc như stateless và uniform interface."
+    "correctText": "Representational State Transfer",
+    "explanation": "REST viết tắt của Representational State Transfer, một kiểu kiến trúc tài nguyên có các ràng buộc như stateless và uniform interface."
   },
   {
     "id": 159,
@@ -2256,7 +2256,7 @@
   {
     "id": 162,
     "label": "Câu 162",
-    "question": "What is the primary purpose of client-server communica tion in a React application?",
+    "question": "What is the primary purpose of client-server communication in a React application?",
     "choices": {
       "A": "Define CSS",
       "B": "Fetch & send data between client and server",
@@ -2287,7 +2287,7 @@
     "question": "Benefit of separating layers in 3-layer architecture?",
     "choices": {
       "A": "Increased complexity",
-      "B": "Reduced maintainabil ity",
+      "B": "Reduced maintainability",
       "C": "Improved organization & reusability",
       "D": "Tighter coupling"
     },
@@ -2629,7 +2629,7 @@
     },
     "correct": "C",
     "correctText": "By using @ResponseStatus annotation",
-    "explanation": "@ResponseStatus gán mã trạng thái HTTP cho method hoặc exception; ResponseE ntity linh hoạt hơn nếu muốn quyết định status theo từng nhánh xử lý."
+    "explanation": "@ResponseStatus gán mã trạng thái HTTP cho method hoặc exception; ResponseEntity linh hoạt hơn nếu muốn quyết định status theo từng nhánh xử lý."
   },
   {
     "id": 189,
@@ -2657,7 +2657,7 @@
     },
     "correct": "C",
     "correctText": "@ResponseStatus",
-    "explanation": "@ResponseStatus dùng để cố định status trả về của controller method, ví dụ CREATED (201), ngay cả khi method không trả ResponseE ntity."
+    "explanation": "@ResponseStatus dùng để cố định status trả về của controller method, ví dụ CREATED (201), ngay cả khi method không trả ResponseEntity."
   },
   {
     "id": 191,
@@ -2838,7 +2838,7 @@
       "D": "Testing UI"
     },
     "correct": "B",
-    "correctText": "API documenta tion",
+    "correctText": "API documentation",
     "explanation": "Swagger/OpenAPI mô tả đường dẫn API, tham số, body và kiểu response; Swagger UI tạo giao diện tài liệu có thể thử API."
   },
   {
@@ -2881,7 +2881,7 @@
     },
     "correct": "B",
     "correctText": "Helping developers use the API",
-    "explanation": "API documenta tion cho biết endpoint, method, tham số, xác thực và mẫu request/response để các lập trình viên tích hợp đúng."
+    "explanation": "API documentation cho biết endpoint, method, tham số, xác thực và mẫu request/response để các lập trình viên tích hợp đúng."
   },
   {
     "id": 207,
@@ -2974,7 +2974,7 @@
     "choices": {
       "A": "Using @Group",
       "B": "Using @Tag(name = 'GroupName')",
-      "C": "Using @Swagger Group",
+      "C": "Using @SwaggerGroup",
       "D": "Using application.yaml grouping"
     },
     "correct": "B",
@@ -3007,7 +3007,7 @@
     },
     "correct": "C",
     "correctText": "Add @Hidden annotation",
-    "explanation": "@Hidden của springdoc/ swagger-core loại một controller hoặc endpoint khỏi tài liệu OpenAPI, nhưng không tự vô hiệu hóa API thật."
+    "explanation": "@Hidden của springdoc/swagger-core loại một controller hoặc endpoint khỏi tài liệu OpenAPI, nhưng không tự vô hiệu hóa API thật."
   },
   {
     "id": 216,
@@ -3021,7 +3021,7 @@
     },
     "correct": "B",
     "correctText": "To store the signing algorithm and token type.",
-    "explanation": "JWT gồm Header, Payload và Signature.Header khai báo loại token và thuật toán ký như HS256; thông tin người dùng thường nằm trong Payload."
+    "explanation": "JWT gồm Header, Payload và Signature. Header khai báo loại token và thuật toán ký như HS256; thông tin người dùng thường nằm trong Payload."
   },
   {
     "id": 217,
@@ -3030,12 +3030,12 @@
     "choices": {
       "A": "Encrypted using a server-side public key.",
       "B": "Sent in plain text in the request body.",
-      "C": "Base64-encoded and sent in the Authorizati on header.",
+      "C": "Base64-encoded and sent in the Authorization header.",
       "D": "Hashed using a nonce and a server-side secret."
     },
     "correct": "C",
-    "correctText": "Base64-encoded and sent in the Authorizati on header.",
-    "explanation": "HTTP Basic ghép username rồi mã hóa Base64, gửi bằng header Authorizati on với tiền tố Basic.Base64 không phải mã hóa bảo mật nên cần HTTPS."
+    "correctText": "Base64-encoded and sent in the Authorization header.",
+    "explanation": "HTTP Basic ghép username rồi mã hóa Base64, gửi bằng header Authorization với tiền tố Basic.Base64 không phải mã hóa bảo mật nên cần HTTPS."
   },
   {
     "id": 218,
@@ -3049,7 +3049,7 @@
     },
     "correct": "C",
     "correctText": "In a cookie or URL.",
-    "explanation": "Máy chủ giữ dữ liệu session, còn trình duyệt thường giữ session ID trong cookie JSESSIONID.ID cũng có thể được truyền trên URL nhưng kém an toàn hơn."
+    "explanation": "Máy chủ giữ dữ liệu session, còn trình duyệt thường giữ session ID trong cookie JSESSIONID. ID cũng có thể được truyền trên URL nhưng kém an toàn hơn."
   },
   {
     "id": 219,
@@ -3059,11 +3059,11 @@
       "A": "Session-based authentication",
       "B": "Token-based authentication (JWT)",
       "C": "OAuth 2.0",
-      "D": "Basic Authenticati on"
+      "D": "Basic Authentication"
     },
     "correct": "D",
     "correctText": "Basic Authentication",
-    "explanation": "Basic Authentication gửi cặp username được mã hóa Base64 trong header Authorizati on ở mỗi request.Session ID và JWT sử dụng thông tin định danh khác."
+    "explanation": "Basic Authentication gửi cặp username được mã hóa Base64 trong header Authorization ở mỗi request.Session ID và JWT sử dụng thông tin định danh khác."
   },
   {
     "id": 220,
@@ -3076,8 +3076,8 @@
       "D": "To manage application configuration."
     },
     "correct": "B",
-    "correctText": "To provide authentication and authorizati on functionality.",
-    "explanation": "Spring Security kiểm tra danh tính (authentica tion) và quyền truy cập (authorizati on), qua filter chain trước khi request vào controller."
+    "correctText": "To provide authentication and authorization functionality.",
+    "explanation": "Spring Security kiểm tra danh tính (authentication) và quyền truy cập (authorization), qua filter chain trước khi request vào controller."
   },
   {
     "id": 221,
@@ -3099,7 +3099,7 @@
     "question": "What is JWT mainly used for?",
     "choices": {
       "A": "Data storage",
-      "B": "Authenticati on",
+      "B": "Authentication",
       "C": "CSS styling",
       "D": "Routing"
     },
@@ -3147,7 +3147,7 @@
     },
     "correct": "D",
     "correctText": "@EnableWebSecurity",
-    "explanation": "@EnableWebSecurity kích hoạt tích hợp cấu hình bảo mật web của Spring Security trong cấu hình phù hợp; các quy tắc truy cập thường định nghĩa qua SecurityFilt erChain."
+    "explanation": "@EnableWebSecurity kích hoạt tích hợp cấu hình bảo mật web của Spring Security trong cấu hình phù hợp; các quy tắc truy cập thường định nghĩa qua SecurityFilterChain."
   },
   {
     "id": 226,
@@ -3254,12 +3254,12 @@
     "choices": {
       "A": "Resource owner",
       "B": "Resource server",
-      "C": "Authorizati on server",
+      "C": "Authorization server",
       "D": "Client"
     },
     "correct": "C",
-    "correctText": "Authorizati on server",
-    "explanation": "Authorizati on server thực hiện luồng cấp token và có thể xác thực người dùng; trong OpenID Connect, identity còn được mô tả rõ bằng ID token."
+    "correctText": "Authorization server",
+    "explanation": "Authorization server thực hiện luồng cấp token và có thể xác thực người dùng; trong OpenID Connect, identity còn được mô tả rõ bằng ID token."
   },
   {
     "id": 234,
@@ -3273,7 +3273,7 @@
     },
     "correct": "B",
     "correctText": "Payload",
-    "explanation": "Payload của JWT chứa claims như sub, exp, iss và role; payload chỉ được Base64URL -encode, không tự được mã hóa bí mật."
+    "explanation": "Payload của JWT chứa claims như sub, exp, iss và role; payload chỉ được Base64URL-encode, không tự được mã hóa bí mật."
   },
   {
     "id": 235,
@@ -3337,13 +3337,13 @@
     "question": "GrantedAuthority represents:",
     "choices": {
       "A": "Password",
-      "B": "Permission/ role",
+      "B": "Permission/role",
       "C": "Username",
       "D": "Token"
     },
     "correct": "B",
-    "correctText": "Permission /role",
-    "explanation": "GrantedAuthority biểu diễn một quyền hoặc role được cấp cho user, thường ở dạng chuỗi như ROLE_ADMIN để kiểm tra authorizati on."
+    "correctText": "Permission/role",
+    "explanation": "GrantedAuthority biểu diễn một quyền hoặc role được cấp cho user, thường ở dạng chuỗi như ROLE_ADMIN để kiểm tra authorization."
   },
   {
     "id": 240,
@@ -3367,7 +3367,7 @@
       "A": "JwtUtils",
       "B": "JwtEngine",
       "C": "TokenService",
-      "D": "SecurityBuil der"
+      "D": "SecurityBuilder"
     },
     "correct": "A",
     "correctText": "JwtUtils",
@@ -3399,12 +3399,12 @@
     },
     "correct": "A",
     "correctText": "Remove the current session and all its attributes",
-    "explanation": "HttpSession.invalidate () hủy session hiện tại và vô hiệu hóa các thuộc tính đã lưu; request dùng lại session ID cũ không còn truy cập phiên đó."
+    "explanation": "HttpSession.invalidate() hủy session hiện tại và vô hiệu hóa các thuộc tính đã lưu; request dùng lại session ID cũ không còn truy cập phiên đó."
   },
   {
     "id": 244,
     "label": "Câu 244",
-    "question": "What happens if a client sends a request without an Authorizati on header and the server requires Basic Auth?",
+    "question": "What happens if a client sends a request without an Authorization header and the server requires Basic Auth?",
     "choices": {
       "A": "Server responds with 200 OK and empty body",
       "B": "Server responds with 401 Unauthorized and WWW-Authenticate header",
@@ -3420,35 +3420,35 @@
     "label": "Câu 245",
     "question": "How can a server prompt the browser to show a login dialog for Basic Auth?",
     "choices": {
-      "A": "By including WWW-Authenticate: Basic realm='Real mName' in a 401 response",
+      "A": "By including WWW-Authenticate: Basic realm='RealmName' in a 401 response",
       "B": "By sending a Set-Cookie header with a token",
       "C": "By returning 403 with Login-Required: true",
       "D": "By using JavaScript redirect"
     },
     "correct": "A",
-    "correctText": "By including WWW-Authenticate: Basic realm='Rea lmName' in a 401 response",
+    "correctText": "By including WWW-Authenticate: Basic realm='RealmName' in a 401 response",
     "explanation": "Header WWW-Authenticate: Basic realm=\"...\" trong response 401 mô tả cơ chế xác thực và vùng bảo vệ, khiến browser có thể hỏi thông tin đăng nhập."
   },
   {
     "id": 246,
     "label": "Câu 246",
-    "question": "In Basic Authenticati on, what does the format of the Authorizati on header look like?",
+    "question": "In Basic Authentication, what does the format of the Authorization header look like?",
     "choices": {
-      "A": "Authorizati on: Bearer (token)",
-      "B": "Authorizati on: Basic (base64(us ername))",
-      "C": "Authorizati on: Token username",
+      "A": "Authorization: Bearer (token)",
+      "B": "Authorization: Basic (base64(username))",
+      "C": "Authorization: Token username",
       "D": "Auth: Basic (JWT)"
     },
     "correct": "B",
-    "correctText": "Authorizati on: Basic (base64(us ername))",
-    "explanation": "Basic Auth có header Authorizati on: Basic <Base64(username)>; Base64 chỉ là encoding chứ không bảo mật thông tin như HTTPS."
+    "correctText": "Authorization: Basic (base64(username))",
+    "explanation": "Basic Auth có header Authorization: Basic <Base64(username)>; Base64 chỉ là encoding chứ không bảo mật thông tin như HTTPS."
   },
   {
     "id": 247,
     "label": "Câu 247",
     "question": "Which HTTP header is commonly used to transmit the session ID?",
     "choices": {
-      "A": "Authorizati on",
+      "A": "Authorization",
       "B": "Cookie",
       "C": "X-Session-Token",
       "D": "Set-Header"
@@ -3460,7 +3460,7 @@
   {
     "id": 248,
     "label": "Câu 248",
-    "question": "Which of the following is false about Basic Authenticati on?",
+    "question": "Which of the following is false about Basic Authentication?",
     "choices": {
       "A": "It does not require session on server",
       "B": "It is stateless",
@@ -3497,7 +3497,7 @@
     },
     "correct": "B",
     "correctText": "@Autowired",
-    "explanation": "@Autowired yêu cầu Spring tiêm bean phụ thuộc vào lớp đang dùng, gồm cả repository.Constructor injection cũng thực hiện được mà không cần annotation nếu chỉ có một constructor."
+    "explanation": "@Autowired yêu cầu Spring tiêm bean phụ thuộc vào lớp đang dùng, gồm cả repository. Constructor injection cũng thực hiện được mà không cần annotation nếu chỉ có một constructor."
   },
   {
     "id": 251,
@@ -3516,7 +3516,7 @@
   {
     "id": 252,
     "label": "Câu 252",
-    "question": "What does the <mapping resource=\"User.hbm.xml \"> tag in hibernate.cfg.xml specify?",
+    "question": "What does the <mapping resource=\"User.hbm.xml\"> tag in hibernate.cfg.xml specify?",
     "choices": {
       "A": "The database connection URL.",
       "B": "The database dialect.",
@@ -3560,14 +3560,14 @@
     "label": "Câu 255",
     "question": "Which Hibernate Cache property enables the second-level cache?",
     "choices": {
-      "A": "hibernate.cache.use_se cond_level_ cache",
-      "B": "hibernate.cache.provid er_class",
-      "C": "hibernate.cache.region.factory_cla ss",
-      "D": "hibernate.cache.use_qu ery_cache"
+      "A": "hibernate.cache.use_second_level_cache",
+      "B": "hibernate.cache.provider_class",
+      "C": "hibernate.cache.region.factory_class",
+      "D": "hibernate.cache.use_query_cache"
     },
     "correct": "A",
-    "correctText": "hibernate.cache.use_s econd_level _cache",
-    "explanation": "hibernate.cache.use_s econd_level _cache bật bộ đệm cấp 2 dùng chung giữa các Session; còn bộ đệm cấp 1 luôn gắn với một Session."
+    "correctText": "hibernate.cache.use_second_level_cache",
+    "explanation": "hibernate.cache.use_second_level_cache bật bộ đệm cấp 2 dùng chung giữa các Session; còn bộ đệm cấp 1 luôn gắn với một Session."
   },
   {
     "id": 256,
@@ -3651,7 +3651,7 @@
     },
     "correct": "B",
     "correctText": "hbm2ddl (DDL auto feature)",
-    "explanation": "hibernate.h bm2ddl.auto có các chế độ như validate, update, create để kiểm tra hoặc sinh schema từ mapping entity; cần thận trọng với create trong môi trường thật."
+    "explanation": "hibernate.hbm2ddl.auto có các chế độ như validate, update, create để kiểm tra hoặc sinh schema từ mapping entity; cần thận trọng với create trong môi trường thật."
   },
   {
     "id": 262,
@@ -3660,26 +3660,26 @@
     "choices": {
       "A": "Session.",
       "B": "Transaction.",
-      "C": "SessionFact ory.",
-      "D": "Configurati on."
+      "C": "SessionFactory.",
+      "D": "Configuration."
     },
     "correct": "B",
     "correctText": "Transaction.",
-    "explanation": "Hibernate Transaction cung cấp begin/com mit/rollback để xác định một đơn vị công việc nhất quán; Session chủ yếu quản lý entity và thao tác truy cập dữ liệu."
+    "explanation": "Hibernate Transaction cung cấp begin/commit/rollback để xác định một đơn vị công việc nhất quán; Session chủ yếu quản lý entity và thao tác truy cập dữ liệu."
   },
   {
     "id": 263,
     "label": "Câu 263",
     "question": "Given a Book entity, which derived query method correctly finds all books published after a certain date and sorts them by title?",
     "choices": {
-      "A": "List<Book> findByPubli shedDateAf terOrderBy TitleAsc(Lo calDate date);",
-      "B": "List<Book> findAllBook sAfterDate AndSortByT itle(LocalDate date);",
-      "C": "List<Book> findByPubli shedDate(L ocalDate date, Sort sort);",
-      "D": "List<Book> queryAfterP ublishedDat eSortedByT itle(LocalDate date);"
+      "A": "List<Book> findByPublishedDateAfterOrderByTitleAsc(LocalDate date);",
+      "B": "List<Book> findAllBooksAfterDateAndSortByTitle(LocalDate date);",
+      "C": "List<Book> findByPublishedDate(LocalDate date, Sort sort);",
+      "D": "List<Book> queryAfterPublishedDateSortedByTitle(LocalDate date);"
     },
     "correct": "A",
-    "correctText": "List<Book> findByPubli shedDateAf terOrderBy TitleAsc(Lo calDate date);",
-    "explanation": "Spring Data phân tích tên hàm: PublishedD ateAfter tạo điều kiện ngày lớn hơn mốc, còn OrderByTitl eAsc sắp xếp tăng dần theo title."
+    "correctText": "List<Book> findByPublishedDateAfterOrderByTitleAsc(LocalDate date);",
+    "explanation": "Spring Data phân tích tên hàm: PublishedDateAfter tạo điều kiện ngày lớn hơn mốc, còn OrderByTitleAsc sắp xếp tăng dần theo title."
   },
   {
     "id": 264,
@@ -3700,14 +3700,14 @@
     "label": "Câu 265",
     "question": "Which Spring Data JPA interface performs CRUD operations?",
     "choices": {
-      "A": "CrudReposi tory",
-      "B": "ServiceRep ository",
-      "C": "ControllerR epository",
-      "D": "EntityRepos itory"
+      "A": "CrudRepository",
+      "B": "ServiceRepository",
+      "C": "ControllerRepository",
+      "D": "EntityRepository"
     },
     "correct": "A",
-    "correctText": "CrudReposi tory",
-    "explanation": "CrudReposi tory cung cấp các hàm CRUD cơ bản như save, findById, findAll và deleteById; JpaReposit ory mở rộng thêm các tiện ích JPA."
+    "correctText": "CrudRepository",
+    "explanation": "CrudRepository cung cấp các hàm CRUD cơ bản như save, findById, findAll và deleteById; JpaRepository mở rộng thêm các tiện ích JPA."
   },
   {
     "id": 266,
@@ -3763,7 +3763,7 @@
     },
     "correct": "C",
     "correctText": "hibernate.cfg.xml",
-    "explanation": "hibernate.cfg.xml thường chứa cấu hình kết nối, SQL dialect và mapping cần thiết cho Hibernate SessionFact ory."
+    "explanation": "hibernate.cfg.xml thường chứa cấu hình kết nối, SQL dialect và mapping cần thiết cho Hibernate SessionFactory."
   },
   {
     "id": 270,
@@ -3799,13 +3799,13 @@
     "question": "Which JPA repository provides CRUD?",
     "choices": {
       "A": "JpaRepoBase",
-      "B": "CrudReposi tory",
+      "B": "CrudRepository",
       "C": "DataRepo",
-      "D": "BaseReposi tory"
+      "D": "BaseRepository"
     },
     "correct": "B",
-    "correctText": "CrudReposi tory",
-    "explanation": "CrudReposi tory định nghĩa các thao tác chuẩn như save, findById và deleteById; JpaReposit ory mở rộng khả năng cho JPA."
+    "correctText": "CrudRepository",
+    "explanation": "CrudRepository định nghĩa các thao tác chuẩn như save, findById và deleteById; JpaRepository mở rộng khả năng cho JPA."
   },
   {
     "id": 273,
@@ -3882,7 +3882,7 @@
     "label": "Câu 278",
     "question": "Which annotation creates a Spring Bean?",
     "choices": {
-      "A": "@SpringBootApplication on",
+      "A": "@SpringBootApplication",
       "B": "@Bean",
       "C": "@Autowired",
       "D": "@Configuration"
@@ -3968,12 +3968,12 @@
     "choices": {
       "A": "@EnableAutoConfiguration",
       "B": "@AutoBean",
-      "C": "@SpringBootApplication on",
+      "C": "@SpringBootApplication",
       "D": "@AutoScan"
     },
     "correct": "C",
-    "correctText": "@SpringBootApplication on",
-    "explanation": "@SpringBootApplication on gồm @SpringBootConfiguration, @EnableAutoConfiguration và @ComponentScan; auto-configurati on tạo bean theo dependency và điều kiện cấu hình."
+    "correctText": "@SpringBootApplication",
+    "explanation": "@SpringBootApplication gồm @SpringBootConfiguration, @EnableAutoConfiguration và @ComponentScan; auto-configuration tạo bean theo dependency và điều kiện cấu hình."
   },
   {
     "id": 285,
@@ -3981,9 +3981,9 @@
     "question": "Paging in Spring Boot is implemented using:",
     "choices": {
       "A": "PageRequest",
-      "B": "OffsetMana ger",
+      "B": "OffsetManager",
       "C": "PageBuilder",
-      "D": "PageableFa ctory"
+      "D": "PageableFactory"
     },
     "correct": "A",
     "correctText": "PageRequest",
@@ -4001,7 +4001,7 @@
     },
     "correct": "A",
     "correctText": "Sort.by()",
-    "explanation": "Sort.by(\"field\") tạo chỉ dẫn sắp xếp, mặc định tăng dần; có thể đổi thành descending () khi cần."
+    "explanation": "Sort.by(\"field\") tạo chỉ dẫn sắp xếp, mặc định tăng dần; có thể đổi thành descending() khi cần."
   },
   {
     "id": 287,
@@ -4020,7 +4020,7 @@
   {
     "id": 288,
     "label": "Câu 288",
-    "question": "What does ResponseE ntity provide in a REST controller method?",
+    "question": "What does ResponseEntity provide in a REST controller method?",
     "choices": {
       "A": "A flexible way to set body, status, and headers",
       "B": "Only status codes",
@@ -4029,7 +4029,7 @@
     },
     "correct": "A",
     "correctText": "A flexible way to set body, status, and headers",
-    "explanation": "ResponseE ntity cho phép điều chỉnh cả response body, HTTP status và headers theo từng nhánh, ví dụ ResponseE ntity.status (201).body(obj)."
+    "explanation": "ResponseEntity cho phép điều chỉnh cả response body, HTTP status và headers theo từng nhánh, ví dụ ResponseEntity.status(201).body(obj)."
   },
   {
     "id": 289,
@@ -4043,7 +4043,7 @@
     },
     "correct": "B",
     "correctText": "Flexibility for complex queries and operations.",
-    "explanation": "MongoTemplate cho phép dùng Query, Criteria và các thao tác cập nhật phức tạp. MongoRep ository thuận tiện hơn cho CRUD đơn giản."
+    "explanation": "MongoTemplate cho phép dùng Query, Criteria và các thao tác cập nhật phức tạp. MongoRepository thuận tiện hơn cho CRUD đơn giản."
   },
   {
     "id": 290,
@@ -4057,7 +4057,7 @@
     },
     "correct": "B",
     "correctText": "insert()",
-    "explanation": "mongoTemplate.insert (object) tạo một document mới. Khác với save(), insert() không dùng để ghi đè document có cùng ID."
+    "explanation": "mongoTemplate.insert(object) tạo một document mới. Khác với save(), insert() không dùng để ghi đè document có cùng ID."
   },
   {
     "id": 291,
@@ -4071,7 +4071,7 @@
     },
     "correct": "D",
     "correctText": "deleteMany() or deleteOne()",
-    "explanation": "deleteOne() xóa một document khớp điều kiện, còn deleteMany() xóa tất cả document khớp.find() chỉ truy vấn dữ liệu."
+    "explanation": "deleteOne() xóa một document khớp điều kiện, còn deleteMany() xóa tất cả document khớp. find() chỉ truy vấn dữ liệu."
   },
   {
     "id": 292,
@@ -4104,16 +4104,16 @@
   {
     "id": 294,
     "label": "Câu 294",
-    "question": "While MongoRep ository is great for CRUD operations, which class offers more fine-grained control for executing complex queries and operations against MongoDB?",
+    "question": "While MongoRepository is great for CRUD operations, which class offers more fine-grained control for executing complex queries and operations against MongoDB?",
     "choices": {
       "A": "MongoTemplate",
-      "B": "MongoExec utor",
+      "B": "MongoExecutor",
       "C": "JdbcTemplate",
-      "D": "MongoMan ager"
+      "D": "MongoManager"
     },
     "correct": "A",
     "correctText": "MongoTemplate",
-    "explanation": "MongoTemplate hỗ trợ Criteria, aggregation và cập nhật tùy biến; MongoRep ository chủ yếu cung cấp các hàm CRUD và derived queries."
+    "explanation": "MongoTemplate hỗ trợ Criteria, aggregation và cập nhật tùy biến; MongoRepository chủ yếu cung cấp các hàm CRUD và derived queries."
   },
   {
     "id": 295,
@@ -4134,10 +4134,10 @@
     "label": "Câu 296",
     "question": "Which class in Spring Data MongoDB provides a template for performing low-level MongoDB operations?",
     "choices": {
-      "A": "MongoRep ository",
+      "A": "MongoRepository",
       "B": "MongoClient",
       "C": "MongoTemplate",
-      "D": "SimpleMon goRepository"
+      "D": "SimpleMongoRepository"
     },
     "correct": "C",
     "correctText": "MongoTemplate",
@@ -4174,7 +4174,7 @@
   {
     "id": 299,
     "label": "Câu 299",
-    "question": "How does MongoRep ository simplify data access?",
+    "question": "How does MongoRepository simplify data access?",
     "choices": {
       "A": "Complex aggregations",
       "B": "Auto-generate CRUD methods",
@@ -4183,7 +4183,7 @@
     },
     "correct": "B",
     "correctText": "Auto-generate CRUD methods",
-    "explanation": "MongoRep ository tự cung cấp các phương thức CRUD và cho phép suy ra query từ tên method, giảm lượng code truy cập database phải viết."
+    "explanation": "MongoRepository tự cung cấp các phương thức CRUD và cho phép suy ra query từ tên method, giảm lượng code truy cập database phải viết."
   },
   {
     "id": 300,
@@ -4218,7 +4218,7 @@
     "label": "Câu 302",
     "question": "Which MongoDB CRUD operation inserts a document?",
     "choices": {
-      "A": "updateOne ()",
+      "A": "updateOne()",
       "B": "deleteOne()",
       "C": "insertOne()",
       "D": "findOne()"
@@ -4302,14 +4302,14 @@
     "label": "Câu 308",
     "question": "Which Spring Data interface works with MongoDB?",
     "choices": {
-      "A": "JpaReposit ory",
-      "B": "CrudReposi tory",
-      "C": "MongoRep ository",
-      "D": "HibernateR epository"
+      "A": "JpaRepository",
+      "B": "CrudRepository",
+      "C": "MongoRepository",
+      "D": "HibernateRepository"
     },
     "correct": "C",
-    "correctText": "MongoRep ository",
-    "explanation": "MongoRep ository là interface repository cho entity MongoDB, hỗ trợ CRUD, phân trang và các truy vấn dẫn xuất từ tên method."
+    "correctText": "MongoRepository",
+    "explanation": "MongoRepository là interface repository cho entity MongoDB, hỗ trợ CRUD, phân trang và các truy vấn dẫn xuất từ tên method."
   },
   {
     "id": 309,
@@ -4337,7 +4337,7 @@
     },
     "correct": "B",
     "correctText": "deleteMany()",
-    "explanation": "deleteMany(filter) xóa tất cả document khớp filter; deleteOne(f ilter) chỉ xóa một document khớp."
+    "explanation": "deleteMany(filter) xóa tất cả document khớp filter; deleteOne(filter) chỉ xóa một document khớp."
   },
   {
     "id": 311,
@@ -4379,7 +4379,7 @@
     },
     "correct": "B",
     "correctText": "spring-boot-starter-data-mongodb",
-    "explanation": "spring-boot-starter-data-mongodb đưa Spring Data MongoDB và driver vào ứng dụng, hỗ trợ MongoRep ository và MongoTemplate."
+    "explanation": "spring-boot-starter-data-mongodb đưa Spring Data MongoDB và driver vào ứng dụng, hỗ trợ MongoRepository và MongoTemplate."
   },
   {
     "id": 314,
@@ -4387,13 +4387,13 @@
     "question": "Which command is used to insert a single document into a collection?",
     "choices": {
       "A": "db.collection.create()",
-      "B": "db.collection.insertOne ()",
+      "B": "db.collection.insertOne()",
       "C": "db.collection.insertDocument()",
       "D": "db.collection.add()"
     },
     "correct": "B",
-    "correctText": "db.collection.insertOne ()",
-    "explanation": "db.collection.insertOne (document) thêm chính xác một document mới; MongoDB sẽ cấp _id nếu chưa có."
+    "correctText": "db.collection.insertOne()",
+    "explanation": "db.collection.insertOne(document) thêm chính xác một document mới; MongoDB sẽ cấp _id nếu chưa có."
   },
   {
     "id": 315,
@@ -4417,11 +4417,11 @@
       "A": "Criteria",
       "B": "QueryDSL",
       "C": "MongoQuery",
-      "D": "CriteriaBuil der"
+      "D": "CriteriaBuilder"
     },
     "correct": "A",
     "correctText": "Criteria",
-    "explanation": "Criteria biểu diễn điều kiện lọc như where(\"age \").gte(18); ghép Criteria vào Query rồi đưa cho MongoTemplate.find()."
+    "explanation": "Criteria biểu diễn điều kiện lọc như where(\"age\").gte(18); ghép Criteria vào Query rồi đưa cho MongoTemplate.find()."
   },
   {
     "id": 317,
@@ -4442,14 +4442,14 @@
     "label": "Câu 318",
     "question": "Which interface in Spring Data MongoDB is used to perform CRUD operations?",
     "choices": {
-      "A": "JpaReposit ory",
-      "B": "MongoRep ository",
+      "A": "JpaRepository",
+      "B": "MongoRepository",
       "C": "Repository",
-      "D": "CrudReposi tory"
+      "D": "CrudRepository"
     },
     "correct": "B",
-    "correctText": "MongoRep ository",
-    "explanation": "MongoRep ository mở rộng repository Spring Data để cung cấp CRUD theo entity MongoDB, hỗ trợ tìm kiếm theo method name."
+    "correctText": "MongoRepository",
+    "explanation": "MongoRepository mở rộng repository Spring Data để cung cấp CRUD theo entity MongoDB, hỗ trợ tìm kiếm theo method name."
   },
   {
     "id": 319,
@@ -4484,10 +4484,10 @@
     "label": "Câu 321",
     "question": "When using MongoTemplate, how would you insert a new document?",
     "choices": {
-      "A": "mongoTemplate.create (object)",
+      "A": "mongoTemplate.create(object)",
       "B": "mongoTemplate.insert(object)",
-      "C": "mongoTemplate.save(o bject)",
-      "D": "mongoTemplate.add(o bject)"
+      "C": "mongoTemplate.save(object)",
+      "D": "mongoTemplate.add(object)"
     },
     "correct": "C",
     "correctText": "mongoTemplate.save(object)",
@@ -4622,7 +4622,7 @@
   {
     "id": 331,
     "label": "Câu 331",
-    "question": "What does @SpringBootTest(web Environment = WebEnviron ment.RAND OM_PORT) do?",
+    "question": "What does @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT) do?",
     "choices": {
       "A": "Starts the application with no web environment",
       "B": "Fails the test if no port is provided manually",
@@ -4631,21 +4631,21 @@
     },
     "correct": "D",
     "correctText": "Starts the embedded server on a random port",
-    "explanation": "WebEnviron ment.RAND OM_PORT khởi động web server nhúng trên cổng ngẫu nhiên, hữu ích để integration test qua HTTP mà tránh đụng cổng."
+    "explanation": "WebEnvironment.RANDOM_PORT khởi động web server nhúng trên cổng ngẫu nhiên, hữu ích để integration test qua HTTP mà tránh đụng cổng."
   },
   {
     "id": 332,
     "label": "Câu 332",
-    "question": "You want to inject a TestRestTemplate in a @SpringBootTest.What is required?",
+    "question": "You want to inject a TestRestTemplate in a @SpringBootTest. What is required?",
     "choices": {
       "A": "Use @MockBean",
-      "B": "Use webEnviron ment = WebEnviron ment.NONE",
+      "B": "Use webEnvironment = WebEnvironment.NONE",
       "C": "Use @WebMvcTest",
-      "D": "Use webEnviron ment = WebEnviron ment.RAND OM_PORT"
+      "D": "Use webEnvironment = WebEnvironment.RANDOM_PORT"
     },
     "correct": "D",
-    "correctText": "Use webEnviron ment = WebEnviron ment.RAND OM_PORT",
-    "explanation": "TestRestTemplate thường được cung cấp khi @SpringBootTest chạy với môi trường web thực như RANDOM_P ORT, để test gửi HTTP request đến server nhúng."
+    "correctText": "Use webEnvironment = WebEnvironment.RANDOM_PORT",
+    "explanation": "TestRestTemplate thường được cung cấp khi @SpringBootTest chạy với môi trường web thực như RANDOM_PORT, để test gửi HTTP request đến server nhúng."
   },
   {
     "id": 333,
@@ -4653,27 +4653,27 @@
     "question": "When used with JUnit 5, which annotation is commonly paired with @SpringBootTest?",
     "choices": {
       "A": "@MockBean",
-      "B": "@ExtendWith(SpringExt ension.class)",
+      "B": "@ExtendWith(SpringExtension.class)",
       "C": "@DataJpaTest",
       "D": "@TestConfiguration"
     },
     "correct": "B",
-    "correctText": "@ExtendWith(SpringEx tension.class)",
-    "explanation": "SpringExte nsion tích hợp Spring TestContext với JUnit Jupiter; @SpringBootTest hiện đã tự đăng ký extension này nên thường không cần thêm @ExtendWith thủ công."
+    "correctText": "@ExtendWith(SpringExtension.class)",
+    "explanation": "SpringExtension tích hợp Spring TestContext với JUnit Jupiter; @SpringBootTest hiện đã tự đăng ký extension này nên thường không cần thêm @ExtendWith thủ công."
   },
   {
     "id": 334,
     "label": "Câu 334",
     "question": "Which configuration allows @SpringBootTest to test controller endpoints using real HTTP calls?",
     "choices": {
-      "A": "webEnviron ment = NONE",
-      "B": "webEnviron ment = MOCK",
+      "A": "webEnvironment = NONE",
+      "B": "webEnvironment = MOCK",
       "C": "useMockMvc = true",
-      "D": "webEnviron ment = DEFINED_P ORT"
+      "D": "webEnvironment = DEFINED_PORT"
     },
     "correct": "D",
-    "correctText": "webEnviron ment = DEFINED_P ORT",
-    "explanation": "DEFINED_P ORT khởi chạy web server trên cổng cấu hình nên có thể test endpoint qua HTTP thực; RANDOM_P ORT cũng hỗ trợ kiểu test này và tránh xung đột cổng."
+    "correctText": "webEnvironment = DEFINED_PORT",
+    "explanation": "DEFINED_PORT khởi chạy web server trên cổng cấu hình nên có thể test endpoint qua HTTP thực; RANDOM_PORT cũng hỗ trợ kiểu test này và tránh xung đột cổng."
   },
   {
     "id": 335,
@@ -4683,7 +4683,7 @@
       "A": "@Configuration",
       "B": "@DataJpaTest",
       "C": "@WebMvcTest",
-      "D": "@EnableAutoConfiguration tion"
+      "D": "@EnableAutoConfiguration"
     },
     "correct": "C",
     "correctText": "@WebMvcTest",

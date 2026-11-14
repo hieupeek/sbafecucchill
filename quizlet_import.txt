@@ -521,10 +521,10 @@ C. Using a colon::param
 D. Using a question mark:? param	C. Using a colon::param - Đặt dấu hai chấm trước tên biến trong path, ví dụ /users/, để khai báo tham số động; đọc nó bằng useParams().
 ###
 Câu 88. Which router wraps app?
-A. RouterProvi der
-B. BrowserRou ter
+A. RouterProvider
+B. BrowserRouter
 C. PageRouter
-D. Route	B. BrowserRo uter - BrowserRo uter đồng bộ URL với lịch sử trình duyệt, tạo ngữ cảnh định tuyến cho Routes, Link và các Hook của React Router.
+D. Route	B. BrowserRouter - BrowserRouter đồng bộ URL với lịch sử trình duyệt, tạo ngữ cảnh định tuyến cho Routes, Link và các Hook của React Router.
 ###
 Câu 89. Which component holds routes?
 A. RouteList
@@ -620,7 +620,7 @@ Câu 104. Which package is commonly used for routing in React applications?
 A. react-navigation
 B. react-router-dom
 C. react-router-native
-D. react-router-core	B. react-router-dom - react-router-dom cung cấp các component và Hook định tuyến cho ứng dụng React trên web, như BrowserRo uter, Link và useNavigate trong v6.
+D. react-router-core	B. react-router-dom - react-router-dom cung cấp các component và Hook định tuyến cho ứng dụng React trên web, như BrowserRouter, Link và useNavigate trong v6.
 ###
 Câu 105. How do SPAs affect analytics and tracking tools like Google Analytics?
 A. Analytics tools natively support SPAs without setup
@@ -632,7 +632,7 @@ Câu 106. Which of the following is TRUE about React Router v6?
 A. Route components are automatically lazy-loaded
 B. React Router only supports hash-based routing
 C. <Switch> is still used to group routes
-D. Routes must be wrapped in <Router> or <BrowserRouter>	D. Routes must be wrapped in <Router>or <BrowserRouter> - Routes và Route cần nằm trong ngữ cảnh router như BrowserRo uter để đọc location và lịch sử điều hướng.
+D. Routes must be wrapped in <Router> or <BrowserRouter>	D. Routes must be wrapped in <Router>or <BrowserRouter> - Routes và Route cần nằm trong ngữ cảnh router như BrowserRouter để đọc location và lịch sử điều hướng.
 ###
 Câu 107. Which of the following best explains why SPAs provide a better user experience?
 A. They enable seamless navigation without full reloads
@@ -650,7 +650,7 @@ Câu 109. What is one disadvantage of SPAs in terms of browser history and navig
 A. They provide better back/forward navigation than traditional sites
 B. They cannot support routing
 C. They use standard browser navigation without modification
-D. Manual configuration is needed to manage browser history correctly	D. Manual configurati on is needed to manage browser history correctly - Khi tự thiết kế SPA, cần đồng bộ trạng thái URL và lịch sử trình duyệt để back/forward hoạt động đúng; thư viện router hỗ trợ phần lớn việc này.
+D. Manual configuration is needed to manage browser history correctly	D. Manual configuration is needed to manage browser history correctly - Khi tự thiết kế SPA, cần đồng bộ trạng thái URL và lịch sử trình duyệt để back/forward hoạt động đúng; thư viện router hỗ trợ phần lớn việc này.
 ###
 Câu 110. Which of the following is used to handle routing in React apps?
 A. React DOM
@@ -978,7 +978,7 @@ D. SOA	C. Representa tional State Transfer - REST là kiểu kiến trúc Repres
 ###
 Câu 164. Benefit of separating layers in 3-layer architecture?
 A. Increased complexity
-B. Reduced maintainabil ity
+B. Reduced maintainability
 C. Improved organization & reusability
 D. Tighter coupling	C. Improved organization & reusability - Phân tầng Controller-Service-Repository giúp tách nhiệm vụ giao tiếp HTTP, nghiệp vụ và database, khiến code dễ thử nghiệm, thay đổi và tái sử dụng.
 ###
@@ -1124,7 +1124,7 @@ Câu 188. How can you specify the response status code in a REST controller?
 A. By using HttpServlet Response
 B. You cannot control the status code
 C. By using @ResponseStatus annotation
-D. By returning an int	C. By using @ResponseStatus annotation - @ResponseStatus gán mã trạng thái HTTP cho method hoặc exception; ResponseE ntity linh hoạt hơn nếu muốn quyết định status theo từng nhánh xử lý.
+D. By returning an int	C. By using @ResponseStatus annotation - @ResponseStatus gán mã trạng thái HTTP cho method hoặc exception; ResponseEntity linh hoạt hơn nếu muốn quyết định status theo từng nhánh xử lý.
 ###
 Câu 189. What is the primary purpose of a RESTful web service in Spring Boot?
 A. To render HTML content
@@ -1136,7 +1136,7 @@ Câu 190. Which of the following annotations would you use to return a specific 
 A. @RestStatus
 B. @StatusCode
 C. @ResponseStatus
-D. @HttpStatus	C. @ResponseStatus - @ResponseStatus dùng để cố định status trả về của controller method, ví dụ CREATED (201), ngay cả khi method không trả ResponseE ntity.
+D. @HttpStatus	C. @ResponseStatus - @ResponseStatus dùng để cố định status trả về của controller method, ví dụ CREATED (201), ngay cả khi method không trả ResponseEntity.
 ###
 Câu 191. Which annotation combination is used for a method that handles POST requests and accepts a request body?
 A. @PostMapping and @RequestParam
@@ -1214,7 +1214,7 @@ Câu 203. What is Swagger used for?
 A. Logging
 B. API documentation
 C. SQL queries
-D. Testing UI	B. API documenta tion - Swagger/OpenAPI mô tả đường dẫn API, tham số, body và kiểu response; Swagger UI tạo giao diện tài liệu có thể thử API.
+D. Testing UI	B. API documentation - Swagger/OpenAPI mô tả đường dẫn API, tham số, body và kiểu response; Swagger UI tạo giao diện tài liệu có thể thử API.
 ###
 Câu 204. Swagger UI is accessed by default at:
 A. /docs
@@ -1232,7 +1232,7 @@ Câu 206. What is API documentation used for?
 A. Styling UI
 B. Helping developers use the API
 C. Running SQL scripts
-D. Caching assets	B. Helping developers use the API - API documenta tion cho biết endpoint, method, tham số, xác thực và mẫu request/response để các lập trình viên tích hợp đúng.
+D. Caching assets	B. Helping developers use the API - API documentation cho biết endpoint, method, tham số, xác thực và mẫu request/response để các lập trình viên tích hợp đúng.
 ###
 Câu 207. Which OpenAPI annotation groups API operations?
 A. @Operation
@@ -1273,7 +1273,7 @@ D. springdoc.api-docs.path	D. springdoc.api-docs.path - springdoc.api-docs.path 
 Câu 213. How do you group APIs in Swagger UI using Springdoc OpenAPI?
 A. Using @Group
 B. Using @Tag(name = 'GroupName')
-C. Using @Swagger Group
+C. Using @SwaggerGroup
 D. Using application.yaml grouping	B. Using @Tag(name = 'GroupName') - @Tag(name ="...") gắn tên nhóm cho controller hoặc operation trong tài liệu OpenAPI; Swagger UI gom các endpoint theo tag.
 ###
 Câu 214. Which dependency is commonly used in Spring Boot to integrate OpenAPI 3?
@@ -1286,37 +1286,37 @@ Câu 215. How can you hide an endpoint from OpenAPI documentation?
 A. Disable the controller
 B. Use @IgnoreMapping
 C. Add @Hidden annotation
-D. Rename the method	C. Add @Hidden annotation - @Hidden của springdoc/ swagger-core loại một controller hoặc endpoint khỏi tài liệu OpenAPI, nhưng không tự vô hiệu hóa API thật.
+D. Rename the method	C. Add @Hidden annotation - @Hidden của springdoc/swagger-core loại một controller hoặc endpoint khỏi tài liệu OpenAPI, nhưng không tự vô hiệu hóa API thật.
 ###
 Câu 216. What is the purpose of the JWT header?
 A. To store user data.
 B. To store the signing algorithm and token type.
 C. To store the signature.
-D. To store the expiration time.	B. To store the signing algorithm and token type. - JWT gồm Header, Payload và Signature.Header khai báo loại token và thuật toán ký như HS256; thông tin người dùng thường nằm trong Payload.
+D. To store the expiration time.	B. To store the signing algorithm and token type. - JWT gồm Header, Payload và Signature. Header khai báo loại token và thuật toán ký như HS256; thông tin người dùng thường nằm trong Payload.
 ###
 Câu 217. How are credentials transmitted in HTTP Basic authentication?
 A. Encrypted using a server-side public key.
 B. Sent in plain text in the request body.
-C. Base64-encoded and sent in the Authorizati on header.
-D. Hashed using a nonce and a server-side secret.	C. Base64-encoded and sent in the Authorizati on header. - HTTP Basic ghép username rồi mã hóa Base64, gửi bằng header Authorizati on với tiền tố Basic.Base64 không phải mã hóa bảo mật nên cần HTTPS.
+C. Base64-encoded and sent in the Authorization header.
+D. Hashed using a nonce and a server-side secret.	C. Base64-encoded and sent in the Authorization header. - HTTP Basic ghép username rồi mã hóa Base64, gửi bằng header Authorization với tiền tố Basic.Base64 không phải mã hóa bảo mật nên cần HTTPS.
 ###
 Câu 218. Where is the session ID typically stored in Session-Based Security?
 A. In the request header.
 B. In the request body.
 C. In a cookie or URL.
-D. In the server's database.	C. In a cookie or URL. - Máy chủ giữ dữ liệu session, còn trình duyệt thường giữ session ID trong cookie JSESSIONID.ID cũng có thể được truyền trên URL nhưng kém an toàn hơn.
+D. In the server's database.	C. In a cookie or URL. - Máy chủ giữ dữ liệu session, còn trình duyệt thường giữ session ID trong cookie JSESSIONID. ID cũng có thể được truyền trên URL nhưng kém an toàn hơn.
 ###
 Câu 219. Which authentication method sends credentials with every request in RESTful APIs?
 A. Session-based authentication
 B. Token-based authentication (JWT)
 C. OAuth 2.0
-D. Basic Authenticati on	D. Basic Authentication - Basic Authentication gửi cặp username được mã hóa Base64 trong header Authorizati on ở mỗi request.Session ID và JWT sử dụng thông tin định danh khác.
+D. Basic Authentication	D. Basic Authentication - Basic Authentication gửi cặp username được mã hóa Base64 trong header Authorization ở mỗi request.Session ID và JWT sử dụng thông tin định danh khác.
 ###
 Câu 220. What is the purpose of Spring Boot Security?
 A. To manage database connections.
 B. To provide authentication and authorization functionality.
 C. To handle HTTP requests and responses.
-D. To manage application configuration.	B. To provide authentication and authorizati on functionality. - Spring Security kiểm tra danh tính (authentica tion) và quyền truy cập (authorizati on), qua filter chain trước khi request vào controller.
+D. To manage application configuration.	B. To provide authentication and authorization functionality. - Spring Security kiểm tra danh tính (authentication) và quyền truy cập (authorization), qua filter chain trước khi request vào controller.
 ###
 Câu 221. What is the second step in implementing JWT in Spring REST?
 A. Create a JWT utility class for generating and validating tokens.
@@ -1326,7 +1326,7 @@ D. Create a database schema.	A. Create a JWT utility class for generating and va
 ###
 Câu 222. What is JWT mainly used for?
 A. Data storage
-B. Authenticati on
+B. Authentication
 C. CSS styling
 D. Routing	B. Authentication - JWT là token mang claims có chữ ký dùng để chứng minh kết quả xác thực trong các request; vẫn phải kiểm tra chữ ký và thời hạn.
 ###
@@ -1346,7 +1346,7 @@ Câu 225. Which Spring annotation defines security configuration?
 A. @Bean
 B. @Configuration
 C. @SecurityScheme
-D. @EnableWebSecurity	D. @EnableWebSecurity - @EnableWebSecurity kích hoạt tích hợp cấu hình bảo mật web của Spring Security trong cấu hình phù hợp; các quy tắc truy cập thường định nghĩa qua SecurityFilt erChain.
+D. @EnableWebSecurity	D. @EnableWebSecurity - @EnableWebSecurity kích hoạt tích hợp cấu hình bảo mật web của Spring Security trong cấu hình phù hợp; các quy tắc truy cập thường định nghĩa qua SecurityFilterChain.
 ###
 Câu 226. OAuth2 allows:
 A. Servers to share HTML
@@ -1393,14 +1393,14 @@ D. Cookies	B. Tokens - OAuth 2.0 cấp access token đại diện phạm vi quy�
 Câu 233. Which OAuth component verifies identity?
 A. Resource owner
 B. Resource server
-C. Authorizati on server
-D. Client	C. Authorizati on server - Authorizati on server thực hiện luồng cấp token và có thể xác thực người dùng; trong OpenID Connect, identity còn được mô tả rõ bằng ID token.
+C. Authorization server
+D. Client	C. Authorization server - Authorization server thực hiện luồng cấp token và có thể xác thực người dùng; trong OpenID Connect, identity còn được mô tả rõ bằng ID token.
 ###
 Câu 234. Which part of JWT contains claims?
 A. Header
 B. Payload
 C. Hash
-D. Signature	B. Payload - Payload của JWT chứa claims như sub, exp, iss và role; payload chỉ được Base64URL -encode, không tự được mã hóa bí mật.
+D. Signature	B. Payload - Payload của JWT chứa claims như sub, exp, iss và role; payload chỉ được Base64URL-encode, không tự được mã hóa bí mật.
 ###
 Câu 235. Which part of JWT ensures integrity?
 A. Payload
@@ -1428,9 +1428,9 @@ D. Claim	A. Principal - Principal đại diện danh tính của chủ thể đ�
 ###
 Câu 239. GrantedAuthority represents:
 A. Password
-B. Permission/ role
+B. Permission/role
 C. Username
-D. Token	B. Permission /role - GrantedAuthority biểu diễn một quyền hoặc role được cấp cho user, thường ở dạng chuỗi như ROLE_ADMIN để kiểm tra authorizati on.
+D. Token	B. Permission/role - GrantedAuthority biểu diễn một quyền hoặc role được cấp cho user, thường ở dạng chuỗi như ROLE_ADMIN để kiểm tra authorization.
 ###
 Câu 240. Which annotation restricts access by role?
 A. @Block
@@ -1442,7 +1442,7 @@ Câu 241. Which class handles JWT creation/validation?
 A. JwtUtils
 B. JwtEngine
 C. TokenService
-D. SecurityBuil der	A. JwtUtils - JwtUtils thường là lớp tiện ích do dự án tự xây dựng để tạo và kiểm tra token JWT; không phải class bắt buộc có sẵn của Spring.
+D. SecurityBuilder	A. JwtUtils - JwtUtils thường là lớp tiện ích do dự án tự xây dựng để tạo và kiểm tra token JWT; không phải class bắt buộc có sẵn của Spring.
 ###
 Câu 242. What security issue is more pronounced in SPAs due to heavy client-side processing?
 A. Server misconfiguration
@@ -1454,33 +1454,33 @@ Câu 243. What is the purpose of HttpSession.invalidate() in session-based secur
 A. Remove the current session and all its attributes
 B. Restart the session with the same session ID
 C. Encrypt the session data
-D. Extend session timeout	A. Remove the current session and all its attributes - HttpSession.invalidate () hủy session hiện tại và vô hiệu hóa các thuộc tính đã lưu; request dùng lại session ID cũ không còn truy cập phiên đó.
+D. Extend session timeout	A. Remove the current session and all its attributes - HttpSession.invalidate() hủy session hiện tại và vô hiệu hóa các thuộc tính đã lưu; request dùng lại session ID cũ không còn truy cập phiên đó.
 ###
-Câu 244. What happens if a client sends a request without an Authorizati on header and the server requires Basic Auth?
+Câu 244. What happens if a client sends a request without an Authorization header and the server requires Basic Auth?
 A. Server responds with 200 OK and empty body
 B. Server responds with 401 Unauthorized and WWW-Authenticate header
 C. Server closes the connection immediately
 D. Server automatically redirects to login page	B. Server responds with 401 Unauthorized and WWW-Authenticate header - Với Basic Auth, server gửi 401 kèm WWW-Authenticate: Basic để yêu cầu credentials; trình duyệt có thể hiện hộp thoại đăng nhập.
 ###
 Câu 245. How can a server prompt the browser to show a login dialog for Basic Auth?
-A. By including WWW-Authenticate: Basic realm='Real mName' in a 401 response
+A. By including WWW-Authenticate: Basic realm='RealmName' in a 401 response
 B. By sending a Set-Cookie header with a token
 C. By returning 403 with Login-Required: true
-D. By using JavaScript redirect	A. By including WWW-Authenticate: Basic realm='Rea lmName' in a 401 response - Header WWW-Authenticate: Basic realm="..." trong response 401 mô tả cơ chế xác thực và vùng bảo vệ, khiến browser có thể hỏi thông tin đăng nhập.
+D. By using JavaScript redirect	A. By including WWW-Authenticate: Basic realm='RealmName' in a 401 response - Header WWW-Authenticate: Basic realm="..." trong response 401 mô tả cơ chế xác thực và vùng bảo vệ, khiến browser có thể hỏi thông tin đăng nhập.
 ###
-Câu 246. In Basic Authenticati on, what does the format of the Authorizati on header look like?
-A. Authorizati on: Bearer (token)
-B. Authorizati on: Basic (base64(us ername))
-C. Authorizati on: Token username
-D. Auth: Basic (JWT)	B. Authorizati on: Basic (base64(us ername)) - Basic Auth có header Authorizati on: Basic <Base64(username)>; Base64 chỉ là encoding chứ không bảo mật thông tin như HTTPS.
+Câu 246. In Basic Authentication, what does the format of the Authorization header look like?
+A. Authorization: Bearer (token)
+B. Authorization: Basic (base64(username))
+C. Authorization: Token username
+D. Auth: Basic (JWT)	B. Authorization: Basic (base64(username)) - Basic Auth có header Authorization: Basic <Base64(username)>; Base64 chỉ là encoding chứ không bảo mật thông tin như HTTPS.
 ###
 Câu 247. Which HTTP header is commonly used to transmit the session ID?
-A. Authorizati on
+A. Authorization
 B. Cookie
 C. X-Session-Token
 D. Set-Header	B. Cookie - Header Cookie của request mang session cookie như JSESSIONID từ browser đến server; Set-Cookie là header server dùng để thiết lập cookie.
 ###
-Câu 248. Which of the following is false about Basic Authenticati on?
+Câu 248. Which of the following is false about Basic Authentication?
 A. It does not require session on server
 B. It is stateless
 C. It can be used with REST APIs
@@ -1496,7 +1496,7 @@ Câu 250. What annotation is used to inject a Spring Data JPA repository into a 
 A. @RequestMapping
 B. @Autowired
 C. @RestController
-D. @Entity	B. @Autowired - @Autowired yêu cầu Spring tiêm bean phụ thuộc vào lớp đang dùng, gồm cả repository.Constructor injection cũng thực hiện được mà không cần annotation nếu chỉ có một constructor.
+D. @Entity	B. @Autowired - @Autowired yêu cầu Spring tiêm bean phụ thuộc vào lớp đang dùng, gồm cả repository. Constructor injection cũng thực hiện được mà không cần annotation nếu chỉ có một constructor.
 ###
 Câu 251. When should you use the Slice interface in Spring Data JPA?
 A. When you need the total number of elements and total pages.
@@ -1504,7 +1504,7 @@ B. When you want to avoid counting all elements and improve performance.
 C. When you need to sort the results with detailed page information.
 D. When you only need the data and a "previous" indicator.	B. When you want to avoid counting all elements and improve performance. - Slice chỉ cho biết có trang tiếp theo hay không, không cần truy vấn COUNT để biết tổng số phần tử. Page thường cần tổng số bản ghi và tổng số trang.
 ###
-Câu 252. What does the <mapping resource="User.hbm.xml "> tag in hibernate.cfg.xml specify?
+Câu 252. What does the <mapping resource="User.hbm.xml"> tag in hibernate.cfg.xml specify?
 A. The database connection URL.
 B. The database dialect.
 C. The location of a Hibernate mapping file that defines how a Java class is mapped to a database table.
@@ -1523,10 +1523,10 @@ C. @ManyToMany
 D. @JoinColumn	C. @ManyToMany - @ManyToMany mô tả quan hệ nhiều-nhiều, thường thông qua bảng trung gian chứa khóa ngoại đến hai entity.
 ###
 Câu 255. Which Hibernate Cache property enables the second-level cache?
-A. hibernate.cache.use_se cond_level_ cache
-B. hibernate.cache.provid er_class
-C. hibernate.cache.region.factory_cla ss
-D. hibernate.cache.use_qu ery_cache	A. hibernate.cache.use_s econd_level _cache - hibernate.cache.use_s econd_level _cache bật bộ đệm cấp 2 dùng chung giữa các Session; còn bộ đệm cấp 1 luôn gắn với một Session.
+A. hibernate.cache.use_second_level_cache
+B. hibernate.cache.provider_class
+C. hibernate.cache.region.factory_class
+D. hibernate.cache.use_query_cache	A. hibernate.cache.use_second_level_cache - hibernate.cache.use_second_level_cache bật bộ đệm cấp 2 dùng chung giữa các Session; còn bộ đệm cấp 1 luôn gắn với một Session.
 ###
 Câu 256. What is the purpose of the @GeneratedValue annotation?
 A. To define a column name.
@@ -1562,19 +1562,19 @@ Câu 261. Which key feature of Hibernate provides automatic table creation and s
 A. Caching.
 B. hbm2ddl (DDL auto feature)
 C. Automatic dirty checking.
-D. Transaction management.	B. hbm2ddl (DDL auto feature) - hibernate.h bm2ddl.auto có các chế độ như validate, update, create để kiểm tra hoặc sinh schema từ mapping entity; cần thận trọng với create trong môi trường thật.
+D. Transaction management.	B. hbm2ddl (DDL auto feature) - hibernate.hbm2ddl.auto có các chế độ như validate, update, create để kiểm tra hoặc sinh schema từ mapping entity; cần thận trọng với create trong môi trường thật.
 ###
 Câu 262. Which interface in Hibernate is used to manage database transactions?
 A. Session.
 B. Transaction.
-C. SessionFact ory.
-D. Configurati on.	B. Transaction. - Hibernate Transaction cung cấp begin/com mit/rollback để xác định một đơn vị công việc nhất quán; Session chủ yếu quản lý entity và thao tác truy cập dữ liệu.
+C. SessionFactory.
+D. Configuration.	B. Transaction. - Hibernate Transaction cung cấp begin/commit/rollback để xác định một đơn vị công việc nhất quán; Session chủ yếu quản lý entity và thao tác truy cập dữ liệu.
 ###
 Câu 263. Given a Book entity, which derived query method correctly finds all books published after a certain date and sorts them by title?
-A. List<Book> findByPubli shedDateAf terOrderBy TitleAsc(Lo calDate date);
-B. List<Book> findAllBook sAfterDate AndSortByT itle(LocalDate date);
-C. List<Book> findByPubli shedDate(L ocalDate date, Sort sort);
-D. List<Book> queryAfterP ublishedDat eSortedByT itle(LocalDate date);	A. List<Book> findByPubli shedDateAf terOrderBy TitleAsc(Lo calDate date); - Spring Data phân tích tên hàm: PublishedD ateAfter tạo điều kiện ngày lớn hơn mốc, còn OrderByTitl eAsc sắp xếp tăng dần theo title.
+A. List<Book> findByPublishedDateAfterOrderByTitleAsc(LocalDate date);
+B. List<Book> findAllBooksAfterDateAndSortByTitle(LocalDate date);
+C. List<Book> findByPublishedDate(LocalDate date, Sort sort);
+D. List<Book> queryAfterPublishedDateSortedByTitle(LocalDate date);	A. List<Book> findByPublishedDateAfterOrderByTitleAsc(LocalDate date); - Spring Data phân tích tên hàm: PublishedDateAfter tạo điều kiện ngày lớn hơn mốc, còn OrderByTitleAsc sắp xếp tăng dần theo title.
 ###
 Câu 264. What is the purpose of the <property name="hibernate.dialect"> tag in hibernate.cfg.xml?
 A. To specify the database driver class.
@@ -1583,10 +1583,10 @@ C. To map Java classes to database tables.
 D. To configure the session factory	B. To define the SQL dialect used by Hibernate for the specific database. - Hibernate dùng SQL dialect để sinh cú pháp SQL phù hợp từng hệ quản trị như MySQL hoặc PostgreSQL, vì các hệ này có khác biệt về kiểu dữ liệu và câu lệnh.
 ###
 Câu 265. Which Spring Data JPA interface performs CRUD operations?
-A. CrudReposi tory
-B. ServiceRep ository
-C. ControllerR epository
-D. EntityRepos itory	A. CrudReposi tory - CrudReposi tory cung cấp các hàm CRUD cơ bản như save, findById, findAll và deleteById; JpaReposit ory mở rộng thêm các tiện ích JPA.
+A. CrudRepository
+B. ServiceRepository
+C. ControllerRepository
+D. EntityRepository	A. CrudRepository - CrudRepository cung cấp các hàm CRUD cơ bản như save, findById, findAll và deleteById; JpaRepository mở rộng thêm các tiện ích JPA.
 ###
 Câu 266. Purpose of hibernate.dialect property?
 A. Specify DB driver
@@ -1610,7 +1610,7 @@ Câu 269. What file configures Hibernate?
 A. hibernate.xml
 B. config.properties
 C. hibernate.cfg.xml
-D. database.xml	C. hibernate.cfg.xml - hibernate.cfg.xml thường chứa cấu hình kết nối, SQL dialect và mapping cần thiết cho Hibernate SessionFact ory.
+D. database.xml	C. hibernate.cfg.xml - hibernate.cfg.xml thường chứa cấu hình kết nối, SQL dialect và mapping cần thiết cho Hibernate SessionFactory.
 ###
 Câu 270. Which annotation maps a class to a DB table?
 A. @Entity
@@ -1626,9 +1626,9 @@ D. Linked	B. Eager - FetchType.EAGER yêu cầu dữ liệu quan hệ được l
 ###
 Câu 272. Which JPA repository provides CRUD?
 A. JpaRepoBase
-B. CrudReposi tory
+B. CrudRepository
 C. DataRepo
-D. BaseReposi tory	B. CrudReposi tory - CrudReposi tory định nghĩa các thao tác chuẩn như save, findById và deleteById; JpaReposit ory mở rộng khả năng cho JPA.
+D. BaseRepository	B. CrudRepository - CrudRepository định nghĩa các thao tác chuẩn như save, findById và deleteById; JpaRepository mở rộng khả năng cho JPA.
 ###
 Câu 273. Which annotation maps an entity to a specific database table?
 A. @Id
@@ -1661,7 +1661,7 @@ C. XML cache
 D. SQL cache	A. First-level cache - First-level cache thuộc riêng từng Hibernate Session, tránh truy vấn database lặp lại khi lấy cùng entity trong cùng persistence context.
 ###
 Câu 278. Which annotation creates a Spring Bean?
-A. @SpringBootApplication on
+A. @SpringBootApplication
 B. @Bean
 C. @Autowired
 D. @Configuration	B. @Bean - @Bean trên method cấu hình báo Spring lấy giá trị trả về của method làm bean trong Application Context.
@@ -1699,20 +1699,20 @@ D. Delete only	C. All operations cascade - CascadeType.ALL áp dụng tất cả
 Câu 284. Spring Boot auto-configures beans using:
 A. @EnableAutoConfiguration
 B. @AutoBean
-C. @SpringBootApplication on
-D. @AutoScan	C. @SpringBootApplication on - @SpringBootApplication on gồm @SpringBootConfiguration, @EnableAutoConfiguration và @ComponentScan; auto-configurati on tạo bean theo dependency và điều kiện cấu hình.
+C. @SpringBootApplication
+D. @AutoScan	C. @SpringBootApplication - @SpringBootApplication gồm @SpringBootConfiguration, @EnableAutoConfiguration và @ComponentScan; auto-configuration tạo bean theo dependency và điều kiện cấu hình.
 ###
 Câu 285. Paging in Spring Boot is implemented using:
 A. PageRequest
-B. OffsetMana ger
+B. OffsetManager
 C. PageBuilder
-D. PageableFa ctory	A. PageRequest - PageRequest.of(page, size) tạo Pageable chứa số trang (bắt đầu từ 0) và kích thước trang để truyền vào repository.
+D. PageableFactory	A. PageRequest - PageRequest.of(page, size) tạo Pageable chứa số trang (bắt đầu từ 0) và kích thước trang để truyền vào repository.
 ###
 Câu 286. Sorting in Spring Boot is achieved via:
 A. Sort.by()
 B. Sort.order()
 C. Sort.new()
-D. SortList()	A. Sort.by() - Sort.by("field") tạo chỉ dẫn sắp xếp, mặc định tăng dần; có thể đổi thành descending () khi cần.
+D. SortList()	A. Sort.by() - Sort.by("field") tạo chỉ dẫn sắp xếp, mặc định tăng dần; có thể đổi thành descending() khi cần.
 ###
 Câu 287. What is a primary advantage of Single Page Applications (SPAs) compared to traditional multi-page applications?
 A. They offer faster transitions between pages after the first load
@@ -1720,29 +1720,29 @@ B. They require no JavaScript
 C. They offer faster initial page loads
 D. They reduce server-side processing for all requests	A. They offer faster transitions between pages after the first load - Sau lần tải ban đầu, SPA đổi view ở client nên điều hướng thường nhanh hơn và không phải tải lại cả tài liệu HTML.
 ###
-Câu 288. What does ResponseE ntity provide in a REST controller method?
+Câu 288. What does ResponseEntity provide in a REST controller method?
 A. A flexible way to set body, status, and headers
 B. Only status codes
 C. A way to redirect to views
-D. Only body	A. A flexible way to set body, status, and headers - ResponseE ntity cho phép điều chỉnh cả response body, HTTP status và headers theo từng nhánh, ví dụ ResponseE ntity.status (201).body(obj).
+D. Only body	A. A flexible way to set body, status, and headers - ResponseEntity cho phép điều chỉnh cả response body, HTTP status và headers theo từng nhánh, ví dụ ResponseEntity.status(201).body(obj).
 ###
 Câu 289. What is a key advantage of using MongoTemplate?
 A. Automatic generation of CRUD methods.
 B. Flexibility for complex queries and operations.
 C. Simplified data model definition.
-D. Built-in transaction management.	B. Flexibility for complex queries and operations. - MongoTemplate cho phép dùng Query, Criteria và các thao tác cập nhật phức tạp. MongoRep ository thuận tiện hơn cho CRUD đơn giản.
+D. Built-in transaction management.	B. Flexibility for complex queries and operations. - MongoTemplate cho phép dùng Query, Criteria và các thao tác cập nhật phức tạp. MongoRepository thuận tiện hơn cho CRUD đơn giản.
 ###
 Câu 290. Which method in MongoTemplate is used to insert a single document?
 A. save()
 B. insert()
 C. create()
-D. add()	B. insert() - mongoTemplate.insert (object) tạo một document mới. Khác với save(), insert() không dùng để ghi đè document có cùng ID.
+D. add()	B. insert() - mongoTemplate.insert(object) tạo một document mới. Khác với save(), insert() không dùng để ghi đè document có cùng ID.
 ###
 Câu 291. Which MongoDB command is used to delete documents from a collection?
 A. update()
 B. find()
 C. insertOne()
-D. deleteMany() or deleteOne()	D. deleteMany() or deleteOne() - deleteOne() xóa một document khớp điều kiện, còn deleteMany() xóa tất cả document khớp.find() chỉ truy vấn dữ liệu.
+D. deleteMany() or deleteOne()	D. deleteMany() or deleteOne() - deleteOne() xóa một document khớp điều kiện, còn deleteMany() xóa tất cả document khớp. find() chỉ truy vấn dữ liệu.
 ###
 Câu 292. What does the spring-boot-starter-data-mongodb dependency include?
 A. Only the MongoDB Java driver.
@@ -1756,11 +1756,11 @@ B. A cloud-hosted database service by MongoDB.
 C. A Java driver for MongoDB.
 D. A tool for managing relational databases.	B. A cloud-hosted database service by MongoDB. - MongoDB Atlas cung cấp cluster MongoDB được quản lý trên cloud, hỗ trợ triển khai, sao lưu, giám sát và kết nối từ xa.
 ###
-Câu 294. While MongoRep ository is great for CRUD operations, which class offers more fine-grained control for executing complex queries and operations against MongoDB?
+Câu 294. While MongoRepository is great for CRUD operations, which class offers more fine-grained control for executing complex queries and operations against MongoDB?
 A. MongoTemplate
-B. MongoExec utor
+B. MongoExecutor
 C. JdbcTemplate
-D. MongoMan ager	A. MongoTemplate - MongoTemplate hỗ trợ Criteria, aggregation và cập nhật tùy biến; MongoRep ository chủ yếu cung cấp các hàm CRUD và derived queries.
+D. MongoManager	A. MongoTemplate - MongoTemplate hỗ trợ Criteria, aggregation và cập nhật tùy biến; MongoRepository chủ yếu cung cấp các hàm CRUD và derived queries.
 ###
 Câu 295. Which MongoDB command is used to retrieve documents from a collection?
 A. update()
@@ -1769,10 +1769,10 @@ C. insertOne()
 D. deleteMany()	B. find() - find() trả về các document phù hợp bộ lọc trong collection; có thể kết hợp projection, sort và limit.
 ###
 Câu 296. Which class in Spring Data MongoDB provides a template for performing low-level MongoDB operations?
-A. MongoRep ository
+A. MongoRepository
 B. MongoClient
 C. MongoTemplate
-D. SimpleMon goRepository	C. MongoTemplate - MongoTemplate là lớp thao tác MongoDB ở mức thấp hơn Repository, hỗ trợ Query, Criteria, aggregation và các lệnh cập nhật tùy biến.
+D. SimpleMongoRepository	C. MongoTemplate - MongoTemplate là lớp thao tác MongoDB ở mức thấp hơn Repository, hỗ trợ Query, Criteria, aggregation và các lệnh cập nhật tùy biến.
 ###
 Câu 297. When configuring the connection string for MongoDB Atlas in Spring Boot, what is the purpose of including the username and password?
 A. To specify the local database path.
@@ -1786,11 +1786,11 @@ B. A group of related documents
 C. A database server
 D. A query result	B. A group of related documents - Collection trong MongoDB là tập các document, gần giống bảng trong SQL nhưng các document không bắt buộc có cùng bộ field.
 ###
-Câu 299. How does MongoRep ository simplify data access?
+Câu 299. How does MongoRepository simplify data access?
 A. Complex aggregations
 B. Auto-generate CRUD methods
 C. Manage DB connection
-D. Handle BSON manually	B. Auto-generate CRUD methods - MongoRep ository tự cung cấp các phương thức CRUD và cho phép suy ra query từ tên method, giảm lượng code truy cập database phải viết.
+D. Handle BSON manually	B. Auto-generate CRUD methods - MongoRepository tự cung cấp các phương thức CRUD và cho phép suy ra query từ tên method, giảm lượng code truy cập database phải viết.
 ###
 Câu 300. Which MongoDB structure stores documents?
 A. Table
@@ -1805,7 +1805,7 @@ C. JSON-like documents
 D. CSV files	C. JSON-like documents - MongoDB lưu document ở dạng BSON, một định dạng nhị phân tương tự JSON nhưng hỗ trợ thêm kiểu như ObjectId và Date.
 ###
 Câu 302. Which MongoDB CRUD operation inserts a document?
-A. updateOne ()
+A. updateOne()
 B. deleteOne()
 C. insertOne()
 D. findOne()	C. insertOne() - insertOne() thêm một document mới vào collection; nếu không cung cấp _id, MongoDB driver có thể tự tạo ObjectId.
@@ -1841,10 +1841,10 @@ C. Graph
 D. In-memory	B. Document-oriented - MongoDB là NoSQL document database, lưu dữ liệu dưới dạng các document BSON trong collection thay vì hàng/cột cố định.
 ###
 Câu 308. Which Spring Data interface works with MongoDB?
-A. JpaReposit ory
-B. CrudReposi tory
-C. MongoRep ository
-D. HibernateR epository	C. MongoRep ository - MongoRep ository là interface repository cho entity MongoDB, hỗ trợ CRUD, phân trang và các truy vấn dẫn xuất từ tên method.
+A. JpaRepository
+B. CrudRepository
+C. MongoRepository
+D. HibernateRepository	C. MongoRepository - MongoRepository là interface repository cho entity MongoDB, hỗ trợ CRUD, phân trang và các truy vấn dẫn xuất từ tên method.
 ###
 Câu 309. Which operator selects documents matching multiple conditions?
 A. $or
@@ -1856,7 +1856,7 @@ Câu 310. Which command deletes multiple MongoDB documents?
 A. deleteOne()
 B. deleteMany()
 C. remove()
-D. drop()	B. deleteMany() - deleteMany(filter) xóa tất cả document khớp filter; deleteOne(f ilter) chỉ xóa một document khớp.
+D. drop()	B. deleteMany() - deleteMany(filter) xóa tất cả document khớp filter; deleteOne(filter) chỉ xóa một document khớp.
 ###
 Câu 311. What is the purpose of the @DBRef annotation in Spring Data MongoDB?
 A. To map embedded documents
@@ -1874,13 +1874,13 @@ Câu 313. In Spring Boot, which starter dependency is used to include MongoDB su
 A. spring-boot-mongodb
 B. spring-boot-starter-data-mongodb
 C. spring-boot-starter-data-jpa
-D. spring-boot-starter-mongo	B. spring-boot-starter-data-mongodb - spring-boot-starter-data-mongodb đưa Spring Data MongoDB và driver vào ứng dụng, hỗ trợ MongoRep ository và MongoTemplate.
+D. spring-boot-starter-mongo	B. spring-boot-starter-data-mongodb - spring-boot-starter-data-mongodb đưa Spring Data MongoDB và driver vào ứng dụng, hỗ trợ MongoRepository và MongoTemplate.
 ###
 Câu 314. Which command is used to insert a single document into a collection?
 A. db.collection.create()
-B. db.collection.insertOne ()
+B. db.collection.insertOne()
 C. db.collection.insertDocument()
-D. db.collection.add()	B. db.collection.insertOne () - db.collection.insertOne (document) thêm chính xác một document mới; MongoDB sẽ cấp _id nếu chưa có.
+D. db.collection.add()	B. db.collection.insertOne() - db.collection.insertOne(document) thêm chính xác một document mới; MongoDB sẽ cấp _id nếu chưa có.
 ###
 Câu 315. What does the MongoTemplate class provide in Spring Data MongoDB?
 A. Mapping of SQL queries to documents
@@ -1892,7 +1892,7 @@ Câu 316. Which class is used to create complex criteria queries with MongoTempl
 A. Criteria
 B. QueryDSL
 C. MongoQuery
-D. CriteriaBuil der	A. Criteria - Criteria biểu diễn điều kiện lọc như where("age ").gte(18); ghép Criteria vào Query rồi đưa cho MongoTemplate.find().
+D. CriteriaBuilder	A. Criteria - Criteria biểu diễn điều kiện lọc như where("age").gte(18); ghép Criteria vào Query rồi đưa cho MongoTemplate.find().
 ###
 Câu 317. Which annotation is used to define a MongoDB document in Spring Data MongoDB?
 A. @Collection
@@ -1901,10 +1901,10 @@ C. @Document
 D. @Entity	C. @Document - @Document chỉ định lớp Java ánh xạ thành document MongoDB và có thể quy định tên collection qua thuộc tính collection.
 ###
 Câu 318. Which interface in Spring Data MongoDB is used to perform CRUD operations?
-A. JpaReposit ory
-B. MongoRep ository
+A. JpaRepository
+B. MongoRepository
 C. Repository
-D. CrudReposi tory	B. MongoRep ository - MongoRep ository mở rộng repository Spring Data để cung cấp CRUD theo entity MongoDB, hỗ trợ tìm kiếm theo method name.
+D. CrudRepository	B. MongoRepository - MongoRepository mở rộng repository Spring Data để cung cấp CRUD theo entity MongoDB, hỗ trợ tìm kiếm theo method name.
 ###
 Câu 319. Which of the following best describes a compound index?
 A. An index with a TTL (Time To Live)
@@ -1919,10 +1919,10 @@ C. spring.data.mongodb.database
 D. spring.mongo.database	C. spring.data.mongodb.database - spring.data.mongodb.database chỉ định tên database mặc định cho kết nối Spring Data MongoDB nếu không được chọn theo cấu hình khác.
 ###
 Câu 321. When using MongoTemplate, how would you insert a new document?
-A. mongoTemplate.create (object)
+A. mongoTemplate.create(object)
 B. mongoTemplate.insert(object)
-C. mongoTemplate.save(o bject)
-D. mongoTemplate.add(o bject)	C. mongoTemplate.save(object) - mongoTemplate.save(object) thêm mới nếu chưa có document phù hợp ID, hoặc cập nhật/ thay thế nếu ID đã tồn tại; insert() thì chỉ dùng để thêm.
+C. mongoTemplate.save(object)
+D. mongoTemplate.add(object)	C. mongoTemplate.save(object) - mongoTemplate.save(object) thêm mới nếu chưa có document phù hợp ID, hoặc cập nhật/ thay thế nếu ID đã tồn tại; insert() thì chỉ dùng để thêm.
 ###
 Câu 322. Which of the following is used to create an index on a field in MongoDB?
 A. db.collection.setIndex()
@@ -1978,35 +1978,35 @@ B. Run unit tests
 C. Load full Spring context for integration tests
 D. Define data models	C. Load full Spring context for integration tests - @SpringBootTest khởi tạo Spring Application Context cho integration test, cho phép kiểm thử các bean và cấu hình cùng hoạt động.
 ###
-Câu 331. What does @SpringBootTest(web Environment = WebEnviron ment.RAND OM_PORT) do?
+Câu 331. What does @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT) do?
 A. Starts the application with no web environment
 B. Fails the test if no port is provided manually
 C. Disables the web server
-D. Starts the embedded server on a random port	D. Starts the embedded server on a random port - WebEnviron ment.RAND OM_PORT khởi động web server nhúng trên cổng ngẫu nhiên, hữu ích để integration test qua HTTP mà tránh đụng cổng.
+D. Starts the embedded server on a random port	D. Starts the embedded server on a random port - WebEnvironment.RANDOM_PORT khởi động web server nhúng trên cổng ngẫu nhiên, hữu ích để integration test qua HTTP mà tránh đụng cổng.
 ###
-Câu 332. You want to inject a TestRestTemplate in a @SpringBootTest.What is required?
+Câu 332. You want to inject a TestRestTemplate in a @SpringBootTest. What is required?
 A. Use @MockBean
-B. Use webEnviron ment = WebEnviron ment.NONE
+B. Use webEnvironment = WebEnvironment.NONE
 C. Use @WebMvcTest
-D. Use webEnviron ment = WebEnviron ment.RAND OM_PORT	D. Use webEnviron ment = WebEnviron ment.RAND OM_PORT - TestRestTemplate thường được cung cấp khi @SpringBootTest chạy với môi trường web thực như RANDOM_P ORT, để test gửi HTTP request đến server nhúng.
+D. Use webEnvironment = WebEnvironment.RANDOM_PORT	D. Use webEnvironment = WebEnvironment.RANDOM_PORT - TestRestTemplate thường được cung cấp khi @SpringBootTest chạy với môi trường web thực như RANDOM_PORT, để test gửi HTTP request đến server nhúng.
 ###
 Câu 333. When used with JUnit 5, which annotation is commonly paired with @SpringBootTest?
 A. @MockBean
-B. @ExtendWith(SpringExt ension.class)
+B. @ExtendWith(SpringExtension.class)
 C. @DataJpaTest
-D. @TestConfiguration	B. @ExtendWith(SpringEx tension.class) - SpringExte nsion tích hợp Spring TestContext với JUnit Jupiter; @SpringBootTest hiện đã tự đăng ký extension này nên thường không cần thêm @ExtendWith thủ công.
+D. @TestConfiguration	B. @ExtendWith(SpringExtension.class) - SpringExtension tích hợp Spring TestContext với JUnit Jupiter; @SpringBootTest hiện đã tự đăng ký extension này nên thường không cần thêm @ExtendWith thủ công.
 ###
 Câu 334. Which configuration allows @SpringBootTest to test controller endpoints using real HTTP calls?
-A. webEnviron ment = NONE
-B. webEnviron ment = MOCK
+A. webEnvironment = NONE
+B. webEnvironment = MOCK
 C. useMockMvc = true
-D. webEnviron ment = DEFINED_P ORT	D. webEnviron ment = DEFINED_P ORT - DEFINED_P ORT khởi chạy web server trên cổng cấu hình nên có thể test endpoint qua HTTP thực; RANDOM_P ORT cũng hỗ trợ kiểu test này và tránh xung đột cổng.
+D. webEnvironment = DEFINED_PORT	D. webEnvironment = DEFINED_PORT - DEFINED_PORT khởi chạy web server trên cổng cấu hình nên có thể test endpoint qua HTTP thực; RANDOM_PORT cũng hỗ trợ kiểu test này và tránh xung đột cổng.
 ###
 Câu 335. Which of the following annotations can be used instead of @SpringBootTest for testing only the web layer?
 A. @Configuration
 B. @DataJpaTest
 C. @WebMvcTest
-D. @EnableAutoConfiguration tion	C. @WebMvcTest - @WebMvcTest chỉ nạp các thành phần Spring MVC như controller, converter và hỗ trợ MockMvc, nhanh hơn test toàn bộ context bằng @SpringBootTest.
+D. @EnableAutoConfiguration	C. @WebMvcTest - @WebMvcTest chỉ nạp các thành phần Spring MVC như controller, converter và hỗ trợ MockMvc, nhanh hơn test toàn bộ context bằng @SpringBootTest.
 ###
 Câu 336. Which command is used to create a new branch called "feature-login"?
 A. git branch create feature-login
