@@ -942,9 +942,9 @@ D. Vite	A. Axios - Axios cung cấp API đơn giản cho HTTP request và hỗ t
 ###
 Câu 158. REST stands for?
 A. SOAP
-B. Representat ional State Transfer
+B. Representational State Transfer
 C. Microservices
-D. GraphQL	B. Representa tional State Transfer - REST viết tắt của Representa tional State Transfer, một kiểu kiến trúc tài nguyên có các ràng buộc như stateless và uniform interface.
+D. GraphQL	B. Representational State Transfer - REST viết tắt của Representational State Transfer, một kiểu kiến trúc tài nguyên có các ràng buộc như stateless và uniform interface.
 ###
 Câu 159. Client error?
 A. 100
