@@ -504,9 +504,9 @@ D. Enhanced server security.	C. Smoother user experience due to reduced server r
 ###
 Câu 85. How do you create navigation links in a React-Bootstrap Navbar?
 A. <NavLink>
-B. <NavLink>
+B. <Nav.Link>
 C. <Link>
-D. <Anchor>	B. <NavLink> - Trong React-Bootstrap, Nav.Link thường được viết dưới dạng component <Nav.Link> để tạo liên kết trong Navbar. Cú pháp nguồn ghi <NavLink> chỉ là cách biểu diễn gần nhất trong các lựa chọn.
+D. <Anchor>	B. <Nav.Link> - Trong React-Bootstrap, component chuẩn để tạo liên kết trong Navbar là <Nav.Link>. Thẻ <NavLink> thường thuộc thư viện react-router-dom.
 ###
 Câu 86. How do you handle 404 Not Found pages in React Router? <Routes> <Route path="/" element= {<Home />}/> <Route path="/about" element= {<About />}/> <Route path="" element= {<NotFound/>} /> </Routes>
 A. By using the <NotFound> component.

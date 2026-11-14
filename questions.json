@@ -1181,13 +1181,13 @@
     "question": "How do you create navigation links in a React-Bootstrap Navbar?",
     "choices": {
       "A": "<NavLink>",
-      "B": "<NavLink>",
+      "B": "<Nav.Link>",
       "C": "<Link>",
       "D": "<Anchor>"
     },
     "correct": "B",
-    "correctText": "<NavLink>",
-    "explanation": "Trong React-Bootstrap, Nav.Link thường được viết dưới dạng component <Nav.Link> để tạo liên kết trong Navbar. Cú pháp nguồn ghi <NavLink> chỉ là cách biểu diễn gần nhất trong các lựa chọn."
+    "correctText": "<Nav.Link>",
+    "explanation": "Trong React-Bootstrap, component chuẩn để tạo liên kết trong Navbar là <Nav.Link>. Thẻ <NavLink> thường thuộc thư viện react-router-dom."
   },
   {
     "id": 86,
