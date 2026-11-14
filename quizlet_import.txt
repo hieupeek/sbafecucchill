@@ -964,7 +964,7 @@ B. Improved user experience due to faster client-side rendering
 C. Reduced application security
 D. Increased backend complexity	B. Improved user experience due to faster client-side rendering - React quản lý hiển thị và chuyển trang ngay ở trình duyệt, còn Spring Boot cung cấp API, giúp các chuyển trang sau lần tải đầu ít gián đoạn hơn.
 ###
-Câu 162. What is the primary purpose of client-server communica tion in a React application?
+Câu 162. What is the primary purpose of client-server communication in a React application?
 A. Define CSS
 B. Fetch & send data between client and server
 C. Manage component state
