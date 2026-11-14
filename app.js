@@ -33,6 +33,7 @@
   const elProgressPercent = document.getElementById('progress-percent');
   const elStatCorrect = document.getElementById('stat-correct');
   const elStatWrong = document.getElementById('stat-wrong');
+  const elScoreSummary = document.getElementById('score-summary') || document.querySelector('.score-summary');
 
   const elQuestionNumber = document.getElementById('question-number');
   const elQuestionText = document.getElementById('question-text');
@@ -284,11 +285,13 @@
       elAnswerVisibleContent.classList.remove('hidden');
       elTextToggleAnswer.textContent = 'Ẩn đáp án';
       elTextToggleAnswerTop.textContent = 'Ẩn đáp án';
+      if (elScoreSummary) elScoreSummary.classList.remove('hidden');
     } else {
       elAnswerHiddenCard.classList.add('active');
       elAnswerVisibleContent.classList.add('hidden');
       elTextToggleAnswer.textContent = 'Hiện đáp án';
       elTextToggleAnswerTop.textContent = 'Hiện đáp án';
+      if (elScoreSummary) elScoreSummary.classList.add('hidden');
     }
   }
 

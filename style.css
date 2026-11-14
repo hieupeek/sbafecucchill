@@ -152,6 +152,11 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.score-summary.hidden {
+  display: none !important;
 }
 
 .score-pill {
